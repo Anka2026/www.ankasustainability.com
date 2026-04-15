@@ -1,0 +1,940 @@
+{
+  "brand": {
+    "name": "ANKA Sustainability Consulting B.V.",
+    "headerName": "ANKA Sustainability",
+    "tagline": "Strategische Duurzaamheidsconsultancy"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over ANKA",
+    "services": "Diensten",
+    "software": "Softwareoplossingen",
+    "sectors": "Sectorexpertise",
+    "insights": "Inzichten",
+    "contact": "Contact"
+  },
+  "actions": {
+    "contact": "Contact",
+    "language": "Taal",
+    "locale": {
+      "tr": "Türkçe",
+      "en": "English",
+      "nl": "Nederlands"
+    }
+  },
+  "servicesMegaMenu": {
+    "viewAll": "Bekijk Alle Diensten",
+    "sheetTitle": "Menu",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "subtopics": {
+      "reportingEsg": {
+        "i1": "CSRD / ESRS",
+        "i2": "TSRS / GRI",
+        "i3": "Dubbele materialiteit",
+        "i4": "CDP / EcoVadis"
+      },
+      "carbonClimate": {
+        "i1": "Corporate carbon footprint",
+        "i2": "CBAM",
+        "i3": "Scope 1–2–3",
+        "i4": "SBTi-gereedheid"
+      },
+      "productCircularity": {
+        "i1": "LCA",
+        "i2": "EPD",
+        "i3": "Product carbon footprint",
+        "i4": "DPP / ESPR / PPWR"
+      },
+      "regulatorySupplyChain": {
+        "i1": "EUDR",
+        "i2": "CSDDD-gereedheid",
+        "i3": "Green claims",
+        "i4": "Leveranciersdata"
+      },
+      "sustainableFinance": {
+        "i1": "EU-taxonomie",
+        "i2": "ESG-gereedheid",
+        "i3": "Verwachtingen investeerders",
+        "i4": "Ondersteuning disclosure"
+      },
+      "certificationTraceability": {
+        "i1": "ISCC",
+        "i2": "Chain of custody",
+        "i3": "Massabalans",
+        "i4": "Ondersteuning traceerbaarheid"
+      }
+    }
+  },
+  "footer": {
+    "rights": "© {year} ANKA Sustainability Consulting B.V. Alle rechten voorbehouden.",
+    "note": "Duurzaamheidsadvies vanuit consultancy, met digitale ondersteuning.",
+    "navAria": "Belangrijkste pagina's",
+    "legalNavAria": "Juridische informatie",
+    "legal": {
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "legalNotice": "Juridische Informatie"
+    }
+  },
+  "company": {
+    "legalName": "ANKA Sustainability Consulting B.V.",
+    "addressLine1": "Newtonlaan 115",
+    "addressLine2": "3584 BH Utrecht, Netherlands",
+    "email": "info@ankasustainability.com"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Strategische Duurzaamheidsconsultancy",
+      "title": "Consultancy en digitale oplossingen die helderheid brengen in duurzaamheidsprioriteiten",
+      "description": "ANKA helpt organisaties om rapportage, naleving, koolstofbeheer en implementatie te versterken met een heldere, praktische en commercieel onderbouwde aanpak.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    },
+    "trust": {
+      "ariaLabel": "",
+      "reporting": "Duurzaamheidsrapportage",
+      "carbonCbam": "Koolstof en CBAM",
+      "lcaEpd": "LCA en EPD",
+      "software": "Digitale Oplossingen"
+    },
+    "services": {
+      "eyebrow": "",
+      "title": "Kerngebieden Van Onze Consultancy",
+      "subtitle": "Strategische én praktische ondersteuning voor corporate sustainability—in één helder kader.",
+      "reporting": {
+        "title": "Rapportage en ESG-Strategie",
+        "body": "Heldere en gestructureerde ondersteuning voor rapportagekaders, ESG-strategie en besluitvormingsgerichte disclosure."
+      },
+      "carbon": {
+        "title": "Koolstof, Klimaat en Decarbonisatie",
+        "body": "Consultancy voor koolstofbeheer, klimaatprioriteiten en transitiegerichte planning."
+      },
+      "lifecycle": {
+        "title": "Productduurzaamheid en Circulariteit",
+        "body": "Praktische ondersteuning bij productdata, levenscyclusbenadering, milieuverklaringen en marktgereedheid."
+      },
+      "programs": {
+        "title": "Regelgeving en Naleving in de Keten",
+        "body": "Gestructureerde ondersteuning bij veranderende regelgeving en nalevingsvereisten in de toeleveringsketen."
+      }
+    },
+    "software": {
+      "eyebrow": "",
+      "title": "Softwareoplossingen die de uitvoering van consultancy versterken",
+      "description": "Gestructureerde workflows, eigenaarschap en besluitvaste output—passend bij hoe duurzaamheidsteams echt werken.",
+      "badge1": "",
+      "badge2": "",
+      "cta": "Bekijk Softwareoplossingen",
+      "ctaSectors": "Bekijk sectorexpertise",
+      "cardTitle": "",
+      "cardBody": ""
+    },
+    "sectors": {
+      "eyebrow": "",
+      "title": "Sectorexpertise",
+      "subtitle": "Van industriële ketens tot gereguleerde producten—adviesstructuren afgestemd op sectorrealiteit.",
+      "breadth": "Voorbeeldsectoren — we passen trajecten ook verder aan dan deze lijst.",
+      "manufacturing": {
+        "title": "Productie en Industrie",
+        "body": ""
+      },
+      "packaging": {
+        "title": "Verpakking en Materialen",
+        "body": ""
+      },
+      "construction": {
+        "title": "Bouw en Bouwmaterialen",
+        "body": ""
+      },
+      "aluminium": {
+        "title": "Aluminium en Metalen",
+        "body": ""
+      },
+      "foodAgri": {
+        "title": "Voeding en Landbouw",
+        "body": ""
+      },
+      "chemicals": {
+        "title": "Chemie",
+        "body": ""
+      },
+      "energy": {
+        "title": "Energie",
+        "body": ""
+      },
+      "corporate": {
+        "title": "Corporate en Multinationale Structuren",
+        "body": ""
+      }
+    },
+    "why": {
+      "eyebrow": "",
+      "title": "Waarom ANKA",
+      "subtitle": "",
+      "item1": "Wij combineren strategische helderheid met praktische uitvoering",
+      "item2": "Wij helpen organisaties om complexe onderwerpen om te zetten in gestructureerde actie",
+      "item3": "Wij versterken consultancy met digitale ondersteuning waar die echt waarde toevoegt"
+    },
+    "insights": {
+      "eyebrow": "",
+      "title": "Inzichten en Bronnen",
+      "subtitle": "Geselecteerde inhoud over regelgeving, rapportage, productduurzaamheid en implementatieprioriteiten."
+    },
+    "finalCta": {
+      "title": "Een duidelijker en sterker duurzaamheidstraject",
+      "description": "Bepaal samen welke consultancystructuur en digitale ondersteuning het beste past.",
+      "primaryCta": "Neem Contact Op",
+      "secondaryCta": "Plan Een Gesprek"
+    }
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Diensten",
+      "description": "Advies met zicht op Europa: rapportage en ESG-strategie, koolstof en klimaat, productduurzaamheid en circulariteit, regelgeving en ketennaleving, duurzame financiering, en certificering met traceerbaarheid."
+    },
+    "hero": {
+      "eyebrow": "Diensten",
+      "title": "Onze adviesgebieden",
+      "description": "Gestructureerde consultancy voor organisaties die zich voorbereiden op Europese markten, duurzaamheidsregelgeving, productcompliance en rapportageverwachtingen.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    },
+    "overview": {
+      "title": "Overzicht",
+      "subtitle": "Zes kerngebieden die compliance en rapportage uitvoerbaar maken—door scope, databehoefte, evidence-logica en eigenaarschap te verduidelijken."
+    },
+    "pageNav": {
+      "aria": "Op deze pagina",
+      "overview": "Overzicht",
+      "scope": "Adviesgebieden",
+      "process": "Werkwijze",
+      "why": "Waarom ANKA"
+    },
+    "areas": {
+      "title": "Adviesgebieden",
+      "subtitle": "Kies het onderwerp dat het dichtst bij uw behoefte ligt en bekijk de details."
+    },
+    "hub": {
+      "cta": "Bekijk dienst",
+      "tags": {
+        "reportingEsg": { "t1": "ESG Reporting", "t2": "Disclosure Structure", "t3": "Readiness Analysis" },
+        "carbonClimate": { "t1": "Carbon Footprint", "t2": "Climate Risk", "t3": "Decarbonization" },
+        "productCircularity": { "t1": "LCA", "t2": "EPD", "t3": "Product Data" },
+        "regulatorySupplyChain": { "t1": "EU Regulations", "t2": "Supply Chain Data", "t3": "Compliance Structure" },
+        "sustainableFinance": { "t1": "Market Readiness", "t2": "Customer Expectations", "t3": "Strategic Positioning" },
+        "certificationTraceability": { "t1": "Certification Readiness", "t2": "Traceability", "t3": "Market Trust" }
+      }
+    },
+    "detailScopeToggle": "Scope en representatieve thema’s",
+    "topicsHeading": "Kernonderwerpen",
+    "categories": {
+      "reportingEsg": {
+        "label": "ESG en corporate rapportage",
+        "summary": "We brengen rapportagestructuur, disclosure-logica en organisatiegereedheid in lijn met internationale verwachtingen.",
+        "description": "We maken corporate reporting en disclosure uitvoerbaar door scope, datavereisten en evidence-logica te verduidelijken. Materialiteit, metrics en narratief worden opgezet met een audit-ready systeemblik.",
+        "topics": "CSRD\nESRS\nTSRS\nGRI\nDubbele materialiteit\nISSB / IFRS S1–S2\nTCFD\nTNFD\nCDP\nEcoVadis\nESG-strategie"
+      },
+      "carbonClimate": {
+        "label": "Koolstof, Klimaat en Decarbonisatie",
+        "summary": "We ontwikkelen koolstofbeheer, klimaatbeoordeling en uitvoerbare reductieplannen op corporate- en ketenniveau.",
+        "description": "Koolstofwerk koppelen we aan datakwaliteit, methodiek en werkbare workflows. Waar relevant nemen we verplichtingen zoals CBAM mee in dezelfde operationele logica.",
+        "topics": "Corporate carbon footprint\nProduct carbon footprint\nGHG-protocol\nScope 1 / 2 / 3\nCBAM\nSBTi-gereedheid\nDecarbonisatieroutekaarten\nKlimaatrisico- en kansenanalyse\nWater- en energiebeheer"
+      },
+      "productCircularity": {
+        "label": "Productduurzaamheid, LCA en EPD",
+        "summary": "Consultancy voor milieuprestaties op productniveau, technische disclosure-logica en marktgerichte compliance-gereedheid.",
+        "description": "We benaderen LCA/EPD en productdata zowel technisch als commercieel: het verhaal is gebouwd op evidence, datalijn en verifieerbaarheid.",
+        "topics": "LCA\nEPD\nProduct carbon footprint\nDigital Product Passport\nProduct- / levenscyclusgegevensbeheer\nESPR\nPPWR\nEcolabel (ECOLABEL)-gericht productwerk\nOnderbouwing voor green claims"
+      },
+      "regulatorySupplyChain": {
+        "label": "EU-regelgeving en ketencompliance",
+        "summary": "We bouwen scope-analyse, ketengereedheid en verdedigbare compliance-documentatie voor Europese vereisten.",
+        "description": "We koppelen regelgevingskennis aan ketendata en documentatielogica. Met duidelijke accountability, control points en evidenceketens wordt compliance een systeem dat teams kunnen draaien.",
+        "topics": "EUDR\nGereedheid rond CSDDD\nDuurzame ketenstructuren\nLeveranciersgegevens en governance\nRegelgevingsmonitoring en gereedheid\nGreen Claims-gereidheid\nEuropese nalevingsplanning"
+      },
+      "sustainableFinance": {
+        "label": "Markt- en stakeholdergereedheid",
+        "summary": "We brengen duurzaamheidsprestaties in lijn met verwachtingen van klanten, investeerders, tenders en internationale markten.",
+        "description": "Naarmate verwachtingen scherper worden, worden disclosure-taal, evidencestructuur en performance-narratief kritischer. We helpen organisaties een consistente en geloofwaardige basis voor stakeholders neer te zetten.",
+        "topics": "EU-taxonomie\nGereedheid duurzame financiering\nESG-voorbereiding richting investeerders\nFinancieel afgestemde duurzaamheidsstructuren\nRating- / disclosure-gereidheid\nSFDR-gerelateerde marktverwachtingen (waar relevant)"
+      },
+      "certificationTraceability": {
+        "label": "Certificering, Traceerbaarheid en Marktvertrouwen",
+        "summary": "We bouwen structuren voor traceerbaarheid, verifieerbaarheid en certificering die vertrouwen versterken in product- en supplyprocessen.",
+        "description": "Traceerbaarheid en certificering zijn disciplines om claims verifieerbaar te maken. We ontwerpen werkbare structuren voor chain-of-custody, massabalans en documentmanagement.",
+        "topics": "ISCC\nChain-of-custody-logica\nMassabalans-logica\nTraceerbaarheidsstructuren\nGereedheid gerecyclede / biogebaseerde inhoud\nOndersteuning bij duurzaamheidsclaims\nAdvies koolstofcredits (secundair, waar relevant)"
+      }
+    },
+    "detailCta": "Neem contact op met ANKA",
+    "process": {
+      "title": "Hoe wij werken",
+      "subtitle": "We structureren elke opdracht rond heldere scope, de juiste databehoefte en een uitvoerbaar werkmodel.",
+      "assessment": {
+        "title": "Behoefte verduidelijken",
+        "description": "We bepalen samen scope, prioriteiten en verwachtingen."
+      },
+      "structuring": {
+        "title": "Structuur opzetten",
+        "description": "We maken databehoefte, eigenaarschap en werkmodel expliciet."
+      },
+      "implementation": {
+        "title": "Uitvoering en Voortgang",
+        "description": "We voeren het traject uit met concrete output en consistente voortgang."
+      },
+      "delivery": {
+        "title": "Doorlopende Ondersteuning",
+        "description": "We ondersteunen dat de structuur bruikbaar en verdedigbaar blijft binnen de organisatie."
+      }
+    },
+    "why": {
+      "title": "Waarom ANKA",
+      "subtitle": "We brengen strategische richting, technische nauwkeurigheid en een uitvoerbaar werkmodel samen in één structuur.",
+      "item1": "Consultancy in lijn met internationale verwachtingen",
+      "item2": "Een structuur die technische onderwerpen beter beheersbaar maakt",
+      "item3": "Een model dat evidence- en documentatielogica versterkt",
+      "item4": "Een aanpak die bruikbare output oplevert—niet alleen rapporten"
+    },
+    "finalCta": {
+      "title": "Laten we samen de passende consultancyscope bepalen",
+      "description": "We beoordelen samen de beste dienstenstructuur voor uw prioriteiten en definiëren een helder startkader.",
+      "primaryCta": "Neem Contact Op",
+      "secondaryCta": "Plan Een Gesprek"
+    }
+  },
+  "softwarePage": {
+    "meta": {
+      "title": "Softwareoplossingen die de uitvoering van consultancy versterken",
+      "description": "De digitale oplossingen van ANKA zijn ontworpen om duurzaamheidsprocessen gestructureerder, zichtbaarder en beter uitvoerbaar te maken."
+    },
+    "hero": {
+      "eyebrow": "Softwareoplossingen",
+      "title": "Een softwareportfolio voor compliance- en dataworkflows",
+      "description": "De softwareoplossingen van ANKA structureren compliance- en rapportageworkflows—met dataverzameling, opvolging, berekening en zichtbaarheid in één operationele logica. Het doel: meer controle en beter verdedigbare outputs.",
+      "primaryCta": "Demo Aanvragen",
+      "secondaryCta": "Neem Contact Op"
+    },
+    "workflows": {
+      "title": "Workflows die onze software versterkt",
+      "c1": "Dataverzameling",
+      "c2": "Traceerbaarheid",
+      "c3": "Berekening en scenarioanalyse",
+      "c4": "Rapportagegereedheid",
+      "c5": "Besluitvorming",
+      "c6": "Teamcoördinatie"
+    },
+    "consultingSoftware": {
+      "title": "Advieskwaliteit wordt sterker met digitale ondersteuning erachter",
+      "description": "Digitale tools vervangen consultancy niet—ze versterken dataverzameling, opvolging, zichtbaarheid en herhaalbare uitvoering waar dat aantoonbaar betere resultaten oplevert."
+    },
+    "finalCta": {
+      "title": "Laten we samen de passende softwarescope bepalen",
+      "description": "Beoordeel samen met ons welke data-, compliance- en rapportageworkflows u nodig hebt en bepaal de juiste oplossingsstructuur.",
+      "primaryCta": "Demo Aanvragen",
+      "secondaryCta": "Neem Contact Op"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Over ANKA",
+      "description": "ANKA levert duurzaamheidsconsultancy met een sterke focus op regelgeving en compliance. We bouwen verdedigbare evidence, duidelijke eigenaarschap en werkbare delivery-structuren voor rapportage, koolstof, productdata en ketenvereisten—waar relevant versterkt met software-ondersteunde workflows."
+    },
+    "hero": {
+      "eyebrow": "Over ANKA",
+      "title": "Regelgeving-gedreven duurzaamheidsconsultancy, versterkt met software-ondersteunde compliance-systemen",
+      "description": "Voor organisaties met Europese marktverwachtingen vertalen we kaders zoals CSRD/ESRS, CBAM, EUDR en PPWR/ESPR naar een werkbaar operating model—met data, evidence, eigenaarschap en een herhaalbare delivery-cadence.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    },
+    "who": {
+      "title": "Wie is ANKA",
+      "intro": "ANKA is een regelgeving-gedreven duurzaamheidsadviseur. We maken vereisten beheersbaar, verdedigbaar en uitvoerbaar—door data, evidence, eigenaarschap en controls te structureren voor rapportage en compliance. Waar het aantoonbaar waarde toevoegt, versterken we dit met software-ondersteunde workflowdiscipline.",
+      "highlightTitle": "Focusgebieden",
+      "highlight1": "Regelgeving- en rapportagegereedheid",
+      "highlight2": "Koolstof en handelsgerelateerde verplichtingen",
+      "highlight3": "Productevidence en milieudatastructuren",
+      "highlight4": "Ketendata en traceerbaarheidssystemen"
+    },
+    "value": {
+      "title": "Hoe wij waarde toevoegen voor organisaties",
+      "body": "We maken complexe vereisten concreet op vier niveaus: scope, data, evidence en output. We definiëren wat er geleverd moet worden, door wie, wanneer en volgens welke standaarden—en koppelen rapportage en compliance aan herhaalbare workflows. Het resultaat is niet “een rapport”, maar een systeem dat teams daadwerkelijk kunnen draaien."
+    },
+    "mission": {
+      "title": "Onze aanpak en missie",
+      "body": "Onze missie is om organisaties te helpen een verdedigbare, traceerbare en duurzame compliance-structuur te bouwen in domeinen met hoge regeldruk. We combineren technische nauwkeurigheid en een audit-mindset met een praktisch model dat binnen de organisatie uitvoerbaar is. Dit ondersteunt betere besluitvorming, lager risico en sterker marktvertrouwen."
+    },
+    "capabilities": {
+      "title": "Competentiegebieden",
+      "sustainability": "Duurzaamheidsoplossingen",
+      "managementSystems": "Certificering managementsystemen",
+      "productCertification": "Productcertificering",
+      "training": "Training",
+      "engineering": "Engineering",
+      "softwareConsulting": "Softwareconsultancy"
+    },
+    "team": "Onze trainers, consultants en auditors combineren diepe vakkennis met gedisciplineerde praktijk- en procesbeoordeling—zodat technische nauwkeurigheid vertaalt naar beheersbare workflows en bruikbare output.",
+    "closing": "Neem contact op om meer te weten te komen over ANKA en samen een passende delivery-structuur te bepalen.",
+    "trust": {
+      "aria": "Vertrouwenselementen",
+      "item1": "Regelgevingskennis",
+      "item2": "Technische nauwkeurigheid",
+      "item3": "Audit-ready structuur",
+      "item4": "Uitvoerbaar compliance-model"
+    },
+    "helpOrg": {
+      "title": "Hoe wij organisaties ondersteunen",
+      "item1Title": "We vertalen prioriteiten naar een uitvoerbare roadmap",
+      "item1Description": "We maken scope en volgorde concreet—zodat inspanning aansluit op risico, planning en regelgevingsverwachtingen.",
+      "item2Title": "We bouwen een werkbare rapportage- en compliance-structuur",
+      "item2Description": "We organiseren eigenaarschap, controlepunten en evidence-logica—zodat teams een herhaalbare workflow kunnen draaien in plaats van ad-hoc brandjes blussen.",
+      "item3Title": "We maken technische input besluitklaar",
+      "item3Description": "We koppelen koolstof, productevidence en productdata aan de beslissingen, acties en disclosures die teams moeten maken.",
+      "item4Title": "We versterken procesdiscipline met software waar nodig",
+      "item4Description": "We maken dataverzameling, tracking en zichtbaarheid beheersbaar via software-ondersteunde workflows waar die echt leverage geven."
+    },
+    "process": {
+      "title": "Hoe wij werken",
+      "subtitle": "Elke opdracht voeren wij uit met focus op helderheid, structuur en praktische uitvoering.",
+      "assessment": {
+        "title": "Beoordeling",
+        "description": "We beoordelen situatie, beperkingen en prioriteiten."
+      },
+      "structuring": {
+        "title": "Structurering",
+        "description": "We definiëren scope, evidencebehoefte en delivery-model."
+      },
+      "delivery": {
+        "title": "Uitvoering en voortgang",
+        "description": "We sturen op concrete output, een heldere flow en consistente voortgang."
+      },
+      "ongoingSupport": {
+        "title": "Doorlopende Ondersteuning",
+        "description": "Waar nodig ondersteunen we continuïteit na de eerste oplevering."
+      }
+    },
+    "why": {
+      "title": "Waarom ANKA",
+      "description": "We combineren regelgevingskennis, technische nauwkeurigheid en een uitvoerbaar compliance-model in één structuur.",
+      "c1Title": "Regelgeving-gedreven, technisch robuust",
+      "c1Text": "We interpreteren verplichtingen correct en bouwen de data- en evidencebasis met de technische detailgraad die nodig is om stand te houden onder scrutiny.",
+      "c2Title": "Verdedigbare evidence en narratief",
+      "c2Text": "We maken claims bewijsbaar—met evidenceketens, accountability en controlelogica zodat disclosures geloofwaardig blijven.",
+      "c3Title": "Een model dat teams kunnen draaien",
+      "c3Text": "We creëren een herhaalbaar ritme met eigenaarschap, planning, reviewpunten en meetbare voortgang—gemaakt voor echte operatie.",
+      "c4Title": "Consultancy en digitale discipline samen",
+      "c4Text": "Waar passend versterken we dataverzameling, tracking en zichtbaarheid met software-ondersteunde workflows—zodat implementatie duurzaam wordt."
+    },
+    "consultingDigital": {
+      "title": "Consultancy-expertise, versterkt met digitale discipline",
+      "description": "Digitale tools zijn voor ANKA geen aparte vitrine, maar een uitvoeringslaag die compliance traceerbaar, herhaalbaar en audit-ready maakt. We zetten ze in waar ze aantoonbaar het resultaat verbeteren."
+    },
+    "finalCta": {
+      "title": "Maak uw compliance-structuur helder met ANKA",
+      "description": "Laten we samen uw prioriteiten beoordelen en de juiste scope, werkwijze en een helder startkader bepalen.",
+      "primaryCta": "Neem Contact Op",
+      "secondaryCta": "Plan Een Gesprek"
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact",
+      "description": "Neem contact op met ANKA voor duurzaamheidsadvies, rapportage, naleving en software-ondersteunde levering."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Laten we samen de juiste duurzaamheidsaanpak beoordelen",
+      "description": "Laten we samen uw prioriteiten, compliancebehoeften en het juiste startkader verhelderen.",
+      "primaryCta": "Stuur Een Bericht",
+      "secondaryCta": "Plan Een Gesprek"
+    },
+    "companyDetails": {
+      "title": "Bedrijfsgegevens",
+      "trustLine": ""
+    },
+    "options": {
+      "title": "Hoe kunnen wij u ondersteunen",
+      "opt1Title": "Algemene zakelijke aanvragen",
+      "opt1Description": "Een korte oriëntatie op onze diensten en werkwijze.",
+      "opt2Title": "Consultancy- en projectgesprekken",
+      "opt2Description": "Samen scope, prioriteiten en het startkader scherpstellen.",
+      "opt3Title": "Software- en demogesprekken",
+      "opt3Description": "Vraag een demo of productgericht gesprek aan."
+    },
+    "form": {
+      "title": "Stuur uw bericht",
+      "description": "Deel uw behoefte kort met ons, dan reageren wij met de meest geschikte vervolgstap.",
+      "name": "Volledige Naam",
+      "company": "Bedrijf",
+      "email": "E-mail",
+      "country": "Land",
+      "topic": "Interessegebied",
+      "topicPlaceholder": "Kies een thema",
+      "topicOpt1": "Rapportage en ESG-strategie",
+      "topicOpt2": "Koolstof-, klimaat- en nalevingsprocessen",
+      "topicOpt3": "Productduurzaamheid en datastructuren",
+      "topicOpt4": "Software-ondersteund duurzaamheidsbeheer",
+      "topicOpt5": "Sectorspecifieke behoeften",
+      "topicOptOther": "Overig",
+      "message": "Bericht",
+      "submit": "Bericht Verzenden",
+      "success": "Dank u. Uw bericht is ontvangen; wij nemen contact op met een passende vervolgstap."
+    },
+    "help": {
+      "title": "Veelbesproken onderwerpen",
+      "item1": "Rapportage en ESG-strategie",
+      "item2": "Koolstof-, klimaat- en nalevingsprocessen",
+      "item3": "Productduurzaamheid en datastructuren",
+      "item4": "Software-ondersteund duurzaamheidsbeheer",
+      "item5": "Sectorspecifieke behoeften"
+    },
+    "process": {
+      "title": "Wat gebeurt er daarna",
+      "step1Title": "Eerste beoordeling",
+      "step1Description": "Wij bekijken uw aanvraag en prioriteiten.",
+      "step2Title": "Reactie",
+      "step2Description": "Wij nemen contact met u op met de meest passende gespreks- of beoordelingsvorm.",
+      "step3Title": "Afbakening",
+      "step3Description": "Waar relevant verduidelijken wij samen de behoefte, scope en vervolgstappen."
+    },
+    "finalCta": {
+      "title": "Laten we samen het juiste kader bepalen",
+      "description": "Neem contact met ons op om een eerste gesprek te plannen of uw aanvraag te delen.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Stuur Een Bericht"
+    }
+  },
+  "sectorsPage": {
+    "meta": {
+      "title": "Sectorexpertise",
+      "description": "ANKA biedt sectorbewust duurzaamheidsadvies—rapportage, naleving, koolstof en productdata—voor sectoren die te maken hebben met Europese marktverwachtingen."
+    },
+    "hero": {
+      "eyebrow": "Sectorexpertise",
+      "title": "Consultancy afgestemd op sectorspecifieke regeldruk en datastructuren",
+      "description": "Dezelfde duurzaamheidsthema’s betekenen niet in elke sector hetzelfde. Regeldruk, databehoeften, rapportagelogica en marktverwachtingen verschillen per sector. ANKA richt het werkmodel in op die context—zodat uitvoering beter werkbaar en verdedigbaar wordt.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    },
+    "grid": {
+      "title": "Sectoren in beeld",
+      "sectors": {
+        "textileFashion": {
+          "title": "Textiel en Mode",
+          "description": "Productdata, traceerbaarheid en marktverwachtingen veranderen snel. DPP-gereedheid en ketenzichtbaarheid worden steeds bepalender.",
+          "focus1": "DPP en productdatastructuren",
+          "focus2": "Zichtbaarheid in de keten",
+          "focus3": "Productduurzaamheidswerk"
+        },
+        "agricultureFood": {
+          "title": "Landbouw en Voeding",
+          "description": "Herkomst, traceerbaarheid en ketenvertrouwen zijn cruciaal. Kaders zoals EUDR verhogen de lat voor data- en bewijsdiscipline.",
+          "focus1": "EUDR en ketenstructuren",
+          "focus2": "Regeneratieve landbouw en bodeminformatie",
+          "focus3": "Duurzame inkoopmodellen"
+        },
+        "packagingMaterials": {
+          "title": "Verpakkingen, Plastics en Materialen",
+          "description": "Regelgeving zoals PPWR verscherpt productnaleving en datavereisten. Circulariteit, verklaringen en berekeningen moeten één systeem vormen.",
+          "focus1": "PPWR en productnaleving",
+          "focus2": "LCA- en EPD-trajecten",
+          "focus3": "Circulariteit en datavereisten"
+        },
+        "constructionMaterials": {
+          "title": "Bouwmaterialen",
+          "description": "LCA/EPD, product carbon footprint en marktklare verklaringen worden standaard. Productdata en bewijslogica moeten gedisciplineerd zijn.",
+          "focus1": "LCA en EPD",
+          "focus2": "Product carbon footprint",
+          "focus3": "Productdata en nalevingsstructuren"
+        },
+        "metalsIndustrial": {
+          "title": "Metalen, Aluminium en Industriële Productie",
+          "description": "CBAM, koolstofdata en rapportageverwachtingen beïnvloeden direct het concurrentievermogen. Technische verklaringen en datadiscipline zijn essentieel.",
+          "focus1": "CBAM-gereedheid",
+          "focus2": "Productduurzaamheid en verklaringen",
+          "focus3": "Koolstofdata en rapportage"
+        },
+        "automotiveMobility": {
+          "title": "Automotive en Mobiliteit",
+          "description": "Keten-data en materiaalnaleving worden in de sector steeds zichtbaarder. Koolstof- en rapportagegereedheid wordt vaker verwacht.",
+          "focus1": "Datastructuur voor de keten",
+          "focus2": "Product- en materiaalnaleving",
+          "focus3": "Koolstof en rapportagegereedheid"
+        },
+        "chemicals": {
+          "title": "Chemie en Industriële Chemicaliën",
+          "description": "Productnaleving, leveranciersinformatie en documentdiscipline zijn cruciaal. Verklaringen en datalogica moeten helder en gecontroleerd zijn.",
+          "focus1": "Productnaleving en datastructuur",
+          "focus2": "Informatiestroom met leveranciers",
+          "focus3": "Verklaringen en documentatiegereedheid"
+        },
+        "tourismServices": {
+          "title": "Toerisme en Diensten",
+          "description": "Voor hospitality en dienstverleners moeten marktverwachtingen, prestatiezichtbaarheid en operationele gereedheid samen worden gemanaged.",
+          "focus1": "Structuren voor duurzaam toerisme",
+          "focus2": "Rapportage en operationele gereedheid",
+          "focus3": "Aansluiting op marktverwachtingen"
+        }
+      }
+    },
+    "contextIntro": {
+      "title": "Waarom sectorcontext belangrijk is",
+      "description": "Dezelfde duurzaamheidsthema’s hebben niet in elke sector dezelfde betekenis. Regeldruk, datastructuren, klantverwachtingen en uitvoeringsprioriteiten verschillen per sector. Daarom bepaalt ANKA de consultancyscope vanuit de sectorcontext."
+    },
+    "benefits": {
+      "b1": {
+        "title": "Gereedheid voor de Europese markt",
+        "description": "We maken de kritieke compliance-onderwerpen en prioriteiten voor uw sector helder en zetten een startkader neer dat aansluit op marktverwachtingen."
+      },
+      "b2": {
+        "title": "Datastructuur die past bij de sector",
+        "description": "We structureren product-, keten- en rapportagedata volgens hoe uw sector echt werkt—met sterkere traceerbaarheid en controle."
+      },
+      "b3": {
+        "title": "Een beter verdedigbaar werkmodel",
+        "description": "We versterken bewijs-, documentatie- en eigenaarschapslogica—zodat uitvoering audit-ready en operationeel bruikbaar wordt."
+      }
+    },
+    "finalCta": {
+      "title": "Laten we samen het juiste duurzaamheidskader voor uw sector bepalen",
+      "description": "Laten we samen uw prioriteiten, marktverwachtingen en de consultancystructuur beoordelen die het best bij uw behoeften past.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Neem Contact Op"
+    }
+  },
+  "insightsPage": {
+    "meta": {
+      "title": "Inzichten",
+      "description": "Geselecteerde inhoud van ANKA over duurzaamheid, regelgeving, rapportage, producten, naleving en digitaal ondersteunde uitvoering."
+    },
+    "hero": {
+      "eyebrow": "Inzichten",
+      "title": "Geselecteerde handvatten voor regelgeving en compliance",
+      "description": "Geselecteerde handvatten voor regelgevingsgereedheid, productdata, koolstof, supply chain en digitale uitvoering—praktisch en herbruikbaar opgezet.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    },
+    "featured": {
+      "title": "Uitgelichte inhoud",
+      "items": {
+        "csrdMateriality": {
+          "category": "Gids",
+          "title": "Waar moeten organisaties beginnen met CSRD en dubbele materialiteit",
+          "description": "De basisstappen voor een sterker gestructureerd en beter beheersbaar corporate rapportageproces.",
+          "cta": "Open detail",
+          "body": "CSRD-gereedheid gaat niet alleen over het schrijven van een rapport. Zonder helderheid over materialiteit, grenzen en evidence wordt het proces snel onwerkbaar.\n\nEen sterk startkader:\n- Scope en verwachtingen scherpstellen (ESRS, stakeholders, grenzen)\n- Dubbele materialiteit benaderen als beslislogica—niet als checklist\n- Data-eigenaarschap en evidenceflow vroeg ontwerpen\n\nEen veelvoorkomende valkuil is analyse los te trekken van data en documentatie. ANKA koppelt materialiteitslogica aan een werkbare datastructuur en deliverymodel."
+        },
+        "cbamCost": {
+          "category": "Koolstof",
+          "title": "Hoe moeten CBAM-data en financiële impactvoorbereiding worden ingericht",
+          "description": "Een praktisch kader om beter voorbereid te zijn op rapportage, financiële blootstelling en verwachtingen rond datakwaliteit.",
+          "cta": "Open detail",
+          "body": "CBAM-voorbereiding heeft twee lagen: (1) data- en methodologiediscipline voor ingebedde emissies, en (2) zichtbaarheid die blootstelling vertaalt naar managementtaal.\n\nOm het goed te structureren:\n- Product/installatie-splits en methodologiekeuzes standaardiseren\n- Leveranciersinvoer beheren met format-, kwaliteits- en traceerbaarheidscontroles\n- Default-waardes binnen duidelijke grenzen en governance toepassen\n- Emissie-uitkomsten koppelen aan financiële impact via scenario’s\n\nHet doel is niet last-minute dataverzameling, maar een gecontroleerde, herhaalbare berekenings- en besluitvormingsflow."
+        },
+        "dppPrep": {
+          "category": "Product",
+          "title": "Kritieke datavelden voor de voorbereiding op het Digital Product Passport",
+          "description": "De belangrijkste aandachtspunten voor sterkere productgerichte datasturing.",
+          "cta": "Open detail",
+          "body": "DPP-gereedheid vraagt om productdata niet als bestand te behandelen, maar als een governed recordsysteem met relaties en versheidscontroles.\n\nKritieke data-onderdelen:\n- Productidentiteit en variant/SKU-logica\n- Materiaal- en componentstructuur (BOM) en herkomstinformatie\n- Compliance- en verklaringsdata (regelgeving, standaard, verificatie)\n- Traceerbaarheid en leveranciersrecords\n\nSucces zit niet alleen in velden opsommen, maar in eigenaarschap, evidencelinks en deel-scenario’s als uitvoerbare workflow."
+        },
+        "ppwrProductData": {
+          "category": "Verpakking",
+          "title": "Hoe veranderen productdata-eisen onder PPWR",
+          "description": "Een korte duiding van waarom verpakkings- en productinformatie belangrijker worden in Europese markten.",
+          "cta": "Open detail",
+          "body": "Met PPWR wordt packaging meer dan ontwerp of kosten—het wordt een data-, verklaring- en complianceverplichting.\n\nPraktische gevolgen:\n- Packaging-samenstelling en materiaaldata koppelen aan productniveau\n- Verplichtingen vertalen naar concrete datavelden\n- Fee/heffingslogica zichtbaar en traceerbaar maken\n\nDaarom is een structuur nodig die packaging-inventaris, compliancelogica en decision-support outputs samen beheert."
+        },
+        "scope3Suppliers": {
+          "category": "Keten",
+          "title": "Welke structuur is nodig voor het verzamelen van leveranciersdata voor Scope 3",
+          "description": "Praktische aanbevelingen om versnipperde datastromen gestructureerder en beter beheersbaar te maken.",
+          "cta": "Open detail",
+          "body": "Scope 3 wordt vaak als eenmalige vragenlijst benaderd. De echte waarde ontstaat wanneer je er een duurzame dataflow van maakt.\n\nVoor een werkbare structuur:\n- Leverancierssegmentatie en prioritering\n- Veldwoordenboek (definities), formatstandaarden en kwaliteitscontroles\n- Document/evidenceflow en sluitingsdiscipline\n\nDoel is niet alleen rapportage, maar supply-chaindata traceerbaar, beheersbaar en herbruikbaar maken."
+        },
+        "reportingWorkflow": {
+          "category": "Software",
+          "title": "Waarom is een digitale werkomgeving belangrijk in duurzaamheidsrapportage",
+          "description": "Hoe digitale ondersteuning voortgangsopvolging, datavisibiliteit en opleverkwaliteit verbetert.",
+          "cta": "Open detail",
+          "body": "Rapportageprojecten lopen vast wanneer data-eigenaarschap, revisiebeheer, evidencelinks en voortgangstracking zwak zijn.\n\nEen digitale werkomgeving versterkt:\n- Dataverzameling en verantwoordelijkheden\n- Controlestappen en een traceerbare audittrail\n- Herhaalbare rapportageflows en kwaliteitsstandaarden\n\nDigitale tools vervangen consultancy niet—ze maken de uitvoering beter controleerbaar en verdedigbaar."
+        }
+      }
+    },
+    "detail": {
+      "heading": "Notitie",
+      "backToResources": "Terug naar inzichten"
+    },
+    "finalCta": {
+      "title": "Laten we samen het juiste kader voor uw organisatie verhelderen",
+      "description": "We kunnen prioriteiten en het passende werkmodel snel samen scherpstellen.",
+      "primaryCta": "Plan Een Gesprek",
+      "secondaryCta": "Bekijk Diensten"
+    }
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacybeleid",
+      "description": "Hoe ANKA Sustainability Consulting B.V. persoonsgegevens verwerkt in het kader van deze website en contactverzoeken."
+    },
+    "hero": {
+      "eyebrow": "Juridisch",
+      "title": "Privacybeleid"
+    },
+    "intro": "Deze pagina beschrijft hoe wij persoonsgegevens verwerken wanneer u deze website gebruikt of contact opneemt met ANKA Sustainability Consulting B.V. Het is bedoeld als beknopte, zakelijke samenvatting—niet als volledige juridische analyse.",
+    "sections": {
+      "collect": {
+        "title": "Welke gegevens wij kunnen verwerken",
+        "body": "Wij kunnen contactgegevens en berichtinhoud verwerken die u via e-mail of contactkanalen verzendt, evenals basistechnische informatie die nodig is om de website veilig en bruikbaar te houden (zoals serverlogboeken waar van toepassing)."
+      },
+      "use": {
+        "title": "Hoe wij informatie gebruiken",
+        "body": "Wij gebruiken deze gegevens om vragen te beantwoorden, de site te onderhouden en onze advies- en software-ondersteunde dienstverlening te verbeteren—proportioneel aan het doel en passend bij een professionele zakelijke relatie."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Voor vragen over dit beleid of uw gegevens kunt u contact opnemen via info@ankasustainability.com."
+      },
+      "updates": {
+        "title": "Wijzigingen",
+        "body": "Wij kunnen deze pagina bijwerken wanneer onze werkwijze of vereisten veranderen. De actuele versie wordt hier gepubliceerd."
+      }
+    }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Gebruiksvoorwaarden",
+      "description": "Voorwaarden voor het gebruik van de website van ANKA Sustainability Consulting B.V."
+    },
+    "hero": {
+      "eyebrow": "Juridisch",
+      "title": "Gebruiksvoorwaarden"
+    },
+    "intro": "Door deze website te gebruiken, gaat u akkoord met onderstaande voorwaarden. Gaat u niet akkoord, beëindig dan het gebruik van de site.",
+    "sections": {
+      "websiteUse": {
+        "title": "Gebruik van de website",
+        "body": "De site biedt algemene bedrijfsinformatie over de diensten van ANKA. U verplicht zich de site niet te misbruiken, de werking niet te verstoren en geen geautomatiseerde extractie toe te passen die prestaties of veiligheid schaadt."
+      },
+      "intellectualProperty": {
+        "title": "Intellectueel eigendom",
+        "body": "Teksten, lay-out, beeldmerken en huisstijlelementen zijn eigendom van ANKA of worden met juiste licentie gebruikt. Kopiëren of commercieel verspreiden zonder voorafgaande schriftelijke toestemming is niet toegestaan."
+      },
+      "limitation": {
+        "title": "Beperking van het vertrouwen op informatie",
+        "body": "Informatie op deze website is geen op uw organisatie toegesneden juridisch, financieel of technisch advies. Besluiten dienen te berusten op professioneel oordeel en, waar nodig, op specialistische ondersteuning."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Vragen over deze voorwaarden kunnen worden gericht aan info@ankasustainability.com."
+      }
+    }
+  },
+  "legalNoticePage": {
+    "meta": {
+      "title": "Juridische Informatie",
+      "description": "Exploitant en juridische gegevens voor de website van ANKA Sustainability Consulting B.V."
+    },
+    "hero": {
+      "eyebrow": "Juridisch",
+      "title": "Juridische Informatie"
+    },
+    "intro": "Deze website wordt beheerd door ANKA Sustainability Consulting B.V. Zij presenteert ons duurzaamheidsadvies en software-ondersteunde levering binnen een adviesgedreven model.",
+    "companyBlock": {
+      "title": "Statutaire vestiging"
+    },
+    "statement": "ANKA Sustainability Consulting B.V. levert professioneel duurzaamheidsadvies. Software en digitale middelen worden beschreven als ondersteunende mogelijkheden binnen die adviesrelatie—niet als een afzonderlijk consumentenproductmerk."
+  },
+  "pcos": {
+    "productName": "Packaging Compliance & Cost OS",
+    "header": {
+      "workspace": "Werkruimte · Packaging Compliance & Cost OS",
+      "support": "Support"
+    },
+    "sidebar": {
+      "foundation": "Foundation package",
+      "foundationNote": "Deze werkruimte is PPWR-first en architectonisch klaar voor ESPR / DPP uitbreidingen zonder refactor van de kern."
+    },
+    "nav": {
+      "overview": "Overzicht",
+      "products": "Producten & SKU’s",
+      "bom": "Packaging BOM",
+      "responsibility": "Verantwoordelijkheidsmapping",
+      "risks": "Compliance-risico’s",
+      "evidence": "Evidence Pack",
+      "scenarios": "Scenariovergelijking",
+      "technicalFile": "Technisch Dossier",
+      "suppliers": "Leveranciers",
+      "markets": "Markten",
+      "settings": "Instellingen"
+    },
+    "common": {
+      "title": "Titel",
+      "status": "Status",
+      "severity": "Ernst",
+      "market": "Markt",
+      "created": "Aangemaakt",
+      "scenario": "Scenario"
+    },
+    "overview": {
+      "title": "Overzicht",
+      "subtitle": "Een regulation-native werkruimte voor verpakkingscompliance, evidence, operatorverantwoordelijkheid en kostenbeslissingen.",
+      "actions": {
+        "openEvidence": "Open evidence pack",
+        "newScenario": "Nieuw scenario"
+      },
+      "kpis": {
+        "skus": "SKU’s",
+        "skusHint": "Producten in scope voor EU-marktplaatsing",
+        "evidence": "Evidence-gereedheid",
+        "evidenceHint": "Goedgekeurd / totaal",
+        "risks": "Open bevindingen",
+        "risksHint": "Rule-engine bevindingen die aandacht vragen",
+        "technicalFiles": "Technische dossiers",
+        "technicalFilesHint": "Actieve dossiers in de werkruimte",
+        "technicalFilesBlocked": "{count} geblokkeerd"
+      },
+      "tables": {
+        "risksTitle": "Compliance-risico’s (foundation)",
+        "risksSubtitle": "Bevindingen zijn gestructureerde outputs van het rule framework. PPWR-logica wordt iteratief toegevoegd.",
+        "scenariosTitle": "Scenariovergelijking",
+        "scenariosSubtitle": "Vergelijk baseline vs alternatief en leg beslisnotities vast.",
+        "viewAll": "Bekijk alles",
+        "open": "Open"
+      }
+    },
+    "products": {
+      "title": "Producten & SKU’s",
+      "subtitle": "Beheer product master data en koppel SKU’s aan verpakkingsunits, markten, evidence en dossiergereedheid.",
+      "table": {
+        "title": "SKU-lijst",
+        "subtitle": "Zoek, filter en open SKU’s. Import/export hooks zijn gereserveerd voor een volgend package."
+      }
+    },
+    "bom": {
+      "title": "Packaging BOM",
+      "subtitle": "Bouw verpakkingsunits en componentstructuren met materiaal- en leverancierkoppelingen. PPWR-first met ruimte voor DPP later.",
+      "table": {
+        "title": "BOM-componenten",
+        "subtitle": "Componentniveau over verpakkingsunits (primary/secondary/tertiary/transport)."
+      }
+    },
+    "responsibility": {
+      "title": "Verantwoordelijkheidsmapping",
+      "subtitle": "Map economische operatorverantwoordelijkheid per markt en supply chain context (fabrikant/importeur/private label/retailer).",
+      "cards": {
+        "operator": {
+          "title": "Operatorrollen",
+          "description": "Definieer templates en pas ze toe op SKU’s en markten met traceerbare aannames."
+        },
+        "market": {
+          "title": "Marktoverlays",
+          "description": "Koppel nationale overlays zonder hard-coded logica in pagina’s."
+        },
+        "audit": {
+          "title": "Audit-ready mapping",
+          "description": "Bereid exporteerbare, klant/importeur-klare output packs voor."
+        }
+      },
+      "table": {
+        "title": "Mapping register (foundation)",
+        "subtitle": "Deze foundation levert de structuur; approvals en operator rules volgen."
+      }
+    },
+    "risks": {
+      "title": "Compliance-risico’s",
+      "subtitle": "Run checks en triage bevindingen over markten, SKU’s, BOM en evidence.",
+      "table": {
+        "title": "Bevindingen",
+        "subtitle": "Ernst en categorie zijn rule-driven; effective date en country overlays zijn first-class."
+      }
+    },
+    "evidence": {
+      "title": "Evidence Pack",
+      "subtitle": "Verzamel supplier evidence, volg review/approval status en bereid audit-ready packs.",
+      "empty": {
+        "title": "Nog geen evidence-items",
+        "description": "Begin met evidence requirements en stuur supplier requests. Statusflow ondersteunt review en approval."
+      },
+      "table": {
+        "title": "Evidence register",
+        "subtitle": "Request → Received → Review → Approved flow met missing/expired afhandeling."
+      }
+    },
+    "scenarios": {
+      "title": "Scenariovergelijking",
+      "subtitle": "Vergelijk baseline vs alternatief: gewichtsreductie, materiaalwijziging, compliance delta, documentatie delta en beslisnotities.",
+      "empty": {
+        "title": "Nog geen scenario’s",
+        "description": "Maak een scenario om huidige vs alternatieve verpakking te vergelijken en beslissingen traceerbaar vast te leggen."
+      },
+      "table": {
+        "title": "Scenario’s",
+        "subtitle": "Gewichtdelta wordt berekend; compliance/documentatie delta is voorbereid voor PPWR rule output."
+      }
+    },
+    "technicalFile": {
+      "title": "Technisch Dossier",
+      "subtitle": "Volg documentatiegereedheid per SKU. Evidence en rule outputs dragen bij aan een readiness view.",
+      "kpis": {
+        "total": "SKU’s gevolgd",
+        "ready": "Gereed",
+        "blocked": "Geblokkeerd",
+        "evidenceLinked": "Evidence-items"
+      },
+      "table": {
+        "title": "Gereedheid per SKU",
+        "subtitle": "Readiness is evidence-driven in deze foundation; rule-driven deltas volgen."
+      }
+    },
+    "suppliers": {
+      "title": "Leveranciers",
+      "subtitle": "Beheer leveranciers, onboarding, evidence SLA en documentprestaties.",
+      "table": {
+        "title": "Leveranciersregister",
+        "subtitle": "Evidence is gekoppeld aan leveranciers ter voorbereiding op supplier portal uitbreiding."
+      }
+    },
+    "markets": {
+      "title": "Markten",
+      "subtitle": "Beheer marktscope en reserveer overlay slots voor nationale EPR/administratieve nuances.",
+      "table": {
+        "title": "Marktscope",
+        "subtitle": "Overlays koppelen per markt zonder de PPWR kernstructuur te verstrengelen."
+      }
+    },
+    "settings": {
+      "title": "Instellingen",
+      "subtitle": "Werkruimteconfiguratie: rollen, permissies, markten, rule catalogs en effective dates.",
+      "sections": {
+        "workspace": {
+          "title": "Werkruimte",
+          "subtitle": "Toegang en scope",
+          "cards": {
+            "roles": {
+              "title": "Rollen & permissies",
+              "description": "Bepaal wie producten, BOM, evidence en exports beheert."
+            },
+            "markets": {
+              "title": "Marktscope",
+              "description": "Activeer markten en voeg overlay notes toe."
+            }
+          }
+        },
+        "rules": {
+          "title": "Rule engine",
+          "subtitle": "Catalogs, overlays en effective-date evaluatie",
+          "cards": {
+            "catalogs": {
+              "title": "Rule catalogs",
+              "description": "PPWR-first catalogs leven hier. ESPR/DPP catalogs kunnen later toegevoegd worden zonder UI-refactor."
+            },
+            "effectiveDates": {
+              "title": "Effective dates",
+              "description": "Model toekomstige ingangsdata en transities als input voor rule evaluation."
+            }
+          }
+        }
+      }
+    }
+  }
+}

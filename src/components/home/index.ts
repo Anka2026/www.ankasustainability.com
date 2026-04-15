@@ -1,0 +1,9 @@
+export { FinalCtaSection } from "./final-cta-section";
+export { HeroSection } from "./hero-section";
+export { InsightsPreviewSection } from "./insights-preview-section";
+export { SectorsPreviewSection } from "./sectors-preview-section";
+export { ServicesPreviewSection } from "./services-preview-section";
+export { SoftwarePreviewSection } from "./software-preview-section";
+export { SoftwareSectorsPairSection } from "./software-sectors-pair-section";
+export { TrustStripSection } from "./trust-strip-section";
+export { WhySection } from "./why-section";

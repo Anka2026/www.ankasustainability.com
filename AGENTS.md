@@ -1,3 +1,9 @@
+Apply the English and Dutch copy below exactly as written for the Sectors and Resources pages.
+Do not rewrite, simplify, or translate again.
+
+Use the English and Dutch copy below exactly as written.
+Do not rewrite, simplify, or translate again.
+
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 

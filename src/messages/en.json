@@ -1,0 +1,941 @@
+{
+  "brand": {
+    "name": "ANKA Sustainability Consulting B.V.",
+    "headerName": "ANKA Sustainability",
+    "tagline": "Strategic Sustainability Consultancy"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "software": "Software Solutions",
+    "sectors": "Sector Expertise",
+    "insights": "Insights",
+    "contact": "Contact"
+  },
+  "actions": {
+    "contact": "Contact",
+    "language": "Language",
+    "locale": {
+      "tr": "Türkçe",
+      "en": "English",
+      "nl": "Nederlands"
+    }
+  },
+  "servicesMegaMenu": {
+    "viewAll": "View All Services",
+    "sheetTitle": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "subtopics": {
+      "reportingEsg": {
+        "i1": "CSRD / ESRS",
+        "i2": "TSRS / GRI",
+        "i3": "Double materiality",
+        "i4": "CDP / EcoVadis"
+      },
+      "carbonClimate": {
+        "i1": "Corporate carbon footprint",
+        "i2": "CBAM",
+        "i3": "Scope 1–2–3",
+        "i4": "SBTi readiness"
+      },
+      "productCircularity": {
+        "i1": "LCA",
+        "i2": "EPD",
+        "i3": "Product carbon footprint",
+        "i4": "DPP / ESPR / PPWR"
+      },
+      "regulatorySupplyChain": {
+        "i1": "EUDR",
+        "i2": "CSDDD readiness",
+        "i3": "Green claims",
+        "i4": "Supplier data"
+      },
+      "sustainableFinance": {
+        "i1": "EU Taxonomy",
+        "i2": "ESG readiness",
+        "i3": "Investor expectations",
+        "i4": "Disclosure support"
+      },
+      "certificationTraceability": {
+        "i1": "ISCC",
+        "i2": "Chain of custody",
+        "i3": "Mass balance",
+        "i4": "Traceability support"
+      }
+    }
+  },
+  "footer": {
+    "rights": "© {year} ANKA Sustainability Consulting B.V. All rights reserved.",
+    "note": "Consultancy-led sustainability services with digital support capability.",
+    "navAria": "Primary pages",
+    "legalNavAria": "Legal information",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "legalNotice": "Legal Notice"
+    }
+  },
+  "company": {
+    "legalName": "ANKA Sustainability Consulting B.V.",
+    "addressLine1": "Newtonlaan 115",
+    "addressLine2": "3584 BH Utrecht, Netherlands",
+    "email": "info@ankasustainability.com"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Strategic Sustainability Consultancy",
+      "title": "Consultancy and digital solutions that bring clarity to sustainability priorities",
+      "description": "ANKA helps organizations strengthen reporting, compliance, carbon management, and implementation through a clear, practical, and commercially grounded approach.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "Explore Services"
+    },
+    "trust": {
+      "ariaLabel": "",
+      "reporting": "Sustainability Reporting",
+      "carbonCbam": "Carbon and CBAM",
+      "lcaEpd": "LCA and EPD",
+      "software": "Digital Solutions"
+    },
+    "services": {
+      "eyebrow": "",
+      "title": "Core Consultancy Areas",
+      "subtitle": "Strategic and hands-on sustainability support—structured in one place.",
+      "reporting": {
+        "title": "Reporting and ESG Strategy",
+        "body": "Clear and structured support for disclosure frameworks, ESG strategy, and decision-ready reporting."
+      },
+      "carbon": {
+        "title": "Carbon, Climate, and Decarbonization",
+        "body": "Consultancy support for carbon management, climate priorities, and transition-focused planning."
+      },
+      "lifecycle": {
+        "title": "Product Sustainability and Circularity",
+        "body": "Practical support for product data, lifecycle thinking, environmental declarations, and market readiness."
+      },
+      "programs": {
+        "title": "Regulatory and Supply Chain Compliance",
+        "body": "Structured support for evolving regulatory expectations and supply chain-related compliance needs."
+      }
+    },
+    "software": {
+      "eyebrow": "",
+      "title": "Software solutions that strengthen consultancy delivery",
+      "description": "Structured workflows, clearer ownership, and decision-ready outputs—built to match how sustainability teams actually work.",
+      "badge1": "",
+      "badge2": "",
+      "cta": "View Software Solutions",
+      "ctaSectors": "Explore sector expertise",
+      "cardTitle": "",
+      "cardBody": ""
+    },
+    "sectors": {
+      "eyebrow": "",
+      "title": "Sector Expertise",
+      "subtitle": "From industrial supply chains to regulated products—consulting structures tuned to sector realities.",
+      "breadth": "Representative sectors — we also tailor engagements beyond this list.",
+      "manufacturing": {
+        "title": "Manufacturing and Industry",
+        "body": ""
+      },
+      "packaging": {
+        "title": "Packaging and Materials",
+        "body": ""
+      },
+      "construction": {
+        "title": "Construction and Building Materials",
+        "body": ""
+      },
+      "aluminium": {
+        "title": "Aluminium and Metals",
+        "body": ""
+      },
+      "foodAgri": {
+        "title": "Food and Agriculture",
+        "body": ""
+      },
+      "chemicals": {
+        "title": "Chemicals",
+        "body": ""
+      },
+      "energy": {
+        "title": "Energy",
+        "body": ""
+      },
+      "corporate": {
+        "title": "Corporate and Multinational Structures",
+        "body": ""
+      }
+    },
+    "why": {
+      "eyebrow": "",
+      "title": "Why ANKA",
+      "subtitle": "",
+      "item1": "We combine strategic clarity with practical implementation",
+      "item2": "We help organizations turn complex topics into structured action",
+      "item3": "We support consultancy delivery with digital capability where it adds value"
+    },
+    "insights": {
+      "eyebrow": "",
+      "title": "Insights and Resources",
+      "subtitle": "Selected content on regulations, reporting, product sustainability, and implementation priorities."
+    },
+    "finalCta": {
+      "title": "Build a clearer, stronger sustainability path",
+      "description": "Assess the consultancy structure and digital support model that fits your organization.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "Book a Meeting"
+    }
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Services",
+      "description": "Europe-facing sustainability consultancy across reporting and ESG strategy, carbon and climate, product sustainability, regulatory and supply-chain compliance, sustainable finance, and certification-led market confidence."
+    },
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Our Consulting Areas",
+      "description": "Structured consultancy for companies preparing for European markets, sustainability regulations, product compliance, and reporting expectations.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "Explore Service Areas"
+    },
+    "overview": {
+      "title": "Overview",
+      "subtitle": "Six core consulting areas designed to make compliance and reporting operational—by clarifying scope, data needs, evidence logic, and accountability."
+    },
+    "pageNav": {
+      "aria": "On this page",
+      "overview": "Overview",
+      "scope": "Consulting Areas",
+      "process": "How we work",
+      "why": "Why ANKA"
+    },
+    "areas": {
+      "title": "Consulting Areas",
+      "subtitle": "Choose the closest area to your need and view details."
+    },
+    "hub": {
+      "cta": "View service",
+      "tags": {
+        "reportingEsg": { "t1": "ESG Reporting", "t2": "Disclosure Structure", "t3": "Readiness Analysis" },
+        "carbonClimate": { "t1": "Carbon Footprint", "t2": "Climate Risk", "t3": "Decarbonization" },
+        "productCircularity": { "t1": "LCA", "t2": "EPD", "t3": "Product Data" },
+        "regulatorySupplyChain": { "t1": "EU Regulations", "t2": "Supply Chain Data", "t3": "Compliance Structure" },
+        "sustainableFinance": { "t1": "Market Readiness", "t2": "Customer Expectations", "t3": "Strategic Positioning" },
+        "certificationTraceability": { "t1": "Certification Readiness", "t2": "Traceability", "t3": "Market Trust" }
+      }
+    },
+    "detailScopeToggle": "Scope and representative topics",
+    "topicsHeading": "Key topics",
+    "categories": {
+      "reportingEsg": {
+        "label": "ESG and Corporate Reporting",
+        "summary": "We align reporting structures, disclosure logic, and organisational readiness with international expectations.",
+        "description": "We make corporate reporting and disclosure work operational by clarifying scope, data requirements, and evidence logic. Materiality, metrics, and narrative are designed with an audit-ready system mindset.",
+        "topics": "CSRD\nESRS\nTSRS\nGRI\nDouble materiality\nISSB / IFRS S1–S2\nTCFD\nTNFD\nCDP\nEcoVadis\nESG strategy"
+      },
+      "carbonClimate": {
+        "label": "Carbon, Climate, and Decarbonization",
+        "summary": "We develop carbon management, climate assessment, and practical reduction plans across corporate and value-chain levels.",
+        "description": "Carbon work is addressed together with data quality, methodology, and workable workflows. Where relevant, obligations such as CBAM are integrated into the same operating logic.",
+        "topics": "Corporate carbon footprint\nProduct carbon footprint\nGHG Protocol\nScope 1 / 2 / 3\nCBAM\nSBTi readiness\nDecarbonization roadmaps\nClimate risk and opportunity analysis\nWater and energy management"
+      },
+      "productCircularity": {
+        "label": "Product Sustainability, LCA, and EPD",
+        "summary": "Consultancy for product-level environmental performance, technical disclosure logic, and market-facing compliance readiness.",
+        "description": "We treat LCA/EPD and product data work as both technical and commercial: narrative is built on evidence, data lineage, and verifiability.",
+        "topics": "LCA\nEPD\nProduct carbon footprint\nDigital Product Passport\nProduct / lifecycle data management\nESPR\nPPWR\nEco-label (ECOLABEL) focused product work\nGreen claims evidence basis"
+      },
+      "regulatorySupplyChain": {
+        "label": "EU Regulations and Supply Chain Compliance",
+        "summary": "We build scope analysis, supply-chain readiness, and defensible compliance documentation for Europe-facing requirements.",
+        "description": "We combine regulatory understanding with supply-chain data and documentation logic. As accountability, control points, and evidence chains become explicit, compliance becomes a system teams can run.",
+        "topics": "EUDR\nCSDDD-related readiness\nSustainable supply chain structures\nSupplier data collection and governance\nRegulatory scanning and readiness\nGreen Claims readiness\nEurope-facing compliance planning"
+      },
+      "sustainableFinance": {
+        "label": "Market and Stakeholder Readiness",
+        "summary": "We align sustainability performance with customer, investor, tender, and international market expectations.",
+        "description": "As expectations sharpen, disclosure language, evidence structure, and performance narrative become critical. We help organisations present a consistent, credible framework to stakeholders.",
+        "topics": "EU Taxonomy\nSustainable finance readiness\nInvestor-facing ESG preparation\nFinance-aligned sustainability structures\nRating / disclosure readiness\nSFDR-related market expectations (where relevant)"
+      },
+      "certificationTraceability": {
+        "label": "Certification, Traceability, and Market Confidence",
+        "summary": "We build traceability, verifiability, and certification-oriented structures that strengthen trust across product and supply processes.",
+        "description": "Traceability and certification are disciplines for making claims verifiable. We design workable structures across chain-of-custody logic, mass balance, and documentation management.",
+        "topics": "ISCC\nChain of custody logic\nMass balance logic\nTraceability structures\nRecycled / bio-based content readiness\nSustainability claims support\nCarbon credits consultancy (secondary support, where relevant)"
+      }
+    },
+    "detailCta": "Discuss with ANKA",
+    "process": {
+      "title": "How we work",
+      "subtitle": "We structure every engagement around clear scope, the right data needs, and an executable working model.",
+      "assessment": {
+        "title": "Clarify the need",
+        "description": "We define scope, priorities, and expectations together."
+      },
+      "structuring": {
+        "title": "Build the structure",
+        "description": "We clarify data needs, ownership, and the working model."
+      },
+      "implementation": {
+        "title": "Execute",
+        "description": "We run the consultancy process through concrete outputs and steady progress."
+      },
+      "delivery": {
+        "title": "Make it sustainable",
+        "description": "We support making the resulting structure usable and defensible inside the organisation."
+      }
+    },
+    "why": {
+      "title": "Why ANKA",
+      "subtitle": "We bring strategic direction, technical rigour, and an executable working model into one structure.",
+      "item1": "Consultancy aligned with international expectations",
+      "item2": "A structure that makes technical topics more manageable",
+      "item3": "A model that strengthens evidence and documentation logic",
+      "item4": "An approach that produces usable outputs—not only reports"
+    },
+    "finalCta": {
+      "title": "Let’s clarify the consultancy scope that fits your needs",
+      "description": "Let’s assess the right service structure for your priorities and define a clear starting framework.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "Book a Meeting"
+    }
+  },
+  "softwarePage": {
+    "meta": {
+      "title": "Software solutions that strengthen consultancy delivery",
+      "description": "ANKA's digital solutions are designed to make sustainability processes more structured, more visible, and more actionable."
+    },
+    "hero": {
+      "eyebrow": "Software solutions",
+      "title": "A software portfolio for compliance and data workflows",
+      "description": "ANKA’s software solutions structure compliance and reporting workflows—bringing data collection, tracking, calculation, and visibility into one operational logic. The goal is tighter control and more defensible outputs.",
+      "primaryCta": "Request Demo",
+      "secondaryCta": "Talk To Our Team"
+    },
+    "workflows": {
+      "title": "Workflows strengthened by our software",
+      "c1": "Data collection",
+      "c2": "Traceability",
+      "c3": "Calculation and scenario analysis",
+      "c4": "Reporting readiness",
+      "c5": "Decision support",
+      "c6": "Team coordination"
+    },
+    "consultingSoftware": {
+      "title": "Consulting quality is stronger when digital support sits behind it",
+      "description": "Digital tools are not meant to replace consulting—they strengthen data collection, tracking, visibility, and repeatable execution where it materially improves outcomes."
+    },
+    "finalCta": {
+      "title": "Let’s clarify the software scope that fits your needs",
+      "description": "Let’s review the data, compliance, and reporting workflows you need—then define the right solution structure together.",
+      "primaryCta": "Request Demo",
+      "secondaryCta": "Talk To Our Team"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About",
+      "description": "ANKA provides sustainability consultancy with a regulatory and compliance lens. We build defensible evidence, accountable ownership, and workable delivery systems across reporting, carbon, product data, and supply chain requirements—strengthened where relevant by software-enabled workflows."
+    },
+    "hero": {
+      "eyebrow": "About ANKA",
+      "title": "Regulation-led sustainability consultancy, strengthened with software-enabled compliance systems",
+      "description": "For Europe-facing organisations, we translate expectations such as CSRD/ESRS, CBAM, EUDR, and PPWR/ESPR into workable operating models—aligning data, evidence, ownership, and delivery cadence.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "View Services"
+    },
+    "who": {
+      "title": "Who is ANKA",
+      "intro": "ANKA is a regulatory-first sustainability advisory partner. We make sustainability requirements more manageable, defensible, and executable—by structuring data, evidence, ownership, and controls for reporting and compliance work. Where it materially improves outcomes, we reinforce this with software-enabled workflow discipline.",
+      "highlightTitle": "Focus areas",
+      "highlight1": "Regulatory and reporting readiness",
+      "highlight2": "Carbon and trade-linked obligations",
+      "highlight3": "Product evidence and environmental data structures",
+      "highlight4": "Supply chain data and traceability systems"
+    },
+    "value": {
+      "title": "How we create value for organizations",
+      "body": "We turn complex requirements into clarity at four levels: scope, data, evidence, and outputs. We define what needs to be produced, by whom, when, and against which standards—then connect reporting and compliance work to repeatable workflows. The result is not “a report”, but a system teams can run."
+    },
+    "mission": {
+      "title": "Our approach and mission",
+      "body": "Our mission is to help organisations build a defensible, traceable, and sustainable compliance structure in areas with high regulatory pressure. We keep technical rigour and an audit mindset—while designing a practical model that can be executed inside the business. This supports better decisions, lower risk, and stronger market credibility."
+    },
+    "capabilities": {
+      "title": "Capability areas",
+      "sustainability": "Sustainability solutions",
+      "managementSystems": "Management systems certification",
+      "productCertification": "Product certification",
+      "training": "Training",
+      "engineering": "Engineering",
+      "softwareConsulting": "Software consultancy"
+    },
+    "team": "Our trainers, consultants, and auditors combine deep subject expertise with disciplined field and process judgement—turning technical rigour into manageable workflows and usable outputs.",
+    "closing": "Contact us to learn more about ANKA and explore a delivery structure that fits your priorities.",
+    "trust": {
+      "aria": "Trust signals",
+      "item1": "Regulatory literacy",
+      "item2": "Technical rigour",
+      "item3": "Audit-ready structure",
+      "item4": "Executable compliance model"
+    },
+    "helpOrg": {
+      "title": "How we support organizations",
+      "item1Title": "We turn priorities into an executable roadmap",
+      "item1Description": "We clarify scope and sequencing—aligning effort with risk, timelines, and regulatory expectations.",
+      "item2Title": "We build a workable reporting and compliance structure",
+      "item2Description": "We establish ownership, control points, and evidence logic—so teams can run a repeatable workflow, not ad hoc firefighting.",
+      "item3Title": "We translate technical work into decision-ready outputs",
+      "item3Description": "We connect carbon, product evidence, and product data to the decisions, actions, and disclosures teams need to make.",
+      "item4Title": "We strengthen process discipline with software where needed",
+      "item4Description": "We make collection, tracking, and visibility more manageable through software-enabled workflows where they add real leverage."
+    },
+    "process": {
+      "title": "How we work",
+      "subtitle": "Every engagement is run with clarity, structure, and practical execution in mind.",
+      "assessment": {
+        "title": "Assessment",
+        "description": "We review the situation, constraints, and priorities."
+      },
+      "structuring": {
+        "title": "Structuring",
+        "description": "We define scope, evidence needs, and the delivery model."
+      },
+      "delivery": {
+        "title": "Implementation and progress",
+        "description": "We manage delivery through concrete outputs, a clear flow, and steady progress."
+      },
+      "ongoingSupport": {
+        "title": "Ongoing support",
+        "description": "Where needed, we help sustain implementation after the first delivery wave."
+      }
+    },
+    "why": {
+      "title": "Why ANKA",
+      "description": "We combine regulatory understanding, technical rigour, and an executable compliance model in one structure.",
+      "c1Title": "Regulation-led, technically robust",
+      "c1Text": "We interpret obligations correctly and build the data and evidence foundation with the technical detail required to stand up under scrutiny.",
+      "c2Title": "Defensible evidence and narrative",
+      "c2Text": "We turn claims into proof—linking evidence chains, accountability, and control logic so disclosures remain credible.",
+      "c3Title": "A model teams can actually run",
+      "c3Text": "We create repeatable cadence with ownership, timelines, review points, and measurable progress—built for real operations.",
+      "c4Title": "Consultancy and digital discipline together",
+      "c4Text": "Where appropriate, we strengthen data collection, tracking, and visibility with software-enabled workflows—so implementation becomes sustainable."
+    },
+    "consultingDigital": {
+      "title": "Consultancy expertise, reinforced with digital discipline",
+      "description": "For ANKA, digital tools are not a separate showcase—they are an execution layer that makes compliance work traceable, repeatable, and audit-ready. We use them where they materially improve outcomes."
+    },
+    "finalCta": {
+      "title": "Shape the right sustainability delivery model with ANKA",
+      "title": "Clarify your compliance structure with ANKA",
+      "description": "Let’s assess your priorities together—then define the right scope, working model, and a clear starting framework for your organisation.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "Book a Meeting"
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact",
+      "description": "Start a conversation with ANKA on sustainability consultancy, reporting, compliance, and software-supported delivery."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's assess the right sustainability approach together",
+      "description": "Let’s clarify your priorities, compliance needs, and the right starting frame together.",
+      "primaryCta": "Send a Message",
+      "secondaryCta": "Book a Meeting"
+    },
+    "companyDetails": {
+      "title": "Company details",
+      "trustLine": ""
+    },
+    "options": {
+      "title": "How can we support you",
+      "opt1Title": "General business enquiries",
+      "opt1Description": "A quick orientation on our services and working model.",
+      "opt2Title": "Consultancy and project discussions",
+      "opt2Description": "Let’s clarify scope, priorities, and the right starting frame.",
+      "opt3Title": "Software and demo discussions",
+      "opt3Description": "Request a demo or a product-focused discussion."
+    },
+    "form": {
+      "title": "Send your message",
+      "description": "Share your needs briefly and we will respond with the most suitable next step.",
+      "name": "Full Name",
+      "company": "Company",
+      "email": "Email",
+      "country": "Country",
+      "topic": "Area of Interest",
+      "topicPlaceholder": "Select a theme",
+      "topicOpt1": "Reporting and ESG strategy",
+      "topicOpt2": "Carbon, climate, and compliance processes",
+      "topicOpt3": "Product sustainability and data structures",
+      "topicOpt4": "Software-supported sustainability management",
+      "topicOpt5": "Sector-specific needs",
+      "topicOptOther": "Other",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you. Your message has been received—we will reply with a proportionate next step."
+    },
+    "help": {
+      "title": "Common topics we discuss",
+      "item1": "Reporting and ESG strategy",
+      "item2": "Carbon, climate, and compliance processes",
+      "item3": "Product sustainability and data structures",
+      "item4": "Software-supported sustainability management",
+      "item5": "Sector-specific needs"
+    },
+    "process": {
+      "title": "What happens next",
+      "step1Title": "Initial review",
+      "step1Description": "We review your request and priorities.",
+      "step2Title": "Response",
+      "step2Description": "We get back to you with the most suitable conversation or assessment format.",
+      "step3Title": "Scoping",
+      "step3Description": "Where relevant, we clarify needs, scope, and next steps together."
+    },
+    "finalCta": {
+      "title": "Let's define the right framework together",
+      "description": "Contact us to schedule an initial conversation or share your request.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "Send a Message"
+    }
+  },
+  "sectorsPage": {
+    "meta": {
+      "title": "Sector Expertise",
+      "description": "ANKA brings sector-aware sustainability consultancy—reporting, compliance, carbon, and product data—for industries facing European market expectations."
+    },
+    "hero": {
+      "eyebrow": "Sector Expertise",
+      "title": "Consultancy shaped around sector-specific regulatory pressure and data structures",
+      "description": "The same sustainability topics don’t carry the same meaning across industries. Regulatory pressure, data needs, reporting logic, and market expectations differ by sector. ANKA structures its delivery model around this context—so implementation is more workable and defensible.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "View Services"
+    },
+    "grid": {
+      "title": "Sectors in focus",
+      "sectors": {
+        "textileFashion": {
+          "title": "Textile and Fashion",
+          "description": "Product data, traceability, and market expectations are evolving quickly. DPP readiness and supply chain visibility are becoming decisive.",
+          "focus1": "DPP and product data structures",
+          "focus2": "Supply chain visibility",
+          "focus3": "Product sustainability work"
+        },
+        "agricultureFood": {
+          "title": "Agriculture and Food",
+          "description": "Origin, traceability, and supply chain confidence are critical. Frameworks like EUDR raise the bar for data and evidence discipline.",
+          "focus1": "EUDR and supply chain structures",
+          "focus2": "Regenerative agriculture and soil data",
+          "focus3": "Sustainable sourcing models"
+        },
+        "packagingMaterials": {
+          "title": "Packaging, Plastics, and Materials",
+          "description": "Regulations such as PPWR tighten product compliance and data requirements. Circularity, declarations, and calculations need to work as one system.",
+          "focus1": "PPWR and product compliance",
+          "focus2": "LCA and EPD work",
+          "focus3": "Circularity and data requirements"
+        },
+        "constructionMaterials": {
+          "title": "Construction Materials",
+          "description": "LCA/EPD, product carbon footprint, and market-ready declarations are becoming standard. Product data and evidence logic must be more disciplined.",
+          "focus1": "LCA and EPD",
+          "focus2": "Product carbon footprint",
+          "focus3": "Product data and compliance structures"
+        },
+        "metalsIndustrial": {
+          "title": "Metals, Aluminium, and Industrial Manufacturing",
+          "description": "CBAM, carbon data, and reporting expectations directly influence competitiveness. Technical declarations and data discipline are critical.",
+          "focus1": "CBAM readiness",
+          "focus2": "Product sustainability and declarations",
+          "focus3": "Carbon data and reporting"
+        },
+        "automotiveMobility": {
+          "title": "Automotive and Mobility",
+          "description": "Supply chain data and material compliance are becoming more visible across the industry. Carbon and reporting readiness is increasingly expected.",
+          "focus1": "Supply chain data structures",
+          "focus2": "Product and material compliance",
+          "focus3": "Carbon and reporting readiness"
+        },
+        "chemicals": {
+          "title": "Chemicals and Industrial Chemicals",
+          "description": "Product compliance, supplier information flows, and documentation discipline matter. Declarations and data logic must be clear and controlled.",
+          "focus1": "Product compliance and data structure",
+          "focus2": "Supplier information flow",
+          "focus3": "Declarations and documentation readiness"
+        },
+        "tourismServices": {
+          "title": "Tourism and Services",
+          "description": "For hospitality and service businesses, market expectations, performance visibility, and operational readiness need to be managed together.",
+          "focus1": "Sustainable tourism structures",
+          "focus2": "Reporting and operational readiness",
+          "focus3": "Alignment with market expectations"
+        }
+      }
+    },
+    "contextIntro": {
+      "title": "Why sector context matters",
+      "description": "The same sustainability topics don’t carry the same meaning in every sector. Regulatory pressure, data structures, customer expectations, and implementation priorities differ by industry. That’s why ANKA shapes the consultancy scope around sector context."
+    },
+    "benefits": {
+      "b1": {
+        "title": "Readiness for the European market",
+        "description": "We clarify the critical compliance topics and priorities for your sector and set a clear starting framework aligned with market expectations."
+      },
+      "b2": {
+        "title": "Sector-fit data structure",
+        "description": "We structure product, supply chain, and reporting data to fit how your sector actually operates—strengthening traceability and control."
+      },
+      "b3": {
+        "title": "A more defensible delivery model",
+        "description": "We strengthen evidence, documentation, and ownership logic—so work becomes more audit-ready and operationally usable."
+      }
+    },
+    "finalCta": {
+      "title": "Let’s define the right sustainability framework for your sector",
+      "description": "Let’s assess your priorities, market expectations, and the consultancy structure that best fits your needs.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "insightsPage": {
+    "meta": {
+      "title": "Insights",
+      "description": "Curated perspectives from ANKA on regulation, reporting, product sustainability, compliance, and software-supported delivery."
+    },
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Selected guidance for regulation and compliance",
+      "description": "Selected guidance on regulatory readiness, product data, carbon, supply chain, and digital implementation—designed to be practical and reusable.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "View Services"
+    },
+    "featured": {
+      "title": "Featured content",
+      "items": {
+        "csrdMateriality": {
+          "category": "Guide",
+          "title": "Where should organizations begin with CSRD and double materiality readiness",
+          "description": "The foundational steps for building a more structured and more manageable corporate reporting process.",
+          "cta": "Open detail",
+          "body": "CSRD readiness is not only about producing a report. If you don’t clarify what is material, which boundaries apply, and what evidence will support decisions, the process becomes unmanageable.\n\nA strong starting frame:\n- Clarify scope and expectations (ESRS, stakeholders, boundaries)\n- Treat double materiality as a decision logic—not a checklist\n- Design data ownership and evidence flow early\n\nThe common failure mode is running analysis and data/documentation as separate tracks. ANKA’s approach ties materiality logic to a workable data structure and delivery model."
+        },
+        "cbamCost": {
+          "category": "Carbon",
+          "title": "How should CBAM data and financial impact preparation be structured",
+          "description": "A practical framework for being better prepared not only for reporting, but also for financial exposure and data quality expectations.",
+          "cta": "Open detail",
+          "body": "CBAM preparation has two layers: (1) data and methodology discipline for embedded emissions, and (2) visibility that translates exposure into management language.\n\nTo structure it well:\n- Standardize product/installation splits and methodology choices\n- Manage supplier submissions with format, quality, and traceability controls\n- Make default-value boundaries explicit and governed\n- Link emissions outputs to financial impact through scenarios\n\nThe goal is not “last-minute data chasing” during reporting windows, but a controlled, repeatable calculation and decision-support flow."
+        },
+        "dppPrep": {
+          "category": "Product",
+          "title": "Critical data fields for Digital Product Passport preparation",
+          "description": "The key areas to consider when building stronger product-level data management.",
+          "cta": "Open detail",
+          "body": "Digital Product Passport (DPP) readiness requires treating product data not as a file, but as a governed record system with relationships and freshness controls.\n\nCritical data areas:\n- Product identity and variant/SKU logic\n- Material and component structure (BOM) and sourcing information\n- Compliance and declaration data (regulation, standard, verification)\n- Traceability and supplier records\n\nSuccess is not only listing fields—it’s building ownership, evidence links, and sharing scenarios as an executable workflow."
+        },
+        "ppwrProductData": {
+          "category": "Packaging",
+          "title": "How are product data expectations changing under PPWR",
+          "description": "A short perspective on why packaging and product information are becoming more important in European markets.",
+          "cta": "Open detail",
+          "body": "With PPWR, packaging becomes more than design or cost—it becomes a data, declaration, and compliance obligation.\n\nPractical implications:\n- Linking packaging composition and material data to the product level\n- Translating obligations into concrete data fields\n- Making fee/charge logic visible and traceable\n\nThat’s why organizations need a structure that manages packaging inventory together with compliance logic and decision-support outputs."
+        },
+        "scope3Suppliers": {
+          "category": "Supply Chain",
+          "title": "What structure is needed for collecting supplier data for Scope 3",
+          "description": "Practical recommendations for making fragmented data flows more structured and more manageable.",
+          "cta": "Open detail",
+          "body": "Scope 3 is often handled as a one-off questionnaire. The real value comes from building a durable data flow.\n\nFor an operational structure:\n- Supplier segmentation and prioritization\n- Field dictionary (definitions), format standards, and quality controls\n- Document/evidence flow and closure discipline\n\nThe target is not just reporting—it’s making supply chain data traceable, manageable, and reusable."
+        },
+        "reportingWorkflow": {
+          "category": "Software",
+          "title": "Why does a digital workspace matter in sustainability reporting processes",
+          "description": "How digital support improves progress tracking, data visibility, and delivery quality.",
+          "cta": "Open detail",
+          "body": "Reporting projects fall apart when data ownership, revision control, evidence links, and progress tracking are weak.\n\nA digital workspace strengthens:\n- Data collection and responsibility tracking\n- Control steps and a traceable audit trail\n- Repeatable reporting flows and quality standards\n\nDigital tools are not meant to replace consulting—they should make the delivery model more controlled and defensible."
+        }
+      }
+    },
+    "detail": {
+      "heading": "Note",
+      "backToResources": "Back to resources"
+    },
+    "finalCta": {
+      "title": "Let’s review the right framework for your organisation",
+      "description": "We can quickly clarify priorities and the working model that fits your needs.",
+      "primaryCta": "Book a Meeting",
+      "secondaryCta": "View Services"
+    }
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "How ANKA Sustainability Consulting B.V. handles personal data in connection with this website and enquiries."
+    },
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy"
+    },
+    "intro": "This notice describes how we handle personal data when you use this website or contact ANKA Sustainability Consulting B.V. It is intended as a practical summary for a professional audience—not as an exhaustive legal memorandum.",
+    "sections": {
+      "collect": {
+        "title": "What we collect",
+        "body": "We may process contact details and message content you submit through email or contact channels, along with basic technical information needed to operate and secure the website (such as server logs where applicable)."
+      },
+      "use": {
+        "title": "How we use information",
+        "body": "We use this information to respond to enquiries, maintain the site, and improve how we deliver consultancy and software-supported services—consistent with a legitimate business relationship and proportionate to the purpose."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "For questions about this notice or your data, contact us at info@ankasustainability.com."
+      },
+      "updates": {
+        "title": "Updates",
+        "body": "We may update this page as our practices or applicable requirements evolve. The current version will always be published here."
+      }
+    }
+  },
+  "termsPage": {
+    "meta": {
+      "title": "Terms of Use",
+      "description": "Terms governing use of the ANKA Sustainability Consulting B.V. website."
+    },
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Terms of Use"
+    },
+    "intro": "By accessing this website, you agree to these terms. If you do not agree, please discontinue use of the site.",
+    "sections": {
+      "websiteUse": {
+        "title": "Website use",
+        "body": "The site is provided for general business information about ANKA’s services. You agree not to misuse the website, attempt to disrupt its operation, or use automated means to extract content in a way that impairs performance or security."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual property",
+        "body": "Text, layout, graphics, and branding elements are owned by ANKA or used under appropriate licence. Copying or redistributing content for commercial purposes without prior written consent is not permitted."
+      },
+      "limitation": {
+        "title": "Limitation of reliance",
+        "body": "Information on this website does not constitute legal, financial, or technical advice tailored to your organisation. Decisions should be based on professional judgement and, where appropriate, specialist counsel."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about these terms may be directed to info@ankasustainability.com."
+      }
+    }
+  },
+  "legalNoticePage": {
+    "meta": {
+      "title": "Legal Notice",
+      "description": "Operator and legal information for the ANKA Sustainability Consulting B.V. website."
+    },
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Legal Notice"
+    },
+    "intro": "This website is operated by ANKA Sustainability Consulting B.V. It presents our sustainability consultancy services and software-supported delivery capabilities in a consultancy-led model.",
+    "companyBlock": {
+      "title": "Registered office"
+    },
+    "statement": "ANKA Sustainability Consulting B.V. provides professional sustainability consultancy services. Software and digital tools are described as enabling capabilities within that consultancy relationship, not as a separate consumer product brand."
+  },
+  "pcos": {
+    "productName": "Packaging Compliance & Cost OS",
+    "header": {
+      "workspace": "Workspace · Packaging Compliance & Cost OS",
+      "support": "Support"
+    },
+    "sidebar": {
+      "foundation": "Foundation package",
+      "foundationNote": "This workspace is PPWR-first and designed to extend into ESPR / DPP modules without refactoring the core architecture."
+    },
+    "nav": {
+      "overview": "Overview",
+      "products": "Products & SKUs",
+      "bom": "Packaging BOM",
+      "responsibility": "Responsibility Mapping",
+      "risks": "Compliance Risks",
+      "evidence": "Evidence Pack",
+      "scenarios": "Scenario Comparison",
+      "technicalFile": "Technical File",
+      "suppliers": "Suppliers",
+      "markets": "Markets",
+      "settings": "Settings"
+    },
+    "common": {
+      "title": "Title",
+      "status": "Status",
+      "severity": "Severity",
+      "market": "Market",
+      "created": "Created",
+      "scenario": "Scenario"
+    },
+    "overview": {
+      "title": "Overview",
+      "subtitle": "A regulation-native operational workspace for packaging compliance, evidence, responsibility mapping, and packaging cost decisions.",
+      "actions": {
+        "openEvidence": "Open evidence pack",
+        "newScenario": "New scenario"
+      },
+      "kpis": {
+        "skus": "SKUs",
+        "skusHint": "Products scoped for EU placement",
+        "evidence": "Evidence readiness",
+        "evidenceHint": "Approved / total evidence items",
+        "risks": "Open findings",
+        "risksHint": "Rule-engine findings requiring attention",
+        "technicalFiles": "Technical files",
+        "technicalFilesHint": "Active technical files in workspace",
+        "technicalFilesBlocked": "{count} blocked"
+      },
+      "tables": {
+        "risksTitle": "Compliance risks (foundation)",
+        "risksSubtitle": "Findings are structured outputs of the rule framework. PPWR logic will be added iteratively.",
+        "scenariosTitle": "Scenario comparison",
+        "scenariosSubtitle": "Compare baseline vs alternative packaging and capture decision notes.",
+        "viewAll": "View all",
+        "open": "Open"
+      }
+    },
+    "products": {
+      "title": "Products & SKUs",
+      "subtitle": "Maintain product master data and link SKUs to packaging units, markets, evidence and technical file readiness.",
+      "table": {
+        "title": "SKU list",
+        "subtitle": "Search, filter and open SKUs. Import/export hooks are reserved for the next package."
+      }
+    },
+    "bom": {
+      "title": "Packaging BOM",
+      "subtitle": "Build packaging units and component structures with material and supplier links. Designed for PPWR-first checks and later DPP readiness.",
+      "table": {
+        "title": "BOM components",
+        "subtitle": "A component-level view across packaging units (primary/secondary/tertiary/transport)."
+      }
+    },
+    "responsibility": {
+      "title": "Responsibility Mapping",
+      "subtitle": "Map economic operator responsibilities by market and supply chain context (manufacturer/importer/private label/retailer).",
+      "cards": {
+        "operator": {
+          "title": "Operator roles",
+          "description": "Define responsibility templates and apply them to SKUs and markets with traceable assumptions."
+        },
+        "market": {
+          "title": "Market overlays",
+          "description": "Attach country overlays for national nuances without hard-coding them into product pages."
+        },
+        "audit": {
+          "title": "Audit-ready mapping",
+          "description": "Prepare exportable, customer/importer-ready responsibility output packs."
+        }
+      },
+      "table": {
+        "title": "Mapping register (foundation)",
+        "subtitle": "This foundation provides the structure; operator rules and approvals come in the next packages."
+      }
+    },
+    "risks": {
+      "title": "Compliance Risks",
+      "subtitle": "Run structured rule checks and triage findings across markets, SKUs, packaging units, and evidence.",
+      "table": {
+        "title": "Findings",
+        "subtitle": "Severity and category are rule-driven; effective-date and country overlays are first-class in the architecture."
+      }
+    },
+    "evidence": {
+      "title": "Evidence Pack",
+      "subtitle": "Collect supplier evidence, track review/approval state, and prepare audit-ready documentation packs.",
+      "empty": {
+        "title": "No evidence items yet",
+        "description": "Start by defining your evidence requirements and sending supplier requests. Status and workflow are built-in to support review and approval."
+      },
+      "table": {
+        "title": "Evidence register",
+        "subtitle": "Request → Received → Review → Approved flow with missing/expired handling."
+      }
+    },
+    "scenarios": {
+      "title": "Scenario Comparison",
+      "subtitle": "Compare baseline packaging vs alternatives: weight reduction, material changes, compliance delta, documentation delta, and decision notes.",
+      "empty": {
+        "title": "No scenarios yet",
+        "description": "Create a scenario to compare current vs alternative packaging and capture decisions with traceable notes."
+      },
+      "table": {
+        "title": "Scenarios",
+        "subtitle": "Weight delta is computed today; compliance/documentation delta slots are wired for PPWR rule output."
+      }
+    },
+    "technicalFile": {
+      "title": "Technical File",
+      "subtitle": "Track technical documentation readiness per SKU. Evidence and rule outputs contribute to a readiness view.",
+      "kpis": {
+        "total": "SKUs tracked",
+        "ready": "Ready",
+        "blocked": "Blocked",
+        "evidenceLinked": "Evidence items"
+      },
+      "table": {
+        "title": "Readiness by SKU",
+        "subtitle": "Readiness is evidence-driven in this foundation; rule-driven deltas will follow."
+      }
+    },
+    "suppliers": {
+      "title": "Suppliers",
+      "subtitle": "Manage suppliers, onboarding status, evidence SLA expectations, and document collection performance.",
+      "table": {
+        "title": "Supplier register",
+        "subtitle": "Evidence status is linked to suppliers to support accountability and supplier portal expansion later."
+      }
+    },
+    "markets": {
+      "title": "Markets",
+      "subtitle": "Maintain market scope and reserve explicit overlay slots for national administrative nuances and EPR variations.",
+      "table": {
+        "title": "Market scope",
+        "subtitle": "Overlays attach per market without entangling the core PPWR structure."
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Workspace configuration: roles, permissions, markets, rule catalogs, and effective dates.",
+      "sections": {
+        "workspace": {
+          "title": "Workspace",
+          "subtitle": "Access and scope configuration",
+          "cards": {
+            "roles": {
+              "title": "Roles & permissions",
+              "description": "Define who can manage products, BOM, evidence and technical file exports."
+            },
+            "markets": {
+              "title": "Market scope",
+              "description": "Activate markets and attach overlay notes for local nuances."
+            }
+          }
+        },
+        "rules": {
+          "title": "Rule engine",
+          "subtitle": "Catalogs, overlays and effective-date evaluation",
+          "cards": {
+            "catalogs": {
+              "title": "Rule catalogs",
+              "description": "PPWR-first catalogs live here. ESPR/DPP catalogs can be added later without changing the product UI structure."
+            },
+            "effectiveDates": {
+              "title": "Effective dates",
+              "description": "Model future effective dates and transitional arrangements as first-class inputs to rule evaluation."
+            }
+          }
+        }
+      }
+    }
+  }
+}

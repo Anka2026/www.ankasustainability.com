@@ -206,3 +206,132 @@ Each module must be stable before moving to the next.
 The website is for a consulting company with software capabilities.
 It must never feel like software-only branding.
 Consulting authority must remain the dominant perception.
+## Copy Quality Rules
+
+All website copy must feel premium, credible, concise, and commercially strong.
+
+The brand is not software-only.
+The brand is a sustainability consulting company with software capabilities.
+
+Consulting must remain the dominant perception.
+Software must support the consulting offer, not overpower it.
+
+### Audience
+
+The website must speak to companies worldwide.
+Do not write only for exporters.
+Do not narrow the audience unnecessarily.
+
+The copy should feel relevant for:
+- corporate sustainability teams
+- manufacturers
+- industrial companies
+- ESG and compliance leaders
+- international decision makers
+- companies looking for advisory and software support
+
+### Core Tone
+
+The copy must be:
+- concise
+- polished
+- buyer-oriented
+- premium
+- confident
+- modern
+- global
+- natural
+- credible
+- readable
+
+The copy must NOT feel:
+- machine translated
+- generic
+- bloated
+- academic
+- bureaucratic
+- over-explained
+- overly technical in the first impression
+- startup-hype driven
+- template-like
+
+### Writing Rules
+
+1. Avoid placeholder language such as:
+- this page validates
+- before the full site experience
+- foundation module active
+- theme tokens
+- routing validation
+
+2. Avoid stiff and literal phrasing.
+
+3. Avoid long paragraphs.
+Use short, strong, commercially effective sentences.
+
+4. Do not sound like internal documentation.
+This is public-facing website copy.
+
+5. The copy must create an immediate feeling of:
+- trust
+- competence
+- clarity
+- this is the right partner
+
+6. Each section should say something meaningful.
+No filler text.
+
+### Language Quality Rule
+
+Turkish, English, and Dutch must NOT be literal translations of each other.
+Each language must feel naturally written for its own audience.
+
+#### Turkish
+- Professional
+- Clear
+- Strong
+- Not too long
+- Not bureaucratic
+- Not weak
+
+#### English
+- Premium B2B
+- International
+- Clean
+- Natural
+- Consulting-led
+- Not buzzword-heavy
+
+#### Dutch
+- Formal
+- Natural
+- Native-feeling
+- Professionally written for European corporate audiences
+- Strong sustainability terminology
+- Never awkward or literal
+
+Use natural Dutch corporate wording such as:
+- duurzaamheidsadvies
+- rapportage
+- naleving
+- strategische ondersteuning
+- digitale oplossingen
+- implementatie
+- internationale verwachtingen
+- bedrijfsvoering
+- besluitvorming
+
+Do NOT use awkward direct translation patterns.
+
+### Copy Style Preference
+
+Service descriptions must be:
+- short enough to read quickly
+- strong enough to create immediate interest
+- commercially compelling
+- free from unnecessary wording
+
+### Final Rule
+
+Every sentence must sound like it belongs to a premium international consulting firm.
+If a line sounds generic, translated, robotic, or weak, rewrite it.

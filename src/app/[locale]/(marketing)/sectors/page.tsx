@@ -1,0 +1,47 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+
+import {
+  SectorsContextBenefitsSection,
+  SectorsFinalCtaSection,
+  SectorsGridSection,
+  SectorsHeroSection,
+} from "@/components/sectors";
+import type { AppLocale } from "@/i18n/routing";
+import { routing } from "@/i18n/routing";
+
+type PageProps = Readonly<{
+  params: Promise<{ locale: string }>;
+}>;
+
+export async function generateMetadata({ params }: PageProps) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as AppLocale)) {
+    return {};
+  }
+
+  const t = await getTranslations({ locale, namespace: "sectorsPage" });
+
+  return {
+    title: t("meta.title"),
+    description: t("meta.description"),
+  };
+}
+
+export default async function SectorsPage({ params }: PageProps) {
+  const { locale } = await params;
+
+  setRequestLocale(locale);
+
+  const t = await getTranslations("sectorsPage");
+
+  return (
+    <>
+      <SectorsHeroSection t={t} />
+      <SectorsGridSection t={t} />
+      <SectorsContextBenefitsSection t={t} />
+      <SectorsFinalCtaSection t={t} />
+    </>
+  );
+}
+
