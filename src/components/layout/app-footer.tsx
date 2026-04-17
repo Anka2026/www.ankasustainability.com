@@ -63,7 +63,7 @@ export async function AppFooter() {
   return (
     <footer className="border-t border-primary/35 bg-primary text-white shadow-[inset_0_1px_0_0_rgba(8,145,178,0.22)]">
       <Container className="py-8 sm:py-9 md:py-10">
-        <div className="grid gap-8 lg:grid-cols-4 lg:items-start lg:gap-10">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.35fr)_repeat(3,minmax(0,1fr))] lg:items-start lg:gap-10">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
             <div
               className={cn(
@@ -83,10 +83,15 @@ export async function AppFooter() {
                 <p>{tCompany("addressLine1")}</p>
                 <p>{tCompany("addressLine2")}</p>
               </address>
-              <p className="mt-2.5">
+              <p className="mt-2.5 min-w-0">
                 <a
                   href={`mailto:${COMPANY_EMAIL}`}
-                  className="text-sm font-medium text-white underline-offset-4 transition-colors hover:text-accent hover:underline"
+                  className={cn(
+                    "block max-w-full min-w-0",
+                    "text-sm font-medium text-white underline-offset-4 transition-colors",
+                    "hover:text-accent hover:underline",
+                    "[overflow-wrap:anywhere]",
+                  )}
                 >
                   {tCompany("email")}
                 </a>
