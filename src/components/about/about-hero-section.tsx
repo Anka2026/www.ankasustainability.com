@@ -29,8 +29,13 @@ export function AboutHeroSection({ t }: Props) {
       aria-labelledby="about-hero-heading"
     >
       <div className={HERO_TOP_HAIRLINE} aria-hidden />
-      <Container className={["relative z-[1] max-w-7xl py-10 sm:py-12 md:py-14 xl:max-w-[88rem] 2xl:max-w-[92rem]"].join(" ")}>
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-stretch lg:gap-7 xl:gap-9">
+      <Container
+        className={[
+          "relative z-[1] max-w-6xl py-9 sm:py-10 md:py-12",
+          "lg:py-12",
+        ].join(" ")}
+      >
+        <div className="grid gap-7 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-center lg:gap-7 xl:gap-9">
           <div className={[HERO_SINGLE_COLUMN_SHELL, "lg:max-w-[38rem]"].join(" ")}>
             <div className={HERO_LEFT_RAIL_HOME}>
               <div className="space-y-3.5 sm:space-y-4 md:space-y-5">
@@ -63,14 +68,15 @@ export function AboutHeroSection({ t }: Props) {
               </div>
             </div>
           </div>
-          <div className="hidden w-full min-w-0 justify-center lg:flex lg:items-center">
-            <div className="relative w-full max-w-[min(100%,40rem)] overflow-hidden rounded-2xl border border-white/12 bg-white/[0.06] shadow-[0_40px_90px_-52px_rgba(15,23,42,0.55),0_0_0_1px_rgba(8,145,178,0.08)] ring-1 ring-inset ring-white/10">
+          <div className="order-2 w-full min-w-0 justify-center lg:order-none lg:flex lg:items-center">
+            <div className="relative h-[240px] w-full max-w-[min(100%,40rem)] overflow-hidden rounded-2xl border border-white/12 bg-white/[0.06] shadow-[0_40px_90px_-52px_rgba(15,23,42,0.55),0_0_0_1px_rgba(8,145,178,0.08)] ring-1 ring-inset ring-white/10 sm:h-[280px] md:h-[320px] lg:h-[420px]">
               <Image
                 src="/images/about-command-center.png"
                 alt=""
                 width={1536}
                 height={864}
-                className="h-auto w-full max-h-[min(44vh,380px)] object-contain object-center"
+                sizes="(min-width: 1024px) 40rem, 100vw"
+                className="h-full w-full object-cover object-center"
                 priority={false}
               />
             </div>
