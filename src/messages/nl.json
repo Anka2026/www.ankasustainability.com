@@ -71,6 +71,13 @@
     "note": "Duurzaamheidsadvies vanuit consultancy, met digitale ondersteuning.",
     "navAria": "Belangrijkste pagina's",
     "legalNavAria": "Juridische informatie",
+    "offices": {
+      "title": "Onze Kantoren",
+      "locations": {
+        "turkeyHeadquarters": "Hoofdkantoor Turkije",
+        "teknoparkBranch": "Teknopark Vestiging"
+      }
+    },
     "legal": {
       "privacy": "Privacybeleid",
       "terms": "Gebruiksvoorwaarden",

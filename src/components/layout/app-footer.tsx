@@ -19,6 +19,18 @@ const FOOTER_NAV_HREFS = [
 
 const FOOTER_LEGAL_HREFS = ["/privacy", "/terms", "/legal-notice"] as const;
 
+const TURKEY_OFFICES = [
+  {
+    labelKey: "offices.locations.turkeyHeadquarters",
+    address:
+      "ATAKENT MAH. MİTHATPAŞA CAD. ÇAĞLA PLAZA NO: 116 İÇ KAPI NO:18 ÜMRANİYE / İSTANBUL",
+  },
+  {
+    labelKey: "offices.locations.teknoparkBranch",
+    address: "ÜNİVERSİTE MAH. SARIGÜL SK. NO: 35/1 AVCILAR / İSTANBUL",
+  },
+] as const;
+
 const linkClassName = cn(
   "text-sm font-medium text-white/75 transition-colors",
   "hover:text-white",
@@ -51,7 +63,7 @@ export async function AppFooter() {
   return (
     <footer className="border-t border-primary/35 bg-primary text-white shadow-[inset_0_1px_0_0_rgba(8,145,178,0.22)]">
       <Container className="py-8 sm:py-9 md:py-10">
-        <div className="grid gap-8 lg:grid-cols-3 lg:items-start lg:gap-10">
+        <div className="grid gap-8 lg:grid-cols-4 lg:items-start lg:gap-10">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
             <div
               className={cn(
@@ -111,6 +123,22 @@ export async function AppFooter() {
               ))}
             </ul>
           </nav>
+
+          <div className="lg:border-l lg:border-white/10 lg:pl-8">
+            <p className="text-xs font-semibold tracking-[0.18em] text-white/70 uppercase">
+              {t("offices.title")}
+            </p>
+            <div className="mt-3 space-y-4">
+              {TURKEY_OFFICES.map((office) => (
+                <div key={office.labelKey} className="space-y-1">
+                  <p className="text-sm font-medium text-white/80">
+                    {t(office.labelKey)}
+                  </p>
+                  <p className="text-sm leading-relaxed text-white/70">{office.address}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between sm:gap-4">

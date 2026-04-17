@@ -71,6 +71,13 @@
     "note": "Danışmanlık odaklı sürdürülebilirlik hizmetleri ve dijital destek çözümleri.",
     "navAria": "Ana sayfalar",
     "legalNavAria": "Yasal bilgiler",
+    "offices": {
+      "title": "Ofislerimiz",
+      "locations": {
+        "turkeyHeadquarters": "Türkiye Merkez",
+        "teknoparkBranch": "Teknopark Şube"
+      }
+    },
     "legal": {
       "privacy": "Gizlilik Politikası",
       "terms": "Kullanım Koşulları",

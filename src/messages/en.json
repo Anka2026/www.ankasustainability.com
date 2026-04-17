@@ -71,6 +71,13 @@
     "note": "Consultancy-led sustainability services with digital support capability.",
     "navAria": "Primary pages",
     "legalNavAria": "Legal information",
+    "offices": {
+      "title": "Our Offices",
+      "locations": {
+        "turkeyHeadquarters": "Turkey Headquarters",
+        "teknoparkBranch": "Teknopark Branch"
+      }
+    },
     "legal": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Use",

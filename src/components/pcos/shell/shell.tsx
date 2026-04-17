@@ -4,6 +4,7 @@ import type { Organization } from "@/pcos/domain";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { AppButton } from "@/components/ui/app-button";
+import { Footer } from "@/components/footer";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 
 import { PCOSNav, pcosNavIcons, type ProductNavItem } from "./nav";
@@ -100,6 +101,9 @@ export async function PCOSShell({
           </header>
 
           <main className="min-w-0 flex-1 px-5 py-6">{children}</main>
+          <div className="mt-auto">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
