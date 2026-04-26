@@ -10,8 +10,9 @@ export function InsightsHeroVisual() {
     <div
       className={cn(
         "relative w-full max-w-[min(100%,36rem)] select-none",
-        "rounded-2xl border border-border/80 bg-[#141c24]",
-        "shadow-[var(--shadow-hero-panel)] ring-1 ring-white/[0.06]",
+        "rounded-[1.9rem] border border-slate-200/90 bg-gradient-to-b from-white via-white to-slate-50/90",
+        "shadow-[0_32px_88px_-48px_rgba(15,23,42,0.52),0_0_0_1px_rgba(8,145,178,0.1),inset_0_1px_0_0_rgba(255,255,255,0.92)]",
+        "ring-1 ring-inset ring-slate-900/[0.04]",
         "overflow-hidden",
       )}
       aria-hidden

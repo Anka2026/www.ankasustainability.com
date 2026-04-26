@@ -11,7 +11,7 @@ import { Check } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { routing, type AppLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
@@ -26,8 +26,7 @@ const LOCALES: Record<
 
 export function LanguageSwitcher() {
   const t = useTranslations("actions");
-  const pathname = usePathname();
-  const router = useRouter();
+  const pathname = usePathname() || "/";
   const activeLocale = useLocale() as AppLocale;
   const active = LOCALES[activeLocale];
 
@@ -37,20 +36,29 @@ export function LanguageSwitcher() {
         <button
           type="button"
           className={cn(
-            "inline-flex min-h-9 min-w-[8.25rem] items-center justify-start gap-2 rounded-lg border border-border/85 bg-surface px-2.5 py-2 text-sm font-semibold text-foreground",
+            "inline-flex h-8 min-h-8 min-w-0 max-w-[9.5rem] items-center justify-center gap-1.5 rounded-lg border border-border/85 bg-surface px-1.5 py-1.5 text-[0.8125rem] font-semibold leading-none text-foreground",
             "shadow-[0_1px_2px_-1px_rgba(15,23,42,0.06),inset_0_1px_0_0_rgba(255,255,255,0.88)] transition-colors",
             "hover:border-accent/35 hover:bg-background hover:text-primary",
             "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface",
             "data-[state=open]:border-accent/35 data-[state=open]:bg-primary/[0.06] data-[state=open]:text-primary",
+            "sm:px-2 sm:max-w-[10.25rem]",
           )}
           aria-label={t("language")}
           aria-haspopup="menu"
         >
-          <span className="relative h-4 w-6 shrink-0 overflow-hidden rounded-[3px] ring-1 ring-border/70" aria-hidden>
-            <Image src={active.flagSrc} alt="" fill className="object-cover" sizes="24px" />
+          <span
+            className="relative h-3.5 w-5 shrink-0 translate-y-px self-center overflow-hidden rounded-[2px] ring-1 ring-border/70"
+            aria-hidden
+          >
+            <Image src={active.flagSrc} alt="" fill className="object-cover" sizes="20px" />
           </span>
-          <span className="min-w-0 flex-1 truncate">{t(active.labelKey)}</span>
-          <span className="text-[0.65rem] font-normal leading-none text-muted-foreground" aria-hidden>
+          <span className="min-w-0 shrink truncate whitespace-nowrap text-left leading-tight sm:pr-0.5">
+            {t(active.labelKey)}
+          </span>
+          <span
+            className="shrink-0 self-center text-[0.6rem] font-normal leading-none text-muted-foreground"
+            aria-hidden
+          >
             ▾
           </span>
         </button>
@@ -67,27 +75,36 @@ export function LanguageSwitcher() {
           {routing.locales.map((locale) => {
             const isActive = locale === activeLocale;
             const item = LOCALES[locale];
-            return (
-              <DropdownMenuItem
-                key={locale}
-                className={cn(
-                  "flex cursor-pointer items-center gap-2.5 rounded-lg px-3 py-2.5 text-[0.9375rem] font-semibold outline-none select-none",
-                  "focus:bg-muted data-[highlighted]:bg-muted",
-                  isActive && "bg-primary/[0.07] text-primary",
-                )}
-                onSelect={() => {
-                  if (!isActive) router.push(pathname, { locale });
-                }}
-              >
-                <span className="relative h-4 w-6 shrink-0 overflow-hidden rounded-[3px] ring-1 ring-border/70" aria-hidden>
-                  <Image src={item.flagSrc} alt="" fill className="object-cover" sizes="24px" />
-                </span>
-                <span className="min-w-0 flex-1">{t(item.labelKey)}</span>
-                {isActive ? (
+            const rowClass = cn(
+              "flex cursor-pointer items-center gap-2.5 rounded-lg px-3 py-2.5 text-[0.9375rem] font-semibold outline-none select-none",
+              "focus:bg-muted data-[highlighted]:bg-muted",
+              isActive && "bg-primary/[0.07] text-primary",
+            );
+            if (isActive) {
+              return (
+                <DropdownMenuItem key={locale} disabled className={rowClass}>
+                  <span className="relative h-4 w-6 shrink-0 overflow-hidden rounded-[3px] ring-1 ring-border/70" aria-hidden>
+                    <Image src={item.flagSrc} alt="" fill className="object-cover" sizes="24px" />
+                  </span>
+                  <span className="min-w-0 flex-1">{t(item.labelKey)}</span>
                   <Check className="h-4 w-4 shrink-0 text-accent" strokeWidth={2.5} aria-hidden />
-                ) : (
+                </DropdownMenuItem>
+              );
+            }
+            return (
+              <DropdownMenuItem key={locale} asChild>
+                <Link
+                  href={pathname}
+                  locale={locale}
+                  prefetch={false}
+                  className={cn(rowClass, "text-popover-foreground no-underline")}
+                >
+                  <span className="relative h-4 w-6 shrink-0 overflow-hidden rounded-[3px] ring-1 ring-border/70" aria-hidden>
+                    <Image src={item.flagSrc} alt="" fill className="object-cover" sizes="24px" />
+                  </span>
+                  <span className="min-w-0 flex-1">{t(item.labelKey)}</span>
                   <span className="h-4 w-4 shrink-0" aria-hidden />
-                )}
+                </Link>
               </DropdownMenuItem>
             );
           })}

@@ -5,6 +5,7 @@ import { FINAL_CTA_PAD } from "@/lib/section-layout";
 import { FINAL_CTA_DESCRIPTION, FINAL_CTA_TITLE } from "@/lib/typography-classes";
 import { cn } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 
 type Props = Readonly<{
   t: IntlTranslator;
@@ -35,14 +36,16 @@ export function SectorsFinalCtaSection({ t }: Props) {
             asChild
             className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
           >
-            <Link href="/contact">{t("finalCta.primaryCta")}</Link>
+            <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+              {t("finalCta.primaryCta")}
+            </a>
           </AppButton>
           <AppButton
             variant="outline"
             asChild
             className="border-primary-foreground/50 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground"
           >
-            <Link href="/contact">{t("finalCta.secondaryCta")}</Link>
+            <Link href="/services">{t("finalCta.secondaryCta")}</Link>
           </AppButton>
         </div>
       </Container>

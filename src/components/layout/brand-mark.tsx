@@ -10,9 +10,11 @@ type Props = Readonly<{
 }>;
 
 const variantClass = {
-  /** Header — ~25% larger than legacy compact mark for stronger brand lockup. */
-  header: "h-10 w-10 sm:h-11 sm:w-11",
-  footer: "h-14 w-14 sm:h-16 sm:w-16",
+  /** Header — compact so primary nav + locale + CTA stay on one row. */
+  header: "h-8 w-8 sm:h-9 sm:w-9",
+  /** Footer — slightly larger for clearer brand presence without dominating the bar. */
+  footer:
+    "h-[6.5rem] w-[6.5rem] sm:h-28 sm:w-28 overflow-hidden rounded-lg",
 } as const;
 
 /**
@@ -24,7 +26,7 @@ export function BrandMark({
   variant = "header",
   priority = false,
 }: Props) {
-  const dim = variant === "header" ? 44 : 64;
+  const dim = variant === "header" ? 32 : 112;
   return (
     <Image
       src="/brand/anka-mark.png"

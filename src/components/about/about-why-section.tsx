@@ -4,54 +4,86 @@ import type { IntlTranslator } from "@/lib/i18n-types";
 import { homeCardClassName } from "@/lib/home-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import { cn } from "@/lib/utils";
-import { BadgeCheck, Globe2, Layers, Sparkles } from "lucide-react";
+import { Network, Layers2, Wrench, Cpu } from "lucide-react";
 
 type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
 const CARDS = [
-  { key: "c1" as const, icon: Layers },
-  { key: "c2" as const, icon: Sparkles },
-  { key: "c3" as const, icon: BadgeCheck },
-  { key: "c4" as const, icon: Globe2 },
+  { key: "c1" as const, icon: Network },
+  { key: "c2" as const, icon: Layers2 },
+  { key: "c3" as const, icon: Wrench },
+  { key: "c4" as const, icon: Cpu },
 ] as const;
 
 export function AboutWhySection({ t }: Props) {
   return (
     <section
-      className={cn("border-b border-border bg-muted/25", SECTION_PAD_HOME)}
-      aria-labelledby="about-why-heading"
+      className={cn("border-b border-border bg-background", SECTION_PAD_HOME)}
+      aria-labelledby="about-differentiators-heading"
     >
-      <Container>
+      <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <SectionHeading
           titleAs="h2"
-          titleId="about-why-heading"
+          titleId="about-differentiators-heading"
           accentRule
-          eyebrow=""
-          title={t("why.title")}
-          description={t("why.description")}
-          descriptionClassName="max-w-none lg:max-w-4xl lg:text-nowrap"
+          eyebrow={t("differentiators.eyebrow")}
+          title={t("differentiators.title")}
+          description={t("differentiators.intro")}
+          descriptionClassName="max-w-4xl text-pretty"
         />
-        <ul className="mt-7 grid gap-3 sm:grid-cols-2 lg:mt-8 lg:gap-3.5">
-          {CARDS.map(({ key, icon: Icon }) => (
-            <li key={key} className={homeCardClassName(false)}>
-              <div className="flex h-full gap-3.5 border-l-[3px] border-accent/35 bg-surface p-4 sm:p-5">
-                <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-accent/20 bg-accent/[0.07] text-primary shadow-sm">
-                  <Icon className="h-[1.125rem] w-[1.125rem]" strokeWidth={1.85} aria-hidden />
-                </span>
-                <div className="min-w-0">
-                  <h3 className="text-[0.9375rem] font-semibold leading-snug tracking-tight text-foreground sm:text-base">
-                    {t(`why.${key}Title`)}
-                  </h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground sm:text-[0.9375rem] sm:leading-[1.58]">
-                    {t(`why.${key}Text`)}
-                  </p>
+        <div className="mt-8 grid gap-3.5 sm:mt-9 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+          {CARDS.map(({ key, icon: Icon }) => {
+            const isFeatured = key === "c1";
+            return (
+              <article
+                key={key}
+                className={cn(
+                  homeCardClassName(true),
+                  "flex h-full min-h-0 flex-col p-4 sm:p-5",
+                  isFeatured
+                    ? "bg-primary text-primary-foreground ring-1 ring-inset ring-white/10"
+                    : "bg-surface/90",
+                )}
+              >
+                <div
+                  className={cn(
+                    "inline-flex h-9 w-9 items-center justify-center rounded-xl border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]",
+                    isFeatured
+                      ? "border-white/20 bg-white/10"
+                      : "border-primary/12 bg-primary/[0.04]",
+                  )}
+                >
+                  <Icon
+                    className={cn(
+                      "size-4",
+                      isFeatured ? "text-primary-foreground" : "text-primary",
+                    )}
+                    strokeWidth={1.85}
+                    aria-hidden
+                  />
                 </div>
-              </div>
-            </li>
-          ))}
-        </ul>
+                <h3
+                  className={cn(
+                    "mt-3.5 min-w-0 text-[0.9rem] font-semibold leading-snug tracking-tight sm:text-[0.9375rem]",
+                    isFeatured ? "text-primary-foreground" : "text-foreground",
+                  )}
+                >
+                  {t(`differentiators.${key}.title`)}
+                </h3>
+                <p
+                  className={cn(
+                    "mt-2 min-w-0 text-xs leading-relaxed sm:text-sm sm:leading-[1.55]",
+                    isFeatured ? "text-primary-foreground/80" : "text-muted-foreground",
+                  )}
+                >
+                  {t(`differentiators.${key}.body`)}
+                </p>
+              </article>
+            );
+          })}
+        </div>
       </Container>
     </section>
   );

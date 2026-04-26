@@ -91,7 +91,7 @@ export default async function InsightDetailPage({ params }: PageProps) {
               {t(`${base}.category`)}
             </p>
             <Link
-              href="/insights"
+              href="/resources"
               className="text-sm font-medium text-accent transition-colors hover:text-primary"
             >
               {t("detail.backToResources")}

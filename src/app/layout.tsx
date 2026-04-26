@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s · ANKA Sustainability Consulting B.V.",
   },
   description:
-    "Premium sustainability consulting with enterprise-grade digital solutions.",
+    "Sustainability, compliance, and data-driven digital workspaces for modern enterprises.",
 };
 
 export default async function RootLayout({

@@ -87,4 +87,4 @@ export const HERO_PAGE_PADDING =
 
 /** Home hero — compact vertical rhythm while keeping premium presence. */
 export const HERO_PAGE_PADDING_HOME =
-  "relative z-[1] py-10 sm:py-12 md:py-14";
+  "relative z-[1] py-10 sm:py-12 md:py-14 lg:py-16";

@@ -17,7 +17,7 @@ export const DISPLAY_HERO_TITLE_HOME =
 
 /** Home entry hero title on dark hero background. */
 export const DISPLAY_HERO_TITLE_HOME_DARK =
-  "w-full max-w-[min(100%,42rem)] text-pretty text-balance text-[1.75rem] font-medium leading-[1.12] tracking-[-0.03em] text-white sm:text-[2.5rem] sm:leading-[1.1] md:text-[2.875rem] md:leading-[1.06] lg:text-[3rem]";
+  "w-full max-w-[min(100%,34rem)] text-pretty text-balance text-[1.75rem] font-medium leading-tight tracking-[-0.03em] text-white sm:text-[2.25rem] sm:leading-[1.1] md:text-[2.5rem] md:leading-[1.08] lg:text-[2.75rem]";
 
 /** Eyebrow line above hero headline — secondary, compact, uppercase. */
 export const HERO_EYEBROW_TEXT =

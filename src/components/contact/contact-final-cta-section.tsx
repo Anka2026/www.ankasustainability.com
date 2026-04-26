@@ -1,48 +1,67 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { FINAL_CTA_PAD } from "@/lib/section-layout";
-import { FINAL_CTA_DESCRIPTION, FINAL_CTA_TITLE } from "@/lib/typography-classes";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { cn } from "@/lib/utils";
-import { Link } from "@/i18n/navigation";
 
 type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
+function meetingMailtoHref(t: IntlTranslator) {
+  void t;
+  return COMPANY_BOOKING_URL;
+}
+
 export function ContactFinalCtaSection({ t }: Props) {
+  const meetingHref = meetingMailtoHref(t);
+
   return (
     <section
-      className={cn("relative bg-primary text-primary-foreground", FINAL_CTA_PAD)}
+      className={cn(
+        "relative border-b border-[#243042]/80 py-12 sm:py-14",
+        "bg-[linear-gradient(165deg,#1b2634_0%,#16202c_50%,#141c26_100%)] text-white",
+      )}
       aria-labelledby="contact-final-cta-heading"
     >
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-accent/0 via-accent/90 to-accent/0"
+        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/35 to-transparent"
         aria-hidden
       />
-      <Container className="relative flex max-w-3xl flex-col items-center justify-center text-center">
+      <Container className="relative max-w-3xl px-4 text-center sm:px-5 md:px-6">
         <h2
           id="contact-final-cta-heading"
-          className={FINAL_CTA_TITLE}
+          className="text-2xl font-semibold tracking-tight text-white sm:text-[1.65rem] sm:leading-snug"
         >
           {t("finalCta.title")}
         </h2>
-        <p className={FINAL_CTA_DESCRIPTION}>
+        <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/78 sm:text-[1.0625rem]">
           {t("finalCta.description")}
         </p>
-        <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:mt-6 sm:flex-row sm:gap-4">
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
           <AppButton
             asChild
-            className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
+            size="lg"
+            className="h-11 min-w-[11rem] border border-accent/35 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)] transition-[filter,box-shadow] hover:brightness-[1.04] hover:shadow-[0_16px_40px_-18px_rgba(8,145,178,0.35)]"
           >
-            <Link href="/contact#contact-form">{t("finalCta.primaryCta")}</Link>
+            <a
+              href={meetingHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center"
+            >
+              {t("finalCta.primaryButton")}
+            </a>
           </AppButton>
           <AppButton
             variant="outline"
+            size="lg"
             asChild
-            className="border-primary-foreground/50 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground"
+            className="h-11 border-white/25 bg-white/[0.04] text-white shadow-none transition-colors hover:border-accent/40 hover:bg-white/[0.08] hover:text-white"
           >
-            <Link href="/contact#contact-form">{t("finalCta.secondaryCta")}</Link>
+            <a href="#contact-form" className="inline-flex items-center justify-center">
+              {t("finalCta.secondaryButton")}
+            </a>
           </AppButton>
         </div>
       </Container>

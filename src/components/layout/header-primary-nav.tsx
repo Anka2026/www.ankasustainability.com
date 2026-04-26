@@ -41,11 +41,12 @@ const NAV_ROUTES = [
   { href: "/about", key: "about" as const },
   { href: "/software", key: "software" as const },
   { href: "/sectors", key: "sectors" as const },
-  { href: "/insights", key: "insights" as const },
+  { href: "/partners", key: "partners" as const },
+  { href: "/resources", key: "insights" as const },
 ] as const;
 
 const linkClassName = cn(
-  "whitespace-nowrap rounded-md px-2.5 py-2 text-[0.875rem] font-semibold tracking-[0.01em] text-foreground/78 transition-[background-color,color,box-shadow] lg:px-3 lg:text-[0.9375rem]",
+  "whitespace-nowrap rounded-md px-1.5 py-1.5 text-[0.8125rem] font-semibold tracking-[0.01em] text-foreground/78 transition-[background-color,color,box-shadow] sm:px-2 sm:py-1.5 lg:px-2.5 lg:text-sm xl:px-2.5 2xl:px-3 2xl:text-[0.875rem]",
   "hover:bg-muted/70 hover:text-primary",
   "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface",
 );
@@ -53,11 +54,11 @@ const linkClassName = cn(
 const triggerClassName = cn(
   linkClassName,
   "inline-flex items-center gap-0.5 bg-transparent font-semibold",
-  "data-[state=open]:bg-primary/[0.06] data-[state=open]:text-primary data-[state=open]:shadow-[inset_0_0_0_1px_rgba(8,145,178,0.22)]",
+  "data-[state=open]:bg-primary/[0.05] data-[state=open]:text-primary data-[state=open]:ring-1 data-[state=open]:ring-inset data-[state=open]:ring-accent/25",
 );
 
 const navActiveClass = cn(
-  "bg-primary/[0.06] font-semibold text-primary shadow-[inset_0_0_0_1px_rgba(8,145,178,0.22)]",
+  "bg-primary/[0.05] font-semibold text-primary ring-1 ring-inset ring-accent/25",
 );
 
 function useNavActive() {
@@ -146,7 +147,7 @@ function DesktopServicesMegaNav() {
 
   return (
     <nav
-      className="relative z-40 flex max-w-full flex-1 list-none items-center justify-center gap-0.5 lg:gap-1 xl:gap-1.5"
+      className="relative z-40 flex max-w-full min-w-0 flex-1 list-none items-center justify-center gap-0.5 sm:gap-0.5 lg:gap-1 xl:gap-1 2xl:gap-1.5"
       aria-label="Primary"
     >
       <Link

@@ -6,81 +6,92 @@ import { homeCardClassName } from "@/lib/home-classes";
 import { SECTION_PAD_EMPHASIS } from "@/lib/section-layout";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
+import { BadgeCheck, Layers3 } from "lucide-react";
 
 type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
 export function SoftwarePreviewSection({ t }: Props) {
+  const items = ((): string[] => {
+    try {
+      const raw = (t as unknown as { raw: (k: string) => unknown }).raw("software.items");
+      if (!Array.isArray(raw)) return [];
+      return raw
+        .filter((v): v is string => typeof v === "string")
+        .map((s) => s.trim())
+        .filter(Boolean);
+    } catch {
+      return [];
+    }
+  })();
+
   return (
     <section
       className={cn(
-        "bg-gradient-to-b from-surface via-[var(--section-tint)] to-[var(--section-deep)]",
+        "bg-gradient-to-b from-[var(--section-tint)] via-[var(--section-tint)] to-[var(--section-deep)]",
         SECTION_PAD_EMPHASIS,
       )}
     >
-      <Container>
-        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-start lg:gap-14">
-          <div className="space-y-6">
-            <SectionHeading
-              titleAs="h2"
-              accentRule
-              eyebrow={t("software.eyebrow")}
-              title={t("software.title")}
-              description={t("software.description")}
-            />
-            {t("software.badge1") || t("software.badge2") ? (
-              <div className="flex flex-wrap gap-2">
-                {t("software.badge1") ? (
-                  <span className="rounded-md border border-border bg-background px-2.5 py-1 text-xs font-medium text-muted-foreground">
-                    {t("software.badge1")}
-                  </span>
-                ) : null}
-                {t("software.badge2") ? (
-                  <span className="rounded-md border border-border bg-background px-2.5 py-1 text-xs font-medium text-muted-foreground">
-                    {t("software.badge2")}
-                  </span>
-                ) : null}
-              </div>
-            ) : null}
-            <div>
-              <AppButton variant="outline" asChild>
-                <Link href="/software">{t("software.cta")}</Link>
-              </AppButton>
-            </div>
-          </div>
+      <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
+        <div className="flex max-w-3xl flex-col gap-6">
+          <SectionHeading
+            titleAs="h2"
+            accentRule
+            align="left"
+            eyebrow={t("software.eyebrow")}
+            title={t("software.title")}
+            description={t("software.description")}
+            descriptionClassName="max-w-2xl text-pretty sm:text-lg sm:leading-[1.65]"
+          />
+        </div>
 
-          <div
+        <div className="mt-10 sm:mt-12">
+          <article
             className={cn(
-              homeCardClassName(false),
-              "flex min-h-[300px] flex-col justify-between bg-background/80 p-8 ring-1 ring-accent/15",
+              homeCardClassName(true),
+              "max-w-4xl border-l-[3px] border-l-accent/80 bg-background/90 p-6 sm:p-7 lg:p-8",
             )}
           >
-            <div>
-              {t("software.cardTitle") ? (
-                <p className="text-sm font-semibold text-foreground">
-                  {t("software.cardTitle")}
-                </p>
-              ) : null}
-              {t("software.cardBody") ? (
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  {t("software.cardBody")}
-                </p>
-              ) : null}
-            </div>
-            <div
-              className="mt-8 rounded-lg border border-dashed border-accent/25 bg-surface p-6"
-              aria-hidden
-            >
-              <div className="h-2 w-24 rounded bg-accent/35" />
-              <div className="mt-4 grid grid-cols-3 gap-2">
-                <div className="h-16 rounded-md bg-primary/12" />
-                <div className="h-16 rounded-md bg-accent/25" />
-                <div className="h-16 rounded-md bg-primary/12" />
+            <div className="flex items-start justify-between gap-4">
+              <div className="min-w-0">
+                {t("software.portfolioTitle") ? (
+                  <p className="text-base font-semibold tracking-tight text-foreground">
+                    {t("software.portfolioTitle")}
+                  </p>
+                ) : null}
+                {t("software.portfolioSupport") ? (
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    {t("software.portfolioSupport")}
+                  </p>
+                ) : null}
               </div>
-              <div className="mt-4 h-2 w-full max-w-[60%] rounded bg-accent/20" />
+              <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-primary/12 bg-primary/[0.04] text-primary">
+                <Layers3 className="h-5 w-5" aria-hidden />
+              </span>
             </div>
-          </div>
+            <ul className="mt-5 space-y-2.5">
+              {items.map((item) => (
+                <li key={item} className="flex gap-3">
+                  <BadgeCheck className="mt-0.5 h-5 w-5 shrink-0 text-accent" aria-hidden />
+                  <p className="text-sm font-semibold leading-relaxed text-foreground">{item}</p>
+                </li>
+              ))}
+            </ul>
+            {t("software.note") ? (
+              <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{t("software.note")}</p>
+            ) : null}
+          </article>
+        </div>
+
+        <div className="mt-8 sm:mt-9">
+          <AppButton
+            variant="outline"
+            asChild
+            className="border-slate-300/90 bg-white/80 hover:border-accent/40 hover:bg-primary/[0.04] hover:text-primary"
+          >
+            <Link href="/software">{t("software.cta")}</Link>
+          </AppButton>
         </div>
       </Container>
     </section>

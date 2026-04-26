@@ -1,10 +1,11 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import {
-  SectorsContextBenefitsSection,
+  SectorsCommonCapabilitiesSection,
   SectorsFinalCtaSection,
   SectorsGridSection,
   SectorsHeroSection,
+  SectorsProcessSection,
 } from "@/components/sectors";
 import type { AppLocale } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
@@ -39,7 +40,8 @@ export default async function SectorsPage({ params }: PageProps) {
     <>
       <SectorsHeroSection t={t} />
       <SectorsGridSection t={t} />
-      <SectorsContextBenefitsSection t={t} />
+      <SectorsProcessSection t={t} />
+      <SectorsCommonCapabilitiesSection t={t} />
       <SectorsFinalCtaSection t={t} />
     </>
   );

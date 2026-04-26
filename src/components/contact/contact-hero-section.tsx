@@ -1,127 +1,184 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
-import {
-  HERO_EYEBROW_MARKER,
-  HERO_EYEBROW_ROW,
-  HERO_LEFT_RAIL,
-  HERO_PAGE_PADDING,
-  HERO_SECTION_SHELL_PAGE,
-  HERO_SINGLE_COLUMN_SHELL,
-  HERO_TEXT_STACK,
-  HERO_TOP_HAIRLINE,
-} from "@/lib/hero-classes";
-import {
-  DISPLAY_HERO_TITLE_DARK,
-  HERO_EYEBROW_TEXT_DARK,
-  HERO_LEAD_TEXT_DARK,
-} from "@/lib/typography-classes";
-import type { IntlTranslator } from "@/lib/i18n-types";
-import { getTranslations } from "next-intl/server";
 import { BrandMark } from "@/components/layout/brand-mark";
-import { COMPANY_EMAIL } from "@/lib/company";
-import { Link } from "@/i18n/navigation";
-import { homeCardClassName } from "@/lib/home-classes";
+import type { IntlTranslator } from "@/lib/i18n-types";
+import {
+  COMPANY_BOOKING_URL,
+  COMPANY_EMAIL,
+  COMPANY_KVK_LINE,
+  COMPANY_LINKEDIN_LABEL,
+  COMPANY_LINKEDIN_URL,
+} from "@/lib/company";
 import { cn } from "@/lib/utils";
 
-import { ContactHeroVisual } from "@/components/contact/contact-hero-visual";
+const cardClass = cn(
+  "h-full rounded-2xl border border-border/70 bg-white/90 p-5 shadow-[0_10px_36px_-28px_rgba(15,23,42,0.2)] ring-1 ring-inset ring-primary/[0.035] sm:p-5",
+);
 
 type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
+function meetingMailtoHref(t: IntlTranslator) {
+  void t;
+  return COMPANY_BOOKING_URL;
+}
+
+function OfficeBlocks({ text }: { text: string }) {
+  return (
+    <div className="space-y-4">
+      {text.split("\n\n").map((block, i) => {
+        const lines = block.split("\n").filter(Boolean);
+        const [head, ...body] = lines;
+        return (
+          <div key={`${head}-${i}`} className="min-w-0">
+            {head ? (
+              <p className="text-sm font-semibold leading-snug text-[#1c2735] sm:text-[0.9375rem]">
+                {head}
+              </p>
+            ) : null}
+            {body.length > 0 ? (
+              <div className="mt-1.5 space-y-0.5 text-sm leading-[1.5] text-[#4a5a6d] sm:text-[0.9375rem]">
+                {body.map((line, j) => (
+                  <p key={j}>{line}</p>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 export function ContactHeroSection({ t }: Props) {
-  // This needs company identity, so keep it server-rendered.
+  const meetingHref = meetingMailtoHref(t);
+  const linkedInUrl = COMPANY_LINKEDIN_URL.trim();
+  const showLinkedIn = linkedInUrl.length > 0;
+
   return (
     <section
-      className={HERO_SECTION_SHELL_PAGE}
+      className={cn(
+        "relative isolate overflow-hidden border-b border-border/70",
+        "bg-[linear-gradient(165deg,#f3f6fa_0%,#eef2f7_42%,#e8edf4_100%)]",
+      )}
       aria-labelledby="contact-hero-heading"
     >
-      <div className={HERO_TOP_HAIRLINE} aria-hidden />
-      <Container
-        className={[
-          HERO_PAGE_PADDING,
-          "max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]",
-        ].join(" ")}
-      >
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,34rem)] lg:items-stretch lg:gap-12">
-          <div className={HERO_SINGLE_COLUMN_SHELL}>
-            <div className={[HERO_LEFT_RAIL, "pl-5 sm:pl-7"].join(" ")}>
-              <div className={HERO_TEXT_STACK}>
-                <div className={HERO_EYEBROW_ROW}>
-                  <span className={HERO_EYEBROW_MARKER} aria-hidden />
-                  <p className={HERO_EYEBROW_TEXT_DARK}>
-                    {t("hero.eyebrow")}
+      <div
+        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/25 to-transparent"
+        aria-hidden
+      />
+      <Container className="max-w-7xl px-4 py-10 sm:px-5 sm:py-12 md:px-6 lg:px-8 xl:max-w-[min(100%,82.5rem)]">
+        <div className="max-w-[min(100%,58rem)]">
+          <div className="flex items-center gap-3">
+            <span
+              className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent shadow-[0_0_0_3px_rgba(8,145,178,0.14)]"
+              aria-hidden
+            />
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary/85">
+              {t("hero.eyebrow")}
+            </p>
+          </div>
+          <h1
+            id="contact-hero-heading"
+            className="mt-3 text-[1.6rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#1c2735] sm:text-[1.8rem] md:text-[2.05rem] lg:text-[2.2rem]"
+          >
+            {t("hero.title")}
+          </h1>
+          <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-[1.68] text-[#4a5a6d] sm:mt-5 sm:text-[1.0625rem] sm:leading-[1.7]">
+            {t("hero.description")}
+          </p>
+          <div className="mt-7 flex flex-col gap-2.5 sm:mt-8 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
+            <AppButton
+              asChild
+              size="lg"
+              className="h-10 min-w-[9.5rem] border border-primary/22 bg-primary px-5 text-sm font-semibold text-primary-foreground shadow-[0_10px_28px_-16px_rgba(8,145,178,0.45)] transition-[background-color,box-shadow,border-color] hover:border-primary/35 hover:bg-[var(--primary-hover)] hover:shadow-[0_12px_32px_-18px_rgba(8,145,178,0.2)]"
+            >
+              <a href="#contact-form" className="inline-flex items-center justify-center">
+                {t("hero.primaryCta")}
+              </a>
+            </AppButton>
+            <AppButton
+              variant="outline"
+              size="lg"
+              asChild
+              className="h-10 border-border/90 bg-white/80 px-5 text-sm font-semibold hover:border-accent/30 hover:bg-white"
+            >
+              <a
+                href={meetingHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center"
+              >
+                {t("hero.secondaryCta")}
+              </a>
+            </AppButton>
+          </div>
+        </div>
+
+        <div className="mt-8 grid min-w-0 gap-5 sm:gap-6 min-[800px]:grid-cols-2 min-[800px]:gap-6 lg:mt-9 lg:gap-7">
+          <div className={cardClass}>
+            <p className="text-[0.62rem] font-semibold uppercase tracking-[0.2em] text-primary/80">
+              {t("hero.companyCardEyebrow")}
+            </p>
+            <div className="mt-3 flex gap-3.5">
+              <BrandMark variant="footer" className="h-10 w-10 shrink-0" />
+              <div className="min-w-0">
+                <h2 className="text-base font-semibold leading-snug tracking-tight text-[#1c2735] sm:text-[1.05rem]">
+                  {t("hero.companyName")}
+                </h2>
+                <p className="mt-1.5 text-sm leading-relaxed text-[#4a5a6d] sm:text-[0.9375rem]">
+                  {t("hero.companyText")}
+                </p>
+              </div>
+            </div>
+            <div className="mt-4 border-t border-border/55 pt-4 text-sm sm:text-[0.9375rem]">
+              <div className="grid gap-3">
+                <div>
+                  <p className="text-[0.7rem] font-semibold uppercase tracking-wider text-[#5c6a7a] sm:text-xs">
+                    {t("hero.emailLabel")}
+                  </p>
+                  <a
+                    href={`mailto:${COMPANY_EMAIL}`}
+                    className="mt-0.5 inline-block font-medium text-primary transition-colors hover:text-primary/90 hover:underline"
+                  >
+                    {COMPANY_EMAIL}
+                  </a>
+                </div>
+                <div>
+                  <p className="text-sm font-medium tabular-nums text-[#334155] sm:text-[0.9375rem]">
+                    {COMPANY_KVK_LINE}
                   </p>
                 </div>
-                <h1
-                  id="contact-hero-heading"
-                  className={DISPLAY_HERO_TITLE_DARK}
-                >
-                  {t("hero.title")}
-                </h1>
-                <p className={HERO_LEAD_TEXT_DARK}>
-                  {t("hero.description")}
-                </p>
-                <div className="flex flex-col gap-3.5 pt-1 sm:flex-row sm:items-center sm:gap-4 sm:pt-2">
-                  <AppButton
-                    asChild
-                    className="border border-accent/45 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)] hover:border-accent hover:bg-accent hover:brightness-[1.03]"
-                  >
-                    <Link href="#contact-form">{t("hero.primaryCta")}</Link>
-                  </AppButton>
-                  <AppButton variant="outline" asChild>
-                    <Link href="#contact-form">{t("hero.secondaryCta")}</Link>
-                  </AppButton>
-                </div>
+                {showLinkedIn ? (
+                  <div>
+                    <p className="text-[0.7rem] font-semibold uppercase tracking-wider text-[#5c6a7a] sm:text-xs">
+                      {t("hero.linkedinLabel")}
+                    </p>
+                    <a
+                      href={linkedInUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-0.5 inline-block font-medium text-primary transition-colors hover:text-primary/90 hover:underline"
+                    >
+                      {COMPANY_LINKEDIN_LABEL}
+                    </a>
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>
-          <div className="hidden w-full min-w-0 justify-center lg:flex lg:flex-col lg:items-center lg:justify-center lg:gap-4">
-            <ContactHeroVisual />
-            <ContactCompanyHeroCard t={t} />
+
+          <div className={cardClass}>
+            <p className="text-[0.62rem] font-semibold uppercase tracking-[0.2em] text-primary/80">
+              {t("hero.officesCardEyebrow")}
+            </p>
+            <div className="mt-3">
+              <OfficeBlocks text={t("hero.officesBlock")} />
+            </div>
           </div>
         </div>
       </Container>
     </section>
-  );
-}
-
-async function ContactCompanyHeroCard({ t }: { t: IntlTranslator }) {
-  const tc = await getTranslations("company");
-
-  return (
-    <div className="w-full max-w-[34rem]">
-      <div
-        className={cn(
-          homeCardClassName(false),
-          "border border-white/10 bg-white/[0.06] shadow-[0_26px_70px_-48px_rgba(15,23,42,0.65)] ring-1 ring-inset ring-white/10",
-          "rounded-2xl p-6 sm:p-7",
-        )}
-      >
-        <div className="flex items-start gap-4">
-          <BrandMark variant="footer" className="h-14 w-14 sm:h-16 sm:w-16" />
-          <div className="min-w-0">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/80">
-              {t("companyDetails.title")}
-            </p>
-            <p className="mt-2 text-[1.05rem] font-semibold leading-snug tracking-tight text-white sm:text-[1.125rem]">
-              {tc("legalName")}
-            </p>
-            <address className="mt-3 not-italic text-[0.95rem] leading-relaxed text-white/72">
-              <p>{tc("addressLine1")}</p>
-              <p>{tc("addressLine2")}</p>
-            </address>
-            <p className="mt-4">
-              <a
-                href={`mailto:${COMPANY_EMAIL}`}
-                className="text-[0.95rem] font-semibold text-white underline underline-offset-4 decoration-white/30 transition-colors hover:decoration-white/60"
-              >
-                {tc("email")}
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   );
 }

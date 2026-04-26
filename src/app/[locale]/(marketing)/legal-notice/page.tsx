@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Container } from "@/components/container";
 import { BrandMark } from "@/components/layout/brand-mark";
 import { LegalHero } from "@/components/legal";
-import { COMPANY_EMAIL } from "@/lib/company";
+import { COMPANY_EMAIL, COMPANY_LEGAL_NAME } from "@/lib/company";
 import { SECTION_PAD_STANDARD, SECTION_PAD_STRIP } from "@/lib/section-layout";
 import type { AppLocale } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
@@ -59,7 +59,7 @@ export default async function LegalNoticePage({ params }: PageProps) {
                 {t("companyBlock.title")}
               </h2>
               <p className="mt-4 text-sm font-semibold text-foreground">
-                {tCompany("legalName")}
+                {COMPANY_LEGAL_NAME}
               </p>
               <address className="mt-3 not-italic text-sm leading-relaxed text-muted-foreground">
                 <p>{tCompany("addressLine1")}</p>

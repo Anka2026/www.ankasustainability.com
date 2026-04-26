@@ -28,7 +28,7 @@ export function InsightsFeaturedSection({ t }: Props) {
           {INSIGHTS_FEATURED_KEYS.map((key) => (
             <Link
               key={key}
-              href={`/insights/${key}`}
+              href={`/resources/${key}`}
               className={cn(
                 "group block h-full",
                 homeCardClassName(true),

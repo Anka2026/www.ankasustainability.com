@@ -1,10 +1,9 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
-import { PROCESS_STEP_KEYS, type ProcessStepId } from "@/lib/services-categories";
-import { SECTION_BG_TINT } from "@/lib/section-layout";
 import { cn } from "@/lib/utils";
+
+const STEP_KEYS = ["s1", "s2", "s3", "s4"] as const;
 
 type Props = Readonly<{
   t: IntlTranslator;
@@ -14,64 +13,45 @@ export function ServicesProcessSection({ t }: Props) {
   return (
     <section
       id="services-process"
-      className={cn(
-        "scroll-mt-24 border-b border-border py-12 sm:py-14",
-        SECTION_BG_TINT,
-      )}
+      className="scroll-mt-24 border-b border-border bg-background py-12 sm:py-14"
       aria-labelledby="services-process-heading"
     >
-      <Container>
+      <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <SectionHeading
           titleAs="h2"
           titleId="services-process-heading"
           accentRule
-          eyebrow=""
+          eyebrow={t("process.eyebrow")}
           title={t("process.title")}
-          description={t("process.subtitle")}
-          descriptionClassName="sm:text-base sm:leading-[1.6]"
+          description={t("process.intro")}
+          descriptionClassName="max-w-4xl text-pretty sm:text-base sm:leading-[1.62]"
         />
-        <ol className="mt-8 grid gap-3.5 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:gap-4.5">
-          {PROCESS_STEP_KEYS.map((stepId, index) => (
-            <ProcessStep
-              key={stepId}
-              stepId={stepId}
-              index={index}
-              t={t}
-            />
-          ))}
-        </ol>
+        <div
+          className={cn(
+            "mt-8 overflow-hidden rounded-[1.5rem] border border-border/90",
+            "bg-surface/80 shadow-[0_26px_70px_-64px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.05]",
+          )}
+        >
+          <ol className="grid grid-cols-1 divide-y divide-border/70 sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4 lg:divide-x">
+            {STEP_KEYS.map((stepId, index) => (
+              <li
+                key={stepId}
+                className="flex min-h-0 min-w-0 flex-col p-4 sm:p-4 lg:min-h-[9.5rem] lg:py-5"
+              >
+                <span className="select-none font-mono text-xs font-bold tabular-nums text-primary/85 sm:text-[0.8125rem]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <h3 className="mt-2.5 min-w-0 text-[0.9rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[0.95rem]">
+                  {t(`process.${stepId}.title`)}
+                </h3>
+                <p className="mt-2 min-w-0 flex-1 text-xs leading-relaxed text-muted-foreground sm:mt-2.5 sm:text-sm sm:leading-[1.55]">
+                  {t(`process.${stepId}.body`)}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </div>
       </Container>
     </section>
-  );
-}
-
-function ProcessStep({
-  stepId,
-  index,
-  t,
-}: {
-  stepId: ProcessStepId;
-  index: number;
-  t: IntlTranslator;
-}) {
-  const n = String(index + 1).padStart(2, "0");
-  return (
-    <li
-      className={homeCardClassName(false)}
-    >
-      <div className="flex h-full flex-col border-l-[3px] border-accent/50 bg-surface p-5 sm:p-6">
-        <div className="flex items-baseline justify-between gap-2">
-          <span className="font-mono text-xs font-semibold tracking-wider text-accent">
-            {n}
-          </span>
-        </div>
-        <h3 className="mt-4 text-base font-semibold tracking-tight text-foreground">
-          {t(`process.${stepId}.title`)}
-        </h3>
-        <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-          {t(`process.${stepId}.description`)}
-        </p>
-      </div>
-    </li>
   );
 }

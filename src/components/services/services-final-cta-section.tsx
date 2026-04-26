@@ -5,6 +5,7 @@ import { FINAL_CTA_PAD } from "@/lib/section-layout";
 import { FINAL_CTA_DESCRIPTION, FINAL_CTA_TITLE } from "@/lib/typography-classes";
 import { cn } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 
 type Props = Readonly<{
   t: IntlTranslator;
@@ -20,7 +21,7 @@ export function ServicesFinalCtaSection({ t }: Props) {
         className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-accent/0 via-accent/90 to-accent/0"
         aria-hidden
       />
-      <Container className="relative flex max-w-3xl flex-col items-center justify-center text-center">
+      <Container className="relative flex max-w-4xl flex-col items-center justify-center text-center xl:max-w-[52rem]">
         <h2
           id="services-final-cta-heading"
           className={FINAL_CTA_TITLE}
@@ -35,7 +36,9 @@ export function ServicesFinalCtaSection({ t }: Props) {
             asChild
             className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
           >
-            <Link href="/contact">{t("finalCta.primaryCta")}</Link>
+            <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+              {t("finalCta.primaryCta")}
+            </a>
           </AppButton>
           <AppButton
             variant="outline"

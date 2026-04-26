@@ -1,12 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import {
-  AboutConsultingDigitalSection,
   AboutFinalCtaSection,
+  AboutFounderSection,
   AboutHelpSection,
   AboutHeroSection,
-  AboutTrustSection,
-  AboutWhoSection,
+  AboutOurPositionSection,
+  AboutProcessSection,
   AboutWhySection,
 } from "@/components/about";
 import type { AppLocale } from "@/i18n/routing";
@@ -41,11 +41,11 @@ export default async function AboutPage({ params }: PageProps) {
   return (
     <>
       <AboutHeroSection t={t} />
-      <AboutWhoSection t={t} />
-      <AboutTrustSection t={t} />
+      <AboutOurPositionSection t={t} />
+      <AboutFounderSection t={t} />
       <AboutHelpSection t={t} />
+      <AboutProcessSection t={t} />
       <AboutWhySection t={t} />
-      <AboutConsultingDigitalSection t={t} />
       <AboutFinalCtaSection t={t} />
     </>
   );

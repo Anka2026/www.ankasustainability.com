@@ -5,26 +5,27 @@ import { homeCardClassName } from "@/lib/home-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import { cn } from "@/lib/utils";
 
-import { Landmark, Network, ShieldCheck } from "lucide-react";
+import { Landmark, Network, ShieldCheck, Workflow } from "lucide-react";
 
 type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
 const items = [
-  { key: "item1" as const, icon: ShieldCheck },
-  { key: "item2" as const, icon: Landmark },
-  { key: "item3" as const, icon: Network },
+  { key: "c1" as const, icon: Landmark },
+  { key: "c2" as const, icon: ShieldCheck },
+  { key: "c3" as const, icon: Network },
+  { key: "c4" as const, icon: Workflow },
 ];
 
 export function WhySection({ t }: Props) {
   return (
-    <section className={cn("relative bg-surface", SECTION_PAD_HOME)}>
+    <section className={cn("relative bg-[var(--section-tint)]", SECTION_PAD_HOME)}>
       <div
         className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-border to-transparent"
         aria-hidden
       />
-      <Container className="relative">
+      <Container className="relative max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <SectionHeading
           titleAs="h2"
           accentRule
@@ -32,18 +33,30 @@ export function WhySection({ t }: Props) {
           title={t("why.title")}
           description={t("why.subtitle")}
         />
-        <div className="mt-8 grid gap-4 md:grid-cols-1 lg:grid-cols-3 lg:gap-5">
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4 lg:gap-5">
           {items.map(({ key, icon: Icon }) => (
             <article
               key={key}
-              className={cn(homeCardClassName(true), "flex gap-4 p-5 sm:p-6")}
+              className={cn(
+                homeCardClassName(true),
+                "flex h-full flex-col gap-4 p-5 sm:p-6",
+              )}
             >
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-primary/15 bg-primary/[0.04] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                <Icon className="size-[1.125rem] text-primary" strokeWidth={1.85} aria-hidden />
+                <Icon
+                  className="size-[1.125rem] text-primary"
+                  strokeWidth={1.85}
+                  aria-hidden
+                />
               </div>
-              <p className="text-[0.9375rem] font-semibold leading-relaxed text-foreground">
-                {t(`why.${key}`)}
-              </p>
+              <div className="min-w-0 space-y-2">
+                <h3 className="text-[0.9375rem] font-semibold leading-snug text-foreground">
+                  {t(`why.${key}.title`)}
+                </h3>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {t(`why.${key}.body`)}
+                </p>
+              </div>
             </article>
           ))}
         </div>

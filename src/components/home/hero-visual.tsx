@@ -7,7 +7,7 @@ import Image from "next/image";
 export function HeroVisual() {
   return (
     <div
-      className="relative w-full max-w-3xl select-none lg:max-w-none"
+      className="relative w-full max-w-3xl select-none md:max-w-4xl lg:max-w-none"
       aria-hidden
     >
       <div className="relative w-full overflow-hidden rounded-2xl border border-white/12 bg-white/[0.06] shadow-[0_40px_90px_-52px_rgba(15,23,42,0.55),0_0_0_1px_rgba(8,145,178,0.08)] ring-1 ring-inset ring-white/10">
@@ -18,7 +18,7 @@ export function HeroVisual() {
           width={1536}
           height={864}
           priority
-          className="h-auto w-full max-h-[min(52vh,380px)] object-contain object-center sm:max-h-[min(48vh,400px)] lg:max-h-[min(44vh,420px)]"
+          className="h-auto w-full max-h-[min(48vh,380px)] object-contain object-center sm:max-h-[min(46vh,400px)] md:max-h-[min(48vh,440px)] lg:max-h-[min(56vh,520px)] xl:max-h-[min(54vh,560px)] 2xl:max-h-[min(52vh,600px)]"
         />
       </div>
 

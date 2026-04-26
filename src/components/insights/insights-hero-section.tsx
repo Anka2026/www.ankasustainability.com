@@ -17,6 +17,7 @@ import {
 } from "@/lib/typography-classes";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { Link } from "@/i18n/navigation";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 
 import { InsightsHeroVisual } from "@/components/insights/insights-hero-visual";
 
@@ -61,7 +62,9 @@ export function InsightsHeroSection({ t }: Props) {
                     asChild
                     className="border border-accent/45 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)] hover:border-accent hover:bg-accent hover:brightness-[1.03]"
                   >
-                    <Link href="/contact">{t("hero.primaryCta")}</Link>
+                    <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                      {t("hero.primaryCta")}
+                    </a>
                   </AppButton>
                   <AppButton variant="outline" asChild>
                     <Link href="/services">{t("hero.secondaryCta")}</Link>
