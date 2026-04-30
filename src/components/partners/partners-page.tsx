@@ -311,19 +311,12 @@ function PartnersFinalCta({ t }: Props) {
           {t("finalCta.description")}
         </p>
         <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:mt-7 sm:flex-row sm:gap-4">
-          <AppButton
-            asChild
-            className="w-full border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg sm:w-auto"
-          >
+          <AppButton variant="inverseSolid" asChild size="lg" className="w-full sm:w-auto">
             <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
               {t("finalCta.primaryCta")}
             </a>
           </AppButton>
-          <AppButton
-            variant="outline"
-            asChild
-            className="w-full border-primary-foreground/50 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground sm:w-auto"
-          >
+          <AppButton variant="inverseOutline" asChild size="lg" className="w-full sm:w-auto">
             <Link href="/contact">{t("finalCta.secondaryCta")}</Link>
           </AppButton>
         </div>

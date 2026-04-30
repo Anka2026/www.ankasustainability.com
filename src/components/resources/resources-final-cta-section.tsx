@@ -32,19 +32,12 @@ export function ResourcesFinalCtaSection({ t }: Props) {
           {t("finalCta.description")}
         </p>
         <div className="mt-5 flex w-full max-w-md flex-col items-stretch justify-center gap-3 sm:mt-6 sm:max-w-none sm:flex-row sm:items-center sm:gap-4">
-          <AppButton
-            asChild
-            className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
-          >
-            <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
-              {t("finalCta.primaryCta")}
-            </a>
-          </AppButton>
-          <AppButton
-            variant="outline"
-            asChild
-            className="border-primary-foreground/50 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground"
-          >
+            <AppButton variant="inverseSolid" asChild size="lg">
+              <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                {t("finalCta.primaryCta")}
+              </a>
+            </AppButton>
+            <AppButton variant="inverseOutline" asChild size="lg">
             <Link href="/services">{t("finalCta.secondaryCta")}</Link>
           </AppButton>
         </div>

@@ -68,8 +68,8 @@
         "i4": "İzlenebilirlik desteği"
       },
       "sustainableTourismGstc": {
-        "i1": "GSTC hazırlığı",
-        "i2": "Türkiye programı",
+        "i1": "GSTC kriterleri",
+        "i2": "Türkiye çevresel ve kültürel programı",
         "i3": "Boşluk analizi",
         "i4": "Kanıt düzeni"
       }
@@ -172,8 +172,8 @@
         "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerine destek oluruz."
       },
       "c7": {
-        "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
-        "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
+        "title": "Sürdürülebilir Turizm ve GSTC Hazırlığı",
+        "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentileri doğrultusunda hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
       }
     },
     "software": {
@@ -303,8 +303,8 @@
           "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerinde daha savunulabilir bir çalışma düzeni kurarız."
         },
         "sustainableTourismGstc": {
-          "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
-          "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
+          "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı",
+          "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentileri doğrultusunda hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
         }
       }
     },
@@ -1670,10 +1670,10 @@
           }
         },
         "sustainableTourismGstc": {
-          "subtitle": "GSTC kriter uyumu ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt düzeni—danışmanlık ve sertifikasyon hazırlığı desteği (ANKA sertifika vermez).",
+          "subtitle": "GSTC kriter uyumu ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı kapsamında hazırlık, boşluk analizi ve kanıt düzeni—danışmanlık ve değerlendirme öncesi hazırlık desteği (ANKA sertifika vermez ve belgelendirme sonucunu garanti etmez).",
           "whyMatters": "Turizmde sürdürülebilirlik; enerji, su, atık ve iletişimin ötesinde yönetim sistemi, çalışan uygulamaları, yerel etki ve kültürel mirası da kapsayan çok başlıklı bir hazırlık gerektirir.",
           "deliverables": [
-            "GSTC ve program beklentilerine göre boşluk analizi ve önceliklendirme",
+            "GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentilerine göre boşluk analizi ve önceliklendirme",
             "Uygulanabilir aksiyon planı ve sorumluluk netliği",
             "Değerlendirme / denetim öncesi kanıt dosyası düzeni"
           ],
@@ -1700,14 +1700,14 @@
           "benchmark": {
             "hero": {
               "eyebrow": "Sürdürülebilir Turizm",
-              "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı İçin Hazırlık Danışmanlığı",
-              "text": "Turizm işletmeleri için sürdürülebilirlik artık yalnızca çevresel performans başlığı değil; yönetim sistemi, çalışan uygulamaları, yerel etki, kültürel miras, satın alma, enerji, su, atık ve misafir iletişimini birlikte ele alan daha kapsamlı bir hazırlık sürecidir. ANKA olarak otel, tur operatörü ve destinasyon yapılarına GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında uygulanabilir bir hazırlık düzeni kurmaları için danışmanlık sağlıyoruz. ANKA sertifika vermez veya garanti etmez; hazırlık, dokümantasyon ve kanıt düzeni üzerinde çalışırız.",
+              "title": "GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı İçin Hazırlık Danışmanlığı",
+              "text": "Turizm işletmeleri için sürdürülebilirlik; çevresel performansın yanında yönetim sistemi, çalışan uygulamaları, yerel etki, kültürel miras, satın alma, enerji, su, atık ve misafir iletişimini birlikte ele alan kapsamlı bir hazırlık gerektirir. ANKA olarak otel, tur operatörü ve destinasyon yapılarının GSTC kriterleri ile Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentilerini daha net görmesine, eksiklerini önceliklendirmesine ve kanıt dosyasını düzenli şekilde hazırlamasına destek oluyoruz.\n\nANKA sertifika vermez ve belgelendirme sonucunu garanti etmez. Çalışmamız; boşluk analizi, aksiyon planı, dokümantasyon, kanıt düzeni ve değerlendirme öncesi hazırlık danışmanlığı kapsamındadır.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
                 "secondary": "İlgili Hizmetleri İnceleyin"
               },
               "proofStrip": {
-                "items": ["GSTC Hazırlığı", "Türkiye Programı", "Kanıt Düzeni", "Değerlendirme Öncesi Hazırlık"],
+                "items": ["GSTC kriterleri", "Türkiye çevresel ve kültürel programı", "Boşluk analizi", "Kanıt düzeni"],
                 "subtitles": [
                   "Kriter uyumu ve boşluk analizi",
                   "Program beklentileri ve aksiyon planı",
@@ -1715,16 +1715,16 @@
                   "Dosya düzeni ve kontrol listesi"
                 ]
               },
-              "panelTitle": "Odak Alanları",
+              "panelTitle": "Çalışma Kapsamı",
               "panelCards": [
                 { "title": "GSTC Kriterleri", "body": "Boşluk analizi ve uyum öncelikleri." },
-                { "title": "Türkiye Programı", "body": "Program hazırlığı ve dokümantasyon düzeni." },
+                { "title": "Program Hazırlığı", "body": "Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentileri ve dokümantasyon düzeni." },
                 { "title": "Operasyon ve Kanıt", "body": "Saha uygulaması, kayıt ve göstergeler." },
                 { "title": "Ekip ve Farkındalık", "body": "Sorumluluklar, eğitim ve iç iletişim." }
               ]
             },
             "why": {
-              "title": "Neden Önemli",
+              "title": "Neden Kritik?",
               "heading": "Sürdürülebilir Turizm Hazırlığı Çok Başlıklı ve Kanıta Dayalı Bir Düzen İster",
               "intro": "Misafir beklentileri, program gereklilikleri ve denetlenebilir kanıt ihtiyacı bir araya geldiğinde hazırlık tek tabloya indirgenemez.",
               "valueItems": [
@@ -1732,8 +1732,8 @@
                 "Operasyonel gerçeklik ile beyanlar uyumlu olmalı",
                 "Ekip sorumlulukları net değilse süreç sürdürülemez"
               ],
-              "insightLabel": "ANKA Yaklaşımı",
-              "insightText": "Yalnızca belge listesi hazırlamıyoruz; günlük operasyonu, ekip sorumluluklarını ve saha uygulamalarını birlikte değerlendirerek kriterleri işletmenin içinde takip edilebilir bir düzene çeviriyoruz. ANKA sertifika vermez; hazırlık ve danışmanlık sağlar.",
+              "insightLabel": "ANKA ile Nasıl İlerliyoruz?",
+              "insightText": "Yalnızca belge listesi hazırlamıyoruz. Günlük operasyonu, ekip sorumluluklarını ve sahadaki uygulamaları birlikte inceliyoruz. Kriterleri işletmenin içinde takip edilebilir, güncellenebilir ve ekipler tarafından sürdürülebilir bir çalışma düzenine çeviriyoruz.",
               "cards": [
                 {
                   "title": "GSTC ve Program Beklentileri",
@@ -1751,41 +1751,41 @@
             },
             "support": {
               "title": "Bu Hizmette Neyi Netleştiriyoruz?",
-              "intro": "Her işletmenin başlangıç noktası farklıdır. Bu nedenle önce mevcut uygulamaları, belge durumunu, saha gerçekliğini ve yönetim yaklaşımını birlikte değerlendiriyoruz. Ardından kriterlere göre boşlukları görünür hale getiriyor, aksiyon planını oluşturuyor ve sertifikasyon hazırlığı için gerekli kanıt dosyası düzenini kuruyoruz.",
+              "intro": "Her işletmenin başlangıç noktası farklıdır. Bu nedenle önce mevcut uygulamaları, belge durumunu, saha gerçekliğini ve yönetim yaklaşımını birlikte değerlendiriyoruz. Ardından kriterlere göre boşlukları görünür hale getiriyor, aksiyon planını oluşturuyor ve değerlendirme öncesi kanıt dosyası düzenini kuruyoruz.",
               "cards": [
-                { "title": "GSTC Kriterlerine Göre Boşluk Analizi", "body": "Mevcut uygulama ile kriterler arasındaki farkları önceliklendiririz." },
-                { "title": "Türkiye Sürdürülebilir Turizm Programı Hazırlığı", "body": "Program kapsamına uygun dokümantasyon ve aksiyon çerçevesi oluştururuz." },
-                { "title": "Uygulama Planı", "body": "Otel, tur operatörü ve destinasyon yapıları için yürütülebilir yol haritası hazırlarız." },
-                { "title": "Kanıt Düzeni", "body": "Yönetim, çevresel performans ve sosyal etki başlıklarında kayıt ve gösterge yapısı kurarız." },
-                { "title": "Eğitim ve Sorumluluklar", "body": "İç farkındalık, eğitim içeriği ve rol netliği için çerçeve öneririz." },
-                { "title": "Değerlendirme Öncesi Dosya", "body": "Denetim / değerlendirme sürecine uygun kanıt paketini düzenleriz." }
+                { "title": "GSTC kriterlerine göre boşluk analizi", "body": "Mevcut uygulama ile kriterler arasındaki farkları önceliklendiririz." },
+                { "title": "Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığı", "body": "Program beklentilerine uygun dokümantasyon ve aksiyon çerçevesi oluştururuz." },
+                { "title": "Otel, tur operatörü ve destinasyon yapıları için aksiyon planı", "body": "Yürütülebilir yol haritası ve sorumluluk netliği sağlarız." },
+                { "title": "Yönetim, çevre, sosyal etki ve kültürel miras başlıklarında kanıt düzeni", "body": "Kayıt, gösterge ve saha kanıtlarını yapılandırırız." },
+                { "title": "Eğitim, iç farkındalık ve ekip sorumluluklarının netleştirilmesi", "body": "İç iletişim ve rol dağılımı için çerçeve öneririz." },
+                { "title": "Değerlendirme öncesi kontrol ve hazırlık dosyası", "body": "Değerlendirme sürecine uygun kanıt paketini düzenleriz." }
               ]
             },
             "how": {
               "title": "Nasıl Çalışıyoruz",
-              "headline": "Çalışmayı Nasıl Yürütüyoruz?",
-              "intro": "Hazırlığı adım adım ilerletir; her aşamada kanıt düzenini ve ekip rollerini netleştiririz.",
-              "kicker": "Mevcut durum → Boşluklar → Aksiyon → Kanıt → Hazırlık",
+              "headline": "Hazırlığı Adım Adım Netleştiriyoruz",
+              "intro": "GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığını tek seferlik bir belge listesi olarak değil; mevcut durum, boşluk analizi, aksiyon planı, kanıt dosyası ve ekip hazırlığıyla ilerleyen yönetilebilir bir çalışma akışı olarak ele alıyoruz.",
+              "kicker": "Mevcut Durum → Boşluklar → Aksiyon Planı → Kanıt Dosyası → Değerlendirme Hazırlığı",
               "steps": [
                 {
                   "title": "Mevcut Durumu Anlıyoruz",
-                  "body": "İşletmenin mevcut sürdürülebilirlik uygulamalarını, belge setini, operasyon yapısını ve sorumluluk dağılımını inceliyoruz."
+                  "body": "İşletmenin sürdürülebilirlik uygulamalarını, belge setini, operasyon yapısını ve ekip sorumluluklarını birlikte inceliyoruz."
                 },
                 {
-                  "title": "Kriterlere Göre Boşlukları Belirliyoruz",
-                  "body": "GSTC ve ilgili program beklentilerine göre eksik alanları, güçlü yönleri ve öncelikli aksiyonları görünür hale getiriyoruz."
+                  "title": "Boşlukları Görünür Hale Getiriyoruz",
+                  "body": "GSTC kriterleri ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı beklentilerine göre eksik alanları, güçlü yönleri ve öncelikli aksiyonları netleştiriyoruz."
                 },
                 {
                   "title": "Aksiyon Planını Oluşturuyoruz",
-                  "body": "Yönetim, çevre, sosyal etki, kültürel miras, satın alma ve misafir iletişimi başlıklarında uygulanabilir bir yol haritası hazırlıyoruz."
+                  "body": "Yönetim, çevre, kültürel miras, sosyal etki, satın alma ve misafir iletişimi başlıklarında uygulanabilir bir hazırlık planı hazırlıyoruz."
                 },
                 {
                   "title": "Kanıt Dosyasını Düzenliyoruz",
-                  "body": "Politika, prosedür, kayıt, gösterge, fotoğraf, eğitim ve saha kanıtlarını değerlendirme sürecine uygun bir yapıya taşıyoruz."
+                  "body": "Politika, prosedür, kayıt, gösterge, fotoğraf, eğitim ve saha kanıtlarını değerlendirme sürecine uygun şekilde bir araya getiriyoruz."
                 },
                 {
                   "title": "Ekiple Birlikte Hazırlığı Tamamlıyoruz",
-                  "body": "İlgili ekiplerle çalışarak sorumlulukları netleştiriyor, uygulama takibini kolaylaştırıyor ve değerlendirme öncesi hazırlığı güçlendiriyoruz."
+                  "body": "İlgili ekiplerle çalışarak sorumlulukları netleştiriyor, takip düzenini kolaylaştırıyor ve değerlendirme öncesi hazırlığı güçlendiriyoruz."
                 }
               ]
             },
@@ -1816,7 +1816,7 @@
               "title": "Kimler İçin Uygun?",
               "panelLabel": "Hedef Kitle",
               "bullets": [
-                "GSTC ve Türkiye programına hazırlanan oteller ve zincirler",
+                "GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programına hazırlanan oteller ve zincirler",
                 "Tur operatörleri ve destinasyon yönetim yapıları",
                 "Kamu ve sektör paydaşlarıyla uyum çalışan kurumlar"
               ],
@@ -1828,11 +1828,11 @@
                 "Belediyeler, kalkınma ajansları ve turizm birlikleri",
                 "Sürdürülebilir turizm programına hazırlanan işletmeler"
               ],
-              "description": "Bu hizmet; sürdürülebilir turizm ve GSTC / Türkiye programı hazırlığında kanıt düzeni ve aksiyon planı oluşturmak isteyen turizm işletmeleri ve paydaş yapıları içindir."
+              "description": "Bu hizmet; sürdürülebilir turizm ile GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığında kanıt düzeni ve aksiyon planı oluşturmak isteyen turizm işletmeleri ve paydaş yapıları içindir."
             },
             "tools": {
-              "title": "İsteğe bağlı dijital düzen",
-              "intro": "Bu hizmet için zorunlu yazılım yoktur. Kanıt takibi ve görünürlük ihtiyacı oluşursa portföyümüzden seçici çözümler değerlendirilir.",
+              "title": "Dijital Takip Opsiyonu",
+              "intro": "Bu hizmet için zorunlu bir yazılım kullanımı yoktur. Ancak kanıt takibi, kontrol listeleri, gösterge izleme ve hazırlık görünürlüğü için ihtiyaç doğarsa ANKA’nın dijital çözüm portföyünden uygun seçenekleri birlikte değerlendirebiliriz.",
               "rightTitle": "Kanıt takibi için dijital opsiyonlar",
               "capabilityRows": ["Kanıt kaydı", "Kontrol listeleri", "Gösterge takibi", "Hazırlık görünürlüğü"],
               "noteShort": "ANKA sertifika vermez; hazırlık ve danışmanlık sağlar.",
@@ -1846,8 +1846,8 @@
               "noteBody": "GSTC veya ulusal program değerlendirmesi bağımsız üçüncü taraflarca yürütülür; ANKA bu süreçte hazırlık danışmanlığı sunar."
             },
             "cta": {
-              "title": "Sürdürülebilir turizm hazırlığınızı birlikte netleştirelim.",
-              "text": "GSTC ve Türkiye Sürdürülebilir Turizm Programı kapsamındaki mevcut durumunuzu, eksiklerinizi ve öncelikli aksiyonlarınızı birlikte değerlendirelim.",
+              "title": "Sürdürülebilir Turizm Hazırlığınızı Birlikte Netleştirelim",
+              "text": "GSTC kriterleri ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı kapsamında mevcut durumunuzu, eksiklerinizi ve öncelikli aksiyonlarınızı birlikte değerlendirelim.",
               "primary": "Görüşme Planlayın",
               "secondary": "İletişime Geçin"
             }
@@ -1892,13 +1892,13 @@
         "label": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
         "summary": "Ürün ve tedarik süreçlerinde güveni güçlendiren izlenebilirlik, doğrulanabilirlik ve sertifikasyon odaklı yapılar kuruyoruz.",
         "description": "İzlenebilirlik ve sertifikasyon; iddiaların doğrulanabilir olması için bir sistem disiplinidir. Zincirde mülkiyet, kütle dengesi ve belge yönetimi gibi başlıklarda; uygulanabilir ve sürdürülebilir yapılar tasarlarız.",
-        "topics": "ISCC\nZincirde mülkiyet (chain of custody) mantığı\nKütle dengesi (mass balance) mantığı\nİzlenebilirlik yapıları\nGeri dönüştürülmüş / biyo bazlı içerik hazırlığı\nSürdürülebilirlik beyanları desteği\nKarbon kredileri danışmanlığı (ikincil destek, uygun olduğunda)\nSürdürülebilir turizm ve GSTC / Türkiye programı hazırlığı (danışmanlık; ANKA sertifika vermez)"
+        "topics": "ISCC\nZincirde mülkiyet (chain of custody) mantığı\nKütle dengesi (mass balance) mantığı\nİzlenebilirlik yapıları\nGeri dönüştürülmüş / biyo bazlı içerik hazırlığı\nSürdürülebilirlik beyanları desteği\nKarbon kredileri danışmanlığı (ikincil destek, uygun olduğunda)\nSürdürülebilir turizm ve GSTC / Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığı (danışmanlık; ANKA sertifika vermez)"
       },
       "sustainableTourismGstc": {
-        "label": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
-        "summary": "Oteller, tur operatörleri ve destinasyonlar için GSTC kriter uyumu, Türkiye Sürdürülebilir Turizm Programı hazırlığı, boşluk analizi ve sertifikasyon / değerlendirme öncesi kanıt düzeni üzerinde danışmanlık yürütüyoruz.",
-        "description": "ANKA sertifika veya GSTC belgesi düzenlemez; hazırlık, dokümantasyon, kanıt yapısı ve aksiyon planı üzerinde danışmanlık sağlar. Çalışma; yönetim sistemi, çevresel ve sosyal başlıklar ile operasyonel kanıtları bir araya getirir.",
-        "topics": "GSTC kriter uyumu\nTürkiye Sürdürülebilir Turizm Programı hazırlığı\nBoşluk analizi\nKanıt dosyası ve dokümantasyon\nEğitim ve iç farkındalık\nDeğerlendirme / denetim öncesi hazırlık\nSertifikasyon hazırlık desteği (danışmanlık)"
+        "label": "Sürdürülebilir Turizm, GSTC ve Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı",
+        "summary": "Oteller, tur operatörleri ve destinasyonlar için GSTC kriter uyumu, Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığı, boşluk analizi ve değerlendirme öncesi kanıt düzeni üzerinde danışmanlık yürütüyoruz.",
+        "description": "ANKA sertifika veya GSTC belgesi düzenlemez ve belgelendirme sonucunu garanti etmez; hazırlık, dokümantasyon, kanıt yapısı ve aksiyon planı üzerinde danışmanlık sağlar. Çalışma; yönetim sistemi, çevresel ve sosyal başlıklar ile operasyonel kanıtları bir araya getirir.",
+        "topics": "GSTC kriter uyumu\nTürkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığı\nBoşluk analizi\nKanıt dosyası ve dokümantasyon\nEğitim ve iç farkındalık\nDeğerlendirme / denetim öncesi hazırlık\nHazırlık danışmanlığı (ANKA sertifika vermez)"
       }
     },
     "detailCta": "ANKA ile görüşün",
@@ -2800,9 +2800,9 @@
         },
         "tourismServices": {
           "title": "Turizm ve Konaklama",
-          "description": "Otel, tur operatörü ve destinasyon yapılarında sürdürülebilir turizm kriterleri, GSTC hazırlığı, Türkiye Sürdürülebilir Turizm Programı ve operasyonel kanıt düzenini birlikte ele alıyoruz.",
+          "description": "Otel, tur operatörü ve destinasyon yapılarında GSTC kriterleri, Türkiye Çevresel ve Kültürel Sürdürülebilirlik Programı hazırlığı ve operasyonel kanıt düzenini birlikte ele alıyoruz.",
           "focus1": "GSTC ve sürdürülebilir turizm hazırlığı",
-          "focus2": "Türkiye Sürdürülebilir Turizm Programı",
+          "focus2": "Türkiye çevresel ve kültürel programı",
           "focus3": "Otel ve destinasyon kanıt dosyası"
         }
       }

@@ -68,10 +68,10 @@
         "i4": "Traceability support"
       },
       "sustainableTourismGstc": {
-        "i1": "GSTC readiness",
-        "i2": "Türkiye programme",
+        "i1": "GSTC criteria",
+        "i2": "Türkiye environmental and cultural programme",
         "i3": "Gap analysis",
-        "i4": "Evidence structure"
+        "i4": "Evidence organisation"
       }
     }
   },
@@ -172,8 +172,8 @@
         "body": "Support for certification readiness, traceability, evidence files, and market claim governance."
       },
       "c7": {
-        "title": "Sustainable Tourism, GSTC and Türkiye Programme",
-        "body": "We support hotels, tour operators and destination structures with GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence file organisation."
+        "title": "Sustainable Tourism and GSTC Readiness",
+        "body": "We support hotels, tour operators and destination structures with GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme—gap analysis and organised evidence files."
       }
     },
     "software": {
@@ -303,8 +303,8 @@
           "body": "We set up a more defensible way of working around certification, traceability, evidence files, and market-facing statements."
         },
         "sustainableTourismGstc": {
-          "title": "Sustainable tourism, GSTC and the Türkiye programme",
-          "body": "We support hotels, tour operators and destination structures with GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence file organisation."
+          "title": "Sustainable Tourism, GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
+          "body": "We support hotels, tour operators and destination structures with GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme—gap analysis and evidence file organisation."
         }
       }
     },
@@ -1669,10 +1669,10 @@
           }
         },
         "sustainableTourismGstc": {
-          "subtitle": "GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence organisation—advisory and certification readiness support (ANKA does not issue certification).",
+          "subtitle": "GSTC criteria alignment and Türkiye Environmental and Cultural Sustainability Programme preparation—gap analysis and evidence organisation (ANKA does not issue certificates and does not guarantee certification outcomes).",
           "whyMatters": "For tourism businesses, sustainability brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication—not environmental performance alone.",
           "deliverables": [
-            "Gap analysis and prioritisation against GSTC and programme expectations",
+            "Gap analysis and prioritisation against GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
             "Practical action plan with clear responsibilities",
             "Evidence file structure ahead of assessment or audit"
           ],
@@ -1689,7 +1689,7 @@
             "Readiness notes"
           ],
           "whoFor": [
-            "Hotels and accommodation operators preparing for GSTC and the Türkiye programme",
+            "Hotels and accommodation operators preparing for GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
             "Tour operators and destination management structures",
             "Public and sector stakeholders coordinating alignment work"
           ],
@@ -1699,14 +1699,14 @@
           "benchmark": {
             "hero": {
               "eyebrow": "Sustainable Tourism",
-              "title": "Advisory Support for Sustainable Tourism, GSTC and the Türkiye Programme",
-              "text": "For tourism businesses, sustainability is no longer limited to environmental performance. It brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication. ANKA supports hotels, tour operators and destination structures in building a practical preparation framework aligned with GSTC criteria and the Türkiye Sustainable Tourism Programme. ANKA does not issue certification or guarantee outcomes; we focus on preparation, documentation and evidence structure.",
+              "title": "Advisory Support for GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
+              "text": "For tourism businesses, sustainability requires more than environmental performance. It brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication. ANKA helps hotels, tour operators and destination structures understand GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme expectations, prioritise gaps and prepare their evidence files in a more organised way.\n\nANKA does not issue certificates and does not guarantee certification outcomes. Our work covers gap analysis, action planning, documentation, evidence organisation and readiness support before assessment.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
               },
               "proofStrip": {
-                "items": ["GSTC Readiness", "Türkiye Programme", "Evidence Structure", "Assessment Readiness"],
+                "items": ["GSTC criteria", "Türkiye environmental and cultural programme", "Gap analysis", "Evidence organisation"],
                 "subtitles": [
                   "Criteria alignment and gap analysis",
                   "Programme expectations and action planning",
@@ -1714,16 +1714,16 @@
                   "File structure and checklists"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Work Scope",
               "panelCards": [
                 { "title": "GSTC Criteria", "body": "Gap analysis and alignment priorities." },
-                { "title": "Türkiye Programme", "body": "Programme preparation and documentation structure." },
+                { "title": "Programme preparation", "body": "Türkiye Environmental and Cultural Sustainability Programme expectations and documentation structure." },
                 { "title": "Operations & Evidence", "body": "Field practice, records and indicators." },
                 { "title": "Team & Awareness", "body": "Responsibilities, training and internal communication." }
               ]
             },
             "why": {
-              "title": "Why It Matters",
+              "title": "Why This Is Critical",
               "heading": "Sustainable Tourism Readiness Is Multi-Topic and Evidence-Led",
               "intro": "Guest expectations, programme requirements and the need for reviewable evidence mean preparation cannot be reduced to a single checklist.",
               "valueItems": [
@@ -1731,8 +1731,8 @@
                 "Operational reality and statements must stay aligned",
                 "Without clear team roles, the process cannot be sustained"
               ],
-              "insightLabel": "How ANKA Adds Value",
-              "insightText": "In sustainable tourism projects, we do not only prepare a document list. We look at daily operations, team responsibilities and field practices together, then translate the criteria into a working structure the organisation can actually use. This turns sustainable tourism preparation into more than a pre-assessment file; it becomes a clearer and more reliable system the organisation can maintain. ANKA does not issue certification; we provide preparation support and advisory.",
+              "insightLabel": "How We Work With You",
+              "insightText": "We do not only prepare a list of documents. We review daily operations, team responsibilities and field practices together. Then we translate the criteria into a working structure that the organisation can follow, update and maintain internally.",
               "cards": [
                 {
                   "title": "GSTC and programme expectations",
@@ -1750,22 +1750,22 @@
             },
             "support": {
               "title": "What We Clarify",
-              "intro": "Every tourism business starts from a different point. We first review current practices, documentation, operational reality and management approach. We then identify gaps against the relevant criteria, prepare an action plan and organise the evidence structure needed for certification readiness.",
+              "intro": "Every tourism business starts from a different point. We first review current practices, documentation, operational reality and management approach. We then identify gaps against the relevant criteria, prepare an action plan and organise the evidence structure needed for assessment readiness.",
               "cards": [
                 {
                   "title": "Gap analysis against GSTC criteria",
                   "body": "We make missing areas, strengths and priority actions visible against the criteria."
                 },
                 {
-                  "title": "Preparation for the Türkiye Sustainable Tourism Programme",
+                  "title": "Preparation for the Türkiye Environmental and Cultural Sustainability Programme",
                   "body": "We build a documentation and action framework aligned with programme expectations."
                 },
                 {
-                  "title": "Practical action planning for hotels, tour operators and destinations",
+                  "title": "Action planning for hotels, tour operators and destinations",
                   "body": "We prepare an implementable roadmap for your operating context."
                 },
                 {
-                  "title": "Evidence structure across management, environmental and social impact topics",
+                  "title": "Evidence structure across management, environment, social impact and cultural heritage",
                   "body": "We align records, indicators and responsibilities across themes."
                 },
                 {
@@ -1773,36 +1773,36 @@
                   "body": "We clarify roles and internal communication needs."
                 },
                 {
-                  "title": "Readiness file for assessment or audit processes",
+                  "title": "Pre-assessment review and readiness file",
                   "body": "We structure materials for review without implying certification outcomes."
                 }
               ]
             },
             "how": {
               "title": "How We Work",
-              "headline": "How We Work",
-              "intro": "We move preparation forward step by step, clarifying evidence structure and team roles at each stage.",
-              "kicker": "Current position → Gaps → Action → Evidence → Readiness",
+              "headline": "We Clarify the Preparation Step by Step",
+              "intro": "We do not treat GSTC and Türkiye Environmental and Cultural Sustainability Programme preparation as a one-time document list. We structure it as a manageable workflow covering current position, gap analysis, action planning, evidence file organisation and team readiness.",
+              "kicker": "Current Position → Gaps → Action Plan → Evidence File → Assessment Readiness",
               "steps": [
                 {
                   "title": "We Understand the Current Position",
-                  "body": "We review the organisation's current sustainability practices, documentation, operations and responsibility structure."
+                  "body": "We review the organisation’s sustainability practices, documentation, operations and team responsibilities together."
                 },
                 {
-                  "title": "We Identify Gaps Against the Criteria",
-                  "body": "We make missing areas, strengths and priority actions visible against GSTC and programme expectations."
+                  "title": "We Make the Gaps Visible",
+                  "body": "We clarify missing areas, strengths and priority actions against GSTC criteria and Türkiye programme expectations."
                 },
                 {
                   "title": "We Build the Action Plan",
-                  "body": "We prepare a practical roadmap across management, environment, social impact, cultural heritage, procurement and guest communication."
+                  "body": "We prepare a practical plan across management, environment, cultural heritage, social impact, procurement and guest communication."
                 },
                 {
                   "title": "We Organise the Evidence File",
-                  "body": "We structure policies, procedures, records, indicators, photos, training evidence and field documentation for the assessment process."
+                  "body": "We bring together policies, procedures, records, indicators, photos, training materials and field evidence for the assessment process."
                 },
                 {
                   "title": "We Prepare the Team",
-                  "body": "We work with relevant teams to clarify responsibilities, improve follow-up and strengthen readiness before assessment."
+                  "body": "We work with the relevant teams to clarify responsibilities, improve follow-up and strengthen readiness before assessment."
                 }
               ]
             },
@@ -1833,7 +1833,7 @@
               "title": "Who It Is For",
               "panelLabel": "Target Audience",
               "bullets": [
-                "Hotels and chains preparing for GSTC and the Türkiye programme",
+                "Hotels and chains preparing for GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
                 "Tour operators and destination management structures",
                 "Institutions working with public and sector stakeholders on alignment"
               ],
@@ -1845,11 +1845,11 @@
                 "Municipalities, development agencies and tourism associations",
                 "Businesses preparing for a sustainable tourism programme"
               ],
-              "description": "For tourism businesses and stakeholder structures that want a clear evidence structure and action plan for sustainable tourism and GSTC / Türkiye programme preparation."
+              "description": "For tourism businesses and stakeholder structures that want a clear evidence structure and action plan for sustainable tourism and GSTC / Türkiye Environmental and Cultural Sustainability Programme preparation."
             },
             "tools": {
-              "title": "Optional digital structure",
-              "intro": "This service does not require software. If evidence tracking needs emerge, we can evaluate selective solutions from our portfolio.",
+              "title": "Digital Tracking Option",
+              "intro": "This service does not require mandatory software use. If the organisation needs stronger evidence tracking, checklist management, indicator monitoring or readiness visibility, we can review suitable options from ANKA’s digital solution portfolio.",
               "rightTitle": "Digital options for evidence tracking",
               "capabilityRows": ["Evidence logging", "Checklists", "Indicator tracking", "Readiness visibility"],
               "noteShort": "ANKA does not issue certification; we provide preparation support and advisory.",
@@ -1863,8 +1863,8 @@
               "noteBody": "GSTC or national programme assessments are conducted by independent third parties; ANKA provides preparation advisory in that process."
             },
             "cta": {
-              "title": "Let’s clarify your sustainable tourism readiness.",
-              "text": "We can review your current position, gaps and priority actions under GSTC criteria and the Türkiye Sustainable Tourism Programme.",
+              "title": "Let’s Clarify Your Sustainable Tourism Readiness",
+              "text": "We can review your current position, gaps and priority actions under GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme.",
               "primary": "Book A Call",
               "secondary": "Contact Us"
             }
@@ -1909,13 +1909,13 @@
         "label": "Certification, Traceability, and Market Confidence",
         "summary": "We build traceability, verifiability, and certification-oriented structures that strengthen trust across product and supply processes.",
         "description": "Traceability and certification are disciplines for making claims verifiable. We design workable structures across chain-of-custody logic, mass balance, and documentation management.",
-        "topics": "ISCC\nChain of custody logic\nMass balance logic\nTraceability structures\nRecycled / bio-based content readiness\nSustainability claims support\nCarbon credits consultancy (secondary support, where relevant)\nSustainable tourism and GSTC / Türkiye programme preparation support (advisory; ANKA does not issue certification)"
+        "topics": "ISCC\nChain of custody logic\nMass balance logic\nTraceability structures\nRecycled / bio-based content readiness\nSustainability claims support\nCarbon credits consultancy (secondary support, where relevant)\nSustainable tourism and GSTC / Türkiye Environmental and Cultural Sustainability Programme preparation support (advisory; ANKA does not issue certification)"
       },
       "sustainableTourismGstc": {
-        "label": "Sustainable Tourism, GSTC and the Türkiye Programme",
-        "summary": "For hotels, tour operators and destinations we provide advisory on GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence structures ahead of assessment—without acting as a certification body.",
+        "label": "Sustainable Tourism, GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
+        "summary": "For hotels, tour operators and destinations we provide advisory on GSTC criteria alignment, Türkiye Environmental and Cultural Sustainability Programme preparation, gap analysis and evidence structures ahead of assessment—without acting as a certification body.",
         "description": "ANKA does not issue certificates or GSTC certification, and does not guarantee certification outcomes. We provide advisory support on preparation, documentation, evidence structures and action planning. The work connects management systems, environmental and social themes with operational evidence.",
-        "topics": "GSTC criteria alignment\nTürkiye Sustainable Tourism Programme preparation\nGap analysis\nEvidence files and documentation\nTraining and internal awareness\nAssessment / audit readiness preparation\nCertification readiness support (advisory)"
+        "topics": "GSTC criteria alignment\nTürkiye Environmental and Cultural Sustainability Programme preparation\nGap analysis\nEvidence files and documentation\nTraining and internal awareness\nAssessment / audit readiness preparation\nReadiness advisory support (ANKA does not issue certification)"
       }
     },
     "detailCta": "Discuss with ANKA",
@@ -2837,9 +2837,9 @@
         },
         "tourismServices": {
           "title": "Tourism and Hospitality",
-          "description": "We support hotels, tour operators and destination structures with sustainable tourism criteria, GSTC readiness, Türkiye Sustainable Tourism Programme preparation and operational evidence organisation.",
+          "description": "We support hotels, tour operators and destination structures with GSTC criteria, Türkiye Environmental and Cultural Sustainability Programme readiness and operational evidence organisation.",
           "focus1": "GSTC and sustainable tourism readiness",
-          "focus2": "Türkiye Sustainable Tourism Programme",
+          "focus2": "Türkiye environmental and cultural programme",
           "focus3": "Hotel and destination evidence files"
         }
       }

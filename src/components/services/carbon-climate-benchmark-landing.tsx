@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/section-heading";
 import type { AppLocale } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import type { IntlTranslator } from "@/lib/i18n-types";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { homeCardClassName } from "@/lib/home-classes";
 import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import { cn } from "@/lib/utils";
@@ -244,7 +245,9 @@ export function CarbonClimateBenchmarkLanding({
                   asChild
                   className="border border-accent/45 bg-accent text-accent-foreground shadow-[0_18px_44px_-22px_rgba(8,145,178,0.55)] hover:border-accent hover:bg-accent hover:brightness-[1.03]"
                 >
-                  <Link href="/contact">{t(`${base}.hero.ctas.primary`)}</Link>
+                  <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    {t(`${base}.hero.ctas.primary`)}
+                  </a>
                 </AppButton>
                 <AppButton variant="outline" asChild>
                   <Link href="/services">{t(`${base}.hero.ctas.secondary`)}</Link>
@@ -774,17 +777,12 @@ export function CarbonClimateBenchmarkLanding({
               </div>
 
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-stretch">
-                <AppButton
-                  asChild
-                  className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
-                >
-                  <Link href="/contact">{t(`${base}.cta.primary`)}</Link>
+                <AppButton variant="inverseSolid" asChild size="lg">
+                  <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    {t(`${base}.cta.primary`)}
+                  </a>
                 </AppButton>
-                <AppButton
-                  variant="outline"
-                  asChild
-                  className="border-primary-foreground/55 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground"
-                >
+                <AppButton variant="inverseOutline" asChild size="lg">
                   <Link href="/contact">{t(`${base}.cta.secondary`)}</Link>
                 </AppButton>
               </div>

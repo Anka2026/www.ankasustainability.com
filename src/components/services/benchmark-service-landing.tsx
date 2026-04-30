@@ -5,6 +5,7 @@ import type { AppLocale } from "@/i18n/routing";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import type { ServicesCategoryId } from "@/lib/services-categories";
+import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { SERVICE_LANDING } from "@/lib/services-landing";
 import { cn } from "@/lib/utils";
 
@@ -80,8 +81,6 @@ export function BenchmarkServiceLanding({
   const audienceMiniBullets = readStringArray(t, `${base}.audience.bullets`).slice(0, 3);
 
   const processSteps = steps.slice(0, Math.min(steps.length, 5));
-  const processGridCols =
-    processSteps.length >= 5 ? "md:grid-cols-2 lg:grid-cols-5" : "md:grid-cols-2 lg:grid-cols-4";
 
   const model = SERVICE_LANDING[categoryId];
   const softwareSlug = model.relatedTools?.[0]?.softwareSlug;
@@ -99,7 +98,7 @@ export function BenchmarkServiceLanding({
       : locale === "nl"
         ? {
             advisory: "Adviesfocus",
-            how: "Hoe wij werken",
+            how: "Hoe we werken",
             audience: "Voor wie",
             nextStep: "Volgende stap",
           }
@@ -162,7 +161,9 @@ export function BenchmarkServiceLanding({
                   asChild
                   className="border border-accent/45 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)] hover:border-accent hover:bg-accent hover:brightness-[1.03]"
                 >
-                  <Link href="/contact">{t(`${base}.hero.ctas.primary`)}</Link>
+                  <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    {t(`${base}.hero.ctas.primary`)}
+                  </a>
                 </AppButton>
                 <AppButton variant="outline" asChild>
                   <Link href="/services">{t(`${base}.hero.ctas.secondary`)}</Link>
@@ -385,49 +386,64 @@ export function BenchmarkServiceLanding({
 
           {/* 2) Working approach */}
           <section aria-labelledby="mid-process">
-            <div className="grid gap-6 lg:grid-cols-[0.34fr_0.66fr] items-stretch">
-              <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04]">
+            <div className="grid items-stretch gap-6 lg:grid-cols-[minmax(0,0.4fr)_minmax(0,0.6fr)] lg:gap-8">
+              <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04] sm:p-7">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
                   {kickers.how}
                 </p>
-                <h2 id="mid-process" className="mt-4 text-pretty text-2xl font-semibold tracking-tight text-foreground">
+                <h2
+                  id="mid-process"
+                  className="mt-4 text-pretty text-2xl font-semibold tracking-tight text-foreground sm:text-[1.65rem]"
+                >
                   {t(`${base}.how.headline`)}
                 </h2>
-                <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground">{t(`${base}.how.intro`)}</p>
-                <p className="mt-4 text-sm font-semibold tracking-tight text-foreground/85">{t(`${base}.how.kicker`)}</p>
+                <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
+                  {t(`${base}.how.intro`)}
+                </p>
+                <p className="mt-5 text-sm font-semibold leading-snug tracking-tight text-foreground/90">{t(`${base}.how.kicker`)}</p>
               </div>
 
-              <div className="overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-5 shadow-[0_24px_80px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04]">
-                <div className={cn("relative grid gap-3", processGridCols)}>
-                  <div
-                    className="pointer-events-none absolute left-5 right-5 top-6 hidden h-px bg-slate-200/80 lg:block"
-                    aria-hidden
-                  />
+              <div className="rounded-3xl border border-slate-200/80 bg-slate-50/70 p-5 shadow-[0_24px_80px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04] sm:p-6">
+                <ol className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-5">
                   {processSteps.map((s, idx) => (
-                    <article
+                    <li
                       key={`step-${s.title}`}
-                      className="relative h-full rounded-2xl border border-slate-200/80 bg-white p-4.5 shadow-[0_12px_30px_rgba(15,23,42,0.06)] ring-1 ring-inset ring-primary/[0.03]"
+                      className={cn(
+                        processSteps.length === 5 && idx === processSteps.length - 1 && "md:col-span-2",
+                      )}
                     >
-                      <div className="flex items-start gap-3">
-                        <span className="mt-0.5 inline-flex h-8 w-10 items-center justify-center rounded-full border border-slate-200/80 bg-slate-50 text-[0.75rem] font-semibold tracking-tight text-primary">
-                          {String(idx + 1).padStart(2, "0")}
-                        </span>
-                        <div className="min-w-0">
-                          <h3 className="text-sm font-semibold tracking-tight text-foreground">{s.title}</h3>
-                          <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{s.body}</p>
+                      <article
+                        className={cn(
+                          "flex h-full min-w-0 flex-col rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6",
+                          "shadow-[0_12px_30px_rgba(15,23,42,0.06)] ring-1 ring-inset ring-primary/[0.03]",
+                          "transition-[border-color,box-shadow] duration-200 ease-out",
+                          "hover:border-primary/22 hover:shadow-[0_20px_44px_rgba(15,23,42,0.09)]",
+                        )}
+                      >
+                        <div className="flex min-w-0 flex-col gap-3.5 sm:flex-row sm:items-start sm:gap-4">
+                          <span
+                            className={cn(
+                              "inline-flex h-9 min-h-9 min-w-9 shrink-0 items-center justify-center self-start rounded-full",
+                              "border border-primary/18 bg-primary/[0.07] text-xs font-semibold tabular-nums tracking-tight text-primary",
+                              "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.72)]",
+                            )}
+                            aria-hidden
+                          >
+                            {String(idx + 1).padStart(2, "0")}
+                          </span>
+                          <div className="min-w-0 flex-1">
+                            <h3 className="text-base font-semibold leading-snug tracking-tight text-pretty text-foreground">
+                              {s.title}
+                            </h3>
+                            <p className="mt-2 text-[0.9375rem] leading-relaxed text-pretty text-muted-foreground sm:leading-[1.62]">
+                              {s.body}
+                            </p>
+                          </div>
                         </div>
-                      </div>
-                      {idx < processSteps.length - 1 ? (
-                        <span
-                          className="pointer-events-none absolute -right-3 top-6 hidden h-6 w-6 items-center justify-center rounded-full border border-slate-200/80 bg-white text-[0.75rem] font-semibold text-muted-foreground lg:inline-flex"
-                          aria-hidden
-                        >
-                          →
-                        </span>
-                      ) : null}
-                    </article>
+                      </article>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </div>
             </div>
           </section>
@@ -617,17 +633,12 @@ export function BenchmarkServiceLanding({
               </div>
 
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-stretch">
-                <AppButton
-                  asChild
-                  className="border-transparent bg-primary-foreground text-primary shadow-md shadow-black/10 hover:bg-primary-foreground hover:shadow-lg"
-                >
-                  <Link href="/contact">{t(`${base}.cta.primary`)}</Link>
+                <AppButton variant="inverseSolid" asChild size="lg">
+                  <a href={COMPANY_BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    {t(`${base}.cta.primary`)}
+                  </a>
                 </AppButton>
-                <AppButton
-                  variant="outline"
-                  asChild
-                  className="border-primary-foreground/55 bg-transparent text-primary-foreground shadow-none hover:border-accent hover:bg-accent/15 hover:text-primary-foreground"
-                >
+                <AppButton variant="inverseOutline" asChild size="lg">
                   <Link href="/contact">{t(`${base}.cta.secondary`)}</Link>
                 </AppButton>
               </div>

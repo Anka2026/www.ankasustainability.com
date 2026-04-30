@@ -68,10 +68,10 @@
         "i4": "Ondersteuning traceerbaarheid"
       },
       "sustainableTourismGstc": {
-        "i1": "GSTC-voorbereiding",
-        "i2": "Türkiye-programma",
+        "i1": "GSTC-criteria",
+        "i2": "Türkiye environmental and cultural programme",
         "i3": "Gap-analyse",
-        "i4": "Bewijsstructuur"
+        "i4": "Bewijsopbouw"
       }
     }
   },
@@ -172,8 +172,8 @@
         "body": "Ondersteuning bij certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en governance van marktbeweringen."
       },
       "c7": {
-        "title": "Duurzaam toerisme, GSTC en Türkiye-programma",
-        "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij afstemming op GSTC-criteria, voorbereiding op het Türkiye-programma, gap-analyse en bewijsdossieropbouw."
+        "title": "Duurzaam toerisme en GSTC-voorbereiding",
+        "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme—gap-analyse en een overzichtelijk bewijsdossier."
       }
     },
     "software": {
@@ -303,8 +303,8 @@
           "body": "Wij zetten een houdbaarder werkordening neer rond certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en marktcommunicatie."
         },
         "sustainableTourismGstc": {
-          "title": "Duurzaam toerisme, GSTC en Türkiye-programma",
-          "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij afstemming op GSTC-criteria, voorbereiding op het Türkiye-programma, gap-analyse en bewijsdossieropbouw."
+          "title": "Duurzaam toerisme, GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
+          "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme—gap-analyse en bewijsdossieropbouw."
         }
       }
     },
@@ -1717,10 +1717,10 @@
           }
         },
         "sustainableTourismGstc": {
-          "subtitle": "Afstemming op GSTC-criteria, voorbereiding op het Türkiye Sustainable Tourism Programme, gap-analyse en bewijsstructuur—advies en ondersteuning bij certificeringsvoorbereiding (ANKA verleent geen certificering).",
+          "subtitle": "Afstemming op GSTC-criteria en voorbereiding op het Türkiye Environmental and Cultural Sustainability Programme—gap-analyse en bewijsstructuur (ANKA geeft geen certificaten uit en garandeert geen certificeringsresultaat).",
           "whyMatters": "Voor toeristische organisaties raakt duurzaamheid ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en gastcommunicatie—niet alleen milieuprestaties.",
           "deliverables": [
-            "Gap-analyse en prioritering tegen GSTC- en programmaverwachtingen",
+            "Gap-analyse en prioritering tegen GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme",
             "Praktisch actieplan met heldere verantwoordelijkheden",
             "Bewijsstructuur vóór beoordeling of audit"
           ],
@@ -1737,7 +1737,7 @@
             "Voorbereidende notities"
           ],
           "whoFor": [
-            "Hotels en accommodaties die zich voorbereiden op GSTC en het Türkiye-programma",
+            "Hotels en accommodaties die zich voorbereiden op GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
             "Touroperators en bestemmingsorganisaties",
             "Instellingen die met publieke en sectorale stakeholders aan afstemming werken"
           ],
@@ -1747,14 +1747,14 @@
           "benchmark": {
             "hero": {
               "eyebrow": "Duurzaam toerisme",
-              "title": "Advies voor duurzaam toerisme, GSTC en het Türkiye-programma",
-              "text": "Voor toeristische organisaties gaat duurzaamheid niet alleen over milieuprestaties. Het raakt ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en communicatie met gasten. ANKA ondersteunt hotels, touroperators en bestemmingsorganisaties bij het opbouwen van een praktische voorbereiding op basis van GSTC-criteria en het Türkiye Sustainable Tourism Programme. ANKA verstrekt geen certificering en garandeert geen uitkomsten; we richten ons op voorbereiding, documentatie en bewijsstructuur.",
+              "title": "Advies voor GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
+              "text": "Voor toeristische organisaties gaat duurzaamheid verder dan milieuprestaties. Het raakt ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en communicatie met gasten. ANKA helpt hotels, touroperators en bestemmingsorganisaties om GSTC-criteria en de verwachtingen van het Türkiye Environmental and Cultural Sustainability Programme beter te begrijpen, hiaten te prioriteren en het bewijsdossier overzichtelijk voor te bereiden.\n\nANKA geeft geen certificaten uit en garandeert geen certificeringsresultaat. Onze ondersteuning richt zich op gap-analyse, actieplanning, documentatie, bewijsopbouw en voorbereiding op beoordeling.",
               "ctas": {
                 "primary": "Plan een gesprek",
                 "secondary": "Bekijk diensten"
               },
               "proofStrip": {
-                "items": ["GSTC-voorbereiding", "Türkiye-programma", "Bewijsstructuur", "Gereedheid voor beoordeling"],
+                "items": ["GSTC-criteria", "Türkiye environmental and cultural programme", "Gap-analyse", "Bewijsopbouw"],
                 "subtitles": [
                   "Criteria-afstemming en gap-analyse",
                   "Programmaverwachtingen en actieplan",
@@ -1762,10 +1762,10 @@
                   "Dossierstructuur en checklists"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Werkscope",
               "panelCards": [
                 { "title": "GSTC-criteria", "body": "Gap-analyse en prioriteiten voor afstemming." },
-                { "title": "Türkiye-programma", "body": "Programmavoorbereiding en documentatiestructuur." },
+                { "title": "Programmavoorbereiding", "body": "Verwachtingen van het Türkiye Environmental and Cultural Sustainability Programme en documentatiestructuur." },
                 { "title": "Operatie en bewijs", "body": "Praktijkvoering, registraties en indicatoren." },
                 { "title": "Team en bewustwording", "body": "Verantwoordelijkheden, training en interne communicatie." }
               ]
@@ -1779,8 +1779,8 @@
                 "Operationele realiteit en uitspraken moeten met elkaar blijven kloppen",
                 "Zonder heldere teamrollen is het proces niet vol te houden"
               ],
-              "insightLabel": "Hoe ANKA waarde toevoegt",
-              "insightText": "Bij duurzaam toerisme maken we niet alleen een documentenlijst. We kijken samen naar de dagelijkse operatie, teamverantwoordelijkheden en praktijktoepassing, en vertalen de criteria naar een werkbare structuur voor de organisatie. Zo wordt de voorbereiding niet alleen een dossier voor beoordeling, maar een duidelijke en betrouwbare werkwijze die de organisatie kan blijven gebruiken. ANKA verstrekt geen certificering; we bieden voorbereiding en advies.",
+              "insightLabel": "Hoe we samen werken",
+              "insightText": "We maken niet alleen een documentenlijst. We bekijken samen de dagelijkse operatie, teamverantwoordelijkheden en praktijktoepassing. Daarna vertalen we de criteria naar een werkbare structuur die de organisatie zelf kan opvolgen, actualiseren en behouden.",
               "cards": [
                 {
                   "title": "GSTC- en programmaverwachtingen",
@@ -1798,22 +1798,22 @@
             },
             "support": {
               "title": "Wat we samen verduidelijken",
-              "intro": "Elke toeristische organisatie start vanuit een andere situatie. We kijken eerst naar bestaande praktijken, documentatie, operationele realiteit en de manier waarop verantwoordelijkheden zijn verdeeld. Daarna maken we de hiaten ten opzichte van de relevante criteria zichtbaar, stellen we een actieplan op en brengen we het bewijsdossier op orde voor certificeringsvoorbereiding.",
+              "intro": "Elke toeristische organisatie start vanuit een andere situatie. We kijken eerst naar bestaande praktijken, documentatie, operationele realiteit en de manier waarop verantwoordelijkheden zijn verdeeld. Daarna maken we de hiaten ten opzichte van de relevante criteria zichtbaar, stellen we een actieplan op en brengen we het bewijsdossier op orde voor voorbereiding op beoordeling.",
               "cards": [
                 {
                   "title": "Gap-analyse op basis van GSTC-criteria",
                   "body": "We brengen ontbrekende onderdelen, sterke punten en prioritaire acties in kaart."
                 },
                 {
-                  "title": "Voorbereiding op het Türkiye Sustainable Tourism Programme",
+                  "title": "Voorbereiding op het Türkiye Environmental and Cultural Sustainability Programme",
                   "body": "We bouwen een documentatie- en actiekader dat aansluit op programma-eisen."
                 },
                 {
-                  "title": "Praktisch actieplan voor hotels, touroperators en bestemmingen",
+                  "title": "Actieplan voor hotels, touroperators en bestemmingen",
                   "body": "We maken een uitvoerbare routekaart passend bij uw werkelijkheid."
                 },
                 {
-                  "title": "Bewijsstructuur voor management, milieu en sociale impact",
+                  "title": "Bewijsstructuur voor management, milieu, sociale impact en cultureel erfgoed",
                   "body": "We stemmen registraties, indicatoren en verantwoordelijkheden op thema’s af."
                 },
                 {
@@ -1821,36 +1821,36 @@
                   "body": "We verhelderen rollen en interne communicatiebehoeften."
                 },
                 {
-                  "title": "Voorbereidingsdossier voor beoordeling of audit",
+                  "title": "Controle en voorbereidingsdossier vóór beoordeling",
                   "body": "We structureren materiaal voor review zonder uitkomsten van certificering te impliceren."
                 }
               ]
             },
             "how": {
               "title": "Hoe we werken",
-              "headline": "Hoe we werken",
-              "intro": "We laten de voorbereiding stap voor stap vorderen en verhelderen op elk moment de bewijsstructuur en teamrollen.",
-              "kicker": "Huidige situatie → Hiaten → Actie → Bewijs → Gereedheid",
+              "headline": "We verduidelijken de voorbereiding stap voor stap",
+              "intro": "We behandelen de voorbereiding op GSTC en het Türkiye-programma voor milieu- en culturele duurzaamheid niet als een eenmalige documentenlijst. We brengen de huidige situatie, gap-analyse, actieplanning, bewijsdossier en teamvoorbereiding samen in een beheersbare werkwijze.",
+              "kicker": "Huidige situatie → Hiaten → Actieplan → Bewijsdossier → Voorbereiding op beoordeling",
               "steps": [
                 {
                   "title": "We brengen de huidige situatie in beeld",
-                  "body": "We bekijken de bestaande duurzaamheidspraktijken, documenten, operationele werkwijze en verantwoordelijkheden."
+                  "body": "We bekijken de duurzaamheidspraktijken, documentatie, operationele werkwijze en teamverantwoordelijkheden samen."
                 },
                 {
                   "title": "We maken de hiaten zichtbaar",
-                  "body": "We brengen ontbrekende onderdelen, sterke punten en prioritaire acties in kaart ten opzichte van GSTC-criteria en programma-eisen."
+                  "body": "We verduidelijken ontbrekende onderdelen, sterke punten en prioritaire acties ten opzichte van GSTC-criteria en Türkiye-programmavereisten."
                 },
                 {
-                  "title": "We maken een actieplan",
-                  "body": "We stellen een praktische routekaart op voor management, milieu, sociale impact, cultureel erfgoed, inkoop en gastcommunicatie."
+                  "title": "We stellen het actieplan op",
+                  "body": "We maken een praktisch plan voor management, milieu, cultureel erfgoed, sociale impact, inkoop en gastcommunicatie."
                 },
                 {
                   "title": "We ordenen het bewijsdossier",
-                  "body": "We structureren beleid, procedures, registraties, indicatoren, foto’s, trainingsbewijzen en praktijkdocumentatie voor de beoordelingsfase."
+                  "body": "We brengen beleid, procedures, registraties, indicatoren, foto’s, trainingsmateriaal en praktijkbewijs samen voor de beoordelingsfase."
                 },
                 {
                   "title": "We bereiden het team voor",
-                  "body": "We werken met de betrokken teams om verantwoordelijkheden te verduidelijken, opvolging makkelijker te maken en de organisatie beter voor te bereiden op beoordeling."
+                  "body": "We werken met de betrokken teams om verantwoordelijkheden te verduidelijken, opvolging makkelijker te maken en de voorbereiding op beoordeling te versterken."
                 }
               ]
             },
@@ -1881,7 +1881,7 @@
               "title": "Voor wie",
               "panelLabel": "Doelgroep",
               "bullets": [
-                "Hotels en ketens die zich voorbereiden op GSTC en het Türkiye-programma",
+                "Hotels en ketens die zich voorbereiden op GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
                 "Touroperators en bestemmingsorganisaties",
                 "Instellingen die met publieke en sectorale stakeholders samenwerken"
               ],
@@ -1893,11 +1893,11 @@
                 "Gemeenten, ontwikkelingsagentschappen en toeristische verenigingen",
                 "Organisaties die zich voorbereiden op een programma voor duurzaam toerisme"
               ],
-              "description": "Voor toeristische organisaties en stakeholderstructuren die een heldere bewijsstructuur en actieplan willen voor duurzaam toerisme en GSTC / Türkiye-programma-voorbereiding."
+              "description": "Voor toeristische organisaties en stakeholderstructuren die een heldere bewijsstructuur en actieplan willen voor duurzaam toerisme en GSTC / Türkiye Environmental and Cultural Sustainability Programme-voorbereiding."
             },
             "tools": {
-              "title": "Optionele digitale structuur",
-              "intro": "Deze dienst vereist geen software. Als behoefte ontstaat aan bewijsvolging, kunnen we selectief oplossingen uit ons portfolio beoordelen.",
+              "title": "Optie voor digitale opvolging",
+              "intro": "Voor deze dienst is softwaregebruik niet verplicht. Als er behoefte is aan betere opvolging van bewijs, checklists, indicatoren of voorbereidingsstatus, bekijken we samen welke digitale oplossing uit het ANKA-portfolio passend is.",
               "rightTitle": "Digitale opties voor bewijsvolging",
               "capabilityRows": ["Bewijsregistratie", "Checklists", "Indicatorfollow-up", "Zicht op gereedheid"],
               "noteShort": "ANKA verstrekt geen certificering; we bieden voorbereiding en advies.",
@@ -1911,8 +1911,8 @@
               "noteBody": "GSTC- of nationale programmabeoordelingen worden door onafhankelijke derden uitgevoerd; ANKA levert daarbij voorbereidend advies."
             },
             "cta": {
-              "title": "Laten we uw voorbereiding op duurzaam toerisme samen verduidelijken.",
-              "text": "We kunnen uw huidige situatie, hiaten en prioritaire acties bekijken in relatie tot GSTC-criteria en het Türkiye Sustainable Tourism Programme.",
+              "title": "Laten we uw voorbereiding op duurzaam toerisme samen verduidelijken",
+              "text": "We kunnen uw huidige situatie, hiaten en prioritaire acties bekijken in relatie tot GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme.",
               "primary": "Plan een gesprek",
               "secondary": "Neem contact op"
             }
@@ -1957,13 +1957,13 @@
         "label": "Certificering, Traceerbaarheid en Marktvertrouwen",
         "summary": "We bouwen structuren voor traceerbaarheid, verifieerbaarheid en certificering die vertrouwen versterken in product- en supplyprocessen.",
         "description": "Traceerbaarheid en certificering zijn disciplines om claims verifieerbaar te maken. We ontwerpen werkbare structuren voor chain-of-custody, massabalans en documentmanagement.",
-        "topics": "ISCC\nChain-of-custody-logica\nMassabalans-logica\nTraceerbaarheidsstructuren\nGereedheid gerecyclede / biogebaseerde inhoud\nOndersteuning bij duurzaamheidsclaims\nAdvies koolstofcredits (secundair, waar relevant)\nVoorbereiding duurzaam toerisme en GSTC / Türkiye-programma (advies; ANKA verleent geen certificering)"
+        "topics": "ISCC\nChain-of-custody-logica\nMassabalans-logica\nTraceerbaarheidsstructuren\nGereedheid gerecyclede / biogebaseerde inhoud\nOndersteuning bij duurzaamheidsclaims\nAdvies koolstofcredits (secundair, waar relevant)\nVoorbereiding duurzaam toerisme en GSTC / Türkiye Environmental and Cultural Sustainability Programme (advies; ANKA verleent geen certificering)"
       },
       "sustainableTourismGstc": {
-        "label": "Duurzaam toerisme, GSTC en Türkiye-programma",
-        "summary": "Voor hotels, touroperators en bestemmingen bieden we advies bij GSTC-criteria, voorbereiding op het Türkiye Sustainable Tourism Programme, gap-analyse en bewijsstructuren vóór beoordeling—zonder als certificerende instantie op te treden.",
+        "label": "Duurzaam toerisme, GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
+        "summary": "Voor hotels, touroperators en bestemmingen bieden we advies bij GSTC-criteria, voorbereiding op het Türkiye Environmental and Cultural Sustainability Programme, gap-analyse en bewijsstructuren vóór beoordeling—zonder als certificerende instantie op te treden.",
         "description": "ANKA verstrekt geen certificaten of GSTC-certificering en garandeert geen certificeringsresultaten. We leveren advies bij voorbereiding, documentatie, bewijsstructuren en actieplanning. Het werk verbindt managementsystemen, milieu- en sociale thema’s met operationele bewijzen.",
-        "topics": "Afstemming op GSTC-criteria\nVoorbereiding Türkiye Sustainable Tourism Programme\nGap-analyse\nBewijsdossiers en documentatie\nTraining en interne bewustwording\nVoorbereiding op beoordeling / audit\nOndersteuning certificeringsvoorbereiding (advies)"
+        "topics": "Afstemming op GSTC-criteria\nVoorbereiding Türkiye Environmental and Cultural Sustainability Programme\nGap-analyse\nBewijsdossiers en documentatie\nTraining en interne bewustwording\nVoorbereiding op beoordeling / audit\nVoorbereidend advies (ANKA verleent geen certificering)"
       }
     },
     "detailCta": "Neem contact op met ANKA",
@@ -2885,9 +2885,9 @@
         },
         "tourismServices": {
           "title": "Toerisme en hospitality",
-          "description": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij criteria voor duurzaam toerisme, GSTC-voorbereiding, het Türkiye Sustainable Tourism Programme en operationele bewijsopbouw.",
+          "description": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij GSTC-criteria, voorbereiding op het Türkiye Environmental and Cultural Sustainability Programme en operationele bewijsopbouw.",
           "focus1": "GSTC en voorbereiding op duurzaam toerisme",
-          "focus2": "Türkiye Sustainable Tourism Programme",
+          "focus2": "Türkiye environmental and cultural programme",
           "focus3": "Bewijsdossiers voor hotels en bestemmingen"
         }
       }

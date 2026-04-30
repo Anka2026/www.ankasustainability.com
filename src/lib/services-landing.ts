@@ -41,7 +41,13 @@ export const SERVICE_LANDING: Record<ServicesCategoryId, ServiceLandingModel> = 
     relatedTools: [{ softwareSlug: "agri-climate-platform" }],
   },
   sustainableTourismGstc: {
-    focusChips: ["GSTC Criteria", "Türkiye Sustainable Tourism Programme", "Gap Analysis", "Evidence Structure", "Audit Readiness"],
+    focusChips: [
+      "GSTC Criteria",
+      "Türkiye Environmental and Cultural Sustainability Programme",
+      "Gap Analysis",
+      "Evidence Organisation",
+      "Assessment Readiness",
+    ],
   },
 } as const;
 
