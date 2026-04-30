@@ -43,8 +43,8 @@ function optionalString(t: TranslatorLike, key: string): string | undefined {
   }
 }
 
-const AGRI_SCREENSHOT = "/software/agri-climate-platform-overview.png";
-const CBAM_CONSOLE_SCREENSHOT = "/images/software/cbam-compliance-console-dashboard.png";
+const AGRI_SCREENSHOT = "/software/agri-climate-platform-overview-dashboard.png";
+const CBAM_CONSOLE_SCREENSHOT = "/software/cbam-compliance-console-dashboard.png";
 
 export function SoftwarePortfolio({ t }: Props) {
   const tt = t as TranslatorLike;

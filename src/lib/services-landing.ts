@@ -40,5 +40,8 @@ export const SERVICE_LANDING: Record<ServicesCategoryId, ServiceLandingModel> = 
     focusChips: ["ISCC", "Chain Of Custody", "Supplier Evidence", "Audit Readiness", "Market Claims"],
     relatedTools: [{ softwareSlug: "agri-climate-platform" }],
   },
+  sustainableTourismGstc: {
+    focusChips: ["GSTC Criteria", "Türkiye Sustainable Tourism Programme", "Gap Analysis", "Evidence Structure", "Audit Readiness"],
+  },
 } as const;
 

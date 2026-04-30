@@ -2,16 +2,14 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
-const SCREENSHOT_SRC = "/images/software/cbam-compliance-console-dashboard.png";
+const SCREENSHOT_SRC = "/software/cbam-compliance-console-dashboard.png";
 
 type Props = Readonly<{
   alt: string;
   className?: string;
-  /** Hero / above-the-fold — use priority on product detail. */
   priority?: boolean;
   /**
-   * Wide modal layout: fixed vertical canvas with object-contain (no crop),
-   * matches Agri modal framing — premium, full-width within modal body.
+   * Modal: slightly taller canvas so the dashboard reads clearly without crowding copy above.
    */
   variant?: "default" | "modal";
 }>;
@@ -37,8 +35,8 @@ export function CbamComplianceConsoleProductVisual({
         className={cn(
           "relative w-full max-w-full overflow-hidden rounded-xl bg-neutral-50",
           isModal
-            ? "h-[min(52vh,460px)] min-h-[14rem] sm:h-[min(54vh,480px)] sm:min-h-[16rem]"
-            : "aspect-[16/10]",
+            ? "h-[min(56vh,520px)] min-h-[15rem] sm:h-[min(58vh,540px)] sm:min-h-[17rem]"
+            : "aspect-[16/10] min-h-[12rem] sm:min-h-[14rem]",
         )}
       >
         <Image
@@ -47,12 +45,12 @@ export function CbamComplianceConsoleProductVisual({
           fill
           sizes={
             isModal
-              ? "(max-width: 640px) calc(100vw - 2rem), min(896px, 90vw)"
+              ? "(max-width: 640px) calc(100vw - 2rem), min(960px, 92vw)"
               : "(max-width: 640px) 100vw, (max-width: 1024px) 90vw, min(560px, 45vw)"
           }
           className={cn(
             "object-contain object-center",
-            isModal ? "p-1.5 sm:p-2.5" : "",
+            isModal ? "p-1.5 sm:p-2.5" : "p-1 sm:p-2",
           )}
           priority={priority}
         />

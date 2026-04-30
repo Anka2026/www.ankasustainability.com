@@ -66,6 +66,12 @@
         "i2": "Chain of custody",
         "i3": "Mass balance",
         "i4": "İzlenebilirlik desteği"
+      },
+      "sustainableTourismGstc": {
+        "i1": "GSTC hazırlığı",
+        "i2": "Türkiye programı",
+        "i3": "Boşluk analizi",
+        "i4": "Kanıt düzeni"
       }
     }
   },
@@ -119,7 +125,7 @@
       "panel": {
         "eyebrow": "DANIŞMANLIK",
         "title": "Danışmanlık ve Dijital Destek Çerçevesi",
-        "description": "Strateji, teknik çalışma, veri disiplini ve dijital destek yapısını aynı çerçevede ele alırız.",
+        "description": "Strateji, teknik çalışma kapsamı, veri ve kanıt düzeni ile dijital çözüm desteğini aynı danışmanlık çerçevesinde bir araya getiririz.",
         "items": [
           "Sürdürülebilirlik ve Uyum",
           "Karbon ve Ürün Verisi",
@@ -131,16 +137,16 @@
     "proof": {
       "ariaLabel": "",
       "items": [
-        "AB Regülasyon Odağı",
-        "Teknik Kanıt ve Veri Disiplini",
-        "Dijital Destekli Çalışma Yapısı",
-        "Uygulanabilir Uyum Yaklaşımı"
+        "AB regülasyon beklentilerine teknik yaklaşım",
+        "Veri ve kanıt yapısı",
+        "Dijital çözüm desteği",
+        "Uygulanabilir uyum kurgusu"
       ]
     },
     "servicesOverview": {
       "title": "Temel Danışmanlık Alanlarımız",
       "intro": "AB regülasyonları, karbon yönetimi, ürün sürdürülebilirliği, tedarik zinciri uyumu ve pazar hazırlığı alanlarında teknik ve uygulanabilir çalışma yapıları kurarız.",
-      "cardCta": "Detayları inceleyin",
+      "cardCta": "Detayları İnceleyin",
       "c1": {
         "title": "ESG ve Kurumsal Raporlama",
         "body": "CSRD, ESRS, GRI, ISSB ve çift önemlilik süreçleri için veri, sınır ve kanıt yapısını güçlendiririz."
@@ -164,6 +170,10 @@
       "c6": {
         "title": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
         "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerine destek oluruz."
+      },
+      "c7": {
+        "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
+        "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
       }
     },
     "software": {
@@ -185,7 +195,7 @@
     "why": {
       "eyebrow": "",
       "title": "Neden ANKA?",
-      "subtitle": "Avrupa regülasyon beklentilerini, tedarik zinciri uygulama gerçekliği ve teknik çalışma disipliniyle birleştiriyoruz.",
+      "subtitle": "Avrupa regülasyon beklentilerini, tedarik zinciri gerçekleri ve teknik çalışma kapsamıyla bir araya getiriyoruz.",
       "c1": {
         "title": "Hollanda Merkezli, Avrupa Odaklı",
         "body": "Hollanda’daki şirket yapısı ve Avrupa değer zinciri perspektifiyle güven veren bir danışmanlık modeli sunarız."
@@ -199,8 +209,8 @@
         "body": "Avrupa’daki alıcı beklentileri ile üretici ve tedarikçi tarafındaki uygulama gerçekliğini aynı çalışma yapısında buluştururuz."
       },
       "c4": {
-        "title": "Danışmanlıkta dijital araç desteği",
-        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum süreçlerinde gerektiğinde dijital araçlarla destek veririz."
+        "title": "Danışmanlıkta dijital çözüm desteği",
+        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum süreçlerinde gerektiğinde yazılım ve dijital çözüm altyapısıyla destek veririz."
       }
     },
     "insights": {
@@ -240,7 +250,7 @@
     "overview": {
       "eyebrow": "Hizmet Yaklaşımımız",
       "title": "Regülasyon Beklentilerini Uygulanabilir Çalışma Yapısına Taşıyoruz",
-      "text": "Altı ana danışmanlık alanımız; kurumların sürdürülebilirlik, karbon, ürün ve tedarik zinciri uyumu çalışmalarını yalnızca belge veya beyan seviyesinde bırakmadan, kurum içinde izlenebilir, savunulabilir ve yönetilebilir bir çalışma düzenine taşımak üzere kurgulanır.",
+      "text": "Yedi ana danışmanlık alanımız; kurumların sürdürülebilirlik, karbon, ürün ve tedarik zinciri uyumu çalışmalarını yalnızca belge veya beyan seviyesinde bırakmadan, kurum içinde izlenebilir, savunulabilir ve yönetilebilir bir çalışma düzenine taşımak üzere kurgulanır.",
       "strip": [
         {
           "title": "Kapsam ve Öncelik"
@@ -274,7 +284,7 @@
         },
         "carbonClimate": {
           "title": "Karbon, İklim ve Dekarbonizasyon",
-          "body": "Sera gazı envanteri, CBAM, ISO 14064-1, ISO 14067 ve azaltım önceliklerini teknik çalışma disipliniyle ele alırız."
+          "body": "Sera gazı envanteri, CBAM, ISO 14064-1, ISO 14067 ve azaltım önceliklerini teknik çalışma kapsamıyla ele alırız."
         },
         "productCircularity": {
           "title": "Ürün Sürdürülebilirliği, LCA ve EPD",
@@ -291,6 +301,10 @@
         "certificationTraceability": {
           "title": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
           "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerinde daha savunulabilir bir çalışma düzeni kurarız."
+        },
+        "sustainableTourismGstc": {
+          "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
+          "body": "Otel, tur operatörü ve destinasyon yapıları için GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt dosyası düzeni oluşturuyoruz."
         }
       }
     },
@@ -814,7 +828,7 @@
                 },
                 {
                   "title": "Ürün Karbon",
-                  "body": "ISO 14067 çerçevesi ve ürün bazlı veri disiplini."
+                  "body": "ISO 14067 çerçevesi ve ürün verisi ile kanıt düzeni."
                 },
                 {
                   "title": "DPP Hazırlığı",
@@ -978,7 +992,7 @@
           }
         },
         "regulatorySupplyChain": {
-          "subtitle": "AB regülasyonları ve tedarik zinciri uyumu—kapsam netliği, tedarikçi veri disiplini ve denetime hazır dokümantasyon sistemleri.",
+          "subtitle": "AB regülasyonları ve tedarik zinciri uyumu—kapsam netliği, tedarikçi veri akışı ve denetime hazır dokümantasyon düzeni.",
           "whyMatters": "Tedarik zinciri regülasyonları kanıt, izlenebilirlik ve dokümantasyon çıtasını yükseltiyor. Uyum artık bir sistem problemidir—yapılandırılmış veri akışları ve savunulabilir teknik dosyalar gerekir.",
           "deliverables": [
             "Ürün/pazar bazında regülasyon kapsam analizi ve öncelik haritası",
@@ -1654,6 +1668,190 @@
               "secondary": "İletişime Geçin"
             }
           }
+        },
+        "sustainableTourismGstc": {
+          "subtitle": "GSTC kriter uyumu ve Türkiye Sürdürülebilir Turizm Programı kapsamında hazırlık, boşluk analizi ve kanıt düzeni—danışmanlık ve sertifikasyon hazırlığı desteği (ANKA sertifika vermez).",
+          "whyMatters": "Turizmde sürdürülebilirlik; enerji, su, atık ve iletişimin ötesinde yönetim sistemi, çalışan uygulamaları, yerel etki ve kültürel mirası da kapsayan çok başlıklı bir hazırlık gerektirir.",
+          "deliverables": [
+            "GSTC ve program beklentilerine göre boşluk analizi ve önceliklendirme",
+            "Uygulanabilir aksiyon planı ve sorumluluk netliği",
+            "Değerlendirme / denetim öncesi kanıt dosyası düzeni"
+          ],
+          "howWeWorkSteps": [
+            "Mevcut uygulama ve belge setini birlikte inceleriz",
+            "Kriterlere göre boşlukları görünür kılar, aksiyon planını oluştururuz",
+            "Kanıt dosyasını ve iç kontrolleri düzenleriz",
+            "Ekiplerle hazırlığı tamamlar, izlenebilirliği güçlendiririz"
+          ],
+          "outputs": [
+            "Boşluk analizi ve öncelik özeti",
+            "Kriter bazlı aksiyon planı",
+            "Kanıt ve kontrol listesi",
+            "Hazırlık notları"
+          ],
+          "whoFor": [
+            "Oteller ve konaklama işletmeleri",
+            "Tur operatörleri ve destinasyon yapıları",
+            "Sürdürülebilir turizm programına hazırlanan işletmeler"
+          ],
+          "whoForNote": "ANKA bağımsız bir belgelendirme kuruluşu değildir ve GSTC sertifikası düzenlemez; hazırlık ve danışmanlık sağlar.",
+          "relatedToolsTitle": "Zorunlu yazılım bağımlılığı yoktur",
+          "relatedToolsBody": "İhtiyaç halinde kanıt takibi için hafif dijital düzen önerilebilir; danışmanlık önceliklidir.",
+          "benchmark": {
+            "hero": {
+              "eyebrow": "Sürdürülebilir Turizm",
+              "title": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı İçin Hazırlık Danışmanlığı",
+              "text": "Turizm işletmeleri için sürdürülebilirlik artık yalnızca çevresel performans başlığı değil; yönetim sistemi, çalışan uygulamaları, yerel etki, kültürel miras, satın alma, enerji, su, atık ve misafir iletişimini birlikte ele alan daha kapsamlı bir hazırlık sürecidir. ANKA olarak otel, tur operatörü ve destinasyon yapılarına GSTC kriterleri ve Türkiye Sürdürülebilir Turizm Programı kapsamında uygulanabilir bir hazırlık düzeni kurmaları için danışmanlık sağlıyoruz. ANKA sertifika vermez veya garanti etmez; hazırlık, dokümantasyon ve kanıt düzeni üzerinde çalışırız.",
+              "ctas": {
+                "primary": "Görüşme Planlayın",
+                "secondary": "İlgili Hizmetleri İnceleyin"
+              },
+              "proofStrip": {
+                "items": ["GSTC Hazırlığı", "Türkiye Programı", "Kanıt Düzeni", "Değerlendirme Öncesi Hazırlık"],
+                "subtitles": [
+                  "Kriter uyumu ve boşluk analizi",
+                  "Program beklentileri ve aksiyon planı",
+                  "Politika, kayıt ve saha kanıtları",
+                  "Dosya düzeni ve kontrol listesi"
+                ]
+              },
+              "panelTitle": "Odak Alanları",
+              "panelCards": [
+                { "title": "GSTC Kriterleri", "body": "Boşluk analizi ve uyum öncelikleri." },
+                { "title": "Türkiye Programı", "body": "Program hazırlığı ve dokümantasyon düzeni." },
+                { "title": "Operasyon ve Kanıt", "body": "Saha uygulaması, kayıt ve göstergeler." },
+                { "title": "Ekip ve Farkındalık", "body": "Sorumluluklar, eğitim ve iç iletişim." }
+              ]
+            },
+            "why": {
+              "title": "Neden Önemli",
+              "heading": "Sürdürülebilir Turizm Hazırlığı Çok Başlıklı ve Kanıta Dayalı Bir Düzen İster",
+              "intro": "Misafir beklentileri, program gereklilikleri ve denetlenebilir kanıt ihtiyacı bir araya geldiğinde hazırlık tek tabloya indirgenemez.",
+              "valueItems": [
+                "GSTC ve ulusal programlar yapılandırılmış kanıt bekliyor",
+                "Operasyonel gerçeklik ile beyanlar uyumlu olmalı",
+                "Ekip sorumlulukları net değilse süreç sürdürülemez"
+              ],
+              "insightLabel": "ANKA Yaklaşımı",
+              "insightText": "Yalnızca belge listesi hazırlamıyoruz; günlük operasyonu, ekip sorumluluklarını ve saha uygulamalarını birlikte değerlendirerek kriterleri işletmenin içinde takip edilebilir bir düzene çeviriyoruz. ANKA sertifika vermez; hazırlık ve danışmanlık sağlar.",
+              "cards": [
+                {
+                  "title": "GSTC ve Program Beklentileri",
+                  "body": "Kriterler; yönetim, çevre, sosyal etki ve iletişim başlıklarında kanıt ve kayıt düzeni gerektirir."
+                },
+                {
+                  "title": "Operasyonel Kanıt",
+                  "body": "Politika ve prosedürler; saha kayıtları ve göstergelerle desteklenmelidir."
+                },
+                {
+                  "title": "Sürdürülebilir İç Ritim",
+                  "body": "Hazırlık tek seferlik dosya değil; ekiplerin sürdürebileceği kontrol ve güncelleme ritmi olmalıdır."
+                }
+              ]
+            },
+            "support": {
+              "title": "Bu Hizmette Neyi Netleştiriyoruz?",
+              "intro": "Her işletmenin başlangıç noktası farklıdır. Bu nedenle önce mevcut uygulamaları, belge durumunu, saha gerçekliğini ve yönetim yaklaşımını birlikte değerlendiriyoruz. Ardından kriterlere göre boşlukları görünür hale getiriyor, aksiyon planını oluşturuyor ve sertifikasyon hazırlığı için gerekli kanıt dosyası düzenini kuruyoruz.",
+              "cards": [
+                { "title": "GSTC Kriterlerine Göre Boşluk Analizi", "body": "Mevcut uygulama ile kriterler arasındaki farkları önceliklendiririz." },
+                { "title": "Türkiye Sürdürülebilir Turizm Programı Hazırlığı", "body": "Program kapsamına uygun dokümantasyon ve aksiyon çerçevesi oluştururuz." },
+                { "title": "Uygulama Planı", "body": "Otel, tur operatörü ve destinasyon yapıları için yürütülebilir yol haritası hazırlarız." },
+                { "title": "Kanıt Düzeni", "body": "Yönetim, çevresel performans ve sosyal etki başlıklarında kayıt ve gösterge yapısı kurarız." },
+                { "title": "Eğitim ve Sorumluluklar", "body": "İç farkındalık, eğitim içeriği ve rol netliği için çerçeve öneririz." },
+                { "title": "Değerlendirme Öncesi Dosya", "body": "Denetim / değerlendirme sürecine uygun kanıt paketini düzenleriz." }
+              ]
+            },
+            "how": {
+              "title": "Nasıl Çalışıyoruz",
+              "headline": "Çalışmayı Nasıl Yürütüyoruz?",
+              "intro": "Hazırlığı adım adım ilerletir; her aşamada kanıt düzenini ve ekip rollerini netleştiririz.",
+              "kicker": "Mevcut durum → Boşluklar → Aksiyon → Kanıt → Hazırlık",
+              "steps": [
+                {
+                  "title": "Mevcut Durumu Anlıyoruz",
+                  "body": "İşletmenin mevcut sürdürülebilirlik uygulamalarını, belge setini, operasyon yapısını ve sorumluluk dağılımını inceliyoruz."
+                },
+                {
+                  "title": "Kriterlere Göre Boşlukları Belirliyoruz",
+                  "body": "GSTC ve ilgili program beklentilerine göre eksik alanları, güçlü yönleri ve öncelikli aksiyonları görünür hale getiriyoruz."
+                },
+                {
+                  "title": "Aksiyon Planını Oluşturuyoruz",
+                  "body": "Yönetim, çevre, sosyal etki, kültürel miras, satın alma ve misafir iletişimi başlıklarında uygulanabilir bir yol haritası hazırlıyoruz."
+                },
+                {
+                  "title": "Kanıt Dosyasını Düzenliyoruz",
+                  "body": "Politika, prosedür, kayıt, gösterge, fotoğraf, eğitim ve saha kanıtlarını değerlendirme sürecine uygun bir yapıya taşıyoruz."
+                },
+                {
+                  "title": "Ekiple Birlikte Hazırlığı Tamamlıyoruz",
+                  "body": "İlgili ekiplerle çalışarak sorumlulukları netleştiriyor, uygulama takibini kolaylaştırıyor ve değerlendirme öncesi hazırlığı güçlendiriyoruz."
+                }
+              ]
+            },
+            "outputs": {
+              "eyebrow": "ÇIKTILAR",
+              "title": "Oluşturulan Çıktılar",
+              "intro": "Çıktılar; işletmenin içinde güncellenebilir ve izlenebilir bir hazırlık düzenine dönüşecek şekilde yapılandırılır.",
+              "items": [
+                "GSTC / sürdürülebilir turizm boşluk analizi",
+                "Kriter bazlı aksiyon planı",
+                "Belge ve kanıt dosyası kontrol listesi",
+                "Sürdürülebilir turizm politika ve prosedür önerileri",
+                "Eğitim ve farkındalık içerikleri",
+                "Gösterge ve izleme tablosu",
+                "Değerlendirme / denetim hazırlık notları"
+              ],
+              "notes": [
+                "Mevcut olgunluk ile kriterler karşılaştırılır.",
+                "Öncelikli iyileştirmeler ve zaman çizelgesi netleşir.",
+                "Eksik belge ve kayıtlar tek listede toplanır.",
+                "Uygulanabilir politika ve prosedür taslağı üretilir.",
+                "Ekip içi eğitim ihtiyaçları tanımlanır.",
+                "Temel göstergeler ve takip ritmi önerilir.",
+                "Değerlendirme öncesi kontrol ve notlar hazırlanır."
+              ]
+            },
+            "audience": {
+              "title": "Kimler İçin Uygun?",
+              "panelLabel": "Hedef Kitle",
+              "bullets": [
+                "GSTC ve Türkiye programına hazırlanan oteller ve zincirler",
+                "Tur operatörleri ve destinasyon yönetim yapıları",
+                "Kamu ve sektör paydaşlarıyla uyum çalışan kurumlar"
+              ],
+              "list": [
+                "Oteller ve konaklama tesisleri",
+                "Otel grupları ve zincir işletmeler",
+                "Tur operatörleri",
+                "Destinasyon yönetim yapıları",
+                "Belediyeler, kalkınma ajansları ve turizm birlikleri",
+                "Sürdürülebilir turizm programına hazırlanan işletmeler"
+              ],
+              "description": "Bu hizmet; sürdürülebilir turizm ve GSTC / Türkiye programı hazırlığında kanıt düzeni ve aksiyon planı oluşturmak isteyen turizm işletmeleri ve paydaş yapıları içindir."
+            },
+            "tools": {
+              "title": "İsteğe bağlı dijital düzen",
+              "intro": "Bu hizmet için zorunlu yazılım yoktur. Kanıt takibi ve görünürlük ihtiyacı oluşursa portföyümüzden seçici çözümler değerlendirilir.",
+              "rightTitle": "Kanıt takibi için dijital opsiyonlar",
+              "capabilityRows": ["Kanıt kaydı", "Kontrol listeleri", "Gösterge takibi", "Hazırlık görünürlüğü"],
+              "noteShort": "ANKA sertifika vermez; hazırlık ve danışmanlık sağlar.",
+              "card": {
+                "title": "ANKA yazılım portföyü",
+                "body": "Turizm hazırlığında dijital düzen gerekiyorsa, danışmanlıkla uyumlu ürünler birlikte ele alınır.",
+                "bullets": ["Opsiyonel kullanım", "Kanıt düzenine odak", "Danışmanlık öncelikli"],
+                "cta": "Portföyü İnceleyin"
+              },
+              "noteTitle": "Not",
+              "noteBody": "GSTC veya ulusal program değerlendirmesi bağımsız üçüncü taraflarca yürütülür; ANKA bu süreçte hazırlık danışmanlığı sunar."
+            },
+            "cta": {
+              "title": "Sürdürülebilir turizm hazırlığınızı birlikte netleştirelim.",
+              "text": "GSTC ve Türkiye Sürdürülebilir Turizm Programı kapsamındaki mevcut durumunuzu, eksiklerinizi ve öncelikli aksiyonlarınızı birlikte değerlendirelim.",
+              "primary": "Görüşme Planlayın",
+              "secondary": "İletişime Geçin"
+            }
+          }
         }
       }
     },
@@ -1688,13 +1886,19 @@
         "label": "Pazar ve Paydaş Hazırlığı",
         "summary": "Sürdürülebilirlik performansını müşteri, yatırımcı, ihale ve uluslararası pazar beklentileriyle daha uyumlu hale getiriyoruz.",
         "description": "Pazar beklentileri netleştikçe; beyan dili, kanıt yapısı ve performans anlatısı daha kritik hale gelir. Kurumların, paydaş değerlendirmelerinde daha tutarlı ve güvenilir bir çerçeve sunmasına destek oluruz.",
-        "topics": "AB Taksonomisi\nSürdürülebilir finans hazırlığı\nYatırımcı odaklı ESG hazırlığı\nFinansla uyumlu sürdürülebilirlik yapıları\nDerecelendirme / açıklama hazırlığı\nSFDR ile ilişkili piyasa beklentileri (uygun olduğunda)"
+        "topics": "AB Taksonomisi\nSürdürülebilir finans hazırlığı\nYatırımcı odaklı ESG hazırlığı\nFinansla uyumlu sürdürülebilirlik yapıları\nDerecelendirme / açıklama hazırlığı\nSFDR ile ilişkili piyasa beklentileri (uygun olduğunda)\nSürdürülebilir turizm / GSTC hazırlığı danışmanlığı (ANKA sertifika vermez)"
       },
       "certificationTraceability": {
         "label": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
         "summary": "Ürün ve tedarik süreçlerinde güveni güçlendiren izlenebilirlik, doğrulanabilirlik ve sertifikasyon odaklı yapılar kuruyoruz.",
         "description": "İzlenebilirlik ve sertifikasyon; iddiaların doğrulanabilir olması için bir sistem disiplinidir. Zincirde mülkiyet, kütle dengesi ve belge yönetimi gibi başlıklarda; uygulanabilir ve sürdürülebilir yapılar tasarlarız.",
-        "topics": "ISCC\nZincirde mülkiyet (chain of custody) mantığı\nKütle dengesi (mass balance) mantığı\nİzlenebilirlik yapıları\nGeri dönüştürülmüş / biyo bazlı içerik hazırlığı\nSürdürülebilirlik beyanları desteği\nKarbon kredileri danışmanlığı (ikincil destek, uygun olduğunda)"
+        "topics": "ISCC\nZincirde mülkiyet (chain of custody) mantığı\nKütle dengesi (mass balance) mantığı\nİzlenebilirlik yapıları\nGeri dönüştürülmüş / biyo bazlı içerik hazırlığı\nSürdürülebilirlik beyanları desteği\nKarbon kredileri danışmanlığı (ikincil destek, uygun olduğunda)\nSürdürülebilir turizm ve GSTC / Türkiye programı hazırlığı (danışmanlık; ANKA sertifika vermez)"
+      },
+      "sustainableTourismGstc": {
+        "label": "Sürdürülebilir Turizm, GSTC ve Türkiye Programı",
+        "summary": "Oteller, tur operatörleri ve destinasyonlar için GSTC kriter uyumu, Türkiye Sürdürülebilir Turizm Programı hazırlığı, boşluk analizi ve sertifikasyon / değerlendirme öncesi kanıt düzeni üzerinde danışmanlık yürütüyoruz.",
+        "description": "ANKA sertifika veya GSTC belgesi düzenlemez; hazırlık, dokümantasyon, kanıt yapısı ve aksiyon planı üzerinde danışmanlık sağlar. Çalışma; yönetim sistemi, çevresel ve sosyal başlıklar ile operasyonel kanıtları bir araya getirir.",
+        "topics": "GSTC kriter uyumu\nTürkiye Sürdürülebilir Turizm Programı hazırlığı\nBoşluk analizi\nKanıt dosyası ve dokümantasyon\nEğitim ve iç farkındalık\nDeğerlendirme / denetim öncesi hazırlık\nSertifikasyon hazırlık desteği (danışmanlık)"
       }
     },
     "detailCta": "ANKA ile görüşün",
@@ -1737,7 +1941,7 @@
       },
       "c4": {
         "title": "Gerektiğinde dijital destek",
-        "body": "Veri toplama, hesaplama ve izlenebilirlik akışları uygun olduğunda dijital araçlarla daha yönetilebilir hale getirilir."
+        "body": "Veri toplama, hesaplama ve izlenebilirlik akışları uygun olduğunda yazılım ve dijital çözüm desteğiyle daha yönetilebilir hale getirilir."
       }
     },
     "finalCta": {
@@ -1871,7 +2075,7 @@
           ],
           "capabilities": [
             {
-              "title": "Saha veri disiplini",
+              "title": "Saha veri ve kayıt düzeni",
               "description": "Kayıt mantığı ve doğrulama noktalarıyla veri kalitesini güçlendirir."
             }
           ],
@@ -2121,36 +2325,36 @@
     "hero": {
       "eyebrow": "Hakkımızda",
       "title": "Sürdürülebilirlik, Uyum ve Dijital Destek Yaklaşımımız",
-      "description": "ANKA Sustainability Consulting B.V., kurumların sürdürülebilirlik, karbon yönetimi, ürün sürdürülebilirliği, tedarik zinciri uyumu ve dijital destek çalışmalarını daha yapılandırılmış, izlenebilir ve yönetilebilir hale getirmelerine destek olur. Regülasyon beklentilerini; veri, kanıt, teknik çalışma disiplini ve uygulanabilir iş akışlarıyla birlikte ele alırız.",
+      "description": "ANKA Sustainability Consulting B.V., kurumların sürdürülebilirlik, karbon yönetimi, ürün sürdürülebilirliği, tedarik zinciri uyumu ve dijital destek çalışmalarını daha yapılandırılmış, izlenebilir ve yönetilebilir hale getirmelerine destek olur. Regülasyon beklentilerini; veri, kanıt, teknik çalışma kapsamı ve uygulanabilir iş akışlarıyla birlikte ele alırız.",
       "panel": {
         "eyebrow": "Kurumsal Çerçeve",
         "title": "Çalışma Yaklaşımımız",
-        "description": "Danışmanlık yaklaşımımız; teknik çalışma disiplini, veri ve kanıt düzeni ve uygulanabilir süreç kurgusunu aynı çerçevede birleştirir.",
+        "description": "Danışmanlık yaklaşımımız; teknik çalışma kapsamı, veri ve kanıt düzeni ile uygulanabilir süreci aynı çerçevede birleştirir; gerektiğinde dijital çözüm desteğiyle tamamlanır.",
         "items": [
-          "Teknik Çalışma Disiplini",
-          "Veri ve Kanıt Disiplini",
-          "Uygulanabilir Süreç Kurgusu",
-          "Dijital Destek Yaklaşımı"
+          "Teknik Çalışma Kapsamı",
+          "Veri ve Kanıt Düzeni",
+          "Uygulanabilir Süreç",
+          "Dijital Çözüm Desteği"
         ]
       },
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin",
       "proof": [
         {
-          "title": "Teknik çalışma disiplini",
-          "body": "Kapsam, yöntem ve sınır disiplini"
+          "title": "Teknik Çalışma Kapsamı",
+          "body": "Kapsam, yöntem ve sınırların netleştirilmesi"
         },
         {
-          "title": "Veri disiplini",
-          "body": "Kaynak, kayıt ve kontrol düzeni"
+          "title": "Veri ve Kanıt Düzeni",
+          "body": "Kaynak, kayıt ve kontrol yapısının kurulması"
         },
         {
-          "title": "Uygulanabilir süreç",
-          "body": "Kurum içi tekrarlanabilir çalışma"
+          "title": "Uygulanabilir Süreç",
+          "body": "Kurum içinde tekrar edilebilir çalışma akışı"
         },
         {
-          "title": "Dijital hizalama",
-          "body": "Araç ve iş akışı uyumu"
+          "title": "Dijital Çözüm Desteği",
+          "body": "Veri, hesaplama ve izlenebilirliği destekleyen çözüm altyapısı"
         }
       ]
     },
@@ -2160,7 +2364,7 @@
       "text": "ANKA, Hollanda merkezli kurumsal yapısı ve Türkiye operasyon gücüyle Avrupa pazar beklentilerini sahadaki uygulama gerçekliğiyle birlikte ele alır. Bu yaklaşım; üretici, tedarikçi ve ihracatçı firmaların regülasyon, veri, kanıt ve uyum süreçlerini daha yönetilebilir hale getirmeyi amaçlar.",
       "c1": {
         "title": "Avrupa Pazar Perspektifi",
-        "body": "AB regülasyon beklentileri ve alıcı veri talepleri teknik çalışma kapsamına dönüştürülür."
+        "body": "AB regülasyon beklentileri ve alıcı veri taleplerini teknik çalışma kapsamına birlikte çeviriyoruz."
       },
       "c2": {
         "title": "Türkiye Operasyon Gücü",
@@ -2168,32 +2372,37 @@
       },
       "c3": {
         "title": "Uygulanabilir Danışmanlık Modeli",
-        "body": "Regülasyon bilgisi; veri, kanıt, hesaplama ve iş akışı kurgusuyla desteklenir."
+        "body": "Regülasyon bilgisini veri, kanıt, hesaplama ve iş akışıyla birlikte ele alıyor; kurum içinde gerçekten işleyen bir düzene bağlıyoruz."
       }
     },
     "founderPerspective": {
-      "eyebrow": "YÖNETİM YAKLAŞIMI",
-      "title": "Teknik Çalışma Disiplini, Uygulanabilirlik ve Güven Odaklı Danışmanlık",
+      "eyebrow": "Liderlik Yaklaşımı",
+      "title": "Uygulanabilir, Net ve Güven Veren Danışmanlık",
       "byline": "Burcu Şimşek — Yönetici Müdür",
-      "body": "Burcu Şimşek liderliğinde ANKA, sürdürülebilirlik ve uyum çalışmalarını yalnızca raporlama veya belge hazırlığı olarak ele almaz. Çalışma yaklaşımımız; teknik gereklilikleri sadeleştirmeye, veri ve kanıt yapısını güçlendirmeye ve kurumlar için uygulanabilir iş akışları oluşturmaya odaklanır.",
-      "body2": "Her projede amacımız, gereklilikleri daha anlaşılır hale getirmek; süreçleri daha kontrollü yürütülebilir bir yapıya taşımak ve yönetim ekipleri için daha güvenilir karar zemini oluşturmaktır. Bu yaklaşım; sürdürülebilirlik, karbon yönetimi, doğrulama, LCA, EPD ve AB uyum süreçlerinde edinilmiş çok yönlü teknik deneyimle desteklenir.",
-      "body3": "Yaklaşık 20 yıllık mesleki birikim; yalnızca teknik doğruluğu değil, aynı zamanda kurum içinde gerçekten işleyen bir çalışma düzeni kurma bakışını da güçlendirir.",
+      "body": "Burcu Şimşek liderliğinde ANKA, sürdürülebilirlik ve uyum çalışmalarını yalnızca raporlama veya belge hazırlığı olarak görmez. Her projede önce kurumun gerçek ihtiyacını, veri yapısını ve karar süreçlerini birlikte netleştiriyoruz; ardından teknik gereklilikleri kurum içinde işletilebilir bir çalışma düzenine çeviriyoruz.",
+      "body2": "Bizim için önemli olan, kurumların neyi, neden ve nasıl yapması gerektiğini net biçimde görebilmesi ve bu yapıyı kendi içinde sürdürebilmesidir. Regülasyon beklentilerini yalnızca anlatmakla yetinmiyoruz; veriyi, kanıtı, sorumlulukları ve süreç adımlarını kurum içinde gerçekten kullanılabilir bir düzene oturtuyoruz.",
+      "body3": "Yaklaşık 20 yıllık mesleki deneyim; sürdürülebilirlik, karbon yönetimi, doğrulama, LCA, EPD ve AB uyumunda teknik netlik ile saha gerçekliğini aynı masa üzerinde tutmayı mümkün kılıyor.",
       "name": "Burcu Şimşek",
-      "quoteLabel": "YÖNETİM NOTU",
-      "quote": "“ANKA’da amacımız yalnızca bir rapor, hesaplama dosyası veya uyum çıktısı hazırlamak değildir. Her çalışmada kurumların veri, kanıt, sorumluluk ve karar süreçlerini daha net bir yapıya kavuşturmayı hedefleriz.\n\nSürdürülebilirlik ve uyum gündemini; yönetilebilir, izlenebilir ve savunulabilir bir çalışma düzenine dönüştürmek bizim için temel yaklaşımdır. Bu nedenle teknik doğruluğu, uygulanabilirliği ve kurum içinde sürdürülebilir şekilde işletilebilecek süreç kurgusunu birlikte ele alırız.”",
+      "quote": "ANKA’da yalnızca bir rapor veya uyum dosyası teslim etmekle yetinmiyoruz. Kurumların sürdürülebilirlik ve uyum başlıklarını daha net görmesini, kararlarını veriye dayandırmasını ve süreci kendi içinde sürdürmesini istiyoruz.\n\nBu yüzden teknik doğruluk kadar uygulanabilirliğe de yer veriyoruz. Regülasyonu, veriyi ve kanıt düzenini günlük işleyişinize bağlayarak daha güvenilir ve savunulabilir bir çıktı üretiyoruz.",
+      "stats": [
+        { "target": 400, "suffix": "+", "label": "Proje" },
+        { "target": 200, "suffix": "+", "label": "Referans" },
+        { "target": 19, "suffix": "+", "label": "Yıl Deneyim" },
+        { "target": 10, "suffix": "+", "label": "Ülkede Hizmet" }
+      ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },
     "scope": {
       "eyebrow": "Çalışma Alanlarımız",
       "title": "Nerelerde Destek Sunuyoruz?",
-      "intro": "Kurumsal sürdürülebilirlik ve uyum çalışmalarını; regülasyon, veri, kanıt, ürün sürdürülebilirliği ve dijital destek başlıklarında daha yönetilebilir hale getirmeye odaklanıyoruz.",
+      "intro": "Kurumsal sürdürülebilirlik ve uyum çalışmalarında regülasyon, veri, kanıt, ürün sürdürülebilirliği ve dijital destek başlıklarını birlikte ele alıyor; süreci daha yönetilebilir ve kurum içinde kullanılabilir kılıyoruz.",
       "c1": {
         "title": "ESG ve Kurumsal Raporlama",
-        "body": "CSRD, ESRS, GRI ve ISSB beklentileri için veri, sınır ve kanıt yapısını güçlendiririz."
+        "body": "CSRD, ESRS, GRI ve ISSB beklentileri için veri sınırını, kaynakları ve kanıt düzenini birlikte netleştiriyoruz."
       },
       "c2": {
         "title": "Karbon, İklim ve Dekarbonizasyon",
-        "body": "Sera gazı envanteri, CBAM ve azaltım önceliklerini teknik çalışma disipliniyle ele alırız."
+        "body": "Sera gazı envanteri, CBAM ve azaltım önceliklerini teknik çalışma kapsamıyla ele alırız."
       },
       "c3": {
         "title": "Ürün Sürdürülebilirliği, LCA ve EPD",
@@ -2209,13 +2418,13 @@
       },
       "c6": {
         "title": "Dijital Destek ve Yazılım Çözümleri",
-        "body": "Danışmanlık çalışmalarını veri yönetimi, izlenebilirlik ve uyum akışlarını destekleyen dijital araçlarla güçlendiririz."
+        "body": "Danışmanlık sürecinde veri yönetimi, izlenebilirlik ve uyum akışlarını gerektiğinde yazılım ve dijital çözüm altyapısıyla daha görünür ve sürdürülebilir kılıyoruz."
       }
     },
     "workingModel": {
       "eyebrow": "Çalışma Modelimiz",
       "title": "Nasıl Çalışıyoruz?",
-      "intro": "Her projede kapsam netliği, veri disiplini, teknik doğruluk ve uygulanabilir çalışma yapısı dengesini koruyarak ilerleriz.",
+      "intro": "Her projede kapsam netliği, veri ve kanıt düzeni, teknik doğruluk ile kurum içinde işletilebilir yapı arasında dengeyi koruyarak ilerliyoruz.",
       "s1": {
         "title": "Kapsamı Netleştiririz",
         "body": "İhtiyaçları, sınırları, öncelikleri ve çalışma beklentilerini birlikte belirleriz."
@@ -2236,22 +2445,22 @@
     "differentiators": {
       "eyebrow": "Neden ANKA",
       "title": "Yaklaşımımızı Ayıran Unsurlar",
-      "intro": "Regülasyon bilgisini, uygulama disiplini ve kurumsal gerçeklikle birleştiren bir çalışma modeli benimsiyoruz.",
+      "intro": "Regülasyon bilgisini uygulama düzeni ve kurumsal gerçeklikle aynı çatı altında topluyoruz.",
       "c1": {
         "title": "Regülasyon ve Saha Gerçeğini Birlikte Ele Alma",
-        "body": "AB beklentilerini üretici, tedarikçi ve ihracatçı firmaların uygulama gerçekliğiyle birlikte değerlendiririz."
+        "body": "AB beklentilerini üretici, tedarikçi ve ihracatçı firmaların sahadaki gerçekliğiyle birlikte masaya yatırıyoruz."
       },
       "c2": {
-        "title": "Veri ve Kanıt Disiplinine Odaklanma",
-        "body": "Raporlama, hesaplama ve uyum çalışmalarını izlenebilir veri ve destekleyici kanıt yapısıyla güçlendiririz."
+        "title": "Veri ve kanıt düzeni",
+        "body": "Raporlama, hesaplama ve uyum çalışmalarını izlenebilir veri ve savunulabilir kanıt yapısına bağlıyoruz."
       },
       "c3": {
         "title": "Uygulanabilir Çalışma Yapısı Kurma",
-        "body": "Sadece teorik uyum değil, kurum içinde işletilebilecek çalışma düzenleri kurmaya odaklanırız."
+        "body": "Teorik uyumdan öteye geçip kurum içinde gerçekten işleyen çalışma düzenleri kuruyoruz."
       },
       "c4": {
-        "title": "Danışmanlığı Dijital Destekle Güçlendirme",
-        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum süreçlerini dijital araçlarla destekleyen bir yaklaşım geliştiririz."
+        "title": "Danışmanlıkta dijital çözüm desteği",
+        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum adımlarında yazılım ve dijital çözüm desteği gerçekten katkı sağladığında bunu modele dahil ediyoruz."
       }
     },
     "companyDetails": {
@@ -2309,8 +2518,8 @@
       "item2Description": "Sorumluluk, kontrol noktaları ve kanıt mantığıyla sistemi kurar; çalışmayı ekiplerin sürdürebileceği iş akışlarına bağlarız.",
       "item3Title": "Teknik içeriği karar diline taşırız",
       "item3Description": "Karbon, ürün kanıtı ve ürün verisi gibi teknik başlıkları; karar, aksiyon ve raporlama ihtiyaçlarına bağlarız.",
-      "item4Title": "Gerektiğinde yazılım ile süreç disiplinini destekleriz",
-      "item4Description": "Veri toplama, izleme ve görünürlüğü; uygun olduğunda yazılım destekli iş akışlarıyla daha yönetilebilir hale getiririz."
+      "item4Title": "Gerektiğinde yazılım ile iş akışını daha düzenli hale getiriyoruz",
+      "item4Description": "Veri toplama, izleme ve görünürlüğü; uygun olduğunda yazılım destekli iş akışlarıyla daha yönetilebilir kılıyoruz."
     },
     "why": {
       "title": "Neden ANKA?",
@@ -2325,8 +2534,8 @@
       "c4Text": "Uygun olduğunda yazılım destekli iş akışlarıyla veri toplama, izleme ve görünürlüğü daha yönetilebilir kılarız."
     },
     "consultingDigital": {
-      "title": "Gerektiğinde dijital araçlarla desteklenen danışmanlık",
-      "description": "ANKA için dijital araçlar ayrı bir vitrin değildir; net katkı gördüğümüz yerlerde veri toplama, izleme ve tekrarlanabilir uygulama için kullanılır."
+      "title": "Danışmanlıkta dijital çözüm desteği",
+      "description": "Yazılım ve dijital çözümler bizde ayrı bir vitrin değil; veri toplama, izleme ve tekrarlanabilir uygulamada net katkı gördüğümüz noktalarda modele dahil edilir."
     },
     "finalCta": {
       "title": "Sürdürülebilirlik ve Uyum Gündeminizi Birlikte Netleştirelim",
@@ -2338,12 +2547,12 @@
   "partnersPage": {
     "meta": {
       "title": "Çözüm Ortaklarımız",
-      "description": "ANKA, sürdürülebilirlik ve uyum çalışmalarında tamamlayıcı uzmanlıkları bir araya getiren iş birlikleriyle kurumlara daha bütüncül bir destek yapısı sunar."
+      "description": "ANKA, sürdürülebilirlik ve uyum çalışmalarında tamamlayıcı uzmanlıkları seçili iş birlikleriyle bir araya getiriyor."
     },
     "hero": {
       "eyebrow": "Çözüm Ortaklarımız",
       "title": "Doğrulama, uyum ve dijital ürün verisi için seçili iş birlikleri",
-      "description": "ANKA, sürdürülebilirlik ve uyum projelerinde gerektiğinde tamamlayıcı uzmanlık sağlayan çözüm ortaklarıyla çalışır. İş birlikleri; doğrulama, belgelendirme, dijital ürün verisi, izlenebilirlik ve ürün pasaportu başlıklarında danışmanlığı net bir kapsamla tamamlar.",
+      "description": "ANKA, sürdürülebilirlik ve uyum projelerinde ihtiyaç duyulduğunda seçili çözüm ortaklarıyla yan yana çalışır. Doğrulama, belgelendirme, dijital ürün verisi, izlenebilirlik ve ürün pasaportu gibi başlıklarda danışmanlık çerçevesini birlikte netleştiriyoruz.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin",
       "panel": {
@@ -2361,19 +2570,19 @@
     "ecosystem": {
       "eyebrow": "Çözüm ortakları",
       "title": "Doğrulama ve dijital ürün verisinde tamamlayıcı uzmanlıklar",
-      "description": "Her proje aynı uzmanlık bileşenlerini gerektirmez. Uygun kapsamlarda çözüm ortaklarımızın doğrulama, belgelendirme ve dijital ürün verisi yetkinliklerini, ANKA danışmanlık modeliyle aynı çizgide ve ölçülebilir bir çerçevede devreye alırız."
+      "description": "Her proje aynı uzmanlık bileşenlerini gerektirmez. Kapsam gerektiğinde doğrulama, belgelendirme ve dijital ürün verisi tarafını seçili ortaklarımızla birlikte devreye alıyor; çalışmayı ANKA’nın danışmanlık çizgisiyle uyumlu ve izlenebilir tutuyoruz."
     },
     "partners": {
       "meva": {
         "name": "Meva Global Certification Services B.V.",
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
-        "category": "Doğrulama, Belgelendirme ve Uygunluk Değerlendirme Perspektifi",
-        "description": "Meva Global Certification Services B.V., doğrulama, belgelendirme ve uygunluk değerlendirme perspektifiyle teknik hazırlık ve kanıt dosyası çalışmalarında tamamlayıcı uzmanlık sağlar. ANKA projelerinde bu yetkinlik, özellikle doğrulama hazırlığı, belge düzeni ve pazar güveni gerektiren çalışmalarda proje kapsamına göre konumlandırılır.",
+        "category": "Doğrulama, belgelendirme ve uygunluk değerlendirme",
+        "description": "Meva Global Certification Services B.V., doğrulama, belgelendirme ve uygunluk değerlendirme konusunda teknik hazırlık ve kanıt dosyası işlerini bizimle birlikte tamamlayan güçlü bir ortaktır. Doğrulama hazırlığı, belge düzeni ve pazar güveninin kritik olduğu adımlarda birlikte çalışıyoruz.",
         "focus": [
-          "Doğrulama ve belgelendirme perspektifi",
-          "Kanıt dosyası ve teknik hazırlık yaklaşımı",
-          "Pazar güveni ve uygunluk değerlendirme desteği"
+          "Doğrulama ve belgelendirme uzmanlığı",
+          "Kanıt dosyası ve teknik hazırlıkta birlikte çalışma",
+          "Pazar güveni ve uygunluk değerlendirme pratiği"
         ],
         "websiteCta": "Web Sitesini Ziyaret Edin",
         "websiteUrl": "https://www.mevaglobalcertification.com"
@@ -2383,7 +2592,7 @@
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
         "category": "Dijital Ürün Pasaportu, Ürün Verisi ve Değer Zinciri Uyumu",
-        "description": "Beyond Barcode, Dijital Ürün Pasaportu ve ürün verisi yönetimi alanında tamamlayıcı teknoloji perspektifi sunar. Karmaşık değer zincirlerinde ürün verisinin düzenlenmesi, paylaşılması ve AB gerekliliklerine uygun şekilde yönetilmesi gereken projelerde ANKA’nın danışmanlık yaklaşımını dijital ürün verisi altyapısıyla destekler.",
+        "description": "Beyond Barcode; Dijital Ürün Pasaportu ve ürün verisi yönetiminde ANKA’nın yanında duran teknoloji tarafıdır. Karmaşık değer zincirlerinde ürün verisini düzenlemek, paylaşmak ve AB gerekliliklerine uygun yönetmek gerektiğinde danışmanlık yaklaşımımızı dijital ürün veri altyapısıyla bir araya getiriyoruz.",
         "focus": [
           "Dijital Ürün Pasaportu veri yapısı",
           "Karmaşık değer zincirlerinde ürün veri yönetimi",
@@ -2396,28 +2605,28 @@
     },
     "model": {
       "eyebrow": "İş Birliği Modeli",
-      "title": "Çözüm Ortaklarımızı Proje İhtiyacına Göre Konumlandırırız",
-      "intro": "Her iş birliği, projenin kapsamına, teknik ihtiyacına ve kurumun hedeflerine göre değerlendirilir. ANKA, danışmanlık sorumluluğunu net tutar; çözüm ortaklarının uzmanlığını ise doğru aşamada ve doğru kapsamda çalışmaya dahil eder.",
+      "title": "Çözüm ortaklarımızı, projenin gerçek ihtiyacına göre sürece dahil ediyoruz",
+      "intro": "Her iş birliğini projenin kapsamına, teknik ihtiyacına ve kurumun önceliklerine göre birlikte şekillendiriyoruz. ANKA olarak danışmanlık sorumluluğunu net şekilde üstleniyor, çözüm ortaklarımızın uzmanlığını ise gerçekten ihtiyaç duyulan aşamada devreye alıyoruz.",
       "s1": {
         "title": "İhtiyacı Netleştiririz",
-        "body": "Projenin hangi uzmanlık bileşenlerine ihtiyaç duyduğunu belirleriz."
+        "body": "Hangi uzmanlık bileşenlerinin devreye girmesi gerektiğini birlikte netleştiriyoruz."
       },
       "s2": {
         "title": "Kapsamı Eşleştiririz",
-        "body": "Danışmanlık, doğrulama, dijital ürün verisi veya teknik destek ihtiyacını doğru çözüm ortağıyla eşleştiririz."
+        "body": "Danışmanlık, doğrulama, dijital ürün verisi veya teknik destek ihtiyacını doğru ortakla eşleştiriyoruz."
       },
       "s3": {
         "title": "Rol ve Sorumlulukları Ayırırız",
-        "body": "Danışmanlık, teknik hazırlık, doğrulama ve dijital destek rollerini açık şekilde konumlandırırız."
+        "body": "Danışmanlık, teknik hazırlık, doğrulama ve dijital destek rollerini tek tek ayırıp herkesin sorumluluğunu görünür kılıyoruz."
       },
       "s4": {
         "title": "Çalışmayı Koordine Ederiz",
-        "body": "Kurumun tekil ihtiyacına uygun, daha düzenli ve izlenebilir bir çalışma akışı oluştururuz."
+        "body": "Kurumun tekil ihtiyacına uygun, daha düzenli ve izlenebilir bir çalışma akışı oluşturuyoruz."
       }
     },
     "finalCta": {
-      "title": "Projeniz İçin Doğru Uzmanlık Bileşenlerini Birlikte Belirleyelim",
-      "description": "Sürdürülebilirlik, uyum, doğrulama veya dijital ürün verisi ihtiyacınızı birlikte değerlendirerek uygun danışmanlık ve çözüm ortağı kapsamını netleştirelim.",
+      "title": "Projeniz için doğru uzmanlık bileşenlerini birlikte seçelim",
+      "description": "Sürdürülebilirlik, uyum, doğrulama veya dijital ürün verisi ihtiyacınızı birlikte masaya koyup danışmanlık ile ortak kapsamını şeffaf biçimde netleştirelim.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "İletişime Geçin"
     }
@@ -2430,7 +2639,7 @@
     "hero": {
       "eyebrow": "İletişim",
       "title": "Sürdürülebilirlik, Uyum ve Dijital Çalışma İhtiyaçlarınızı Birlikte Netleştirelim",
-      "description": "Kurumsal önceliklerinizi, regülasyon gündeminizi ve ihtiyaç duyduğunuz teknik çalışma kapsamını birlikte değerlendirerek sizin için en doğru başlangıç çerçevesini oluşturalım. İster sürdürülebilirlik raporlaması, karbon ve uyum süreçleri, ister ürün verisi, dijital araçlar veya sektöre özel gereklilikler olsun; ihtiyacınızı netleştirip en uygun çalışma yapısını birlikte belirleyebiliriz.",
+      "description": "Kurumsal önceliklerinizi, regülasyon gündeminizi ve ihtiyaç duyduğunuz teknik çalışma kapsamını birlikte değerlendirerek sizin için en doğru başlangıç çerçevesini oluşturalım. İster sürdürülebilirlik raporlaması, karbon ve uyum süreçleri, ister ürün verisi, yazılım ve dijital çözüm gereksinimleri veya sektöre özel başlıklar olsun; ihtiyacınızı netleştirip en uygun çalışma yapısını birlikte belirleyebiliriz.",
       "primaryCta": "Mesaj Gönderin",
       "secondaryCta": "Görüşme Planlayın",
       "companyCardEyebrow": "Şirket Bilgileri",
@@ -2590,11 +2799,11 @@
           "focus3": "Teknik Dokümantasyon"
         },
         "tourismServices": {
-          "title": "Turizm ve Hizmetler",
-          "description": "Karbon, enerji, su, atık, tedarik ve pazar görünürlüğü başlıklarında daha düzenli veri toplama ve raporlama hazırlığı oluştururuz.",
-          "focus1": "Karbon ve Çevresel Performans",
-          "focus2": "Sürdürülebilir Turizm Hazırlığı",
-          "focus3": "Veri Toplama ve Raporlama Yapısı"
+          "title": "Turizm ve Konaklama",
+          "description": "Otel, tur operatörü ve destinasyon yapılarında sürdürülebilir turizm kriterleri, GSTC hazırlığı, Türkiye Sürdürülebilir Turizm Programı ve operasyonel kanıt düzenini birlikte ele alıyoruz.",
+          "focus1": "GSTC ve sürdürülebilir turizm hazırlığı",
+          "focus2": "Türkiye Sürdürülebilir Turizm Programı",
+          "focus3": "Otel ve destinasyon kanıt dosyası"
         }
       }
     },
@@ -2865,7 +3074,7 @@
     "companyBlock": {
       "title": "Tescilli adres"
     },
-    "statement": "ANKA Sustainability Consulting B.V. profesyonel sürdürülebilirlik danışmanlığı sunar. Yazılım ve dijital araçlar, bu danışmanlık ilişkisi içinde destekleyici yetenekler olarak tanımlanır; ayrı bir tüketici ürün markası olarak konumlandırılmaz."
+    "statement": "ANKA Sustainability Consulting B.V. profesyonel sürdürülebilirlik danışmanlığı sunar. Yazılım ve dijital çözümler, bu danışmanlık ilişkisi içinde destekleyici yetenekler olarak tanımlanır; ayrı bir tüketici ürün markası olarak konumlandırılmaz."
   },
   "pcos": {
     "productName": "Packaging Compliance & Cost OS",

@@ -1,5 +1,5 @@
 import { Container } from "@/components/container";
-import { homeCardClassName } from "@/lib/home-classes";
+import { aboutPremiumCardClassName } from "@/lib/about-card-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { cn } from "@/lib/utils";
@@ -60,7 +60,7 @@ export function AboutOurPositionSection({ t }: Props) {
                   <article
                     key={key}
                     className={cn(
-                      homeCardClassName(true),
+                      aboutPremiumCardClassName(),
                       "flex gap-4 p-4 sm:p-5",
                       "border-border/80 bg-surface/95",
                     )}

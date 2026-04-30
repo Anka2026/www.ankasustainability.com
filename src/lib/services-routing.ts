@@ -7,6 +7,7 @@ const SUPPLY_CHAIN_SEGMENT = "eu-regulations-supply-chain-compliance" as const;
 const MARKET_READINESS_SEGMENT = "market-readiness" as const;
 const CERTIFICATION_SEGMENT = "certification-traceability-market-confidence" as const;
 const CARBON_SEGMENT = "carbon-climate-decarbonisation" as const;
+const SUSTAINABLE_TOURISM_SEGMENT = "sustainable-tourism-gstc" as const;
 
 const CARBON_ALIASES = [
   "carbon-climate-and-decarbonisation",
@@ -22,6 +23,7 @@ export function serviceRouteSegmentFromId(id: ServicesCategoryId): string {
   if (id === "sustainableFinance") return MARKET_READINESS_SEGMENT;
   if (id === "certificationTraceability") return CERTIFICATION_SEGMENT;
   if (id === "carbonClimate") return CARBON_SEGMENT;
+  if (id === "sustainableTourismGstc") return SUSTAINABLE_TOURISM_SEGMENT;
   return id;
 }
 
@@ -31,6 +33,7 @@ export function serviceIdFromRouteSegment(value: string): ServicesCategoryId | n
   if (value === SUPPLY_CHAIN_SEGMENT) return "regulatorySupplyChain";
   if (value === MARKET_READINESS_SEGMENT) return "sustainableFinance";
   if (value === CERTIFICATION_SEGMENT) return "certificationTraceability";
+  if (value === SUSTAINABLE_TOURISM_SEGMENT) return "sustainableTourismGstc";
   if (value === CARBON_SEGMENT) return "carbonClimate";
   if ((CARBON_ALIASES as readonly string[]).includes(value)) return "carbonClimate";
   if (value === "reportingEsg") return "reportingEsg";

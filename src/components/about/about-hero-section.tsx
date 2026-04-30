@@ -145,7 +145,11 @@ export function AboutHeroSection({ t }: Props) {
                     return (
                       <div
                         key={label}
-                        className="group relative rounded-3xl border border-white/40 bg-white/60 p-3.5 shadow-[0_16px_40px_-32px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06] backdrop-blur-[6px] transition-transform duration-200 hover:-translate-y-0.5"
+                        className={cn(
+                          "group relative rounded-3xl border border-white/40 bg-white/60 p-3.5 shadow-[0_16px_40px_-32px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06] backdrop-blur-[6px]",
+                          "transition-[border-color,box-shadow,transform] duration-200 ease-out",
+                          "hover:-translate-y-px hover:border-accent/30 hover:shadow-[0_20px_48px_-36px_rgba(8,145,178,0.18)]",
+                        )}
                       >
                         <div className="flex items-start gap-3">
                           <span className="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-primary/15 bg-primary/[0.05] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">

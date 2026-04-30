@@ -66,6 +66,12 @@
         "i2": "Chain of custody",
         "i3": "Massabalans",
         "i4": "Ondersteuning traceerbaarheid"
+      },
+      "sustainableTourismGstc": {
+        "i1": "GSTC-voorbereiding",
+        "i2": "Türkiye-programma",
+        "i3": "Gap-analyse",
+        "i4": "Bewijsstructuur"
       }
     }
   },
@@ -139,8 +145,8 @@
     },
     "servicesOverview": {
       "title": "Onze kernadviesgebieden",
-      "intro": "Wij bouwen technische en toepasbare werkmodellen voor regelgeving, koolstofbeheer, productduurzaamheid, toeleveringsketens en marktvoorbereiding.",
-      "cardCta": "Meer informatie",
+      "intro": "Wij bouwen technische en toepasbare werkmodellen voor regelgeving, koolstofbeheer, productduurzaamheid, toeleveringsketens, marktvoorbereiding en duurzaam toerisme.",
+      "cardCta": "Bekijk details",
       "c1": {
         "title": "ESG en corporate reporting",
         "body": "Wij versterken datagrenzen en bewijsstructuren voor CSRD, ESRS, GRI, ISSB en dubbele materialiteit."
@@ -164,6 +170,10 @@
       "c6": {
         "title": "Certificering, traceerbaarheid en marktvertrouwen",
         "body": "Ondersteuning bij certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en governance van marktbeweringen."
+      },
+      "c7": {
+        "title": "Duurzaam toerisme, GSTC en Türkiye-programma",
+        "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij afstemming op GSTC-criteria, voorbereiding op het Türkiye-programma, gap-analyse en bewijsdossieropbouw."
       }
     },
     "software": {
@@ -240,7 +250,7 @@
     "overview": {
       "eyebrow": "Onze dienstenaanpak",
       "title": "Wij vertalen regelgeving naar beheersbare werkstructuren",
-      "text": "Onze adviesgebieden zijn ontworpen om duurzaamheid, koolstof, product- en supplychaincompliance niet alleen als documentatie of verklaring te behandelen, maar als een traceerbare, verdedigbare en beheersbare werkwijze binnen de organisatie.",
+      "text": "Onze zeven kernadviesgebieden zijn ontworpen om duurzaamheid, koolstof, product- en supplychaincompliance én toeristische voorbereiding niet alleen als documentatie of verklaring te behandelen, maar als een traceerbare, verdedigbare en beheersbare werkwijze binnen de organisatie.",
       "strip": [
         {
           "title": "Scope en prioriteit"
@@ -291,6 +301,10 @@
         "certificationTraceability": {
           "title": "Certificering, traceerbaarheid en marktvertrouwen",
           "body": "Wij zetten een houdbaarder werkordening neer rond certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en marktcommunicatie."
+        },
+        "sustainableTourismGstc": {
+          "title": "Duurzaam toerisme, GSTC en Türkiye-programma",
+          "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij afstemming op GSTC-criteria, voorbereiding op het Türkiye-programma, gap-analyse en bewijsdossieropbouw."
         }
       }
     },
@@ -1701,6 +1715,208 @@
               "secondary": "Neem contact op"
             }
           }
+        },
+        "sustainableTourismGstc": {
+          "subtitle": "Afstemming op GSTC-criteria, voorbereiding op het Türkiye Sustainable Tourism Programme, gap-analyse en bewijsstructuur—advies en ondersteuning bij certificeringsvoorbereiding (ANKA verleent geen certificering).",
+          "whyMatters": "Voor toeristische organisaties raakt duurzaamheid ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en gastcommunicatie—niet alleen milieuprestaties.",
+          "deliverables": [
+            "Gap-analyse en prioritering tegen GSTC- en programmaverwachtingen",
+            "Praktisch actieplan met heldere verantwoordelijkheden",
+            "Bewijsstructuur vóór beoordeling of audit"
+          ],
+          "howWeWorkSteps": [
+            "Huidige praktijken, documentatie en rollen samen doorlichten",
+            "Hiaten ten opzichte van criteria zichtbaar maken en actieplan vastleggen",
+            "Bewijsdossiers en interne controles ordenen",
+            "Gereedheid met teams afronden en traceerbaarheid versterken"
+          ],
+          "outputs": [
+            "Gap-analyse en prioriteitensamenvatting",
+            "Actieplan per criterium",
+            "Checklist voor documenten en bewijs",
+            "Voorbereidende notities"
+          ],
+          "whoFor": [
+            "Hotels en accommodaties die zich voorbereiden op GSTC en het Türkiye-programma",
+            "Touroperators en bestemmingsorganisaties",
+            "Instellingen die met publieke en sectorale stakeholders aan afstemming werken"
+          ],
+          "whoForNote": "ANKA is geen certificerende instantie en verstrekt geen GSTC-certificering; wij bieden voorbereiding en advies.",
+          "relatedToolsTitle": "Geen verplichte software-afhankelijkheid",
+          "relatedToolsBody": "Waar nuttig kan lichte digitale ondersteuning worden voorgesteld; advies staat voorop.",
+          "benchmark": {
+            "hero": {
+              "eyebrow": "Duurzaam toerisme",
+              "title": "Advies voor duurzaam toerisme, GSTC en het Türkiye-programma",
+              "text": "Voor toeristische organisaties gaat duurzaamheid niet alleen over milieuprestaties. Het raakt ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en communicatie met gasten. ANKA ondersteunt hotels, touroperators en bestemmingsorganisaties bij het opbouwen van een praktische voorbereiding op basis van GSTC-criteria en het Türkiye Sustainable Tourism Programme. ANKA verstrekt geen certificering en garandeert geen uitkomsten; we richten ons op voorbereiding, documentatie en bewijsstructuur.",
+              "ctas": {
+                "primary": "Plan een gesprek",
+                "secondary": "Bekijk diensten"
+              },
+              "proofStrip": {
+                "items": ["GSTC-voorbereiding", "Türkiye-programma", "Bewijsstructuur", "Gereedheid voor beoordeling"],
+                "subtitles": [
+                  "Criteria-afstemming en gap-analyse",
+                  "Programmaverwachtingen en actieplan",
+                  "Beleid, registraties en praktijkbewijs",
+                  "Dossierstructuur en checklists"
+                ]
+              },
+              "panelTitle": "Focusgebieden",
+              "panelCards": [
+                { "title": "GSTC-criteria", "body": "Gap-analyse en prioriteiten voor afstemming." },
+                { "title": "Türkiye-programma", "body": "Programmavoorbereiding en documentatiestructuur." },
+                { "title": "Operatie en bewijs", "body": "Praktijkvoering, registraties en indicatoren." },
+                { "title": "Team en bewustwording", "body": "Verantwoordelijkheden, training en interne communicatie." }
+              ]
+            },
+            "why": {
+              "title": "Waarom dit belangrijk is",
+              "heading": "Voorbereiding op duurzaam toerisme vraagt om een breed en bewijsgedreven kader",
+              "intro": "Verwachtingen van gasten, programma-eisen en de behoefte aan beoordeelbaar bewijs laten zich niet terugbrengen tot één checklist.",
+              "valueItems": [
+                "GSTC en nationale programma’s verwachten gestructureerd bewijs",
+                "Operationele realiteit en uitspraken moeten met elkaar blijven kloppen",
+                "Zonder heldere teamrollen is het proces niet vol te houden"
+              ],
+              "insightLabel": "Hoe ANKA waarde toevoegt",
+              "insightText": "Bij duurzaam toerisme maken we niet alleen een documentenlijst. We kijken samen naar de dagelijkse operatie, teamverantwoordelijkheden en praktijktoepassing, en vertalen de criteria naar een werkbare structuur voor de organisatie. Zo wordt de voorbereiding niet alleen een dossier voor beoordeling, maar een duidelijke en betrouwbare werkwijze die de organisatie kan blijven gebruiken. ANKA verstrekt geen certificering; we bieden voorbereiding en advies.",
+              "cards": [
+                {
+                  "title": "GSTC- en programmaverwachtingen",
+                  "body": "Criteria vragen om bewijs- en registratiediscipline rond management, milieu, sociale impact en communicatie."
+                },
+                {
+                  "title": "Operationeel bewijs",
+                  "body": "Beleid en procedures moeten worden ondersteund door praktijkregistraties en indicatoren."
+                },
+                {
+                  "title": "Volhoubare interne ritme",
+                  "body": "Voorbereiding moet een ritme zijn dat teams kunnen volgen—geen eenmalig dossier."
+                }
+              ]
+            },
+            "support": {
+              "title": "Wat we samen verduidelijken",
+              "intro": "Elke toeristische organisatie start vanuit een andere situatie. We kijken eerst naar bestaande praktijken, documentatie, operationele realiteit en de manier waarop verantwoordelijkheden zijn verdeeld. Daarna maken we de hiaten ten opzichte van de relevante criteria zichtbaar, stellen we een actieplan op en brengen we het bewijsdossier op orde voor certificeringsvoorbereiding.",
+              "cards": [
+                {
+                  "title": "Gap-analyse op basis van GSTC-criteria",
+                  "body": "We brengen ontbrekende onderdelen, sterke punten en prioritaire acties in kaart."
+                },
+                {
+                  "title": "Voorbereiding op het Türkiye Sustainable Tourism Programme",
+                  "body": "We bouwen een documentatie- en actiekader dat aansluit op programma-eisen."
+                },
+                {
+                  "title": "Praktisch actieplan voor hotels, touroperators en bestemmingen",
+                  "body": "We maken een uitvoerbare routekaart passend bij uw werkelijkheid."
+                },
+                {
+                  "title": "Bewijsstructuur voor management, milieu en sociale impact",
+                  "body": "We stemmen registraties, indicatoren en verantwoordelijkheden op thema’s af."
+                },
+                {
+                  "title": "Training, bewustwording en verdeling van teamverantwoordelijkheden",
+                  "body": "We verhelderen rollen en interne communicatiebehoeften."
+                },
+                {
+                  "title": "Voorbereidingsdossier voor beoordeling of audit",
+                  "body": "We structureren materiaal voor review zonder uitkomsten van certificering te impliceren."
+                }
+              ]
+            },
+            "how": {
+              "title": "Hoe we werken",
+              "headline": "Hoe we werken",
+              "intro": "We laten de voorbereiding stap voor stap vorderen en verhelderen op elk moment de bewijsstructuur en teamrollen.",
+              "kicker": "Huidige situatie → Hiaten → Actie → Bewijs → Gereedheid",
+              "steps": [
+                {
+                  "title": "We brengen de huidige situatie in beeld",
+                  "body": "We bekijken de bestaande duurzaamheidspraktijken, documenten, operationele werkwijze en verantwoordelijkheden."
+                },
+                {
+                  "title": "We maken de hiaten zichtbaar",
+                  "body": "We brengen ontbrekende onderdelen, sterke punten en prioritaire acties in kaart ten opzichte van GSTC-criteria en programma-eisen."
+                },
+                {
+                  "title": "We maken een actieplan",
+                  "body": "We stellen een praktische routekaart op voor management, milieu, sociale impact, cultureel erfgoed, inkoop en gastcommunicatie."
+                },
+                {
+                  "title": "We ordenen het bewijsdossier",
+                  "body": "We structureren beleid, procedures, registraties, indicatoren, foto’s, trainingsbewijzen en praktijkdocumentatie voor de beoordelingsfase."
+                },
+                {
+                  "title": "We bereiden het team voor",
+                  "body": "We werken met de betrokken teams om verantwoordelijkheden te verduidelijken, opvolging makkelijker te maken en de organisatie beter voor te bereiden op beoordeling."
+                }
+              ]
+            },
+            "outputs": {
+              "eyebrow": "TYPISCHE OUTPUT",
+              "title": "Typische output",
+              "intro": "Output wordt zo opgebouwd dat de organisatie een bij te werken en traceerbaar voorbereidingssysteem kan onderhouden.",
+              "items": [
+                "GSTC / duurzaam toerisme gap-analyse",
+                "Actieplan per criterium",
+                "Checklist voor documenten en bewijs",
+                "Aanbevelingen voor beleid en procedures",
+                "Trainings- en bewustwordingsmateriaal",
+                "Indicatoren- en monitoringtabel",
+                "Voorbereidende notities voor beoordeling of audit"
+              ],
+              "notes": [
+                "Huidige volwassenheid wordt afgezet tegen de criteria.",
+                "Prioritaire verbeteringen en tijdspaden worden scherp.",
+                "Ontbrekende documenten en registraties komen in één lijst.",
+                "Praktische beleids- en procedureconcepten worden uitgewerkt.",
+                "Interne trainingsbehoeften worden benoemd.",
+                "Kernindicatoren en een vervolgritme worden voorgesteld.",
+                "Controles en notities vóór beoordeling worden voorbereid."
+              ]
+            },
+            "audience": {
+              "title": "Voor wie",
+              "panelLabel": "Doelgroep",
+              "bullets": [
+                "Hotels en ketens die zich voorbereiden op GSTC en het Türkiye-programma",
+                "Touroperators en bestemmingsorganisaties",
+                "Instellingen die met publieke en sectorale stakeholders samenwerken"
+              ],
+              "list": [
+                "Hotels en accommodaties",
+                "Hotelgroepen en ketens",
+                "Touroperators",
+                "Bestemmingsorganisaties",
+                "Gemeenten, ontwikkelingsagentschappen en toeristische verenigingen",
+                "Organisaties die zich voorbereiden op een programma voor duurzaam toerisme"
+              ],
+              "description": "Voor toeristische organisaties en stakeholderstructuren die een heldere bewijsstructuur en actieplan willen voor duurzaam toerisme en GSTC / Türkiye-programma-voorbereiding."
+            },
+            "tools": {
+              "title": "Optionele digitale structuur",
+              "intro": "Deze dienst vereist geen software. Als behoefte ontstaat aan bewijsvolging, kunnen we selectief oplossingen uit ons portfolio beoordelen.",
+              "rightTitle": "Digitale opties voor bewijsvolging",
+              "capabilityRows": ["Bewijsregistratie", "Checklists", "Indicatorfollow-up", "Zicht op gereedheid"],
+              "noteShort": "ANKA verstrekt geen certificering; we bieden voorbereiding en advies.",
+              "card": {
+                "title": "ANKA-softwareportfolio",
+                "body": "Waar digitale structuur helpt bij toerisme-voorbereiding, kunnen passende producten naast advies worden bekeken.",
+                "bullets": ["Optioneel gebruik", "Focus op bewijsstructuur", "Advies eerst"],
+                "cta": "Bekijk digitale mogelijkheden"
+              },
+              "noteTitle": "Notitie",
+              "noteBody": "GSTC- of nationale programmabeoordelingen worden door onafhankelijke derden uitgevoerd; ANKA levert daarbij voorbereidend advies."
+            },
+            "cta": {
+              "title": "Laten we uw voorbereiding op duurzaam toerisme samen verduidelijken.",
+              "text": "We kunnen uw huidige situatie, hiaten en prioritaire acties bekijken in relatie tot GSTC-criteria en het Türkiye Sustainable Tourism Programme.",
+              "primary": "Plan een gesprek",
+              "secondary": "Neem contact op"
+            }
+          }
         }
       }
     },
@@ -1735,13 +1951,19 @@
         "label": "Markt- en stakeholdergereedheid",
         "summary": "We brengen duurzaamheidsprestaties in lijn met verwachtingen van klanten, investeerders, tenders en internationale markten.",
         "description": "Naarmate verwachtingen scherper worden, worden disclosure-taal, evidencestructuur en performance-narratief kritischer. We helpen organisaties een consistente en geloofwaardige basis voor stakeholders neer te zetten.",
-        "topics": "EU-taxonomie\nGereedheid duurzame financiering\nESG-voorbereiding richting investeerders\nFinancieel afgestemde duurzaamheidsstructuren\nRating- / disclosure-gereidheid\nSFDR-gerelateerde marktverwachtingen (waar relevant)"
+        "topics": "EU-taxonomie\nGereedheid duurzame financiering\nESG-voorbereiding richting investeerders\nFinancieel afgestemde duurzaamheidsstructuren\nRating- / disclosure-gereidheid\nSFDR-gerelateerde marktverwachtingen (waar relevant)\nAdvies rond duurzaam toerisme / GSTC-gereedheid (ANKA verleent geen certificering)"
       },
       "certificationTraceability": {
         "label": "Certificering, Traceerbaarheid en Marktvertrouwen",
         "summary": "We bouwen structuren voor traceerbaarheid, verifieerbaarheid en certificering die vertrouwen versterken in product- en supplyprocessen.",
         "description": "Traceerbaarheid en certificering zijn disciplines om claims verifieerbaar te maken. We ontwerpen werkbare structuren voor chain-of-custody, massabalans en documentmanagement.",
-        "topics": "ISCC\nChain-of-custody-logica\nMassabalans-logica\nTraceerbaarheidsstructuren\nGereedheid gerecyclede / biogebaseerde inhoud\nOndersteuning bij duurzaamheidsclaims\nAdvies koolstofcredits (secundair, waar relevant)"
+        "topics": "ISCC\nChain-of-custody-logica\nMassabalans-logica\nTraceerbaarheidsstructuren\nGereedheid gerecyclede / biogebaseerde inhoud\nOndersteuning bij duurzaamheidsclaims\nAdvies koolstofcredits (secundair, waar relevant)\nVoorbereiding duurzaam toerisme en GSTC / Türkiye-programma (advies; ANKA verleent geen certificering)"
+      },
+      "sustainableTourismGstc": {
+        "label": "Duurzaam toerisme, GSTC en Türkiye-programma",
+        "summary": "Voor hotels, touroperators en bestemmingen bieden we advies bij GSTC-criteria, voorbereiding op het Türkiye Sustainable Tourism Programme, gap-analyse en bewijsstructuren vóór beoordeling—zonder als certificerende instantie op te treden.",
+        "description": "ANKA verstrekt geen certificaten of GSTC-certificering en garandeert geen certificeringsresultaten. We leveren advies bij voorbereiding, documentatie, bewijsstructuren en actieplanning. Het werk verbindt managementsystemen, milieu- en sociale thema’s met operationele bewijzen.",
+        "topics": "Afstemming op GSTC-criteria\nVoorbereiding Türkiye Sustainable Tourism Programme\nGap-analyse\nBewijsdossiers en documentatie\nTraining en interne bewustwording\nVoorbereiding op beoordeling / audit\nOndersteuning certificeringsvoorbereiding (advies)"
       }
     },
     "detailCta": "Neem contact op met ANKA",
@@ -2172,32 +2394,32 @@
       "panel": {
         "eyebrow": "Werkwijze",
         "title": "Onze werkwijze",
-        "description": "Onze adviesaanpak combineert technische werkdiscipline, datadiscipline, bewijsstructuur en praktische workflow-inrichting binnen één samenhangend kader.",
+        "description": "Onze adviesaanpak verbindt technische werkscope, data- en bewijsstructuur en een praktische werkwijze—met ondersteuning door digitale oplossingen waar dat duidelijke meerwaarde biedt.",
         "items": [
-          "Technische werkdiscipline",
-          "Data- en bewijsdiscipline",
-          "Praktische workflow-inrichting",
-          "Digitale ondersteuning"
+          "Technische werkscope",
+          "Data- en bewijsstructuur",
+          "Praktische werkwijze",
+          "Ondersteuning met digitale oplossingen"
         ]
       },
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Bekijk diensten",
       "proof": [
         {
-          "title": "Technische werkdiscipline",
-          "body": "Scope, methode en duidelijke begrenzing"
+          "title": "Technische werkscope",
+          "body": "Scope, methode en grenzen duidelijk vastleggen"
         },
         {
-          "title": "Data en bewijsvoering",
-          "body": "Bronnen, registraties en sturingspunten"
+          "title": "Data- en bewijsstructuur",
+          "body": "Bronnen, registraties en controlepunten ordenen"
         },
         {
-          "title": "Uitvoerbare aanpak",
-          "body": "Herhaalbare, interne werkpatronen"
+          "title": "Praktische werkwijze",
+          "body": "Een herhaalbaar proces binnen de organisatie"
         },
         {
-          "title": "Digitale afstemming",
-          "body": "Hulpmiddelen passend bij sturing en bewijs"
+          "title": "Ondersteuning met digitale oplossingen",
+          "body": "Oplossingsstructuur voor data, berekening en traceerbaarheid"
         }
       ]
     },
@@ -2215,28 +2437,33 @@
       },
       "c3": {
         "title": "Een toepasbaar model",
-        "body": "Regelgeving ondersteunen we met data, bewijsvoering, berekeningen en beheer van werkprocessen."
+        "body": "We brengen regelgeving samen met data, bewijs, berekeningen en werkprocessen—en maken daar een werkwijze van die teams echt kunnen volgen."
       }
     },
     "founderPerspective": {
-      "eyebrow": "Leiderschapsbenadering",
-      "title": "Advies gebouwd op technische discipline, toepasbaarheid en vertrouwen",
-      "byline": "Burcu Şimşek — Algemeen directeur",
-      "body": "Onder leiding van Burcu Şimşek benadert ANKA duurzaamheids- en complianceadvies als meer dan alleen rapportage of documentvoorbereiding. Onze werkwijze richt zich op het vereenvoudigen van technische vereisten, het versterken van data- en bewijsstructuren en het opzetten van praktisch toepasbare werkprocessen voor organisaties.",
-      "body2": "Bij iedere opdracht is het doel om vereisten duidelijker te maken, processen beter beheersbaar te structureren en een sterkere basis voor besluitvorming te bieden. Deze aanpak wordt ondersteund door brede technische ervaring op het gebied van duurzaamheid, koolstofbeheer, verificatie, LCA, EPD en EU-complianceprocessen.",
-      "body3": "Bijna 20 jaar professionele ervaring versterken niet alleen de technische nauwkeurigheid, maar ook het vermogen om werkende systemen binnen organisaties op te zetten.",
+      "eyebrow": "Leiderschapsaanpak",
+      "title": "Helder, praktisch en betrouwbaar advies",
+      "byline": "Burcu Şimşek — Managing Director",
+      "body": "Onder leiding van Burcu Şimşek ziet ANKA duurzaamheid en compliance niet alleen als rapportage- of documentatiewerk. In elk project beginnen we met het scherp krijgen van de echte behoefte, de datastructuur en hoe beslissingen tot stand komen—daarna vertalen we technische eisen naar een werkbare aanpak.",
+      "body2": "Voor ons telt vooral dit: organisaties moeten zien wat er moet gebeuren, waarom het ertoe doet en hoe ze het intern kunnen volhouden. We blijven niet hangen bij het uitleggen van regels; we organiseren data, bewijs, verantwoordelijkheden en processtappen zodat het werk bruikbaar blijft binnen uw eigen teams.",
+      "body3": "Bijna twintig jaar ervaring met duurzaamheid, koolstofbeheer, verificatie, LCA, EPD en EU-compliance houdt technische scherpte en praktijkrealiteit natuurlijk in hetzelfde gesprek.",
       "name": "Burcu Şimşek",
-      "quoteLabel": "Leiderschapsnotitie",
-      "quote": "“Bij ANKA is het doel niet alleen om een rapport, rekenbestand of compliance-output op te stellen. Wij helpen organisaties om data, bewijsvoering, verantwoordelijkheden en besluitvorming duidelijker te structureren.”",
+      "quote": "Bij ANKA stoppen we niet bij een rapport of compliancedossier. We willen dat organisaties duurzaamheid en compliance scherper zien, beslissingen stevig op data baseren en het ritme intern vasthouden.\n\nDaarom wegen we technische juistheid en praktische bruikbaarheid even zwaar. We knopen regelgeving, data en bewijsstructuren aan de dagelijkse operatie, zodat het eindresultaat betrouwbaarder, verdedigbaarder en écht bruikbaar wordt.",
+      "stats": [
+        { "target": 400, "suffix": "+", "label": "Projecten" },
+        { "target": 200, "suffix": "+", "label": "Referenties" },
+        { "target": 19, "suffix": "+", "label": "Jaar Ervaring" },
+        { "target": 10, "suffix": "+", "label": "Landen Actief" }
+      ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },
     "scope": {
       "eyebrow": "Werkgebieden",
       "title": "Waar ondersteunen wij?",
-      "intro": "Wij maken bedrijfsduurzaamheid en naleving beheersbaar—rondom regelgeving, data, bewijsvoering, productduurzaamheid en digitale ondersteuning.",
+      "intro": "We werken met organisaties aan regelgeving, data, bewijs, productduurzaamheid en digitale ondersteuning—en maken programma’s beheersbaarder om intern vol te houden.",
       "c1": {
         "title": "ESG- en corporaterapportage",
-        "body": "Wij versterken data, scope en evidence-structuur voor o.a. CSRD, ESRS, GRI en ISSB."
+        "body": "We brengen datascope, bronnen en bewijsstructuur scherp in beeld voor o.a. CSRD, ESRS, GRI en ISSB."
       },
       "c2": {
         "title": "Koolstof, klimaat en decarbonisatie",
@@ -2256,13 +2483,13 @@
       },
       "c6": {
         "title": "Digitale ondersteuning en software",
-        "body": "Waar zinvol, versnellen we uitvoer met tools voor data, traceerbaarheid en nalevingssturing."
+        "body": "Waar software echt verschil maakt, brengen we data, traceerbaarheid en nalevingssturing zichtbaar en herhaalbaar in het adviestraject."
       }
     },
     "workingModel": {
       "eyebrow": "Werkmodel",
       "title": "Hoe wij werken",
-      "intro": "We houden in elke opdracht scope, datadiscipline, technische zuiverheid en interne inzetbaarheid in balans.",
+      "intro": "Elke opdracht balanceert scherpe scope, heldere data en bewijs, technische nauwkeurigheid en een intern model dat teams kunnen blijven gebruiken.",
       "s1": {
         "title": "Scope afgrenzen",
         "body": "We stemmen vraag, grens, prioriteit en verwachte uitkomst duidelijk af met de partijen die het moeten doen."
@@ -2283,22 +2510,22 @@
     "differentiators": {
       "eyebrow": "Waarom ANKA",
       "title": "Wat ons onderscheidt",
-      "intro": "We koppelen regelgeving aan uitvoeringsdiscipline en organisatie-realiteit.",
+      "intro": "We houden regelgeving, uitvoerbaarheid en organisatie-realiteit in één lijn.",
       "c1": {
         "title": "Regelgeving en veld in één beeld",
-        "body": "We duiden Europese eisen in samenhang met productie- en ketenrealiteit."
+        "body": "We lezen Europese eisen naast wat producenten, leveranciers en exporteurs dagelijks ervaren."
       },
       "c2": {
-        "title": "Discipline in data en bewijs",
-        "body": "We verbinden rapportage en berekeningen aan traceerbaar bewijsmateriaal."
+        "title": "Data en bewijs helder neergezet",
+        "body": "We knopen rapportage en berekeningen aan traceerbaar bewijs dat tegen kritiek kan."
       },
       "c3": {
         "title": "Werkbare interne inrichting",
-        "body": "Niet enkel theorie, maar afspraken en sturing die teams kunnen volhouden."
+        "body": "Geen fraai compliance-verhaal dat na de sessie verdwijnt—wel afspraken en sturing die teams volhouden."
       },
       "c4": {
-        "title": "Digitale ondersteuning, gericht",
-        "body": "Digitale oplossingen inzetten waar datavraag, traceerbaarheid of controle echt scherp wordt."
+        "title": "Digitale ondersteuning waar het telt",
+        "body": "Tools alleen als ze data, traceerbaarheid en controle merkbaar verbeteren—nooit als versiering."
       }
     },
     "companyDetails": {
@@ -2405,12 +2632,12 @@
   "partnersPage": {
     "meta": {
       "title": "Partnernetwerk",
-      "description": "ANKA werkt samen met geselecteerde partners om aanvullende expertise in duurzaamheids- en compliancetrajecten te brengen."
+      "description": "ANKA brengt aanvullende expertise binnen via een beperkt netwerk van geselecteerde partners."
     },
     "hero": {
       "eyebrow": "Partnernetwerk",
       "title": "Samenwerking voor verificatie, compliance en digitale productdata",
-      "description": "ANKA werkt met geselecteerde partners wanneer trajecten aanvullende expertise vragen. Samenwerking richt zich op verificatie, certificeringsvoorbereiding, digitale productdata, traceerbaarheid en productpaspoorten—altijd ingekaderd en in lijn met de ANKA-adviesrol.",
+      "description": "Wanneer een traject het echt vraagt, werken we naast geselecteerde partners aan verificatie, certificeringsvoorbereiding, digitale productdata, traceerbaarheid en productpaspoorten—met een heldere ANKA-adviesrol.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Bekijk diensten",
       "panel": {
@@ -2428,19 +2655,19 @@
     "ecosystem": {
       "eyebrow": "Partnernetwerk",
       "title": "Aanvullende diepgang in verificatie en digitale productdata",
-      "description": "Niet elk project vraagt dezelfde mix. Waar de scope dat vereist, zetten we partnerexpertise in rond certificering, bewijsdisciplines en DPP-gerelateerde productdata—begrensd, reviewbaar en afgestemd op de ANKA-adviesrol."
+      "description": "Geen twee trajecten zijn gelijk. Als certificeringsdiepte, bewijsvoering of DPP-gerelateerde productdata extra handen nodig heeft, halen we partners er precies op het juiste moment bij—begrensd, reviewbaar en in lijn met ANKA als adviesleider."
     },
     "partners": {
       "meva": {
         "name": "Meva Global Certification Services B.V.",
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
-        "category": "Perspectief op verificatie, certificering en conformiteitsbeoordeling",
-        "description": "Meva Global Certification Services B.V. levert aanvullende expertise vanuit verificatie, certificering en conformiteitsbeoordeling voor technische voorbereiding en bewijsdossiers. Binnen ANKA-projecten wordt deze competentie ingezet waar voorbereiding op verificatie, documentstructuur en marktvertrouwen dat vragen—passend bij de projectscope.",
+        "category": "Verificatie, certificering en conformiteitsbeoordeling",
+        "description": "Meva Global Certification Services B.V. werkt met ons samen aan technische voorbereiding en bewijsdossiers, met sterke kennis van verificatie, certificering en conformiteitsbeoordeling. We zitten dicht op elkaar waar voorbereiding op verificatie, documentstructuur en marktgerichte zekerheid echt moeten kloppen.",
         "focus": [
-          "Perspectief op verificatie en certificering",
-          "Aanpak voor bewijsdossiers en technische voorbereiding",
-          "Ondersteuning bij marktvertrouwen en conformiteitsbeoordeling"
+          "Diepte in verificatie en certificering",
+          "Samen bewijsdossiers en technische voorbereiding uitwerken",
+          "Marktvertrouwen via degelijke conformiteitspraktijk"
         ],
         "websiteCta": "Bezoek Website",
         "websiteUrl": "https://www.mevaglobalcertification.com"
@@ -2449,8 +2676,8 @@
         "name": "Beyond Barcode",
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
-        "category": "Digitaal Productpaspoort, productdata en waardeketencompliance",
-        "description": "Beyond Barcode biedt een aanvullende technologiebenadering voor het Digital Product Passport en productdatamanagement. In projecten waar productdata in complexe waardeketens moet worden geordend, gedeeld en compliant beheerd volgens EU-eisen, ondersteunt het platform de adviesaanpak van ANKA met digitale productdata-infrastructuur.",
+        "category": "Digitaal productpaspoort, productdata en ketencompliance",
+        "description": "Beyond Barcode is de technologiekant die we inzetten voor het Digital Product Passport en volwassen productdatabeheer. Waar complexe ketens EU-conforme structuur, uitwisseling en sturing nodig hebben, koppelen we het advieswerk van ANKA aan deze digitale productdata-infrastructuur.",
         "focus": [
           "Datastructuur voor het Digital Product Passport",
           "Productdatabeheer binnen complexe waardeketens",
@@ -2463,28 +2690,28 @@
     },
     "model": {
       "eyebrow": "Samenwerkingsmodel",
-      "title": "Wij Positioneren Partners Op Basis Van Projectbehoeften",
-      "intro": "Elke samenwerking wordt beoordeeld op basis van projectscope, technische vereisten en organisatiedoelen. ANKA houdt de adviesverantwoordelijkheid duidelijk en betrekt partnerexpertise op het juiste moment en binnen de juiste scope.",
+      "title": "Partners halen we alleen binnen als het project daar echt om vraagt",
+      "intro": "Elke samenwerking vormen we rond uw scope, technische vraag en prioriteiten. ANKA draagt de adviesverantwoordelijkheid eind-tot-eind; partnerexpertise komt alleen binnen waar het past—en precies wanneer het nodig is.",
       "s1": {
-        "title": "Behoefte Verduidelijken",
-        "body": "Wij bepalen welke expertisecomponenten het project nodig heeft."
+        "title": "Behoefte verduidelijken",
+        "body": "We bepalen samen welke specialistische onderdelen in de levering horen."
       },
       "s2": {
-        "title": "Scope Afstemmen",
-        "body": "Wij koppelen advies-, verificatie-, digitale productdata- of technische ondersteuningsbehoeften aan de juiste partnercapaciteit."
+        "title": "Scope afstemmen",
+        "body": "We koppelen advies-, verificatie-, digitale productdata- of technische ondersteuning aan de partner die bij dat stuk werk past."
       },
       "s3": {
         "title": "Rollen en verantwoordelijkheden scheiden",
-        "body": "Wij positioneren advies, technische voorbereiding, verificatie en digitale ondersteuning duidelijk."
+        "body": "Advies, technische voorbereiding, verificatie en digitale ondersteuning blijven expliciet zodat niemand in elkaar overlopen kan."
       },
       "s4": {
-        "title": "Werk Coördineren",
-        "body": "Wij creëren een gestructureerdere en traceerbare werkwijze rond de specifieke behoefte van de organisatie."
+        "title": "Werk coördineren",
+        "body": "We dirigeren een rustiger, traceerbaarder werkpakket rond wat uw organisatie nodig heeft."
       }
     },
     "finalCta": {
-      "title": "Laten we de juiste expertisemix voor uw project bepalen",
-      "description": "Samen beoordelen we uw behoeften rond duurzaamheid, compliance, verificatie of digitale productdata en verduidelijken we de juiste advies- en partnerscope.",
+      "title": "Laten we samen de juiste expertisemix kiezen",
+      "description": "Neem uw vragen over duurzaamheid, compliance, verificatie of digitale productdata mee—we zetten het advieskanaal en eventuele partnerinzet er transparant naast.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Neem contact op"
     }
@@ -2657,11 +2884,11 @@
           "focus3": "Technische documentatie"
         },
         "tourismServices": {
-          "title": "Toerisme en dienstverlening",
-          "description": "We zetten duidelijkere data-inwinning en rapportage­gereedheid neer rond koolstof, energie, water, afval, inkoop en marktzichtbaarheid.",
-          "focus1": "Koolstof en milieuprestaties",
-          "focus2": "Voorbereiding op duurzaam toerisme",
-          "focus3": "Dataverzameling en rapportage­structuur"
+          "title": "Toerisme en hospitality",
+          "description": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij criteria voor duurzaam toerisme, GSTC-voorbereiding, het Türkiye Sustainable Tourism Programme en operationele bewijsopbouw.",
+          "focus1": "GSTC en voorbereiding op duurzaam toerisme",
+          "focus2": "Türkiye Sustainable Tourism Programme",
+          "focus3": "Bewijsdossiers voor hotels en bestemmingen"
         }
       }
     },

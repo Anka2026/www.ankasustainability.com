@@ -1,11 +1,11 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import { FounderPortrait } from "@/components/about/founder-portrait";
-import { homeCardClassName } from "@/lib/home-classes";
+import { AboutFounderStatsBand } from "@/components/about/about-founder-stats-band";
+import type { FounderStatItem } from "@/components/about/about-founder-stats-band";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { cn } from "@/lib/utils";
-import { Quote } from "lucide-react";
 
 function LinkedInGlyph({ className }: { className?: string }) {
   return (
@@ -36,7 +36,38 @@ const quotePanelClass = cn(
   "ring-1 ring-inset ring-white/10",
 );
 
+/** Remove copied-in curly quotes so the editorial mark renders once. */
+function stripOuterTypographicQuotes(raw: string) {
+  return raw
+    .trim()
+    .replace(/^[\u201C\u201D\u0022\u0027\u00AB\u00BB]+/, "")
+    .replace(/[\u201C\u201D\u0022\u0027\u00AB\u00BB]+$/, "")
+    .trim();
+}
+
+function readFounderStats(t: IntlTranslator): readonly FounderStatItem[] {
+  const raw = (t as unknown as { raw: (k: string) => unknown }).raw(
+    "founderPerspective.stats",
+  );
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .map((v) => {
+      if (typeof v !== "object" || v === null) return null;
+      const o = v as Record<string, unknown>;
+      const target = o.target;
+      const suffix = o.suffix;
+      const label = o.label;
+      if (typeof target !== "number" || typeof suffix !== "string" || typeof label !== "string") {
+        return null;
+      }
+      return { target, suffix, label } satisfies FounderStatItem;
+    })
+    .filter((v): v is FounderStatItem => Boolean(v));
+}
+
 export function AboutFounderSection({ t }: Props) {
+  const founderStats = readFounderStats(t);
+
   return (
     <section
       className={cn("border-b border-border bg-background", SECTION_PAD_HOME)}
@@ -45,9 +76,8 @@ export function AboutFounderSection({ t }: Props) {
       <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <div
           className={cn(
-            homeCardClassName(true),
-            "overflow-hidden p-0",
-            "shadow-[0_40px_100px_-72px_rgba(15,23,42,0.55)]",
+            "overflow-hidden rounded-3xl border border-border bg-surface p-0",
+            "shadow-[0_40px_100px_-72px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06]",
           )}
         >
           <div className="grid grid-cols-1 items-stretch lg:grid-cols-12">
@@ -120,18 +150,27 @@ export function AboutFounderSection({ t }: Props) {
                   className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_80%_at_0%_0%,rgba(8,145,178,0.22),transparent_55%)]"
                   aria-hidden
                 />
+                <div className="pointer-events-none absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-accent/5 via-accent/70 to-accent/5" aria-hidden />
                 <div className="relative flex w-full min-h-0 flex-1 flex-col justify-center px-7 py-8 sm:px-8 sm:py-9 lg:px-9 lg:py-10">
-                  <div className="mb-4 inline-flex w-fit max-w-full items-center gap-2 rounded-full border border-white/20 bg-white/10 px-2.5 py-1.5 text-[0.6875rem] font-semibold tracking-[0.14em] text-primary-foreground/90">
-                    <Quote className="size-3.5 shrink-0 opacity-90" aria-hidden />
-                    {t("founderPerspective.quoteLabel")}
-                  </div>
-                  <p className="min-w-0 break-words text-pretty text-base font-medium leading-[1.6] text-primary-foreground sm:text-[1.0625rem] sm:leading-[1.64] lg:leading-[1.66] whitespace-pre-line">
-                    {t("founderPerspective.quote")}
+                  <p
+                    className="mb-4 font-serif text-[2.75rem] leading-none text-primary-foreground/35 sm:text-[3.25rem]"
+                    aria-hidden
+                  >
+                    “
+                  </p>
+                  <p className="-mt-1 min-w-0 text-pretty text-base font-medium leading-[1.62] text-primary-foreground/95 sm:text-[1.0625rem] sm:leading-[1.64] lg:leading-[1.66] whitespace-pre-line">
+                    {stripOuterTypographicQuotes(t("founderPerspective.quote"))}
                   </p>
                 </div>
               </div>
             </aside>
           </div>
+
+          {founderStats.length > 0 ? (
+            <div className="border-t border-border/65 bg-background/40 px-5 py-6 sm:px-7 sm:py-7 lg:px-9 lg:py-8">
+              <AboutFounderStatsBand stats={founderStats} />
+            </div>
+          ) : null}
         </div>
       </Container>
     </section>

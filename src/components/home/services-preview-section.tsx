@@ -11,6 +11,7 @@ import { Link } from "@/i18n/navigation";
 import {
   BadgeCheck,
   ClipboardList,
+  Compass,
   Factory,
   Globe2,
   LineChart,
@@ -29,6 +30,7 @@ const cards = [
   { key: "c4" as const, icon: Globe2, id: "regulatorySupplyChain" as const },
   { key: "c5" as const, icon: ShieldCheck, id: "sustainableFinance" as const },
   { key: "c6" as const, icon: BadgeCheck, id: "certificationTraceability" as const },
+  { key: "c7" as const, icon: Compass, id: "sustainableTourismGstc" as const },
 ];
 
 export function ServicesPreviewSection({ t, tServicesPage }: Props) {

@@ -3,6 +3,7 @@ import {
   BadgeCheck,
   BarChart3,
   CloudSun,
+  Compass,
   Landmark,
   Layers,
   Scale,
@@ -15,6 +16,7 @@ export const SERVICES_CATEGORY_ORDER = [
   "regulatorySupplyChain",
   "sustainableFinance",
   "certificationTraceability",
+  "sustainableTourismGstc",
 ] as const;
 
 export type ServicesCategoryId = (typeof SERVICES_CATEGORY_ORDER)[number];
@@ -27,6 +29,7 @@ export const SERVICES_CATEGORY_ICONS: Record<ServicesCategoryId, LucideIcon> =
     regulatorySupplyChain: Scale,
     sustainableFinance: Landmark,
     certificationTraceability: BadgeCheck,
+    sustainableTourismGstc: Compass,
   };
 
 export const PROCESS_STEP_KEYS = [

@@ -198,6 +198,7 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                 <div className="mt-8 w-full max-w-5xl">
                   <AgriClimateProductScreenshot
                     alt={tt("portfolio.products.agri-climate-platform.screenshotAlt")}
+                    priority
                   />
                 </div>
               ) : null}

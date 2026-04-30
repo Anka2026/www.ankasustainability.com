@@ -1,7 +1,7 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
+import { aboutPremiumCardClassName } from "@/lib/about-card-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import { serviceRouteSegmentFromId } from "@/lib/services-routing";
 import { cn } from "@/lib/utils";
@@ -71,14 +71,13 @@ export function AboutHelpSection({ t }: Props) {
                   >
                     <article
                       className={cn(
-                        homeCardClassName(true),
+                        aboutPremiumCardClassName(),
                         "flex h-full min-h-0 flex-col p-3.5 sm:p-4",
                         "bg-surface/95",
-                        "transition-[border-color,box-shadow] group-hover:border-accent/30 group-hover:shadow-[0_16px_40px_-36px_rgba(15,23,42,0.45)]",
                       )}
                     >
                       <div className="flex items-start gap-2.5 sm:gap-3">
-                        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-primary/15 bg-primary/[0.04] ring-1 ring-inset ring-primary/[0.05] transition-colors group-hover:border-accent/30 group-hover:bg-accent/[0.05] sm:h-9 sm:w-9">
+                        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-primary/15 bg-primary/[0.04] ring-1 ring-inset ring-primary/[0.05] sm:h-9 sm:w-9">
                           <Icon className="size-4 text-primary sm:size-[1.05rem]" strokeWidth={1.85} aria-hidden />
                         </div>
                         <div className="min-w-0 flex-1">

@@ -66,6 +66,12 @@
         "i2": "Chain of custody",
         "i3": "Mass balance",
         "i4": "Traceability support"
+      },
+      "sustainableTourismGstc": {
+        "i1": "GSTC readiness",
+        "i2": "Türkiye programme",
+        "i3": "Gap analysis",
+        "i4": "Evidence structure"
       }
     }
   },
@@ -139,8 +145,8 @@
     },
     "servicesOverview": {
       "title": "Core Consultancy Areas",
-      "intro": "We build technical, actionable work models across EU regulations, carbon management, product sustainability, supply-chain compliance, and market readiness.",
-      "cardCta": "View details",
+      "intro": "We build technical, actionable work models across EU regulations, carbon management, product sustainability, supply-chain compliance, market readiness and sustainable tourism preparation.",
+      "cardCta": "View Details",
       "c1": {
         "title": "ESG And Corporate Reporting",
         "body": "We strengthen data boundaries and evidence structures for CSRD, ESRS, GRI, ISSB, and double materiality."
@@ -164,6 +170,10 @@
       "c6": {
         "title": "Certification, Traceability And Market Confidence",
         "body": "Support for certification readiness, traceability, evidence files, and market claim governance."
+      },
+      "c7": {
+        "title": "Sustainable Tourism, GSTC and Türkiye Programme",
+        "body": "We support hotels, tour operators and destination structures with GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence file organisation."
       }
     },
     "software": {
@@ -240,7 +250,7 @@
     "overview": {
       "eyebrow": "Our service approach",
       "title": "We translate regulatory expectations into a regulation-led advisory structure",
-      "text": "Our six core advisory areas are designed to take sustainability, carbon, product, and supply chain compliance work beyond documents and surface-level statements, and to embed a traceable, defensible, and controllable way of working inside the organisation.",
+      "text": "Our seven core advisory areas are designed to take sustainability, carbon, product, supply chain compliance and tourism-sector readiness work beyond documents and surface-level statements, and to embed a traceable, defensible, and controllable way of working inside the organisation.",
       "strip": [
         {
           "title": "Scope and priority"
@@ -291,6 +301,10 @@
         "certificationTraceability": {
           "title": "Certification, traceability, and market confidence",
           "body": "We set up a more defensible way of working around certification, traceability, evidence files, and market-facing statements."
+        },
+        "sustainableTourismGstc": {
+          "title": "Sustainable tourism, GSTC and the Türkiye programme",
+          "body": "We support hotels, tour operators and destination structures with GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence file organisation."
         }
       }
     },
@@ -1653,6 +1667,208 @@
               "secondary": "Contact Us"
             }
           }
+        },
+        "sustainableTourismGstc": {
+          "subtitle": "GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence organisation—advisory and certification readiness support (ANKA does not issue certification).",
+          "whyMatters": "For tourism businesses, sustainability brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication—not environmental performance alone.",
+          "deliverables": [
+            "Gap analysis and prioritisation against GSTC and programme expectations",
+            "Practical action plan with clear responsibilities",
+            "Evidence file structure ahead of assessment or audit"
+          ],
+          "howWeWorkSteps": [
+            "Review current practices, documentation and roles together",
+            "Make gaps visible against the criteria and define the action plan",
+            "Organise evidence files and internal controls",
+            "Complete readiness with teams and strengthen traceability"
+          ],
+          "outputs": [
+            "Gap analysis and priority summary",
+            "Criteria-based action plan",
+            "Evidence and control checklist",
+            "Readiness notes"
+          ],
+          "whoFor": [
+            "Hotels and accommodation operators preparing for GSTC and the Türkiye programme",
+            "Tour operators and destination management structures",
+            "Public and sector stakeholders coordinating alignment work"
+          ],
+          "whoForNote": "ANKA is not a certification body and does not issue GSTC certification; we provide preparation support and advisory.",
+          "relatedToolsTitle": "No mandatory software dependency",
+          "relatedToolsBody": "Where helpful, lightweight digital workflow support may be suggested; advisory remains primary.",
+          "benchmark": {
+            "hero": {
+              "eyebrow": "Sustainable Tourism",
+              "title": "Advisory Support for Sustainable Tourism, GSTC and the Türkiye Programme",
+              "text": "For tourism businesses, sustainability is no longer limited to environmental performance. It brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication. ANKA supports hotels, tour operators and destination structures in building a practical preparation framework aligned with GSTC criteria and the Türkiye Sustainable Tourism Programme. ANKA does not issue certification or guarantee outcomes; we focus on preparation, documentation and evidence structure.",
+              "ctas": {
+                "primary": "Book A Call",
+                "secondary": "Explore Related Services"
+              },
+              "proofStrip": {
+                "items": ["GSTC Readiness", "Türkiye Programme", "Evidence Structure", "Assessment Readiness"],
+                "subtitles": [
+                  "Criteria alignment and gap analysis",
+                  "Programme expectations and action planning",
+                  "Policies, records and field evidence",
+                  "File structure and checklists"
+                ]
+              },
+              "panelTitle": "Focus Areas",
+              "panelCards": [
+                { "title": "GSTC Criteria", "body": "Gap analysis and alignment priorities." },
+                { "title": "Türkiye Programme", "body": "Programme preparation and documentation structure." },
+                { "title": "Operations & Evidence", "body": "Field practice, records and indicators." },
+                { "title": "Team & Awareness", "body": "Responsibilities, training and internal communication." }
+              ]
+            },
+            "why": {
+              "title": "Why It Matters",
+              "heading": "Sustainable Tourism Readiness Is Multi-Topic and Evidence-Led",
+              "intro": "Guest expectations, programme requirements and the need for reviewable evidence mean preparation cannot be reduced to a single checklist.",
+              "valueItems": [
+                "GSTC and national programmes expect structured evidence",
+                "Operational reality and statements must stay aligned",
+                "Without clear team roles, the process cannot be sustained"
+              ],
+              "insightLabel": "How ANKA Adds Value",
+              "insightText": "In sustainable tourism projects, we do not only prepare a document list. We look at daily operations, team responsibilities and field practices together, then translate the criteria into a working structure the organisation can actually use. This turns sustainable tourism preparation into more than a pre-assessment file; it becomes a clearer and more reliable system the organisation can maintain. ANKA does not issue certification; we provide preparation support and advisory.",
+              "cards": [
+                {
+                  "title": "GSTC and programme expectations",
+                  "body": "Criteria require evidence and record discipline across management, environmental, social impact and communication themes."
+                },
+                {
+                  "title": "Operational evidence",
+                  "body": "Policies and procedures should be supported by field records and indicators."
+                },
+                {
+                  "title": "Sustainable internal rhythm",
+                  "body": "Readiness should be a cadence teams can run—not a one-off file."
+                }
+              ]
+            },
+            "support": {
+              "title": "What We Clarify",
+              "intro": "Every tourism business starts from a different point. We first review current practices, documentation, operational reality and management approach. We then identify gaps against the relevant criteria, prepare an action plan and organise the evidence structure needed for certification readiness.",
+              "cards": [
+                {
+                  "title": "Gap analysis against GSTC criteria",
+                  "body": "We make missing areas, strengths and priority actions visible against the criteria."
+                },
+                {
+                  "title": "Preparation for the Türkiye Sustainable Tourism Programme",
+                  "body": "We build a documentation and action framework aligned with programme expectations."
+                },
+                {
+                  "title": "Practical action planning for hotels, tour operators and destinations",
+                  "body": "We prepare an implementable roadmap for your operating context."
+                },
+                {
+                  "title": "Evidence structure across management, environmental and social impact topics",
+                  "body": "We align records, indicators and responsibilities across themes."
+                },
+                {
+                  "title": "Training, awareness and team responsibility mapping",
+                  "body": "We clarify roles and internal communication needs."
+                },
+                {
+                  "title": "Readiness file for assessment or audit processes",
+                  "body": "We structure materials for review without implying certification outcomes."
+                }
+              ]
+            },
+            "how": {
+              "title": "How We Work",
+              "headline": "How We Work",
+              "intro": "We move preparation forward step by step, clarifying evidence structure and team roles at each stage.",
+              "kicker": "Current position → Gaps → Action → Evidence → Readiness",
+              "steps": [
+                {
+                  "title": "We Understand the Current Position",
+                  "body": "We review the organisation's current sustainability practices, documentation, operations and responsibility structure."
+                },
+                {
+                  "title": "We Identify Gaps Against the Criteria",
+                  "body": "We make missing areas, strengths and priority actions visible against GSTC and programme expectations."
+                },
+                {
+                  "title": "We Build the Action Plan",
+                  "body": "We prepare a practical roadmap across management, environment, social impact, cultural heritage, procurement and guest communication."
+                },
+                {
+                  "title": "We Organise the Evidence File",
+                  "body": "We structure policies, procedures, records, indicators, photos, training evidence and field documentation for the assessment process."
+                },
+                {
+                  "title": "We Prepare the Team",
+                  "body": "We work with relevant teams to clarify responsibilities, improve follow-up and strengthen readiness before assessment."
+                }
+              ]
+            },
+            "outputs": {
+              "eyebrow": "TYPICAL OUTPUTS",
+              "title": "Typical Outputs",
+              "intro": "Outputs are structured so the organisation can maintain an updatable, traceable preparation system.",
+              "items": [
+                "GSTC / sustainable tourism gap analysis",
+                "Criteria-based action plan",
+                "Documentation and evidence checklist",
+                "Sustainable tourism policy and procedure recommendations",
+                "Training and awareness materials",
+                "Indicator and monitoring table",
+                "Assessment / audit readiness notes"
+              ],
+              "notes": [
+                "Current maturity is compared with the criteria.",
+                "Priority improvements and timelines are clarified.",
+                "Missing documents and records are consolidated in one list.",
+                "Practical policy and procedure drafts are produced.",
+                "Internal training needs are defined.",
+                "Core indicators and a follow-up rhythm are proposed.",
+                "Pre-assessment checks and notes are prepared."
+              ]
+            },
+            "audience": {
+              "title": "Who It Is For",
+              "panelLabel": "Target Audience",
+              "bullets": [
+                "Hotels and chains preparing for GSTC and the Türkiye programme",
+                "Tour operators and destination management structures",
+                "Institutions working with public and sector stakeholders on alignment"
+              ],
+              "list": [
+                "Hotels and accommodation facilities",
+                "Hotel groups and chains",
+                "Tour operators",
+                "Destination management structures",
+                "Municipalities, development agencies and tourism associations",
+                "Businesses preparing for a sustainable tourism programme"
+              ],
+              "description": "For tourism businesses and stakeholder structures that want a clear evidence structure and action plan for sustainable tourism and GSTC / Türkiye programme preparation."
+            },
+            "tools": {
+              "title": "Optional digital structure",
+              "intro": "This service does not require software. If evidence tracking needs emerge, we can evaluate selective solutions from our portfolio.",
+              "rightTitle": "Digital options for evidence tracking",
+              "capabilityRows": ["Evidence logging", "Checklists", "Indicator tracking", "Readiness visibility"],
+              "noteShort": "ANKA does not issue certification; we provide preparation support and advisory.",
+              "card": {
+                "title": "ANKA software portfolio",
+                "body": "Where digital structure helps tourism preparation, compatible products can be reviewed alongside advisory.",
+                "bullets": ["Optional use", "Evidence-led structure", "Advisory-first delivery"],
+                "cta": "Explore Digital Capabilities"
+              },
+              "noteTitle": "Note",
+              "noteBody": "GSTC or national programme assessments are conducted by independent third parties; ANKA provides preparation advisory in that process."
+            },
+            "cta": {
+              "title": "Let’s clarify your sustainable tourism readiness.",
+              "text": "We can review your current position, gaps and priority actions under GSTC criteria and the Türkiye Sustainable Tourism Programme.",
+              "primary": "Book A Call",
+              "secondary": "Contact Us"
+            }
+          }
         }
       }
     },
@@ -1687,13 +1903,19 @@
         "label": "Market and Stakeholder Readiness",
         "summary": "We align sustainability performance with customer, investor, tender, and international market expectations.",
         "description": "As expectations sharpen, disclosure language, evidence structure, and performance narrative become critical. We help organisations present a consistent, credible framework to stakeholders.",
-        "topics": "EU Taxonomy\nSustainable finance readiness\nInvestor-facing ESG preparation\nFinance-aligned sustainability structures\nRating / disclosure readiness\nSFDR-related market expectations (where relevant)"
+        "topics": "EU Taxonomy\nSustainable finance readiness\nInvestor-facing ESG preparation\nFinance-aligned sustainability structures\nRating / disclosure readiness\nSFDR-related market expectations (where relevant)\nSustainable tourism / GSTC readiness advisory (ANKA does not issue certification)"
       },
       "certificationTraceability": {
         "label": "Certification, Traceability, and Market Confidence",
         "summary": "We build traceability, verifiability, and certification-oriented structures that strengthen trust across product and supply processes.",
         "description": "Traceability and certification are disciplines for making claims verifiable. We design workable structures across chain-of-custody logic, mass balance, and documentation management.",
-        "topics": "ISCC\nChain of custody logic\nMass balance logic\nTraceability structures\nRecycled / bio-based content readiness\nSustainability claims support\nCarbon credits consultancy (secondary support, where relevant)"
+        "topics": "ISCC\nChain of custody logic\nMass balance logic\nTraceability structures\nRecycled / bio-based content readiness\nSustainability claims support\nCarbon credits consultancy (secondary support, where relevant)\nSustainable tourism and GSTC / Türkiye programme preparation support (advisory; ANKA does not issue certification)"
+      },
+      "sustainableTourismGstc": {
+        "label": "Sustainable Tourism, GSTC and the Türkiye Programme",
+        "summary": "For hotels, tour operators and destinations we provide advisory on GSTC criteria alignment, Türkiye Sustainable Tourism Programme preparation, gap analysis and evidence structures ahead of assessment—without acting as a certification body.",
+        "description": "ANKA does not issue certificates or GSTC certification, and does not guarantee certification outcomes. We provide advisory support on preparation, documentation, evidence structures and action planning. The work connects management systems, environmental and social themes with operational evidence.",
+        "topics": "GSTC criteria alignment\nTürkiye Sustainable Tourism Programme preparation\nGap analysis\nEvidence files and documentation\nTraining and internal awareness\nAssessment / audit readiness preparation\nCertification readiness support (advisory)"
       }
     },
     "detailCta": "Discuss with ANKA",
@@ -2124,32 +2346,32 @@
       "panel": {
         "eyebrow": "Institutional Framework",
         "title": "How We Work",
-        "description": "Our advisory approach combines technical working discipline, data and evidence discipline, evidence structure and practical workflow design within the same framework.",
+        "description": "Our advisory approach connects technical work scope, data and evidence structure, and practical workflows—with digital solution support where it adds clear value.",
         "items": [
-          "Technical Working Discipline",
-          "Data And Evidence Discipline",
-          "Practical Workflow Design",
-          "Digital Support Mindset"
+          "Technical Work Scope",
+          "Data And Evidence Structure",
+          "Practical Workflow",
+          "Digital Solution Support"
         ]
       },
       "primaryCta": "Book A Call",
       "secondaryCta": "Explore Services",
       "proof": [
         {
-          "title": "Technical working discipline",
-          "body": "Scope, method and boundary discipline"
+          "title": "Technical Work Scope",
+          "body": "Clarifying scope, method and reporting boundaries"
         },
         {
-          "title": "Data and evidence",
-          "body": "Source, record and control design"
+          "title": "Data and Evidence Structure",
+          "body": "Organising sources, records and control points"
         },
         {
-          "title": "Practical delivery",
-          "body": "Workable, repeatable internal routines"
+          "title": "Practical Workflow",
+          "body": "A repeatable process the organisation can use"
         },
         {
-          "title": "Digital alignment",
-          "body": "Tools aligned to control and evidence"
+          "title": "Digital Solution Support",
+          "body": "Solution infrastructure for data, calculation and traceability"
         }
       ]
     },
@@ -2167,28 +2389,33 @@
       },
       "c3": {
         "title": "Implementable consulting model",
-        "body": "We reinforce regulatory context with data, evidence, calculation logic, and workflow design."
+        "body": "We bring regulatory understanding together with data, evidence, calculations and workflow—then translate it into something teams can actually run."
       }
     },
     "founderPerspective": {
-      "eyebrow": "LEADERSHIP APPROACH",
-      "title": "Advisory Built On Technical Working Discipline, Practicality And Confidence",
+      "eyebrow": "Leadership Approach",
+      "title": "Clear, Practical And Trustworthy Advisory",
       "byline": "Burcu Şimşek — Managing Director",
-      "body": "Under the leadership of Burcu Şimşek, ANKA approaches sustainability and compliance advisory as more than reporting or document preparation. Our working model focuses on simplifying technical requirements, strengthening data and evidence structures, and establishing practical workflows for organisations.",
-      "body2": "In every engagement, our aim is to make requirements clearer, create a more controlled and manageable process, and provide a stronger basis for decision-making. This approach is supported by broad technical experience across sustainability, carbon management, verification, LCA, EPD and EU compliance processes.",
-      "body3": "Nearly 20 years of professional experience reinforce not only technical accuracy, but also the ability to build working systems that function effectively within organisations.",
+      "body": "Under the leadership of Burcu Şimşek, ANKA does not treat sustainability and compliance work as a reporting or documentation exercise only. In each project we start by clarifying the organisation’s real needs, data structure and decision-making context together—then translate technical requirements into a practical way of working.",
+      "body2": "What matters most to us is that organisations can see what must be done, why it matters and how it can be sustained internally. We do not stop at explaining regulatory expectations; we organise data, evidence, responsibilities and process steps so the work becomes usable inside the organisation.",
+      "body3": "Nearly 20 years across sustainability, carbon management, verification, LCA, EPD and EU compliance processes makes it natural to keep technical rigour and operational reality in the same conversation.",
       "name": "Burcu Şimşek",
-      "quoteLabel": "LEADERSHIP NOTE",
-      "quote": "“At ANKA, our goal is not simply to prepare a report, calculation file or compliance output. In every engagement, we aim to help organisations build clearer structures around data, evidence, responsibilities and decision-making.\n\nFor us, sustainability and compliance work should become manageable, traceable and defensible within the organisation. That is why we bring technical accuracy, practical applicability and sustainable workflow design together in the same advisory approach.”",
+      "quote": "At ANKA we do not want to stop at delivering a report or a compliance file. We want organisations to see sustainability and compliance topics more clearly, anchor decisions in data and keep the momentum inside the organisation.\n\nThat is why technical accuracy and practical usability carry equal weight for us. We tie regulation, data and evidence structures to day-to-day operations—so outcomes are more reliable, defensible and genuinely useful.",
+      "stats": [
+        { "target": 400, "suffix": "+", "label": "Projects" },
+        { "target": 200, "suffix": "+", "label": "References" },
+        { "target": 19, "suffix": "+", "label": "Years of Experience" },
+        { "target": 10, "suffix": "+", "label": "Countries Served" }
+      ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },
     "scope": {
       "eyebrow": "Areas of expertise",
       "title": "Where we support clients",
-      "intro": "We help make corporate sustainability and compliance work more manageable—across regulation, data, evidence, product sustainability, and digital support.",
+      "intro": "We work with organisations on regulation, data, evidence, product sustainability and digital support—making sustainability and compliance programmes easier to run and easier to sustain internally.",
       "c1": {
         "title": "ESG & corporate reporting",
-        "body": "We strengthen data, boundary, and evidence design for CSRD, ESRS, GRI, and ISSB expectations."
+        "body": "We clarify data boundaries, sources and evidence design for CSRD, ESRS, GRI and ISSB expectations."
       },
       "c2": {
         "title": "Carbon, climate & decarbonisation",
@@ -2208,13 +2435,13 @@
       },
       "c6": {
         "title": "Digital support & software solutions",
-        "body": "We strengthen delivery with tools for data, traceability, and compliance workflow execution where it adds value."
+        "body": "Where software genuinely helps, we bring data management, traceability and compliance workflows into the advisory programme in a visible, repeatable way."
       }
     },
     "workingModel": {
       "eyebrow": "Working model",
       "title": "How we work",
-      "intro": "We maintain balance across clear scope, data discipline, technical rigour, and a workable internal operating model.",
+      "intro": "Every engagement balances clear scope, structured data and evidence, technical rigour and an operating model your teams can keep running.",
       "s1": {
         "title": "Clarify scope",
         "body": "We align on needs, boundaries, priorities, and the practical expectations of the engagement."
@@ -2235,22 +2462,22 @@
     "differentiators": {
       "eyebrow": "Why ANKA",
       "title": "What differentiates our approach",
-      "intro": "We combine regulatory understanding, execution discipline, and organisational reality in one model.",
+      "intro": "We keep regulatory insight, practical execution and organisational reality in one coherent frame.",
       "c1": {
         "title": "Regulation and field reality together",
-        "body": "We evaluate European expectations together with the operational reality of production and supply environments."
+        "body": "We read European expectations alongside what producers, suppliers and exporters actually live with day to day."
       },
       "c2": {
-        "title": "Discipline in data and evidence",
-        "body": "We connect reporting, modelling, and compliance to traceable data and defensible evidence."
+        "title": "Structured data and evidence",
+        "body": "We tie reporting, modelling and compliance work to traceable data and evidence that can stand up to scrutiny."
       },
       "c3": {
         "title": "Build a workable internal structure",
-        "body": "We build operating patterns teams can run—not an abstract “compliance promise” on paper."
+        "body": "We design operating patterns teams can sustain—not a glossy compliance storyline that fades after the workshop."
       },
       "c4": {
-        "title": "Strengthen delivery with digital tools",
-        "body": "We use digital support where it genuinely improves data, traceability, and control across workflows."
+        "title": "Digital support when it earns its place",
+        "body": "When tools clearly improve data, traceability and control, we fold them into the delivery model—never as decoration."
       }
     },
     "companyDetails": {
@@ -2357,12 +2584,12 @@
   "partnersPage": {
     "meta": {
       "title": "Partners",
-      "description": "ANKA works with selected partners to bring complementary expertise into sustainability, compliance, verification and digital product data engagements."
+      "description": "ANKA brings complementary expertise into sustainability and compliance programmes through a small network of selected partners."
     },
     "hero": {
       "eyebrow": "Partners",
       "title": "Partnerships for verification, compliance, and digital product data",
-      "description": "ANKA works with selected partners when projects need complementary expertise in sustainability and compliance. Collaborations cover verification, certification readiness, digital product data, traceability, product passports, and market-facing assurance—always scoped and aligned to ANKA’s advisory ownership.",
+      "description": "When a programme genuinely needs it, we work alongside selected partners—covering verification, certification readiness, digital product data, traceability and product passports—while keeping ANKA’s advisory ownership clean and explicit.",
       "primaryCta": "Book A Call",
       "secondaryCta": "Explore Services",
       "panel": {
@@ -2380,19 +2607,19 @@
     "ecosystem": {
       "eyebrow": "Partner Ecosystem",
       "title": "Complementary depth in verification and digital product data",
-      "description": "Not every project needs the same expertise mix. Where the scope requires it, we add partner capabilities in certification, evidence disciplines, and DPP-related product data in a way that remains scoped, reviewable, and aligned to ANKA’s consulting ownership."
+      "description": "No two scopes are identical. When certification rigour, evidence preparation or DPP-related product data needs an extra pair of hands, we bring partners in at the right moment—always bounded, reviewable and consistent with ANKA’s consulting lead."
     },
     "partners": {
       "meva": {
         "name": "Meva Global Certification Services B.V.",
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
-        "category": "Verification, Certification And Conformity Assessment Perspective",
-        "description": "Meva Global Certification Services B.V. provides complementary expertise in verification, certification and conformity assessment for technical preparation and evidence files. On ANKA assignments, this capability is scoped to the project—especially where verification readiness, documentation structure and market confidence matter.",
+        "category": "Verification, certification and conformity assessment",
+        "description": "Meva Global Certification Services B.V. works with us on technical preparation and evidence files, drawing on deep expertise in verification, certification and conformity assessment. We collaborate closely wherever verification readiness, documentation structure and market-facing assurance need to be rock-solid.",
         "focus": [
-          "Verification and certification perspective",
-          "Evidence file and technical preparation approach",
-          "Market confidence and conformity assessment support"
+          "Hands-on verification and certification depth",
+          "Joint evidence-file and technical preparation work",
+          "Market confidence built through sound conformity practice"
         ],
         "websiteCta": "Visit Website",
         "websiteUrl": "https://www.mevaglobalcertification.com"
@@ -2401,8 +2628,8 @@
         "name": "Beyond Barcode",
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
-        "category": "Digital Product Passport, Product Data And Value Chain Compliance",
-        "description": "Beyond Barcode brings a complementary technology perspective on Digital Product Passports and product data management. For projects that require product data to be structured, shared and governed in line with EU requirements across complex value chains, it supports ANKA’s advisory approach with digital product data infrastructure.",
+        "category": "Digital Product Passport, product data and value-chain compliance",
+        "description": "Beyond Barcode is the technology side we bring in for Digital Product Passports and serious product-data programmes. When complex value chains need EU-grade structuring, sharing and governance, we pair ANKA’s advisory work with its digital product-data infrastructure.",
         "focus": [
           "Digital Product Passport data structure",
           "Product data management across complex value chains",
@@ -2415,28 +2642,28 @@
     },
     "model": {
       "eyebrow": "Collaboration Model",
-      "title": "We Position Partners According To Project Needs",
-      "intro": "Each collaboration is assessed according to the project scope, technical requirements and organisational objectives. ANKA keeps the advisory responsibility clear and involves partner expertise at the right stage and within the right scope.",
+      "title": "We bring partners into the programme when the project truly needs them",
+      "intro": "Every collaboration is shaped around your scope, technical demands and priorities. ANKA owns the advisory relationship end-to-end; partner expertise lands only where it genuinely belongs—and only at the moments that matter.",
       "s1": {
         "title": "Clarify The Need",
-        "body": "We identify which expertise components the project requires."
+        "body": "We decide together which specialist threads need to be part of the delivery."
       },
       "s2": {
         "title": "Match The Scope",
-        "body": "We match advisory, verification, digital product data or technical support needs with the right partner capability."
+        "body": "We pair advisory, verification, digital product-data or technical-support needs with the partner best suited to that slice of work."
       },
       "s3": {
         "title": "Separate Roles And Responsibilities",
-        "body": "We clearly position advisory, technical preparation, verification and digital support roles."
+        "body": "Advisory, technical preparation, verification and digital-support roles stay explicit so accountability never blurs."
       },
       "s4": {
         "title": "Coordinate The Work",
-        "body": "We build a more structured and traceable working flow around the organisation’s specific needs."
+        "body": "We orchestrate a cleaner, more traceable workflow around what your organisation actually needs."
       }
     },
     "finalCta": {
-      "title": "Let’s Define The Right Expertise Mix For Your Project",
-      "description": "Together, we can assess your sustainability, compliance, verification or digital product data needs and clarify the right advisory and partner scope.",
+      "title": "Let’s choose the right expertise mix for your programme",
+      "description": "Bring your sustainability, compliance, verification or digital product-data questions—we will map the advisory lane and any partner involvement transparently.",
       "primaryCta": "Book A Call",
       "secondaryCta": "Contact Us"
     }
@@ -2609,11 +2836,11 @@
           "focus3": "Technical documentation"
         },
         "tourismServices": {
-          "title": "Tourism and Services",
-          "description": "We establish clearer data collection and reporting readiness across carbon, energy, water, waste, procurement and market visibility.",
-          "focus1": "Carbon and environmental performance",
-          "focus2": "Sustainable tourism readiness",
-          "focus3": "Data collection and reporting structure"
+          "title": "Tourism and Hospitality",
+          "description": "We support hotels, tour operators and destination structures with sustainable tourism criteria, GSTC readiness, Türkiye Sustainable Tourism Programme preparation and operational evidence organisation.",
+          "focus1": "GSTC and sustainable tourism readiness",
+          "focus2": "Türkiye Sustainable Tourism Programme",
+          "focus3": "Hotel and destination evidence files"
         }
       }
     },

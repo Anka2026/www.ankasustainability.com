@@ -79,6 +79,10 @@ export function BenchmarkServiceLanding({
   const audience = readStringArray(t, `${base}.audience.list`);
   const audienceMiniBullets = readStringArray(t, `${base}.audience.bullets`).slice(0, 3);
 
+  const processSteps = steps.slice(0, Math.min(steps.length, 5));
+  const processGridCols =
+    processSteps.length >= 5 ? "md:grid-cols-2 lg:grid-cols-5" : "md:grid-cols-2 lg:grid-cols-4";
+
   const model = SERVICE_LANDING[categoryId];
   const softwareSlug = model.relatedTools?.[0]?.softwareSlug;
   const canLinkSoftware = softwareSlug ? isSoftwarePortfolioSlug(softwareSlug) : false;
@@ -94,9 +98,9 @@ export function BenchmarkServiceLanding({
         }
       : locale === "nl"
         ? {
-            advisory: "ADVIESFOCUS",
-            how: "HOE WIJ WERKEN",
-            audience: "VOOR WIE",
+            advisory: "Adviesfocus",
+            how: "Hoe wij werken",
+            audience: "Voor wie",
             nextStep: "Volgende stap",
           }
         : {
@@ -394,12 +398,12 @@ export function BenchmarkServiceLanding({
               </div>
 
               <div className="overflow-hidden rounded-3xl border border-slate-200/80 bg-slate-50/70 p-5 shadow-[0_24px_80px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04]">
-                <div className="relative grid gap-3 md:grid-cols-2 lg:grid-cols-4">
+                <div className={cn("relative grid gap-3", processGridCols)}>
                   <div
                     className="pointer-events-none absolute left-5 right-5 top-6 hidden h-px bg-slate-200/80 lg:block"
                     aria-hidden
                   />
-                  {steps.slice(0, 4).map((s, idx) => (
+                  {processSteps.map((s, idx) => (
                     <article
                       key={`step-${s.title}`}
                       className="relative h-full rounded-2xl border border-slate-200/80 bg-white p-4.5 shadow-[0_12px_30px_rgba(15,23,42,0.06)] ring-1 ring-inset ring-primary/[0.03]"
@@ -413,7 +417,7 @@ export function BenchmarkServiceLanding({
                           <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{s.body}</p>
                         </div>
                       </div>
-                      {idx < 3 ? (
+                      {idx < processSteps.length - 1 ? (
                         <span
                           className="pointer-events-none absolute -right-3 top-6 hidden h-6 w-6 items-center justify-center rounded-full border border-slate-200/80 bg-white text-[0.75rem] font-semibold text-muted-foreground lg:inline-flex"
                           aria-hidden

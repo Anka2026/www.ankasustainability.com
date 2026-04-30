@@ -88,7 +88,7 @@ export function CarbonClimateBenchmarkLanding({
     localeVariant === "tr"
       ? (["Karbon Verisi", "CBAM Hazırlığı", "Kanıt Yapısı", "Geçiş Yol Haritası"] as const)
       : localeVariant === "nl"
-        ? (["Koolstofdata", "CBAM-gereedheid", "Bewijsstructuur", "Transitieroadmap"] as const)
+        ? (["Koolstofdata", "CBAM-gereedheid", "Bewijsstructuur", "Transitiekader"] as const)
         : (["Carbon Data", "CBAM Readiness", "Evidence Structure", "Transition Roadmap"] as const);
 
   const proofSubtitles =
@@ -117,15 +117,19 @@ export function CarbonClimateBenchmarkLanding({
     localeVariant === "tr"
       ? "YETKİNLİK ALANLARI"
       : localeVariant === "nl"
-        ? "ADVIESFOCUS"
+        ? "Adviesfocus"
         : "ADVISORY FOCUS AREAS";
   const midHowEyebrow =
-    localeVariant === "tr" ? "NASIL ÇALIŞIYORUZ" : localeVariant === "nl" ? "HOE WIJ WERKEN" : "HOW WE WORK";
+    localeVariant === "tr"
+      ? "NASIL ÇALIŞIYORUZ"
+      : localeVariant === "nl"
+        ? "Hoe wij werken"
+        : "HOW WE WORK";
   const midTechEyebrow =
     localeVariant === "tr"
       ? "TEKNİK ÇALIŞMA KURGUSU"
       : localeVariant === "nl"
-        ? "TECHNISCHE WERKSTRUCTUUR"
+        ? "Technische werkstructuur"
         : "TECHNICAL WORK STRUCTURE";
 
   const processIntroTr = "Çalışma akışını; kapsam netliği, veri sahipliği ve kontrol adımları üzerine kurarız.";
@@ -172,7 +176,7 @@ export function CarbonClimateBenchmarkLanding({
     localeVariant === "tr"
       ? "KİMLER İÇİN UYGUN"
       : localeVariant === "nl"
-        ? "VOOR WIE"
+        ? "Voor wie"
         : "WHO IT IS FOR";
   const chipPanelTitle =
     localeVariant === "tr" ? "Hedef Kitle" : localeVariant === "nl" ? "Doelgroep" : "Target audience";

@@ -1,7 +1,10 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
+import {
+  aboutPremiumCardClassName,
+  aboutPrimaryAccentCardClassName,
+} from "@/lib/about-card-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import { cn } from "@/lib/utils";
 import { Network, Layers2, Wrench, Cpu } from "lucide-react";
@@ -40,11 +43,9 @@ export function AboutWhySection({ t }: Props) {
               <article
                 key={key}
                 className={cn(
-                  homeCardClassName(true),
                   "flex h-full min-h-0 flex-col p-4 sm:p-5",
-                  isFeatured
-                    ? "bg-primary text-primary-foreground ring-1 ring-inset ring-white/10"
-                    : "bg-surface/90",
+                  isFeatured ? aboutPrimaryAccentCardClassName() : aboutPremiumCardClassName(),
+                  !isFeatured && "bg-surface/90",
                 )}
               >
                 <div

@@ -226,8 +226,11 @@ export function SoftwarePortfolioClient({
                   )}
                 >
                   {active.slug === "agri-climate-platform" && active.screenshotSrc ? (
-                    <div className="mx-auto w-full max-w-3xl">
-                      <AgriClimateProductScreenshot alt={active.screenshotAlt} />
+                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
+                      <AgriClimateProductScreenshot
+                        alt={active.screenshotAlt}
+                        variant="modal"
+                      />
                     </div>
                   ) : active.slug === "cbam-compliance-console" ? (
                     <div className="mx-auto w-full max-w-[min(100%,56rem)]">
