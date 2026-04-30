@@ -30,6 +30,18 @@ const nextConfig: NextConfig = {
         },
       );
     }
+    list.push(
+      {
+        source: "/en/services/reportingEsg",
+        destination: "/en/services/esg-corporate-reporting",
+        permanent: true,
+      },
+      {
+        source: "/en/services/carbonClimate",
+        destination: "/en/services/carbon-climate-decarbonisation",
+        permanent: true,
+      },
+    );
     return list;
   },
 };

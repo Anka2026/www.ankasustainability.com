@@ -44,6 +44,7 @@ function optionalString(t: TranslatorLike, key: string): string | undefined {
 }
 
 const AGRI_SCREENSHOT = "/software/agri-climate-platform-overview.png";
+const CBAM_CONSOLE_SCREENSHOT = "/images/software/cbam-compliance-console-dashboard.png";
 
 export function SoftwarePortfolio({ t }: Props) {
   const tt = t as TranslatorLike;
@@ -51,7 +52,12 @@ export function SoftwarePortfolio({ t }: Props) {
   const products: SoftwarePortfolioProductDto[] = SOFTWARE_PORTFOLIO_ORDER.map((slug) => {
     const base = `portfolio.products.${slug}`;
     const bullets = readStringArray(tt, `${base}.bullets`).slice(0, 4);
-    const screenshotSrc = slug === "agri-climate-platform" ? AGRI_SCREENSHOT : null;
+    const screenshotSrc =
+      slug === "agri-climate-platform"
+        ? AGRI_SCREENSHOT
+        : slug === "cbam-compliance-console"
+          ? CBAM_CONSOLE_SCREENSHOT
+          : null;
     let screenshotAlt = "";
     try {
       screenshotAlt = tt(`${base}.screenshotAlt`).trim();
@@ -113,8 +119,8 @@ export function SoftwarePortfolio({ t }: Props) {
 
         <SoftwarePortfolioClient
           products={products}
-          viewSolutionCta={tt("portfolio.viewSolutionCta")}
-          requestDemoCta={tt("portfolio.requestDemoCta")}
+          viewSolutionCta={tt("portfolio.actions.viewSolution")}
+          requestDemoCta={tt("portfolio.actions.requestDemo")}
           modalClose={tt("portfolio.modalClose")}
           modalLabels={modalLabels}
           defaultModalTagline={tt("portfolio.defaultModalTagline")}

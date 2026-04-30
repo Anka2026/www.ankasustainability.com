@@ -117,7 +117,7 @@ export function CarbonClimateBenchmarkLanding({
     localeVariant === "tr"
       ? "YETKİNLİK ALANLARI"
       : localeVariant === "nl"
-        ? "KERNADVIESGEBIEDEN"
+        ? "ADVIESFOCUS"
         : "ADVISORY FOCUS AREAS";
   const midHowEyebrow =
     localeVariant === "tr" ? "NASIL ÇALIŞIYORUZ" : localeVariant === "nl" ? "HOE WIJ WERKEN" : "HOW WE WORK";
@@ -172,7 +172,7 @@ export function CarbonClimateBenchmarkLanding({
     localeVariant === "tr"
       ? "KİMLER İÇİN UYGUN"
       : localeVariant === "nl"
-        ? "VOOR WIE DIT RELEVANT IS"
+        ? "VOOR WIE"
         : "WHO IT IS FOR";
   const chipPanelTitle =
     localeVariant === "tr" ? "Hedef Kitle" : localeVariant === "nl" ? "Doelgroep" : "Target audience";

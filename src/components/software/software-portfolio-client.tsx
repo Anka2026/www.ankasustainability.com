@@ -15,6 +15,7 @@ import { X } from "lucide-react";
 
 import { AppButton } from "@/components/ui/app-button";
 import { AgriClimateProductScreenshot } from "@/components/software/agri-climate-product-screenshot";
+import { CbamComplianceConsoleProductVisual } from "@/components/software/cbam-compliance-console-product-visual";
 import { SoftwarePreviewPlaceholder } from "@/components/software/software-preview-placeholder";
 import { homeCardClassName } from "@/lib/home-classes";
 import { Link } from "@/i18n/navigation";
@@ -57,14 +58,20 @@ const ACCENT_CTA_BASE = cn(
   "active:translate-y-0",
 );
 
-const PRIMARY_CARD_CTA = cn("w-full", ACCENT_CTA_BASE);
+const PRIMARY_CARD_CTA = cn(
+  "w-full max-w-full justify-center text-center leading-snug whitespace-normal px-3 sm:px-4",
+  ACCENT_CTA_BASE,
+);
 
 const OUTLINE_CARD_BASE = cn(
   "border border-slate-300/90 bg-white/90 text-foreground transition-all duration-200",
   "hover:border-accent/45 hover:bg-[rgba(8,145,178,0.07)] hover:text-primary hover:shadow-sm",
 );
 
-const OUTLINE_CARD_CTA = cn("w-full", OUTLINE_CARD_BASE);
+const OUTLINE_CARD_CTA = cn(
+  "w-full max-w-full justify-center text-center leading-snug whitespace-normal px-3 sm:px-4",
+  OUTLINE_CARD_BASE,
+);
 
 export function SoftwarePortfolioClient({
   products,
@@ -115,8 +122,8 @@ export function SoftwarePortfolioClient({
                     </li>
                   ))}
                 </ul>
-                <div className="mt-5 border-t border-border/60 pt-5 sm:mt-6">
-                  <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3">
+                <div className="mt-5 min-w-0 border-t border-border/60 pt-5 sm:mt-6">
+                  <div className="grid min-w-0 grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3">
                     <AppButton
                       type="button"
                       className={PRIMARY_CARD_CTA}
@@ -140,14 +147,14 @@ export function SoftwarePortfolioClient({
           <DialogOverlay className="fixed inset-0 z-[80] bg-primary/40 backdrop-blur-[2px] data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
           <DialogContent
             className={cn(
-              "fixed left-1/2 top-1/2 z-[90] max-h-[min(92dvh,900px)] w-[min(calc(100vw-1.5rem),64rem)] -translate-x-1/2 -translate-y-1/2",
-              "overflow-y-auto rounded-[1.75rem] border border-border/80 bg-background p-0 shadow-[0_40px_100px_-48px_rgba(15,23,42,0.45)] ring-1 ring-inset ring-primary/[0.06]",
+              "fixed left-1/2 top-1/2 z-[90] max-h-[min(92dvh,900px)] w-[min(calc(100vw-1.5rem),64rem)] max-w-[calc(100vw-1.5rem)] -translate-x-1/2 -translate-y-1/2",
+              "overflow-x-hidden overflow-y-auto rounded-[1.75rem] border border-border/80 bg-background p-0 shadow-[0_40px_100px_-48px_rgba(15,23,42,0.45)] ring-1 ring-inset ring-primary/[0.06]",
               "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95",
             )}
           >
             {active ? (
-              <div className="flex max-h-[min(92dvh,900px)] flex-col overflow-y-auto">
-                <div className="relative p-6 sm:p-7">
+              <div className="flex max-h-[min(92dvh,900px)] flex-col overflow-x-hidden overflow-y-auto">
+                <div className="relative min-w-0 p-6 sm:p-7">
                   <DialogClose asChild>
                     <button
                       type="button"
@@ -210,10 +217,24 @@ export function SoftwarePortfolioClient({
                   </div>
                 </div>
 
-                <div className="border-t border-border/70 bg-gradient-to-b from-slate-50/95 to-slate-50/80 px-5 py-6 sm:px-6 sm:py-7">
+                <div
+                  className={cn(
+                    "border-t border-border/70 px-4 py-6 sm:px-6 sm:py-7",
+                    active.slug === "cbam-compliance-console"
+                      ? "bg-neutral-50/95 pb-8 sm:pb-9"
+                      : "bg-gradient-to-b from-slate-50/95 to-slate-50/80",
+                  )}
+                >
                   {active.slug === "agri-climate-platform" && active.screenshotSrc ? (
-                    <div className="w-full max-w-3xl mx-auto">
+                    <div className="mx-auto w-full max-w-3xl">
                       <AgriClimateProductScreenshot alt={active.screenshotAlt} />
+                    </div>
+                  ) : active.slug === "cbam-compliance-console" ? (
+                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
+                      <CbamComplianceConsoleProductVisual
+                        alt={active.screenshotAlt || active.title}
+                        variant="modal"
+                      />
                     </div>
                   ) : active.screenshotSrc ? (
                     <div className="mx-auto w-full max-w-3xl overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-3 sm:p-4 shadow-[0_22px_56px_-40px_rgba(15,23,42,0.32)] ring-1 ring-inset ring-slate-900/[0.04]">

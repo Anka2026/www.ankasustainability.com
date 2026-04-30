@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { AppButton } from "@/components/ui/app-button";
 import { AgriClimateProductScreenshot } from "@/components/software/agri-climate-product-screenshot";
+import { CbamComplianceConsoleProductVisual } from "@/components/software/cbam-compliance-console-product-visual";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import { Link } from "@/i18n/navigation";
@@ -163,22 +164,45 @@ export default async function SoftwareProductPage({ params }: PageProps) {
               {tt("detail.backToSoftware")}
             </Link>
           </div>
-          <h1 className="mt-5 max-w-5xl text-balance text-pretty text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            {data.title}
-          </h1>
-          <p className="mt-4 max-w-5xl text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
-            {data.heroText}
-          </p>
-
-          <CtaRow t={tt} />
-
-          {data.slug === "agri-climate-platform" ? (
-            <div className="mt-8 w-full max-w-5xl">
-              <AgriClimateProductScreenshot
-                alt={tt("portfolio.products.agri-climate-platform.screenshotAlt")}
-              />
+          {data.slug === "cbam-compliance-console" ? (
+            <div className="mt-5 grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-14">
+              <div className="min-w-0">
+                <h1 className="max-w-5xl text-balance text-pretty text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                  {data.title}
+                </h1>
+                <p className="mt-4 max-w-5xl text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
+                  {data.heroText}
+                </p>
+                <CtaRow t={tt} />
+              </div>
+              <div className="min-w-0 lg:justify-self-end lg:max-w-none">
+                <CbamComplianceConsoleProductVisual
+                  alt={tt("portfolio.products.cbam-compliance-console.screenshotAlt")}
+                  priority
+                  className="w-full max-w-2xl lg:max-w-none xl:max-w-[min(100%,36rem)]"
+                />
+              </div>
             </div>
-          ) : null}
+          ) : (
+            <>
+              <h1 className="mt-5 max-w-5xl text-balance text-pretty text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                {data.title}
+              </h1>
+              <p className="mt-4 max-w-5xl text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
+                {data.heroText}
+              </p>
+
+              <CtaRow t={tt} />
+
+              {data.slug === "agri-climate-platform" ? (
+                <div className="mt-8 w-full max-w-5xl">
+                  <AgriClimateProductScreenshot
+                    alt={tt("portfolio.products.agri-climate-platform.screenshotAlt")}
+                  />
+                </div>
+              ) : null}
+            </>
+          )}
         </Container>
       </section>
 

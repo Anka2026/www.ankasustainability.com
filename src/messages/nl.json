@@ -75,7 +75,7 @@
     "navAria": "Belangrijkste pagina's",
     "legalNavAria": "Juridische informatie",
     "officesTitle": "KANTOREN",
-    "officesAddressBlock": "Türkiye-kantoor\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nTechnopark-vestiging\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
+    "officesAddressBlock": "Türkiye-kantoor\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nCentrum voor digitale oplossingen\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
     "officeBlocks": [
       {
         "title": "Türkiye-kantoor",
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "title": "Technopark-vestiging",
+        "title": "Centrum voor digitale oplossingen",
         "lines": [
           "Üniversite Mah. / Sarıgül Sk. No: 35/1",
           "Avcılar / Istanbul / Türkiye"
@@ -171,7 +171,7 @@
       "title": "Het ANKA-softwareportfolio en digitale werkomgevingen",
       "description": "Een compacte set ANKA-software brengt structuur in data, naleving en traceerbaarheid, zodat advies trajecten aantoonbaar, herhaalbaar en goed uitvoerbaar blijven met uw teams.",
       "cta": "Bekijk softwareoplossingen",
-      "portfolioTitle": "Digitale Laag Die Het Werk Versterkt",
+      "portfolioTitle": "Digitale ondersteuning die aansluit op het advies",
       "portfolioSupport": "Vijf kernoplossingen, afgestemd op Europese compliance- en datarealiteiten, in hetzelfde ritme als het ANKA-advies.",
       "items": [
         "CBAM Calculation Engine",
@@ -233,7 +233,7 @@
           "Regelgeving en marktverwachtingen",
           "Data- en bewijsbeheer",
           "Technische dossierstructuur",
-          "Digitale ondersteuningslaag"
+          "Digitale workflow-ondersteuning"
         ]
       }
     },
@@ -345,7 +345,7 @@
             "Auditklare narratief- en technische bijlagen"
           ],
           "whoFor": [
-            "EU-werende organisaties die CSRD/ESRS voorbereiden",
+            "EU-gerichte organisaties die CSRD/ESRS voorbereiden",
             "Groepen die eigenaarschap en datadiscipline willen versterken",
             "Sustainability- en finance-teams die disclosure coördineren"
           ],
@@ -354,7 +354,7 @@
           "relatedToolsBody": "Waar rapportagelevering strakkere datatracking, goedkeuringen en koppeling met bewijs vereist, kunnen we lichte digitale workflowdiscipline toevoegen, afgestemd op uw governance.",
           "benchmark": {
             "hero": {
-              "eyebrow": "ESG En Corporate Reporting",
+              "eyebrow": "ESG en corporate reporting",
               "title": "Gestructureerd advies voor CSRD, ESRS en corporate ESG-rapportage",
               "text": "ANKA ondersteunt organisaties bij het structureren van ESG-data, dubbele materialiteit, rapportagegrenzen en datadiscipline, in lijn met CSRD-, ESRS-, GRI- en IFRS S1/S2-verwachtingen (ISSB).",
               "ctas": {
@@ -521,14 +521,14 @@
             "tools": {
               "title": "Ondersteunende Digitale Werkomgeving",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat de controle op datacollectie en bewijsorganisatie verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Datacollectieflow",
                 "Eigenaarschap en opvolging",
                 "Bewijsvoering",
                 "Rapportagevoorbereiding"
               ],
-              "noteShort": "Digitale tools vervangen advies niet; ze versterken datastromen en controlediscipline als aanvullende laag.",
+              "noteShort": "Digitale tools vervangen geen advies; ze helpen data- en bewijsstromen consistent en traceerbaar te houden.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Wanneer bedrijfs- en productdata beheersbaar moeten zijn voor ESRS-achtige disclosure, helpt het DPP-platform records, traceerbaarheid en claimondersteuning in één structuur te brengen—samen met het reporting-advies van ANKA.",
@@ -590,7 +590,7 @@
             "Compliance-teams",
             "Managementteams"
           ],
-          "whoForNote": "Voor producenten, exporteurs, toeleveranciers, EU-werende organisaties, sustainability-, kwaliteits- en compliance-teams en organisaties die klantvragen over koolstof, CBAM of klimaatdata op productniveau beantwoorden.",
+          "whoForNote": "Voor producenten, exporteurs, toeleveranciers, EU-gerichte organisaties, sustainability-, kwaliteits- en compliance-teams en organisaties die klantvragen over koolstof, CBAM of klimaatdata op productniveau beantwoorden.",
           "relatedToolsTitle": "Gestructureerde reken- en bewijsdiscipline",
           "relatedToolsBody": "Waar koolstofberekening en leveranciersdata strakkere regie nodig hebben, stemmen we levering af op digitale werkstromen die traceerbaarheid en rekenconsistentie versterken.",
           "relatedSoftwareCardTitle": "CBAM Calculation Engine",
@@ -657,7 +657,7 @@
               "cards": [
                 {
                   "title": "Regelgevingsdruk neemt toe",
-                  "body": "Verdedigbare koolstofdata wordt een baseline voor EU-werende organisaties."
+                  "body": "Verdedigbare koolstofdata wordt een baseline voor organisaties die actief zijn op de Europese markt."
                 },
                 {
                   "title": "Koper- en ketenscherpte neemt toe",
@@ -699,6 +699,7 @@
               "title": "Hoe wij werken",
               "headline": "Onze adviestrajecten",
               "intro": "Wij doorlopen het traject via heldere scope, datadiscipline en reviewklare werkstromen.",
+              "kicker": "Scope → Data → Controle → Beslissing",
               "steps": [
                 {
                   "title": "Scope verhelderen",
@@ -749,7 +750,7 @@
               "title": "Voor wie dit relevant is",
               "panelLabel": "Doelgroep",
               "bullets": [
-                "EU-werende organisaties die betrouwbare koolstoffundamenten bouwen",
+                "Organisaties op de Europese markt die betrouwbare koolstoffundamenten bouwen",
                 "Teams die CBAM-werkstromen en bewijsvoering willen aanscherpen",
                 "Stakeholders die verdedigbare, verklaarbare rekenlogica nodig hebben"
               ],
@@ -768,7 +769,7 @@
             "tools": {
               "title": "Ondersteunende Digitale Software",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat controle, traceerbaarheid en werkstructuur verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Procesdata en -flow",
                 "Berekeningscontroles",
@@ -994,14 +995,14 @@
             "tools": {
               "title": "Ondersteunende Digitale Werkomgeving",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat de controle op productdata en rekenwerkstromen verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Productdataflow",
                 "Modelcontroles",
                 "Traceerbaarheid",
                 "EPD/DPP-gereedheid"
               ],
-              "noteShort": "Digitale tools vervangen advies niet; ze versterken datastromen en controlediscipline als aanvullende laag.",
+              "noteShort": "Digitale tools vervangen geen advies; ze helpen data- en bewijsstromen consistent en traceerbaar te houden.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Gestructureerde productdata, technische records en traceerbaarheid in lijn met Digital Product Passport-verwachtingen—zodat LCA, EPD en productniveau-werk aansluiten op een passport-ready architectuur terwijl ANKA het technische dossier adviseert.",
@@ -1089,7 +1090,7 @@
                   "body": "Herkomst, inhoud, verpakking en compliance-bewijs."
                 },
                 {
-                  "title": "Koperresponsdossier",
+                  "title": "Antwoorddossier voor kopers",
                   "body": "Consistente, herhaalbare antwoordstructuur."
                 }
               ]
@@ -1215,19 +1216,19 @@
                 "Sustainabilityteams",
                 "Supplychainteams"
               ],
-              "description": "Voor producenten, exporteurs, toeleveranciers en teams die moeten voldoen aan EU-werende buyer requirements en compliance-bewijsstructuren willen versterken."
+              "description": "Voor producenten, exporteurs, toeleveranciers en teams die moeten voldoen aan koperverwachtingen op de Europese markt en compliance-bewijsstructuren willen versterken."
             },
             "tools": {
               "title": "Ondersteunende Digitale Werkomgeving",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat de controle op leveranciersdata en bewijsvoering verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Leveranciersdataflow",
                 "Controlepunten",
                 "Traceerbaarheid",
                 "Declaratiegereedheid"
               ],
-              "noteShort": "Digitale tools vervangen advies niet; ze versterken datastromen en controlediscipline als aanvullende laag.",
+              "noteShort": "Digitale tools vervangen geen advies; ze helpen data- en bewijsstromen consistent en traceerbaar te houden.",
               "card": {
                 "title": "Packaging Compliance Tool",
                 "body": "Voor verpakkingscomponenten, marktspecifieke datapunten en compliancecontroles biedt een geregisseerde ANKA-werkomgeving ondersteuning naast EU- en supplychain-advies: u volgt verzoeken, bewijs en besluiten in één overzicht.",
@@ -1446,14 +1447,14 @@
             "tools": {
               "title": "Ondersteunende Digitale Werkomgeving",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat de controle op stakeholderverzoeken en responsworkflows verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Verzoekopvolging",
                 "Controlepunten",
                 "Traceerbaarheid",
                 "Briefinggereedheid"
               ],
-              "noteShort": "Digitale tools vervangen advies niet; ze versterken datastromen en controlediscipline als aanvullende laag.",
+              "noteShort": "Digitale tools vervangen geen advies; ze helpen data- en bewijsstromen consistent en traceerbaar te houden.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Wanneer kopers, investeerders en interne teams dezelfde data in verschillende vormen vragen, helpt een gestructureerde productdata-werkomgeving tot consistente antwoorden, bewijskoppelingen en briefingvoorbereiding—naast de markt-gereedheidstrajecten van ANKA.",
@@ -1672,14 +1673,14 @@
             "tools": {
               "title": "Ondersteunende Digitale Werkomgeving",
               "intro": "Digitale ondersteuning wordt ingezet wanneer dat de controle op bewijs- en traceerbaarheidswerkstromen verbetert.",
-              "rightTitle": "Een digitale laag die advieswerk versterkt",
+              "rightTitle": "Digitale ondersteuning voor traceerbare adviesprocessen",
               "capabilityRows": [
                 "Bewijsflow",
                 "Controlepunten",
                 "Traceerbaarheid",
                 "Claimgereedheid"
               ],
-              "noteShort": "Digitale tools vervangen advies niet; ze versterken datastromen en controlediscipline als aanvullende laag.",
+              "noteShort": "Digitale tools vervangen geen advies; ze helpen data- en bewijsstromen consistent en traceerbaar te houden.",
               "card": {
                 "title": "Agri-Climate Platform",
                 "body": "Voor bewijs op land- en keten niveau brengt Agri-Climate land, activiteiten en verificatievoorbereiding in één geregisseerde flow die het certificerings- en traceerbaarheidsadvies van ANKA versterkt.",
@@ -1800,13 +1801,13 @@
     },
     "hero": {
       "eyebrow": "Softwareoplossingen",
-      "title": "Digitale Werkstructuren Die Duurzaamheids- En Compliancewerk Versterken",
-      "description": "ANKA ondersteunt duurzaamheids-, compliance- en technische werkstromen niet alleen met advies, maar ook met digitale werkomgevingen die zijn ingericht voor gestructureerde dataverzameling, berekeningen, traceerbaarheid en rapportagevoorbereiding.",
+      "title": "Digitale werkstromen voor helderdere duurzaamheids- en compliancewerkzaamheden",
+      "description": "Naast advies gebruikt ANKA digitale werkomgevingen voor gestructureerde data-inwinning, berekeningen, traceerbaarheid en rapportagevoorbereiding.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Bekijk portfolio",
       "panel": {
-        "title": "Gestructureerde digitale uitvoering",
-        "description": "Praktische werkomgevingen die advies aanvullen: helderdere data, sterkere traceerbaarheid en beter beheersbare output.",
+        "title": "Gestructureerde digitale workflows",
+        "description": "Praktische werkomgevingen naast advies: helderdere data, beter leesbare traceerbaarheid en beheersbare output.",
         "items": [
           "Dataverzameling",
           "Berekeningsdiscipline",
@@ -1818,12 +1819,14 @@
     "portfolio": {
       "title": "Ons Softwareportfolio",
       "description": "Bekijk digitale oplossingen die zijn gevormd door echte gebruikssituaties en adviesbehoeften. Elke oplossing is ontworpen om data beter te structureren, processen beter traceerbaar te maken en uitkomsten beter beheersbaar te maken.",
-      "viewSolutionCta": "Bekijk Oplossing",
-      "requestDemoCta": "Demo Aanvragen",
+      "actions": {
+        "viewSolution": "Bekijk oplossing",
+        "requestDemo": "Demo aanvragen"
+      },
       "demoMailSubject": "Demoaanvraag - {product}",
       "demoMailBody": "Hallo, ik wil graag een demo aanvragen voor {product}.",
       "modalClose": "Sluiten",
-      "defaultModalTagline": "Een digitale werkomgeving die advies trajecten traceerbaarder, beheersbaarder en concreet uitvoerbaar maakt.",
+      "defaultModalTagline": "Een digitale werkomgeving die adviestrajecten traceerbaarder en concreet uitvoerbaar maakt.",
       "modal": {
         "labelValueProposition": "Korte waardepropositie",
         "labelWhatFor": "Waarvoor Het Wordt Gebruikt",
@@ -1939,9 +1942,9 @@
           "pill": "Compliance",
           "status": "selected_use",
           "title": "CBAM Compliance Console",
-          "summary": "Geeft importteams beter inzicht in CBAM-blootstelling, leveranciersdata-inname en berekeningsgereedheid op regelniveau.",
-          "modalTagline": "Geeft importteams beter inzicht in CBAM-blootstelling, leveranciersdata-inname en berekeningsgereedheid op regelniveau.",
-          "modalWhatFor": "Voor importteams die productregels, leveranciersantwoorden, referentiewaarden en CBAM-datacontroles binnen een gestructureerde compliancevoorbereiding willen beheren.",
+          "summary": "Een centraal platform om ingebedde emissies te berekenen, leveranciersgegevens te beheren en CBAM-blootstelling binnen uw importportfolio te monitoren.",
+          "modalTagline": "Een centraal platform om ingebedde emissies te berekenen, leveranciersgegevens te beheren en CBAM-blootstelling binnen uw importportfolio te monitoren.",
+          "modalWhatFor": "CBAM Compliance Console helpt importeurs bij het beheren van CN-codes, leveranciersverklaringen, ingebedde emissies, certificaatblootstelling en rapportageworkflows in één gecontroleerde werkomgeving. Het platform ondersteunt interne CBAM-voorbereiding, opvolging van leveranciers, traceerbaarheid van berekeningen en managementinzicht voorafgaand aan aangifteperiodes.",
           "modalTeamValue": "Haalt leveranciersdata uit losse bestandstracking, standaardiseert berekeningsprocessen, maakt ontbrekende datapunten zichtbaar en versterkt inzicht in CBAM-blootstelling voor importteams.",
           "bullets": [
             "CBAM-berekeningen op regel- en batchniveau",
@@ -1949,8 +1952,8 @@
             "Referentiegestuurde validatielogica",
             "Blootstellingsinzicht voor importteams"
           ],
-          "screenshotAlt": "",
-          "heroText": "CBAM Compliance Console ondersteunt importteams met regel- en batchberekeningen, gedisciplineerde leveranciersinname, referentiegestuurde validatie en duidelijker zicht op blootstelling.",
+          "screenshotAlt": "CBAM Compliance Console dashboard interface showing emissions, supplier exposure, and CBAM workflow monitoring.",
+          "heroText": "CBAM Compliance Console helpt importeurs bij het beheren van CN-codes, leveranciersverklaringen, ingebedde emissies, certificaatblootstelling en rapportageworkflows in één gecontroleerde werkomgeving. Het platform ondersteunt interne CBAM-voorbereiding, opvolging van leveranciers, traceerbaarheid van berekeningen en managementinzicht voorafgaand aan aangifteperiodes.",
           "solves": [
             "Importteams hebben consistente CBAM-rekenlogica nodig over regels en batches.",
             "Leveranciersbewijs en referentiecontroles moeten schaalbaar disiplinair blijven.",
@@ -2122,8 +2125,8 @@
     },
     "workflows": {
       "eyebrow": "Werkpatronen",
-      "title": "Digitale Disciplines Die Data-, Berekenings- En Rapportageprocessen Versterken",
-      "description": "Gestructureerde digitale workflows ondersteunen dataverzameling, controles, berekeningen en rapportagevoorbereiding op een beter traceerbare en beheersbare manier.",
+      "title": "Gestructureerde digitale ondersteuning voor data, berekeningen en rapportage",
+      "description": "Gestructureerde workflows ondersteunen data-inwinning, controles, berekeningen en rapportagevoorbereiding op een traceerbare, beheersbare manier.",
       "c1": "Dataverzameling",
       "c2": "Traceerbaarheid",
       "c3": "Berekening en scenario’s",
@@ -2132,8 +2135,8 @@
       "c6": "Teamcoördinatie"
     },
     "consultingSoftware": {
-      "title": "Adviesexpertise met een gedisciplineerde digitale laag",
-      "description": "Digitale werkomgevingen versterken data-eigenaarschap, controles en bewijs, zodat adviesopdrachten praktisch, traceerbaar en beter end-to-end uitvoerbaar blijven."
+      "title": "Digitale ondersteuning voor beter traceerbare adviesprocessen",
+      "description": "Digitale werkomgevingen helpen data-eigenaarschap, controles en bewijs te organiseren, zodat adviestrajecten praktisch en traceerbaar blijven—samen met uw teams."
     },
     "detail": {
       "backToSoftware": "Alle software",
@@ -2144,16 +2147,16 @@
         "whoItsFor": "Voor wie bedoeld",
         "outputs": "Resultaten en output"
       },
-      "whoSupportingNote": "Digitale infrastructuur is een aanvullende laag: het maakt data- en bewijsstromen beheersbaarder—het vervangt geen inhoudelijk advies.",
+      "whoSupportingNote": "Digitale infrastructuur vult advies aan: het maakt data- en bewijsstromen beter beheersbaar en vervangt geen inhoudelijk advies.",
       "finalCta": {
         "title": "Laten we de digitale scope afstemmen",
         "description": "We bekijken samen uw use-case, datarealiteit en het passende toegangsmodel."
       }
     },
     "finalCta": {
-      "title": "Laten We De Juiste Digitale Opzet Samen Bepalen",
+      "title": "Laten we de juiste digitale opzet samen bepalen",
       "description": "Laten we samen uw compliancevereisten, datastructuur en operationele prioriteiten beoordelen om de juiste digitale werkwijze voor uw organisatie te bepalen.",
-      "primaryCta": "Plan Een Gesprek",
+      "primaryCta": "Plan een gesprek",
       "secondaryCta": "Neem contact op"
     }
   },
@@ -2232,7 +2235,7 @@
       "title": "Waar ondersteunen wij?",
       "intro": "Wij maken bedrijfsduurzaamheid en naleving beheersbaar—rondom regelgeving, data, bewijsvoering, productduurzaamheid en digitale ondersteuning.",
       "c1": {
-        "title": "ESG- en corporterapportage",
+        "title": "ESG- en corporaterapportage",
         "body": "Wij versterken data, scope en evidence-structuur voor o.a. CSRD, ESRS, GRI en ISSB."
       },
       "c2": {
@@ -2385,12 +2388,12 @@
       "c2Text": "We maken claims bewijsbaar—met evidenceketens, accountability en controlelogica zodat disclosures geloofwaardig blijven.",
       "c3Title": "Een model dat teams kunnen draaien",
       "c3Text": "We creëren een herhaalbaar ritme met eigenaarschap, planning, reviewpunten en meetbare voortgang—gemaakt voor echte operatie.",
-      "c4Title": "Consultancy en digitale discipline samen",
-      "c4Text": "Waar passend versterken we dataverzameling, tracking en zichtbaarheid met software-ondersteunde workflows—zodat implementatie duurzaam wordt."
+      "c4Title": "Advies en digitale ondersteuning samen",
+      "c4Text": "Waar passend gebruiken we software-ondersteunde workflows om data-inwinning, tracking en zichtbaarheid beter beheersbaar te maken."
     },
     "consultingDigital": {
-      "title": "Consultancy-expertise, versterkt met digitale discipline",
-      "description": "Digitale tools zijn voor ANKA geen aparte vitrine, maar een uitvoeringslaag die compliance traceerbaar, herhaalbaar en audit-ready maakt. We zetten ze in waar ze aantoonbaar het resultaat verbeteren."
+      "title": "Advies met praktische digitale ondersteuning waar dat helpt",
+      "description": "Digitale tools zijn voor ANKA geen aparte vitrine: ze ondersteunen traceerbare, herhaalbare compliance alleen waar ze het resultaat duidelijk verbeteren."
     },
     "finalCta": {
       "title": "Laten we uw duurzaamheids- en nalevingsagenda scherpstellen",
@@ -2406,8 +2409,8 @@
     },
     "hero": {
       "eyebrow": "Partnernetwerk",
-      "title": "Samenwerkingen Die Ons Ecosysteem Voor Duurzaamheid, Verificatie En Digitale Productdata Versterken",
-      "description": "ANKA werkt samen met geselecteerde partners om aanvullende expertise in duurzaamheids- en compliancetrajecten te brengen. Ons partnernetwerk ondersteunt advieswerk rond verificatie, certificeringsvoorbereiding, digitale productdata, traceerbaarheid, productpaspoorten en marktvertrouwen.",
+      "title": "Samenwerking voor verificatie, compliance en digitale productdata",
+      "description": "ANKA werkt met geselecteerde partners wanneer trajecten aanvullende expertise vragen. Samenwerking richt zich op verificatie, certificeringsvoorbereiding, digitale productdata, traceerbaarheid en productpaspoorten—altijd ingekaderd en in lijn met de ANKA-adviesrol.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Bekijk diensten",
       "panel": {
@@ -2432,8 +2435,8 @@
         "name": "Meva Global Certification Services B.V.",
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
-        "category": "Perspectief Op Verificatie, Certificering En Conformiteitsbeoordeling",
-        "description": "Meva Global Certification Services B.V. brengt aanvullende expertise op het gebied van verificatie, certificering en conformiteitsbeoordeling. Binnen projecten rond duurzaamheid, koolstof, productverklaringen en marktvertrouwen helpt dit perspectief organisaties om technische documentatie, bewijsstructuren en verificatiegerelateerde werkprocessen systematischer voor te bereiden.",
+        "category": "Perspectief op verificatie, certificering en conformiteitsbeoordeling",
+        "description": "Meva Global Certification Services B.V. levert aanvullende expertise vanuit verificatie, certificering en conformiteitsbeoordeling voor technische voorbereiding en bewijsdossiers. Binnen ANKA-projecten wordt deze competentie ingezet waar voorbereiding op verificatie, documentstructuur en marktvertrouwen dat vragen—passend bij de projectscope.",
         "focus": [
           "Perspectief op verificatie en certificering",
           "Aanpak voor bewijsdossiers en technische voorbereiding",
@@ -2446,8 +2449,8 @@
         "name": "Beyond Barcode",
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
-        "category": "Digitaal Productpaspoort, Productdata En Waardeketencompliance",
-        "description": "Beyond Barcode biedt een Digital Product Passport-platform dat compliance binnen complexe waardeketens vereenvoudigt. Het platform helpt organisaties productdata te beheren, conforme productinformatie aan autoriteiten aan te leveren en afgestemd te blijven op veranderende EU-regelgeving zonder zware IT-kosten of operationele verstoring. Binnen ANKA’s werkzaamheden rond productduurzaamheid, DPP-voorbereiding en supplychaincompliance versterkt Beyond Barcode de digitale productdata- en traceerbaarheidslaag.",
+        "category": "Digitaal Productpaspoort, productdata en waardeketencompliance",
+        "description": "Beyond Barcode biedt een aanvullende technologiebenadering voor het Digital Product Passport en productdatamanagement. In projecten waar productdata in complexe waardeketens moet worden geordend, gedeeld en compliant beheerd volgens EU-eisen, ondersteunt het platform de adviesaanpak van ANKA met digitale productdata-infrastructuur.",
         "focus": [
           "Datastructuur voor het Digital Product Passport",
           "Productdatabeheer binnen complexe waardeketens",
@@ -2471,7 +2474,7 @@
         "body": "Wij koppelen advies-, verificatie-, digitale productdata- of technische ondersteuningsbehoeften aan de juiste partnercapaciteit."
       },
       "s3": {
-        "title": "Rollen En Verantwoordelijkheden Scheiden",
+        "title": "Rollen en verantwoordelijkheden scheiden",
         "body": "Wij positioneren advies, technische voorbereiding, verificatie en digitale ondersteuning duidelijk."
       },
       "s4": {
@@ -2480,7 +2483,7 @@
       }
     },
     "finalCta": {
-      "title": "Laten We De Juiste Expertisemix Voor Uw Project Bepalen",
+      "title": "Laten we de juiste expertisemix voor uw project bepalen",
       "description": "Samen beoordelen we uw behoeften rond duurzaamheid, compliance, verificatie of digitale productdata en verduidelijken we de juiste advies- en partnerscope.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Neem contact op"
@@ -2493,33 +2496,33 @@
     },
     "hero": {
       "eyebrow": "Contact",
-      "title": "Laten We Uw Behoeften Op Het Gebied Van Duurzaamheid, Compliance En Digitale Werkprocessen Samen Verduidelijken",
+      "title": "Laten we uw behoeften rond duurzaamheid, compliance en digitale werkprocessen samen verduidelijken",
       "description": "Laten we samen uw organisatorische prioriteiten, regelgevende context en technische ondersteuningsbehoeften beoordelen, zodat we het juiste startkader voor uw organisatie kunnen bepalen. Of uw focus nu ligt op duurzaamheidsrapportage, koolstof- en complianceprocessen, productdata, digitale tools of sectorspecifieke vereisten, wij helpen u de behoefte scherp te krijgen en de meest geschikte samenwerkingsstructuur te bepalen.",
-      "primaryCta": "Stuur Een Bericht",
-      "secondaryCta": "Plan Een Gesprek",
+      "primaryCta": "Stuur een bericht",
+      "secondaryCta": "Plan een gesprek",
       "companyCardEyebrow": "Bedrijfsinformatie",
       "companyName": "ANKA Sustainability Consulting B.V.",
       "companyText": "Gestructureerde adviesondersteuning voor duurzaamheid, compliance, productdata en digitale werkstructuren.",
       "emailLabel": "E-mail",
       "linkedinLabel": "LinkedIn",
       "officesCardEyebrow": "Kantoren",
-      "officesBlock": "Nederlandse Basis\nNewtonlaan 115\n3584 BH Utrecht, Nederland\n\nTürkiye-kantoor\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nTechnopark-vestiging\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
+      "officesBlock": "Nederlandse Basis\nNewtonlaan 115\n3584 BH Utrecht, Nederland\n\nTürkiye-kantoor\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nCentrum voor digitale oplossingen\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
       "meetingMailtoSubject": "Gespreksaanvraag - ANKA Sustainability"
     },
     "options": {
       "sectionEyebrow": "Startpunt",
-      "sectionTitle": "Hoe Kunnen Wij U Ondersteunen?",
+      "sectionTitle": "Hoe kunnen wij u ondersteunen?",
       "sectionDescription": "Door de aard van uw vraag te begrijpen, kunnen we het juiste werkkader sneller en gerichter bepalen.",
       "opt1Title": "Algemene Samenwerkingsvragen",
       "opt1Description": "We kunnen uw dienstbehoefte, samenwerkingsverwachtingen en mogelijke werkscope op hoofdlijnen beoordelen.",
-      "opt2Title": "Advies- En Projectgesprekken",
+      "opt2Title": "Advies- en projectgesprekken",
       "opt2Description": "We verduidelijken het startkader rond scope, prioriteiten, databehoeften en uw regelgevingsagenda.",
-      "opt3Title": "Software- En Demoaanvragen",
+      "opt3Title": "Software- en demoaanvragen",
       "opt3Description": "We bespreken de gebruikssituaties van onze digitale oplossingen, uw demobehoefte en de meest passende productopzet."
     },
     "form": {
-      "sectionEyebrow": "Stuur Uw Bericht",
-      "title": "Deel Uw Behoefte In Het Kort",
+      "sectionEyebrow": "Stuur uw bericht",
+      "title": "Deel uw behoefte in het kort",
       "description": "Vertel ons over uw vraag, prioriteit of het werkgebied dat u wilt bespreken. Wij reageren binnen het meest passende kader.",
       "fieldName": "Naam",
       "fieldCompany": "Organisatie",
@@ -2534,8 +2537,8 @@
       "placeholderInterest": "Selecteer een onderwerp",
       "placeholderMessage": "Beschrijf kort uw behoefte, huidige situatie of het onderwerp dat u wilt bespreken.",
       "interestOpt1": "Algemene Samenwerking",
-      "interestOpt2": "Advies- En Projectgesprek",
-      "interestOpt3": "Software- En Demoaanvraag",
+      "interestOpt2": "Advies- en projectgesprek",
+      "interestOpt3": "Software- en demoaanvraag",
       "interestOpt4": "Partnerverzoek",
       "interestOpt5": "Overig",
       "submitButton": "Bericht Versturen",
@@ -2559,7 +2562,7 @@
     },
     "process": {
       "sectionEyebrow": "Vervolgstappen",
-      "sectionTitle": "Wat Gebeurt Er Daarna?",
+      "sectionTitle": "Wat gebeurt er daarna?",
       "sectionDescription": "Na ontvangst van uw vraag volgen we een duidelijk en praktisch eerste beoordelingsproces.",
       "step1Title": "Eerste Beoordeling",
       "step1Description": "We bekijken uw vraag, prioriteiten en het relevante werkgebied.",
@@ -2569,10 +2572,10 @@
       "step3Description": "Waar nodig verduidelijken we samen de behoefte, scope en vervolgstappen."
     },
     "finalCta": {
-      "title": "Laten We Het Juiste Kader Voor Uw Behoefte Bepalen",
+      "title": "Laten we het juiste kader voor uw behoefte bepalen",
       "description": "Neem contact met ons op om een eerste gesprek te plannen, onze softwareoplossingen te bespreken of uw vraag te delen.",
-      "primaryButton": "Plan Een Gesprek",
-      "secondaryButton": "Stuur Een Bericht"
+      "primaryButton": "Plan een gesprek",
+      "secondaryButton": "Stuur een bericht"
     }
   },
   "sectorsPage": {

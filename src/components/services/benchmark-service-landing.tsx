@@ -1,6 +1,7 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import { Link } from "@/i18n/navigation";
+import type { AppLocale } from "@/i18n/routing";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import type { ServicesCategoryId } from "@/lib/services-categories";
@@ -56,9 +57,11 @@ const SUPPORT_ICONS = [FileText, BarChart3, ShieldCheck, Route, ListChecks] as c
 export function BenchmarkServiceLanding({
   t,
   categoryId,
+  locale,
 }: {
   t: IntlTranslator;
   categoryId: Exclude<ServicesCategoryId, "carbonClimate">;
+  locale: AppLocale;
 }) {
   const base = `landing.services.${categoryId}.benchmark`;
 
@@ -81,7 +84,27 @@ export function BenchmarkServiceLanding({
   const canLinkSoftware = softwareSlug ? isSoftwarePortfolioSlug(softwareSlug) : false;
   const softwareHref = softwareSlug && canLinkSoftware ? `/software/${softwareSlug}` : "/software";
 
-  const isTr = t("landing.ctas.primary") === "Görüşme Planlayın";
+  const kickers =
+    locale === "tr"
+      ? {
+          advisory: "YETKİNLİK ALANLARI",
+          how: "NASIL ÇALIŞIYORUZ",
+          audience: "KİMLER İÇİN UYGUN",
+          nextStep: "Sonraki Adım",
+        }
+      : locale === "nl"
+        ? {
+            advisory: "ADVIESFOCUS",
+            how: "HOE WIJ WERKEN",
+            audience: "VOOR WIE",
+            nextStep: "Volgende stap",
+          }
+        : {
+            advisory: "ADVISORY FOCUS AREAS",
+            how: "HOW WE WORK",
+            audience: "WHO IT IS FOR",
+            nextStep: "Next step",
+          };
 
   const sectionContainerClass =
     "mx-auto w-full max-w-7xl px-6 lg:px-8 xl:max-w-[86rem] 2xl:max-w-[92rem]";
@@ -309,7 +332,7 @@ export function BenchmarkServiceLanding({
           <section aria-labelledby="mid-support">
             <div className="rounded-[2rem] border border-slate-200/80 bg-white/90 p-6 shadow-[0_24px_80px_rgba(15,23,42,0.08)] lg:p-8">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
-                {isTr ? "YETKİNLİK ALANLARI" : "ADVISORY FOCUS AREAS"}
+                {kickers.advisory}
               </p>
               <h2
                 id="mid-support"
@@ -361,7 +384,7 @@ export function BenchmarkServiceLanding({
             <div className="grid gap-6 lg:grid-cols-[0.34fr_0.66fr] items-stretch">
               <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04]">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
-                  {isTr ? "NASIL ÇALIŞIYORUZ" : "HOW WE WORK"}
+                  {kickers.how}
                 </p>
                 <h2 id="mid-process" className="mt-4 text-pretty text-2xl font-semibold tracking-tight text-foreground">
                   {t(`${base}.how.headline`)}
@@ -452,7 +475,7 @@ export function BenchmarkServiceLanding({
             <div className="grid gap-6 lg:grid-cols-[0.58fr_0.42fr] items-stretch">
               <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04]">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
-                  {isTr ? "KİMLER İÇİN UYGUN" : "WHO IT IS FOR"}
+                  {kickers.audience}
                 </p>
                 <h2 id="mid-audience" className="mt-4 text-balance text-pretty text-2xl font-semibold tracking-tight text-foreground">
                   {t(`${base}.audience.title`)}
@@ -578,7 +601,7 @@ export function BenchmarkServiceLanding({
                     <Route className="h-6 w-6 text-primary-foreground/85" aria-hidden />
                   </span>
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground/70">
-                    {isTr ? "Sonraki Adım" : "Next step"}
+                    {kickers.nextStep}
                   </p>
                 </div>
                 <h2 className="mt-5 max-w-4xl text-balance text-pretty text-[1.45rem] font-semibold leading-snug tracking-[-0.02em] text-primary-foreground sm:text-2xl sm:leading-snug md:text-[1.75rem]">

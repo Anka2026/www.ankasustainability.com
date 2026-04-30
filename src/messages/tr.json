@@ -75,7 +75,7 @@
     "navAria": "Ana sayfalar",
     "legalNavAria": "Yasal bilgiler",
     "officesTitle": "OFİSLERİMİZ",
-    "officesAddressBlock": "Türkiye Ofisi\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / İstanbul / Türkiye\n\nTeknopark Şubesi\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / İstanbul / Türkiye",
+    "officesAddressBlock": "Türkiye Ofisi\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / İstanbul / Türkiye\n\nDijital Çözüm Merkezi\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / İstanbul / Türkiye",
     "officeBlocks": [
       {
         "title": "Türkiye Ofisi",
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "title": "Teknopark Şubesi",
+        "title": "Dijital Çözüm Merkezi",
         "lines": [
           "Üniversite Mah. / Sarıgül Sk. No: 35/1",
           "Avcılar / İstanbul / Türkiye"
@@ -112,18 +112,18 @@
   "home": {
     "hero": {
       "eyebrow": "Stratejik Sürdürülebilirlik Danışmanlığı",
-      "title": "Sürdürülebilirlik, Uyum Ve Dijital Çalışma Altyapısını Birlikte Kuruyoruz",
+      "title": "Sürdürülebilirlik, Uyum ve Dijital Çalışma Altyapısını Birlikte Kuruyoruz",
       "description": "ANKA Sustainability Consulting B.V., kurumların sürdürülebilirlik raporlaması, karbon yönetimi, ürün sürdürülebilirliği, AB uyumu ve tedarik zinciri süreçlerini veri, kanıt ve uygulanabilir iş akışlarıyla daha yönetilebilir hale getirmelerine destek olur.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin",
       "panel": {
         "eyebrow": "DANIŞMANLIK",
-        "title": "Danışmanlık Ve Dijital Destek Çerçevesi",
+        "title": "Danışmanlık ve Dijital Destek Çerçevesi",
         "description": "Strateji, teknik çalışma, veri disiplini ve dijital destek yapısını aynı çerçevede ele alırız.",
         "items": [
-          "Sürdürülebilirlik Ve Uyum",
-          "Karbon Ve Ürün Verisi",
-          "Kanıt Ve İzlenebilirlik",
+          "Sürdürülebilirlik ve Uyum",
+          "Karbon ve Ürün Verisi",
+          "Kanıt ve İzlenebilirlik",
           "Dijital Çalışma Altyapısı"
         ]
       }
@@ -132,7 +132,7 @@
       "ariaLabel": "",
       "items": [
         "AB Regülasyon Odağı",
-        "Teknik Kanıt Ve Veri Disiplini",
+        "Teknik Kanıt ve Veri Disiplini",
         "Dijital Destekli Çalışma Yapısı",
         "Uygulanabilir Uyum Yaklaşımı"
       ]
@@ -142,36 +142,36 @@
       "intro": "AB regülasyonları, karbon yönetimi, ürün sürdürülebilirliği, tedarik zinciri uyumu ve pazar hazırlığı alanlarında teknik ve uygulanabilir çalışma yapıları kurarız.",
       "cardCta": "Detayları inceleyin",
       "c1": {
-        "title": "ESG Ve Kurumsal Raporlama",
+        "title": "ESG ve Kurumsal Raporlama",
         "body": "CSRD, ESRS, GRI, ISSB ve çift önemlilik süreçleri için veri, sınır ve kanıt yapısını güçlendiririz."
       },
       "c2": {
-        "title": "Karbon, İklim Ve Dekarbonizasyon",
+        "title": "Karbon, İklim ve Dekarbonizasyon",
         "body": "GHG Protocol, ISO 14064-1, ISO 14067, CBAM ve azaltım yol haritaları için yapılandırılmış danışmanlık sunarız."
       },
       "c3": {
-        "title": "Ürün Sürdürülebilirliği, LCA Ve EPD",
+        "title": "Ürün Sürdürülebilirliği, LCA ve EPD",
         "body": "LCA, EPD, ürün karbon ayak izi ve Dijital Ürün Pasaportu hazırlıkları için teknik çalışma kurgusu oluştururuz."
       },
       "c4": {
-        "title": "AB Regülasyonları Ve Tedarik Zinciri Uyumu",
+        "title": "AB Regülasyonları ve Tedarik Zinciri Uyumu",
         "body": "EUDR, CSDDD, PPWR, REACH, ESPR ve alıcı veri talepleri için izlenebilir uyum yapıları kurarız."
       },
       "c5": {
-        "title": "Pazar Ve Paydaş Hazırlığı",
+        "title": "Pazar ve Paydaş Hazırlığı",
         "body": "Avrupa pazarı, alıcı beklentileri, ESG durum tespiti ve paydaş bilgilendirme süreçlerini güçlendiririz."
       },
       "c6": {
-        "title": "Sertifikasyon, İzlenebilirlik Ve Pazar Güveni",
+        "title": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
         "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerine destek oluruz."
       }
     },
     "software": {
-      "eyebrow": "Dijital Katman",
-      "title": "ANKA Yazılım Portföyü Ve Dijital Çalışma Alanları",
-      "description": "Seçili ANKA yazılım ürünleri; veri, uyum ve izlenebilirlikte danışmanlık çalışmalarınızı daha yönetilebilir, tekrarlanabilir ve savunulabilir kılmak için tasarlanmıştır.",
+      "eyebrow": "Dijital destek",
+      "title": "ANKA Yazılım Portföyü ve Dijital Çalışma Alanları",
+      "description": "Seçili ANKA yazılım ürünleri; veri, uyum ve izlenebilirlikte danışmanlığı daha yönetilebilir, tekrarlanabilir ve savunulabilir kılmak için tasarlanmıştır.",
       "cta": "Yazılım Çözümlerimizi İnceleyin",
-      "portfolioTitle": "Çalışmayı Güçlendiren Dijital Katman",
+      "portfolioTitle": "Veri ve uyum süreçleri için dijital destek",
       "portfolioSupport": "Beş çekirdek çözüm; Avrupa uyum ve operasyon gerçeklerine göre hizalanır ve danışmanlık çalışma modelinizle aynı ritimde ilerler.",
       "items": [
         "CBAM Calculation Engine",
@@ -191,16 +191,16 @@
         "body": "Hollanda’daki şirket yapısı ve Avrupa değer zinciri perspektifiyle güven veren bir danışmanlık modeli sunarız."
       },
       "c2": {
-        "title": "Uygulama Disipliniyle Güçlenen Regülasyon Uzmanlığı",
+        "title": "Regülasyon uzmanlığı ve sahadan gelen uygulama disiplini",
         "body": "Regülasyon beklentilerini veri, kanıt, teknik dosya ve iş akışı kurgusuna dönüştürürüz."
       },
       "c3": {
-        "title": "Alıcı Ve Tedarikçi Tarafını Birlikte Anlayan Yaklaşım",
+        "title": "Alıcı ve Tedarikçi Tarafını Birlikte Anlayan Yaklaşım",
         "body": "Avrupa’daki alıcı beklentileri ile üretici ve tedarikçi tarafındaki uygulama gerçekliğini aynı çalışma yapısında buluştururuz."
       },
       "c4": {
-        "title": "Dijital Araçlarla Güçlenen Danışmanlık",
-        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum yönetimi süreçlerini dijital destek yaklaşımıyla güçlendiririz."
+        "title": "Danışmanlıkta dijital araç desteği",
+        "body": "Veri toplama, hesaplama, izlenebilirlik ve uyum süreçlerinde gerektiğinde dijital araçlarla destek veririz."
       }
     },
     "insights": {
@@ -209,7 +209,7 @@
       "subtitle": "Regülasyonlar, raporlama çerçeveleri ve uygulama odaklı değerlendirmeler hakkında güncel içerikler."
     },
     "finalCta": {
-      "title": "Sürdürülebilirlik Ve Uyum Süreçlerinizi Daha Net Bir Yapıya Taşıyalım",
+      "title": "Sürdürülebilirlik ve Uyum Süreçlerinizi Daha Net Bir Yapıya Taşıyalım",
       "description": "Kurumunuzun regülasyon maruziyetini, veri ihtiyaçlarını, teknik çalışma kapsamını ve dijital destek fırsatlarını birlikte değerlendirelim.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "İletişime Geçin"
@@ -222,7 +222,7 @@
     },
     "hero": {
       "eyebrow": "Hizmetlerimiz",
-      "title": "Sürdürülebilirlik, Karbon Ve Ürün Uyumu İçin Teknik Danışmanlık",
+      "title": "Sürdürülebilirlik, Karbon ve Ürün Uyumu İçin Teknik Danışmanlık",
       "description": "ANKA, sürdürülebilirlik raporlaması, karbon yönetimi, ürün çevresel performansı, AB regülasyonları ve tedarik zinciri uyumu başlıklarını; veri, kanıt ve uygulanabilir süreç kurgusuyla yönetilebilir hale getirir.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmet Alanlarını İnceleyin",
@@ -230,26 +230,26 @@
         "title": "Çalışma Çerçevemiz",
         "description": "Her hizmet alanında kapsam netliğini, veri sahipliğini, kanıt düzenini ve uygulanabilir iş akışlarını aynı danışmanlık çerçevesinde ele alırız.",
         "items": [
-          "Regülasyon Ve Pazar Beklentisi",
-          "Veri Ve Kanıt Yönetimi",
-          "Teknik Dosya Ve Süreç Kurgusu",
-          "Dijital Destek Katmanı"
+          "Regülasyon ve Pazar Beklentisi",
+          "Veri ve Kanıt Yönetimi",
+          "Teknik Dosya ve Süreç Kurgusu",
+          "Dijital iş akışı desteği"
         ]
       }
     },
     "overview": {
       "eyebrow": "Hizmet Yaklaşımımız",
-      "title": "Regülasyon Beklentilerini Yönetilebilir Çalışma Sistemlerine Dönüştürüyoruz",
+      "title": "Regülasyon Beklentilerini Uygulanabilir Çalışma Yapısına Taşıyoruz",
       "text": "Altı ana danışmanlık alanımız; kurumların sürdürülebilirlik, karbon, ürün ve tedarik zinciri uyumu çalışmalarını yalnızca belge veya beyan seviyesinde bırakmadan, kurum içinde izlenebilir, savunulabilir ve yönetilebilir bir çalışma düzenine taşımak üzere kurgulanır.",
       "strip": [
         {
-          "title": "Kapsam Ve Öncelik"
+          "title": "Kapsam ve Öncelik"
         },
         {
           "title": "Veri Sahipliği"
         },
         {
-          "title": "Kanıt Ve İzlenebilirlik"
+          "title": "Kanıt ve İzlenebilirlik"
         },
         {
           "title": "Yönetilebilir İş Akışı"
@@ -269,27 +269,27 @@
       "intro": "İhtiyacınıza en yakın başlığı seçerek ilgili hizmet kapsamını, çalışma yaklaşımını ve oluşturulan teknik çerçeveyi inceleyebilirsiniz.",
       "cards": {
         "reportingEsg": {
-          "title": "ESG Ve Kurumsal Raporlama",
+          "title": "ESG ve Kurumsal Raporlama",
           "body": "CSRD, ESRS, GRI, ISSB ve çift önemlilik süreçlerinde raporlama sınırları, veri sahipliği ve kanıt yapısının güçlendirilmesine destek oluruz."
         },
         "carbonClimate": {
-          "title": "Karbon, İklim Ve Dekarbonizasyon",
+          "title": "Karbon, İklim ve Dekarbonizasyon",
           "body": "Sera gazı envanteri, CBAM, ISO 14064-1, ISO 14067 ve azaltım önceliklerini teknik çalışma disipliniyle ele alırız."
         },
         "productCircularity": {
-          "title": "Ürün Sürdürülebilirliği, LCA Ve EPD",
+          "title": "Ürün Sürdürülebilirliği, LCA ve EPD",
           "body": "LCA, EPD, ürün karbon ayak izi ve Dijital Ürün Pasaportu hazırlıklarında ürün verisi, hesaplama mantığı ve kanıt düzenini netleştiririz."
         },
         "regulatorySupplyChain": {
-          "title": "AB Regülasyonları Ve Tedarik Zinciri Uyumu",
+          "title": "AB Regülasyonları ve Tedarik Zinciri Uyumu",
           "body": "EUDR, CSDDD, PPWR, REACH, ESPR ve alıcı veri talepleri için tedarik zinciri verisini daha izlenebilir ve yanıtlanabilir hale getiririz."
         },
         "sustainableFinance": {
-          "title": "Pazar Ve Paydaş Hazırlığı",
+          "title": "Pazar ve Paydaş Hazırlığı",
           "body": "Avrupa pazarı, alıcı beklentileri, ESG durum tespiti ve paydaş bilgilendirme süreçleri için güven veren hazırlık yapıları oluştururuz."
         },
         "certificationTraceability": {
-          "title": "Sertifikasyon, İzlenebilirlik Ve Pazar Güveni",
+          "title": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
           "body": "Sertifikasyon hazırlığı, izlenebilirlik, kanıt dosyası ve pazar beyanı süreçlerinde daha savunulabilir bir çalışma düzeni kurarız."
         }
       }
@@ -309,7 +309,7 @@
         "whyMatters": "Neden Önemli",
         "delivers": "ANKA Nasıl Katkı Sağlar",
         "howWeWork": "Nasıl Çalışıyoruz",
-        "outputs": "Teknik Dosya Ve Kanıt Kurgusu",
+        "outputs": "Teknik Dosya ve Kanıt Kurgusu",
         "whoFor": "Kimler İçin Uygun",
         "relatedTools": "İlgili Yazılım / Araçlar",
         "stepLabel": "Adım {step}"
@@ -354,8 +354,8 @@
           "relatedToolsBody": "Raporlama süreci için takip, onay ve kanıt bağlantısı güçlendirilmesi gerekiyorsa; yönetişim modelinizle uyumlu hafif dijital iş akışı disiplini ekleyebiliriz.",
           "benchmark": {
             "hero": {
-              "eyebrow": "ESG Ve Kurumsal Raporlama",
-              "title": "CSRD, ESRS Ve Kurumsal ESG Raporlaması İçin Yapılandırılmış Danışmanlık",
+              "eyebrow": "ESG ve Kurumsal Raporlama",
+              "title": "CSRD, ESRS ve Kurumsal ESG Raporlaması İçin Yapılandırılmış Danışmanlık",
               "text": "ANKA, kurumların ESG veri yapısını, çift önemlilik sürecini, raporlama sınırlarını ve kanıt düzenini CSRD, ESRS, GRI ve ISSB beklentileriyle uyumlu şekilde yapılandırmasına destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -401,7 +401,7 @@
               "intro": "Avrupa’da kurumsal sürdürülebilirlik raporlaması; yönetim, veri sahipliği, sınır belirleme, kanıt dokümantasyonu ve denetlenebilir açıklama yapısı gerektiren teknik bir sürece dönüşmektedir.",
               "valueItems": [
                 "Raporlama Beklentileri Derinleşiyor",
-                "Veri Ve Kanıt Disiplini Öne Çıkıyor",
+                "Veri ve Kanıt Disiplini Öne Çıkıyor",
                 "Yönetim Seviyesinde ESG Kararları Güçleniyor"
               ],
               "insightLabel": "Stratejik Not",
@@ -412,7 +412,7 @@
                   "body": "CSRD/ESRS beklentileri, açıklamayı veri ve kanıt mantığıyla birlikte ele almayı gerektirir."
                 },
                 {
-                  "title": "Veri Ve Kanıt Disiplini Öne Çıkıyor",
+                  "title": "Veri ve Kanıt Disiplini Öne Çıkıyor",
                   "body": "Sahiplik, kaynak sistemler, kontrol noktaları ve kanıt izleri raporlama kalitesini belirler."
                 },
                 {
@@ -442,7 +442,7 @@
                   "body": "Veri sahipleri, sorumluluklar, veri kaynakları ve toplama akışları netleştirilir."
                 },
                 {
-                  "title": "Yönetim Ve Kurul Bilgilendirme Yapısı",
+                  "title": "Yönetim ve Kurul Bilgilendirme Yapısı",
                   "body": "Yönetim ekipleri için karar almaya uygun, sade ve teknik bilgilendirme yapıları hazırlanır."
                 }
               ]
@@ -462,7 +462,7 @@
                   "body": "ESG veri sahipliği, kaynak sistemler, kanıt noktaları ve sorumluluk yapısı tanımlanır."
                 },
                 {
-                  "title": "Boşlukları Ve Öncelikleri Belirleriz",
+                  "title": "Boşlukları ve Öncelikleri Belirleriz",
                   "body": "Mevcut yapı ile CSRD, ESRS, GRI veya ISSB beklentileri arasındaki farklar analiz edilir."
                 },
                 {
@@ -473,7 +473,7 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Raporlama Dosyası Ve Kanıt Kurgusu",
+              "title": "Raporlama Dosyası ve Kanıt Kurgusu",
               "intro": "Süreç sonunda yalnızca metin değil; kurum içinde izlenebilir, açıklanabilir ve incelemeye hazırlanabilir bir raporlama ve kanıt düzeni oluşur.",
               "items": [
                 "CSRD Hazırlık Değerlendirmesi",
@@ -521,14 +521,14 @@
             "tools": {
               "title": "Destekleyen Dijital Çalışma Alanı",
               "intro": "Dijital destek, veri toplama ve kanıt düzeninin daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Veri Toplama Akışı",
                 "Sorumluluk Takibi",
                 "Kanıt Düzeni",
                 "Raporlama Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak konumlanır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Kurumsal ve ürün verisinin ESRS sınıfı açıklamalar için yönetilebilir olması gerektiğinde, DPP platformu kayıtlar, izlenebilirlik ve iddia desteğini tek bir çerçevede toplar; ANKA raporlama danışmanlığınızla birlikte çalışır.",
@@ -553,8 +553,8 @@
         "carbonClimate": {
           "benchmark": {
             "hero": {
-              "eyebrow": "Karbon, İklim Ve Dekarbonizasyon",
-              "title": "Karbon Yönetimi, CBAM Ve İklim Geçişi İçin Yapılandırılmış Danışmanlık",
+              "eyebrow": "Karbon, İklim ve Dekarbonizasyon",
+              "title": "Karbon Yönetimi, CBAM ve İklim Geçişi İçin Yapılandırılmış Danışmanlık",
               "text": "ANKA, kurumların sera gazı verisini güvenilir ve savunulabilir bir yapıya kavuşturmasına, CBAM süreçlerini düzenli şekilde yönetmesine ve denetime hazır iklim-veri altyapıları kurmasına destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -562,7 +562,7 @@
               },
               "tags": [
                 "GHG Protocol",
-                "Scope 1, 2 Ve 3",
+                "Scope 1, 2 ve 3",
                 "CBAM",
                 "ISO 14064-1",
                 "ISO 14067",
@@ -602,7 +602,7 @@
               "intro": "Karbon yönetimi artık yalnızca raporlama konusu değildir. Avrupa pazar beklentileri, müşteri veri talepleri, sınırda karbon düzenlemeleri ve kurumsal karar alma süreçleri; emisyon verisinin güvenilir, izlenebilir ve açıklanabilir olmasını zorunlu hale getirmektedir.",
               "valueItems": [
                 "Düzenleyici Beklentiler Artıyor",
-                "Müşteri Ve Tedarik Zinciri Talepleri Derinleşiyor",
+                "Müşteri ve Tedarik Zinciri Talepleri Derinleşiyor",
                 "Karbon Verisi Karar Süreçlerine Giriyor"
               ],
               "insightLabel": "Stratejik Not",
@@ -613,7 +613,7 @@
                   "body": "Açıklanabilir karbon verisi, özellikle Avrupa ile çalışan şirketler için temel gereklilik haline geliyor."
                 },
                 {
-                  "title": "Müşteri Ve Tedarik Zinciri Talepleri Derinleşiyor",
+                  "title": "Müşteri ve Tedarik Zinciri Talepleri Derinleşiyor",
                   "body": "Alıcılar artık yalnızca sonuç değil; veri kaynağı, yöntem ve varsayım mantığını da görmek istiyor."
                 },
                 {
@@ -624,14 +624,14 @@
             },
             "support": {
               "title": "ANKA Nasıl Katkı Sağlar",
-              "intro": "Karbon ve CBAM çalışmalarını; veri, kanıt ve kontrol mantığıyla daha yönetilebilir, izlenebilir ve denitime hazırlanabilir bir yapıya taşırız.",
+              "intro": "Karbon ve CBAM çalışmalarını; veri, kanıt ve kontrol mantığıyla daha yönetilebilir, izlenebilir ve denetime hazırlanabilir bir yapıya taşırız.",
               "cards": [
                 {
                   "title": "Kurumsal Sera Gazı Envanteri Yapısının Kurulması",
                   "body": "Kapsam 1, Kapsam 2 ve ilgili Kapsam 3 kaynaklarının sınıflandırılması ve hesaplama mantığının yapılandırılması."
                 },
                 {
-                  "title": "CBAM Veri Ve Hesaplama Kurgusunun Desteklenmesi",
+                  "title": "CBAM Veri ve Hesaplama Kurgusunun Desteklenmesi",
                   "body": "Faaliyet verileri, üretim parametreleri, tedarikçi girdileri ve hesaplama varsayımları düzenli bir yapıya alınır."
                 },
                 {
@@ -639,11 +639,11 @@
                   "body": "ISO 14067 ve ürün bazlı karbon mantığı doğrultusunda çalışma sınırları ve veri ihtiyacı netleştirilir."
                 },
                 {
-                  "title": "Azaltım Öncelikleri Ve Yol Haritası Mantığının Kurulması",
+                  "title": "Azaltım Öncelikleri ve Yol Haritası Mantığının Kurulması",
                   "body": "Karbon sonuçları yönetim için kullanılabilir aksiyon alanlarına dönüştürülür."
                 },
                 {
-                  "title": "Denetime Hazır Veri Ve Kanıt Yapısının Güçlendirilmesi",
+                  "title": "Denetime Hazır Veri ve Kanıt Yapısının Güçlendirilmesi",
                   "body": "Hesaplama dosyaları, destekleyici dokümanlar, varsayım kayıtları ve kontrol noktaları düzenlenir."
                 }
               ]
@@ -674,13 +674,13 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Teknik Dosya Ve Kanıt Kurgusu",
-              "intro": "Süreç sonunda yalnızca hesaplama sonucu değil; kurum içinde izlenebilir, açıklanabilir ve denitime hazırlanabilir bir veri, varsayım ve kanıt düzeni oluşur.",
+              "title": "Teknik Dosya ve Kanıt Kurgusu",
+              "intro": "Süreç sonunda yalnızca hesaplama sonucu değil; kurum içinde izlenebilir, açıklanabilir ve denetime hazırlanabilir bir veri, varsayım ve kanıt düzeni oluşur.",
               "items": [
                 "Sera Gazı Envanter Yapısı",
-                "Kapsam 1, Kapsam 2 Ve İlgili Kapsam 3 Veri Çerçevesi",
-                "CBAM Veri Talep Ve Hesaplama Yapısı",
-                "Emisyon Faktörü Ve Varsayım Kayıtları",
+                "Kapsam 1, Kapsam 2 ve İlgili Kapsam 3 Veri Çerçevesi",
+                "CBAM Veri Talep ve Hesaplama Yapısı",
+                "Emisyon Faktörü ve Varsayım Kayıtları",
                 "Ürün Karbon Ayak İzi Çalışma Çerçevesi",
                 "Karbon Azaltım Fırsat Listesi",
                 "Dekarbonizasyon Yol Haritası Mantığı",
@@ -714,7 +714,7 @@
                 "Sanayi Şirketleri",
                 "Sürdürülebilirlik Ekipleri",
                 "Uyum Ekipleri",
-                "Kalite Ve Teknik Ekipler",
+                "Kalite ve Teknik Ekipler",
                 "Yönetim Ekipleri"
               ],
               "description": "Bu çalışma; Avrupa ile iş yapan, karbon verisini daha güvenilir hale getirmek isteyen, CBAM süreçlerini daha kontrollü yönetmeyi hedefleyen ve iklim verisini denetime hazır bir yapıya taşımak isteyen kurumlar için uygundur."
@@ -722,14 +722,14 @@
             "tools": {
               "title": "Destekleyen Dijital Yazılım",
               "intro": "Dijital destek, veri akışının daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Veri Toplama Akışı",
                 "Hesaplama Kontrolleri",
                 "İzlenebilirlik",
                 "Raporlama Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak kullanılır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "CBAM Calculation Engine",
                 "body": "CBAM Calculation Engine, manuel hesaplama yükünü azaltmaya, veri izlenebilirliğini güçlendirmeye ve raporlama sürecini daha düzenli bir yapıya taşımaya yardımcı olan dijital çalışma altyapımızdır. Uzman danışmanlığın yerini almaz; hesaplama ve veri akışını daha kontrollü hale getirir.",
@@ -741,10 +741,10 @@
                 "cta": "CBAM Çözümünü İnceleyin"
               },
               "noteTitle": "Not",
-              "noteBody": "Dijital araçlar danışmanlığın yerine geçmez; süreç disiplini ve veri kontrolünü güçlendiren bir katman olarak kullanılır."
+              "noteBody": "Dijital araçlar danışmanlığın yerini almaz; süreç ve veri kontrolünü daha izlenebilir kılar."
             },
             "cta": {
-              "title": "Karbon Ve Uyum Süreçlerinizi Daha Net Bir Yapıya Taşıyalım",
+              "title": "Karbon ve Uyum Süreçlerinizi Daha Net Bir Yapıya Taşıyalım",
               "text": "Kuruluşunuzun ihtiyaçlarını, mevcut veri yapısını ve öncelikli uyum gündemini birlikte değerlendirerek doğru çalışma kapsamını belirleyelim.",
               "primary": "Görüşme Planlayın",
               "secondary": "İletişime Geçin"
@@ -781,8 +781,8 @@
           "relatedToolsBody": "Ürün verisinin SKU ve pazar bazında ölçeklenmesi gerektiğinde; veri setlerini ve kanıt mantığını DPP-uyumlu veri yapılarına hizalayabiliriz.",
           "benchmark": {
             "hero": {
-              "eyebrow": "Ürün Sürdürülebilirliği, LCA Ve EPD",
-              "title": "Ürün Çevresel Performansı, LCA Ve EPD İçin Teknik Danışmanlık",
+              "eyebrow": "Ürün Sürdürülebilirliği, LCA ve EPD",
+              "title": "Ürün Çevresel Performansı, LCA ve EPD İçin Teknik Danışmanlık",
               "text": "ANKA, ürünlerin çevresel etkilerini yaşam döngüsü yaklaşımıyla değerlendirmek, ürün karbon ayak izi, LCA, EPD ve Dijital Ürün Pasaportu hazırlıklarını teknik ve kanıta dayalı bir yapıya taşımak isteyen kurumlara destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -824,12 +824,12 @@
             },
             "why": {
               "title": "Neden Önemli",
-              "heading": "Ürün Verisi, Avrupa Pazarında Rekabet Ve Uyumun Temel Unsuruna Dönüşüyor",
+              "heading": "Ürün Verisi, Avrupa Pazarında Rekabet ve Uyumun Temel Unsuruna Dönüşüyor",
               "intro": "Ürün bazlı çevresel performans bilgisi; alıcı talepleri, yeşil iddialar, EPD beklentileri, Dijital Ürün Pasaportu ve ürün sürdürülebilirliği regülasyonları nedeniyle giderek daha kritik hale gelmektedir.",
               "valueItems": [
                 "Ürün Bazlı Kanıt Beklentileri Artıyor",
-                "LCA Ve EPD Pazar Güveni Sağlıyor",
-                "DPP Ve Döngüsellik Hazırlığı Güçleniyor"
+                "LCA ve EPD Pazar Güveni Sağlıyor",
+                "DPP ve Döngüsellik Hazırlığı Güçleniyor"
               ],
               "insightLabel": "Stratejik Not",
               "insightText": "Ürün sürdürülebilirliği verisi, yalnızca beyan değil; tedarik zinciri, tasarım ve pazar erişimi kararlarını da etkileyen teknik bir varlığa dönüşüyor.",
@@ -839,11 +839,11 @@
                   "body": "Alıcılar ve regülasyonlar, ürün düzeyinde sınır, yöntem ve veri mantığının açıklanabilir olmasını ister."
                 },
                 {
-                  "title": "LCA Ve EPD Pazar Güveni Sağlıyor",
+                  "title": "LCA ve EPD Pazar Güveni Sağlıyor",
                   "body": "Doğru kurgulanmış LCA/EPD süreci; tutarlılık, karşılaştırılabilirlik ve güven sağlar."
                 },
                 {
-                  "title": "DPP Ve Döngüsellik Hazırlığı Güçleniyor",
+                  "title": "DPP ve Döngüsellik Hazırlığı Güçleniyor",
                   "body": "Ürün verisi ve izlenebilirlik alanları, gelecekteki dijital gereklilikler için şimdiden hazırlanmalıdır."
                 }
               ]
@@ -865,7 +865,7 @@
                   "body": "PCR, EN 15804, veri toplama ve teknik rapor gereklilikleri düzenli bir yapıya alınır."
                 },
                 {
-                  "title": "Tedarikçi Ve Reçete Verilerinin Yapılandırılması",
+                  "title": "Tedarikçi ve Reçete Verilerinin Yapılandırılması",
                   "body": "Malzeme, enerji, proses, ambalaj ve nakliye verileri izlenebilir şekilde toplanır."
                 },
                 {
@@ -900,7 +900,7 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Ürün Teknik Dosyası Ve Kanıt Kurgusu",
+              "title": "Ürün Teknik Dosyası ve Kanıt Kurgusu",
               "intro": "Süreç sonunda yalnızca sonuç değil; ürün verisi, varsayımlar ve kanıt bağlantılarıyla izlenebilir bir teknik dosya düzeni oluşur.",
               "items": [
                 "LCA Kapsam Dosyası",
@@ -908,7 +908,7 @@
                 "EPD Hazırlık Kontrol Listesi",
                 "Ürün Karbon Ayak İzi Çerçevesi",
                 "Veri Kalitesi Değerlendirmesi",
-                "Varsayım Ve Senaryo Kayıtları",
+                "Varsayım ve Senaryo Kayıtları",
                 "Döngüsellik Veri Çerçevesi",
                 "DPP Hazırlık Notları",
                 "Yönetim Bilgilendirme Özeti"
@@ -948,14 +948,14 @@
             "tools": {
               "title": "Destekleyen Dijital Çalışma Alanı",
               "intro": "Dijital destek, ürün verisi ve hesaplama akışının daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Ürün Veri Akışı",
                 "Modelleme Kontrolleri",
                 "İzlenebilirlik",
                 "EPD/DPP Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak konumlanır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "LCA, EPD ve ürün düzeyindeki çalışma; Dijital Ürün Pasaportu beklentileriyle uyumlu ürün verisi, teknik kayıtlar ve izlenebilirlikle tek bir mimaride tutulur; ANKA teknik dosya danışmanlığınızla aynı çizgide ilerletilir.",
@@ -1007,8 +1007,8 @@
           "relatedToolsBody": "Tedarikçi onboarding, veri paylaşımı ve kanıt takibinin daha sıkı kontrol gerektirdiği durumlarda; süreci dijital iş akışı yetkinlikleriyle hizalayabiliriz.",
           "benchmark": {
             "hero": {
-              "eyebrow": "AB Regülasyonları Ve Tedarik Zinciri Uyumu",
-              "title": "AB Regülasyonları, Tedarikçi Verisi Ve Pazar Erişimi İçin Uyum Danışmanlığı",
+              "eyebrow": "AB Regülasyonları ve Tedarik Zinciri Uyumu",
+              "title": "AB Regülasyonları, Tedarikçi Verisi ve Pazar Erişimi İçin Uyum Danışmanlığı",
               "text": "ANKA, Avrupa değer zincirlerinde faaliyet gösteren şirketlerin EUDR, CSDDD, PPWR, REACH, ESPR ve alıcı kaynaklı tedarikçi veri taleplerini yapılandırılmış, izlenebilir ve uygulanabilir bir uyum yaklaşımıyla yönetmesine destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -1087,7 +1087,7 @@
                   "body": "Tedarikçilerden beklenen veri, belge ve kanıt akışı yapılandırılır."
                 },
                 {
-                  "title": "İzlenebilirlik Ve Kanıt Yapısının Güçlendirilmesi",
+                  "title": "İzlenebilirlik ve Kanıt Yapısının Güçlendirilmesi",
                   "body": "Menşe, ürün içeriği, ambalaj, kimyasal uygunluk ve beyan kanıtları düzenlenir."
                 },
                 {
@@ -1111,7 +1111,7 @@
                   "body": "Ürünler, pazarlar, müşteri talepleri ve geçerli AB düzenlemeleri eşleştirilir."
                 },
                 {
-                  "title": "Veri Ve Kanıt İhtiyacını Tanımlarız",
+                  "title": "Veri ve Kanıt İhtiyacını Tanımlarız",
                   "body": "Tedarikçi, ürün, ambalaj, menşe ve uygunluk verileri belirlenir."
                 },
                 {
@@ -1126,7 +1126,7 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Tedarik Zinciri Uyum Dosyası Ve Kanıt Kurgusu",
+              "title": "Tedarik Zinciri Uyum Dosyası ve Kanıt Kurgusu",
               "intro": "Süreç sonunda yalnızca liste değil; kurum içinde izlenebilir, açıklanabilir ve incelemeye hazırlanabilir bir uyum ve kanıt düzeni oluşur.",
               "items": [
                 "Regülasyon Kapsam Haritası",
@@ -1174,14 +1174,14 @@
             "tools": {
               "title": "Destekleyen Dijital Çalışma Alanı",
               "intro": "Dijital destek, tedarikçi veri akışının daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Tedarikçi Veri Akışı",
                 "Kontrol Noktaları",
                 "İzlenebilirlik",
                 "Beyan Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak konumlanır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "Packaging Compliance Tool",
                 "body": "Ambalaj bileşimi, pazara özgü veri noktaları ve uyum kontrolleri için yönetilen ANKA çalışma alanı, AB ve tedarikçi uyumu danışmanlığınız yanında talepleri, kanıtları ve karar izini toplu şekilde izletir.",
@@ -1196,7 +1196,7 @@
               "noteBody": "Dijital kapasite, danışmanlığın yerine geçmez; veri takibi ve kanıt düzenini güçlendirmek için kullanılır."
             },
             "cta": {
-              "title": "AB Uyum Ve Tedarik Zinciri Verinizi Daha Güçlü Bir Yapıya Taşıyalım",
+              "title": "AB Uyum ve Tedarik Zinciri Verinizi Daha Güçlü Bir Yapıya Taşıyalım",
               "text": "Ürün ve pazar kapsamınızı, tedarikçi veri yapınızı ve öncelikli uyum gündeminizi birlikte değerlendirerek doğru çalışma planını belirleyelim.",
               "primary": "Görüşme Planlayın",
               "secondary": "İletişime Geçin"
@@ -1233,8 +1233,8 @@
           "relatedToolsBody": "Bu hizmetin yürütülmesi için zorunlu bir ürün bağımlılığı yoktur. Değer kattığı yerde beyan, kanıt ve güncellemeler için hafif takip yapısı ekleyebiliriz.",
           "benchmark": {
             "hero": {
-              "eyebrow": "Pazar Ve Paydaş Hazırlığı",
-              "title": "Avrupa Pazarı, Alıcı Beklentileri Ve Paydaş Güveni İçin Hazırlık Danışmanlığı",
+              "eyebrow": "Pazar ve Paydaş Hazırlığı",
+              "title": "Avrupa Pazarı, Alıcı Beklentileri ve Paydaş Güveni İçin Hazırlık Danışmanlığı",
               "text": "ANKA, kurumların Avrupa pazarı beklentilerine, alıcı sürdürülebilirlik taleplerine, ESG durum tespiti süreçlerine ve paydaş iletişimine daha hazırlıklı, tutarlı ve kanıta dayalı yanıt vermesine destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -1352,14 +1352,14 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Pazar Hazırlık Dosyası Ve Kanıt Kurgusu",
+              "title": "Pazar Hazırlık Dosyası ve Kanıt Kurgusu",
               "intro": "Süreç sonunda yalnızca sunum değil; kurum içinde izlenebilir ve açıklanabilir bir hazırlık dosyası düzeni oluşur.",
               "items": [
                 "Alıcı Beklenti Haritası",
                 "ESG Durum Tespiti Kontrolü",
                 "Paydaş Bilgilendirme Notu",
                 "Pazar Erişimi Risk Listesi",
-                "Veri Ve Kanıt Envanteri",
+                "Veri ve Kanıt Envanteri",
                 "Yönetim Hazırlık Özeti",
                 "Müşteri Yanıt Dosyası",
                 "İyileştirme Yol Haritası",
@@ -1400,14 +1400,14 @@
             "tools": {
               "title": "Destekleyen Dijital Çalışma Alanı",
               "intro": "Dijital destek, paydaş veri taleplerinin daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Talep Yönetimi",
                 "Kontrol Noktaları",
                 "İzlenebilirlik",
                 "Briefing Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak konumlanır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Alıcılar, yatırımcılar ve iç ekipler aynı veriyi farklı formatta istediğinde, yapılandırılmış ürün veri çalışma alanı tutarlı yanıtlar, kanıt bağlantıları ve brifing hazırlığını ANKA’nın pazar hazırlık danışmanlığınızla bütünleştirir.",
@@ -1422,7 +1422,7 @@
               "noteBody": "Dijital kapasite, danışmanlığın yerine geçmez; veri takibi ve kanıt düzenini güçlendirmek için kullanılır."
             },
             "cta": {
-              "title": "Pazar Ve Paydaş Hazırlığınızı Daha Güven Veren Bir Yapıya Taşıyalım",
+              "title": "Pazar ve Paydaş Hazırlığınızı Daha Güven Veren Bir Yapıya Taşıyalım",
               "text": "Hedef pazarınızı, alıcı beklentilerinizi ve öncelikli risk alanlarını birlikte değerlendirerek doğru hazırlık planını netleştirelim.",
               "primary": "Görüşme Planlayın",
               "secondary": "İletişime Geçin"
@@ -1459,8 +1459,8 @@
           "relatedToolsBody": "Kanıt akışları karmaşıklaştığında; izlenebilirlik ve kapanış disiplinini güçlendiren dijital yetkinliklerle süreci hizalayabiliriz.",
           "benchmark": {
             "hero": {
-              "eyebrow": "Sertifikasyon, İzlenebilirlik Ve Pazar Güveni",
-              "title": "Sertifikasyon Hazırlığı, İzlenebilirlik Ve Denetime Hazır Kanıt Yapısı İçin Danışmanlık",
+              "eyebrow": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
+              "title": "Sertifikasyon Hazırlığı, İzlenebilirlik ve Denetime Hazır Kanıt Yapısı İçin Danışmanlık",
               "text": "ANKA, kurumların sertifikasyon süreçlerine hazırlanmasına, tedarikçi kanıtlarını düzenlemesine, izlenebilirlik yapısını güçlendirmesine ve pazar beyanlarını daha savunulabilir hale getirmesine destek olur.",
               "ctas": {
                 "primary": "Görüşme Planlayın",
@@ -1502,7 +1502,7 @@
             },
             "why": {
               "title": "Neden Önemli",
-              "heading": "Güvenilir Pazar Beyanları, Güçlü Kanıt Ve İzlenebilirlik Yapısı Gerektirir",
+              "heading": "Güvenilir Pazar Beyanları, Güçlü Kanıt ve İzlenebilirlik Yapısı Gerektirir",
               "intro": "Sertifikasyon, doğrulama, zincir izlenebilirliği ve pazar iddiaları; yalnızca belge almakla sınırlı değildir. Kurumların veri, belge, tedarikçi kanıtı ve iç kontrol düzenini incelemeye hazır hale getirmesi gerekir.",
               "valueItems": [
                 "Sertifikasyon Süreçleri Daha Kanıt Odaklı Hale Geliyor",
@@ -1539,7 +1539,7 @@
                   "body": "Tedarikçi, malzeme, ürün ve belge akışı izlenebilir bir yapıya alınır."
                 },
                 {
-                  "title": "Kanıt Dosyası Ve Belge Düzeninin Oluşturulması",
+                  "title": "Kanıt Dosyası ve Belge Düzeninin Oluşturulması",
                   "body": "İnceleme ve denetim süreçlerinde kullanılacak destekleyici kayıtlar düzenlenir."
                 },
                 {
@@ -1559,7 +1559,7 @@
               "kicker": "Kapsam → Veri → Kontrol → Karar",
               "steps": [
                 {
-                  "title": "Kriter Ve Kapsamı Netleştiririz",
+                  "title": "Kriter ve Kapsamı Netleştiririz",
                   "body": "Sertifikasyon veya izlenebilirlik beklentileri, kapsam ve uygulanacak kriterler belirlenir."
                 },
                 {
@@ -1567,7 +1567,7 @@
                   "body": "Mevcut doküman, kayıt, tedarikçi beyanı ve veri izleri gözden geçirilir."
                 },
                 {
-                  "title": "Eksikleri Ve Kontrol Noktalarını Belirleriz",
+                  "title": "Eksikleri ve Kontrol Noktalarını Belirleriz",
                   "body": "İnceleme veya denetim öncesi güçlendirilmesi gereken alanlar netleşir."
                 },
                 {
@@ -1578,7 +1578,7 @@
             },
             "outputs": {
               "eyebrow": "TEKNİK ÇALIŞMA KURGUSU",
-              "title": "Sertifikasyon Hazırlık Dosyası Ve Kanıt Kurgusu",
+              "title": "Sertifikasyon Hazırlık Dosyası ve Kanıt Kurgusu",
               "intro": "Süreç sonunda yalnızca kontrol listesi değil; kurum içinde izlenebilir ve açıklanabilir bir hazırlık dosyası düzeni oluşur.",
               "items": [
                 "Kriter Uygunluk Haritası",
@@ -1618,7 +1618,7 @@
                 "Sürdürülebilirlik Ekipleri",
                 "Belgelendirme Hazırlık Ekipleri",
                 "Tedarik Zinciri Ekipleri",
-                "Pazarlama Ve İletişim Ekipleri",
+                "Pazarlama ve İletişim Ekipleri",
                 "Yönetim Ekipleri"
               ],
               "description": "Bu hizmet; sertifikasyon süreçlerine hazırlanan şirketler, izlenebilirlik yapısını güçlendirmek isteyen üreticiler, tedarikçi kanıtı toplayan ekipler ve pazar beyanlarını daha güvenilir hale getirmek isteyen kurumlar için uygundur."
@@ -1626,14 +1626,14 @@
             "tools": {
               "title": "Destekleyen Dijital Çalışma Alanı",
               "intro": "Dijital destek, kanıt ve izlenebilirlik akışının daha kontrollü yönetilmesine katkı sağladığında devreye alınır.",
-              "rightTitle": "Danışmanlığı Güçlendiren Dijital Katman",
+              "rightTitle": "Dijital destekle daha izlenebilir danışmanlık akışı",
               "capabilityRows": [
                 "Kanıt Akışı",
                 "Kontrol Noktaları",
                 "İzlenebilirlik",
                 "Beyan Hazırlığı"
               ],
-              "noteShort": "Dijital araçlar danışmanlığın yerine geçmez; veri akışını ve kontrol disiplinini güçlendiren tamamlayıcı bir katman olarak konumlanır.",
+              "noteShort": "Dijital araçlar danışmanlığın yerini almaz; veri ve kanıt akışını daha izlenebilir ve tutarlı kılar.",
               "card": {
                 "title": "Agri-Climate Platform",
                 "body": "Arazi ve tedarik zinciri düzeyindeki kanıtlar için Agri-Climate, arazi, operasyon ve doğrulamaya hazırlık akışını ANKA’nın sertifikasyon ve izlenebilirlik danışmanlığını tamamlayan yönetişimli bir çerçevede birleştirir.",
@@ -1648,7 +1648,7 @@
               "noteBody": "Dijital kapasite, danışmanlığın yerine geçmez; veri takibi ve kanıt düzenini güçlendirmek için kullanılır."
             },
             "cta": {
-              "title": "Sertifikasyon Ve İzlenebilirlik Hazırlığınızı Güven Veren Bir Yapıya Taşıyalım",
+              "title": "Sertifikasyon ve İzlenebilirlik Hazırlığınızı Güven Veren Bir Yapıya Taşıyalım",
               "text": "Kapsamınızı, kanıt düzeninizi ve öncelikli kontrol noktalarınızı birlikte değerlendirerek doğru hazırlık planını netleştirelim.",
               "primary": "Görüşme Planlayın",
               "secondary": "İletişime Geçin"
@@ -1691,7 +1691,7 @@
         "topics": "AB Taksonomisi\nSürdürülebilir finans hazırlığı\nYatırımcı odaklı ESG hazırlığı\nFinansla uyumlu sürdürülebilirlik yapıları\nDerecelendirme / açıklama hazırlığı\nSFDR ile ilişkili piyasa beklentileri (uygun olduğunda)"
       },
       "certificationTraceability": {
-        "label": "Sertifikasyon, İzlenebilirlik ve Piyasa Güveni",
+        "label": "Sertifikasyon, İzlenebilirlik ve Pazar Güveni",
         "summary": "Ürün ve tedarik süreçlerinde güveni güçlendiren izlenebilirlik, doğrulanabilirlik ve sertifikasyon odaklı yapılar kuruyoruz.",
         "description": "İzlenebilirlik ve sertifikasyon; iddiaların doğrulanabilir olması için bir sistem disiplinidir. Zincirde mülkiyet, kütle dengesi ve belge yönetimi gibi başlıklarda; uygulanabilir ve sürdürülebilir yapılar tasarlarız.",
         "topics": "ISCC\nZincirde mülkiyet (chain of custody) mantığı\nKütle dengesi (mass balance) mantığı\nİzlenebilirlik yapıları\nGeri dönüştürülmüş / biyo bazlı içerik hazırlığı\nSürdürülebilirlik beyanları desteği\nKarbon kredileri danışmanlığı (ikincil destek, uygun olduğunda)"
@@ -1703,11 +1703,11 @@
       "title": "Danışmanlık Sürecini Nasıl Yapılandırıyoruz?",
       "intro": "Her hizmet alanında önce ihtiyacı netleştirir, ardından veriyi, kanıtı ve teknik çalışma akışını kurum içinde sürdürülebilir şekilde işletilebilecek bir yapıya taşırız.",
       "s1": {
-        "title": "Kapsamı Ve Öncelikleri Netleştiririz",
+        "title": "Kapsamı ve Öncelikleri Netleştiririz",
         "body": "Regülasyon, pazar, ürün, organizasyon ve veri beklentilerini birlikte değerlendiririz."
       },
       "s2": {
-        "title": "Veri Ve Kanıt Haritasını Kurarız",
+        "title": "Veri ve Kanıt Haritasını Kurarız",
         "body": "Veri kaynaklarını, sorumlulukları, varsayımları ve destekleyici dokümantasyonu düzenleriz."
       },
       "s3": {
@@ -1728,7 +1728,7 @@
         "body": "AB düzenlemeleri ve alıcı beklentileri, kurumun faaliyet gerçekliğiyle uyumlu teknik çalışma kapsamına dönüştürülür."
       },
       "c2": {
-        "title": "Veri Ve Kanıt Disiplini",
+        "title": "Veri ve Kanıt Disiplini",
         "body": "Raporlama, hesaplama ve uyum süreçleri izlenebilir veri, belge ve kanıt yapısıyla desteklenir."
       },
       "c3": {
@@ -1736,12 +1736,12 @@
         "body": "Üretici, tedarikçi ve ihracatçı firmaların operasyonel gerçekliği çalışma kurgusunun merkezinde tutulur."
       },
       "c4": {
-        "title": "Dijital Destekle Güçlenen Model",
-        "body": "Veri toplama, hesaplama ve izlenebilirlik akışları dijital araçlarla daha kontrollü hale getirilir."
+        "title": "Gerektiğinde dijital destek",
+        "body": "Veri toplama, hesaplama ve izlenebilirlik akışları uygun olduğunda dijital araçlarla daha yönetilebilir hale getirilir."
       }
     },
     "finalCta": {
-      "title": "Sürdürülebilirlik Ve Uyum Gündeminiz İçin Doğru Çalışma Kapsamını Belirleyelim",
+      "title": "Sürdürülebilirlik ve Uyum Gündeminiz İçin Doğru Çalışma Kapsamını Belirleyelim",
       "description": "Kurumunuzun regülasyon maruziyetini, veri ihtiyaçlarını ve öncelikli hizmet alanlarını birlikte değerlendirelim.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "İletişime Geçin"
@@ -1754,13 +1754,13 @@
     },
     "hero": {
       "eyebrow": "Yazılım Çözümleri",
-      "title": "Danışmanlık Çalışmalarını Güçlendiren Dijital Çözüm Altyapıları",
-      "description": "ANKA, sürdürülebilirlik, uyum ve teknik çalışma süreçlerini yalnızca danışmanlıkla değil; veri toplama, hesaplama, izlenebilirlik ve raporlama disiplinini destekleyen dijital çalışma alanlarıyla güçlendirir.",
+      "title": "Sürdürülebilirlik ve uyum için dijital çalışma alanları",
+      "description": "ANKA; sürdürülebilirlik, uyum ve teknik çalışmalarda danışmanlığı, veri toplama, hesaplama, izlenebilirlik ve raporlamaya hazırlık için düzenlenmiş dijital ortamlarla tamamlar.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Portföyü inceleyin",
       "panel": {
-        "title": "Disiplinli dijital icra",
-        "description": "Danışmanlığı tamamlayan pratik çalışma alanları: daha net veri, daha güçlü izlenebilirlik ve daha yönetilebilir çıktılar.",
+        "title": "Yapılandırılmış dijital iş akışı",
+        "description": "Danışmanlığı tamamlayan pratik çalışma alanları: daha net veri, daha okunur izlenebilirlik ve daha yönetilebilir çıktılar.",
         "items": [
           "Veri toplama",
           "Hesaplama disiplini",
@@ -1772,12 +1772,14 @@
     "portfolio": {
       "title": "Yazılım Portföyümüz",
       "description": "Gerçek kullanım senaryoları ve saha ihtiyaçları doğrultusunda şekillenen dijital çözümlerimizi inceleyin. Her ürün, veri yapısını daha düzenli, süreci daha izlenebilir ve çıktıları daha yönetilebilir hale getirmeyi amaçlar.",
-      "viewSolutionCta": "Çözümü İnceleyin",
-      "requestDemoCta": "Demo Talep Edin",
+      "actions": {
+        "viewSolution": "Çözümü İnceleyin",
+        "requestDemo": "Demo Talep Edin"
+      },
       "demoMailSubject": "Demo Talebi - {product}",
       "demoMailBody": "Merhaba, {product} için demo talep etmek istiyorum.",
       "modalClose": "Kapat",
-      "defaultModalTagline": "Danışmanlık sürecini daha izlenebilir, daha kontrollü ve daha uygulanabilir hale getiren dijital çalışma alanı.",
+      "defaultModalTagline": "Danışmanlık sürecini daha izlenebilir ve uygulanabilir kılan dijital çalışma alanı.",
       "modal": {
         "labelValueProposition": "Kısa değer önermesi",
         "labelWhatFor": "Ne İçin Kullanılır?",
@@ -1893,9 +1895,9 @@
           "pill": "Uyum",
           "status": "selected_use",
           "title": "CBAM Compliance Console",
-          "summary": "İthalatçı ekipler için CBAM maruziyetini, tedarikçi veri akışını ve satır bazlı hesaplama hazırlığını daha görünür ve yönetilebilir hale getirir.",
-          "modalTagline": "İthalatçı ekipler için CBAM maruziyetini, tedarikçi veri akışını ve satır bazlı hesaplama hazırlığını daha görünür ve yönetilebilir hale getirir.",
-          "modalWhatFor": "İthalatçıların ürün satırları, tedarikçi yanıtları, referans değerler ve CBAM veri kontrolleri üzerinden hesaplama ve uyum hazırlığını daha düzenli yürütmesi için kullanılır.",
+          "summary": "Gömülü emisyonları hesaplamak, tedarikçi verilerini yönetmek ve ithalat portföyünüzdeki CBAM maruziyetini izlemek için merkezi platform.",
+          "modalTagline": "Gömülü emisyonları hesaplamak, tedarikçi verilerini yönetmek ve ithalat portföyünüzdeki CBAM maruziyetini izlemek için merkezi platform.",
+          "modalWhatFor": "CBAM Compliance Console; ithalatçı firmaların CN kodlarını, tedarikçi beyanlarını, gömülü emisyon verilerini, sertifika maruziyetini ve raporlama iş akışlarını tek bir kontrollü çalışma alanında yönetmesine yardımcı olur. Platform; CBAM hazırlığı, tedarikçi takibi, hesaplama izlenebilirliği ve beyan dönemleri öncesi yönetim seviyesinde görünürlük sağlamak üzere tasarlanmıştır.",
           "modalTeamValue": "Tedarikçi verisini tekil dosya takibinden çıkarır, hesaplama süreçlerini standardize eder, eksik veri noktalarını görünür kılar ve ithalatçı ekiplerin risk/maruziyet takibini güçlendirir.",
           "bullets": [
             "Satır bazlı ve toplu CBAM hesaplamaları",
@@ -1903,8 +1905,8 @@
             "Referans destekli doğrulama mantığı",
             "İthalatçı ekipler için maruziyet görünürlüğü"
           ],
-          "screenshotAlt": "",
-          "heroText": "CBAM Compliance Console; satır ve toplu hesaplamalar, disiplinli tedarikçi veri girişi, referans destekli doğrulama ve daha net maruziyet görünürlüğü ile ithalatçı ekipleri destekler.",
+          "screenshotAlt": "CBAM Compliance Console dashboard interface showing emissions, supplier exposure, and CBAM workflow monitoring.",
+          "heroText": "CBAM Compliance Console; ithalatçı firmaların CN kodlarını, tedarikçi beyanlarını, gömülü emisyon verilerini, sertifika maruziyetini ve raporlama iş akışlarını tek bir kontrollü çalışma alanında yönetmesine yardımcı olur. Platform; CBAM hazırlığı, tedarikçi takibi, hesaplama izlenebilirliği ve beyan dönemleri öncesi yönetim seviyesinde görünürlük sağlamak üzere tasarlanmıştır.",
           "solves": [
             "İthalatçı ekiplerinin satırlar ve partiler arasında tutarlı CBAM hesaplama mantığına ihtiyacı vardır.",
             "Tedarikçi kanıtı ve referans kontrolleri hacim arttıkça disiplinli kalmalıdır.",
@@ -2076,8 +2078,8 @@
     },
     "workflows": {
       "eyebrow": "Çalışma düzeni",
-      "title": "Veri, Hesaplama Ve Raporlama Süreçlerini Güçlendiren Dijital Disiplinler",
-      "description": "Veri toplama, kontroller, hesaplamalar ve raporlama hazırlığı boyunca daha düzenli, izlenebilir ve yönetilebilir çalışma biçimleri oluşturulur.",
+      "title": "Veri, hesaplama ve raporlama için daha net dijital iş düzeni",
+      "description": "Veri toplama, kontroller, hesaplamalar ve raporlamaya hazırlık boyunca daha düzenli, izlenebilir ve yönetilebilir bir çalışma biçimi kurulur.",
       "c1": "Veri toplama",
       "c2": "İzlenebilirlik",
       "c3": "Hesaplama ve senaryolar",
@@ -2086,8 +2088,8 @@
       "c6": "Ekip koordinasyonu"
     },
     "consultingSoftware": {
-      "title": "Disiplinli dijital katmanla güçlenen danışmanlık uzmanlığı",
-      "description": "Dijital çalışma alanları; veri sahipliğini, kontrolleri ve kanıtı güçlendirerek danışmanlık süreçlerinin uygulanabilir, izlenebilir ve uçtan uca daha yürütülebilir kalmasını sağlar."
+      "title": "Dijital destekle daha izlenebilir ve yönetilebilir danışmanlık süreçleri",
+      "description": "Dijital çalışma alanları; veri sahipliği, kontroller ve kanıt düzenini netleştirerek danışmanlığın izlenebilir, uygulanabilir ve kurum içinde sürdürülebilir kalmasına yardımcı olur."
     },
     "detail": {
       "backToSoftware": "Tüm yazılımlar",
@@ -2098,7 +2100,7 @@
         "whoItsFor": "Kimler için",
         "outputs": "Çıktılar"
       },
-      "whoSupportingNote": "Dijital altyapı tamamlayıcı bir katmandır; veri ve kanıt akışlarını daha kontrollü hale getirmeyi hedefler—uzman danışmanlığın yerini almaz.",
+      "whoSupportingNote": "Dijital altyapı tamamlayıcıdır; veri ve kanıt akışını daha yönetilebilir kılar—uzman danışmanlığın yerini almaz.",
       "finalCta": {
         "title": "Dijital kapsamı birlikte netleştirelim",
         "description": "Kullanım senaryonuzu, veri gerçekliğinizi ve doğru erişim modelini birlikte gözden geçirelim."
@@ -2118,7 +2120,7 @@
     },
     "hero": {
       "eyebrow": "Hakkımızda",
-      "title": "Sürdürülebilirlik, Uyum Ve Dijital Destek Yaklaşımımız",
+      "title": "Sürdürülebilirlik, Uyum ve Dijital Destek Yaklaşımımız",
       "description": "ANKA Sustainability Consulting B.V., kurumların sürdürülebilirlik, karbon yönetimi, ürün sürdürülebilirliği, tedarik zinciri uyumu ve dijital destek çalışmalarını daha yapılandırılmış, izlenebilir ve yönetilebilir hale getirmelerine destek olur. Regülasyon beklentilerini; veri, kanıt, teknik çalışma disiplini ve uygulanabilir iş akışlarıyla birlikte ele alırız.",
       "panel": {
         "eyebrow": "Kurumsal Çerçeve",
@@ -2126,7 +2128,7 @@
         "description": "Danışmanlık yaklaşımımız; teknik çalışma disiplini, veri ve kanıt düzeni ve uygulanabilir süreç kurgusunu aynı çerçevede birleştirir.",
         "items": [
           "Teknik Çalışma Disiplini",
-          "Veri Ve Kanıt Disiplini",
+          "Veri ve Kanıt Disiplini",
           "Uygulanabilir Süreç Kurgusu",
           "Dijital Destek Yaklaşımı"
         ]
@@ -2171,7 +2173,7 @@
     },
     "founderPerspective": {
       "eyebrow": "YÖNETİM YAKLAŞIMI",
-      "title": "Teknik Çalışma Disiplini, Uygulanabilirlik Ve Güven Odaklı Danışmanlık",
+      "title": "Teknik Çalışma Disiplini, Uygulanabilirlik ve Güven Odaklı Danışmanlık",
       "byline": "Burcu Şimşek — Yönetici Müdür",
       "body": "Burcu Şimşek liderliğinde ANKA, sürdürülebilirlik ve uyum çalışmalarını yalnızca raporlama veya belge hazırlığı olarak ele almaz. Çalışma yaklaşımımız; teknik gereklilikleri sadeleştirmeye, veri ve kanıt yapısını güçlendirmeye ve kurumlar için uygulanabilir iş akışları oluşturmaya odaklanır.",
       "body2": "Her projede amacımız, gereklilikleri daha anlaşılır hale getirmek; süreçleri daha kontrollü yürütülebilir bir yapıya taşımak ve yönetim ekipleri için daha güvenilir karar zemini oluşturmaktır. Bu yaklaşım; sürdürülebilirlik, karbon yönetimi, doğrulama, LCA, EPD ve AB uyum süreçlerinde edinilmiş çok yönlü teknik deneyimle desteklenir.",
@@ -2186,27 +2188,27 @@
       "title": "Nerelerde Destek Sunuyoruz?",
       "intro": "Kurumsal sürdürülebilirlik ve uyum çalışmalarını; regülasyon, veri, kanıt, ürün sürdürülebilirliği ve dijital destek başlıklarında daha yönetilebilir hale getirmeye odaklanıyoruz.",
       "c1": {
-        "title": "ESG Ve Kurumsal Raporlama",
+        "title": "ESG ve Kurumsal Raporlama",
         "body": "CSRD, ESRS, GRI ve ISSB beklentileri için veri, sınır ve kanıt yapısını güçlendiririz."
       },
       "c2": {
-        "title": "Karbon, İklim Ve Dekarbonizasyon",
+        "title": "Karbon, İklim ve Dekarbonizasyon",
         "body": "Sera gazı envanteri, CBAM ve azaltım önceliklerini teknik çalışma disipliniyle ele alırız."
       },
       "c3": {
-        "title": "Ürün Sürdürülebilirliği, LCA Ve EPD",
+        "title": "Ürün Sürdürülebilirliği, LCA ve EPD",
         "body": "LCA, EPD ve ürün sürdürülebilirliği çalışmalarında veri ve hesaplama yaklaşımını netleştiririz."
       },
       "c4": {
-        "title": "AB Regülasyonları Ve Tedarik Zinciri Uyumu",
+        "title": "AB Regülasyonları ve Tedarik Zinciri Uyumu",
         "body": "EUDR, CSDDD, PPWR, REACH ve alıcı veri talepleri için izlenebilir uyum yapıları kurarız."
       },
       "c5": {
-        "title": "Sertifikasyon Ve İzlenebilirlik",
+        "title": "Sertifikasyon ve İzlenebilirlik",
         "body": "Sertifikasyon hazırlığı ve pazar beyanları için savunulabilir kanıt ve izlenebilirlik yapısı oluştururuz."
       },
       "c6": {
-        "title": "Dijital Destek Ve Yazılım Çözümleri",
+        "title": "Dijital Destek ve Yazılım Çözümleri",
         "body": "Danışmanlık çalışmalarını veri yönetimi, izlenebilirlik ve uyum akışlarını destekleyen dijital araçlarla güçlendiririz."
       }
     },
@@ -2219,7 +2221,7 @@
         "body": "İhtiyaçları, sınırları, öncelikleri ve çalışma beklentilerini birlikte belirleriz."
       },
       "s2": {
-        "title": "Veri Ve Kanıt Yapısını Kurarız",
+        "title": "Veri ve Kanıt Yapısını Kurarız",
         "body": "Veri kaynaklarını, sorumlulukları, varsayımları ve destekleyici dokümantasyonu düzenleriz."
       },
       "s3": {
@@ -2236,11 +2238,11 @@
       "title": "Yaklaşımımızı Ayıran Unsurlar",
       "intro": "Regülasyon bilgisini, uygulama disiplini ve kurumsal gerçeklikle birleştiren bir çalışma modeli benimsiyoruz.",
       "c1": {
-        "title": "Regülasyon Ve Saha Gerçeğini Birlikte Ele Alma",
+        "title": "Regülasyon ve Saha Gerçeğini Birlikte Ele Alma",
         "body": "AB beklentilerini üretici, tedarikçi ve ihracatçı firmaların uygulama gerçekliğiyle birlikte değerlendiririz."
       },
       "c2": {
-        "title": "Veri Ve Kanıt Disiplinine Odaklanma",
+        "title": "Veri ve Kanıt Disiplinine Odaklanma",
         "body": "Raporlama, hesaplama ve uyum çalışmalarını izlenebilir veri ve destekleyici kanıt yapısıyla güçlendiririz."
       },
       "c3": {
@@ -2307,7 +2309,7 @@
       "item2Description": "Sorumluluk, kontrol noktaları ve kanıt mantığıyla sistemi kurar; çalışmayı ekiplerin sürdürebileceği iş akışlarına bağlarız.",
       "item3Title": "Teknik içeriği karar diline taşırız",
       "item3Description": "Karbon, ürün kanıtı ve ürün verisi gibi teknik başlıkları; karar, aksiyon ve raporlama ihtiyaçlarına bağlarız.",
-      "item4Title": "Süreç disiplinini gerekli olduğunda dijital olarak güçlendiririz",
+      "item4Title": "Gerektiğinde yazılım ile süreç disiplinini destekleriz",
       "item4Description": "Veri toplama, izleme ve görünürlüğü; uygun olduğunda yazılım destekli iş akışlarıyla daha yönetilebilir hale getiririz."
     },
     "why": {
@@ -2319,15 +2321,15 @@
       "c2Text": "Beyanları “iddia” olmaktan çıkarır; kanıt zinciri, sorumluluk ve kontrol mantığıyla savunulabilir hale getiririz.",
       "c3Title": "İşletilebilir çalışma modeli",
       "c3Text": "Sahiplik, takvim, kontrol noktaları ve ölçülebilir ilerleme ile tekrarlanabilir bir uygulama ritmi kurarız.",
-      "c4Title": "Danışmanlık ve dijital disiplin bir arada",
-      "c4Text": "Gerektiğinde yazılım destekli iş akışlarıyla veri toplama, izleme ve görünürlüğü güçlendirir; uygulamayı sürdürülebilir kılarız."
+      "c4Title": "Danışmanlık ve dijital destek birlikte",
+      "c4Text": "Uygun olduğunda yazılım destekli iş akışlarıyla veri toplama, izleme ve görünürlüğü daha yönetilebilir kılarız."
     },
     "consultingDigital": {
-      "title": "Danışmanlık uzmanlığı, dijital disiplinle güçlenir",
-      "description": "Dijital araçlar ANKA için ayrı bir vitrin değil; veri toplama, izleme, süreç görünürlüğü ve tekrar edilebilir uygulama yapısını güçlendiren bir uygulama katmanıdır. Değer ürettiği noktada devreye girer, süreci daha yönetilebilir hale getirir."
+      "title": "Gerektiğinde dijital araçlarla desteklenen danışmanlık",
+      "description": "ANKA için dijital araçlar ayrı bir vitrin değildir; net katkı gördüğümüz yerlerde veri toplama, izleme ve tekrarlanabilir uygulama için kullanılır."
     },
     "finalCta": {
-      "title": "Sürdürülebilirlik Ve Uyum Gündeminizi Birlikte Netleştirelim",
+      "title": "Sürdürülebilirlik ve Uyum Gündeminizi Birlikte Netleştirelim",
       "description": "Kuruluşunuzun öncelikli regülasyon başlıklarını, veri ve kanıt ihtiyaçlarını ve teknik çalışma kapsamını birlikte ele alalım.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin"
@@ -2340,8 +2342,8 @@
     },
     "hero": {
       "eyebrow": "Çözüm Ortaklarımız",
-      "title": "Sürdürülebilirlik, Doğrulama Ve Dijital Ürün Verisi Ekosistemimizi Güçlendiren İş Birlikleri",
-      "description": "ANKA, sürdürülebilirlik ve uyum çalışmalarında farklı uzmanlık alanlarını bir araya getiren iş birlikleriyle kurumlara daha bütüncül bir destek yapısı sunar. Çözüm ortaklarımız; doğrulama, belgelendirme, dijital ürün verisi, izlenebilirlik, ürün pasaportu ve pazar güveni başlıklarında danışmanlık çalışmalarımızı tamamlayan uzmanlık alanları sağlar.",
+      "title": "Doğrulama, uyum ve dijital ürün verisi için seçili iş birlikleri",
+      "description": "ANKA, sürdürülebilirlik ve uyum projelerinde gerektiğinde tamamlayıcı uzmanlık sağlayan çözüm ortaklarıyla çalışır. İş birlikleri; doğrulama, belgelendirme, dijital ürün verisi, izlenebilirlik ve ürün pasaportu başlıklarında danışmanlığı net bir kapsamla tamamlar.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin",
       "panel": {
@@ -2350,15 +2352,15 @@
         "description": "Çözüm ortaklarımızla amaç, kurumların sürdürülebilirlik, uyum, doğrulama ve dijital ürün verisi ihtiyaçlarını daha koordineli ve uygulanabilir bir yapıda ele almaktır.",
         "items": [
           "Tamamlayıcı Uzmanlık",
-          "Doğrulama Ve Güven",
+          "Doğrulama ve Güven",
           "Dijital Ürün Verisi",
           "Pazar Hazırlığı"
         ]
       }
     },
     "ecosystem": {
-      "eyebrow": "Partner Ekosistemi",
-      "title": "Doğrulama ve Dijital Ürün Verisinde Tamamlayıcı Uzmanlıklar",
+      "eyebrow": "Çözüm ortakları",
+      "title": "Doğrulama ve dijital ürün verisinde tamamlayıcı uzmanlıklar",
       "description": "Her proje aynı uzmanlık bileşenlerini gerektirmez. Uygun kapsamlarda çözüm ortaklarımızın doğrulama, belgelendirme ve dijital ürün verisi yetkinliklerini, ANKA danışmanlık modeliyle aynı çizgide ve ölçülebilir bir çerçevede devreye alırız."
     },
     "partners": {
@@ -2366,8 +2368,8 @@
         "name": "Meva Global Certification Services B.V.",
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
-        "category": "Doğrulama, Belgelendirme Ve Uygunluk Değerlendirme Perspektifi",
-        "description": "Meva Global Certification Services B.V., doğrulama, belgelendirme ve uygunluk değerlendirme alanındaki uzmanlığıyla sürdürülebilirlik, karbon, ürün beyanı ve pazar güveni çalışmalarında tamamlayıcı bir uzmanlık perspektifi sunar. ANKA’nın danışmanlık yaklaşımıyla birlikte ele alındığında, kurumların teknik hazırlık, kanıt düzeni ve doğrulama süreçlerine daha sistemli hazırlanmasına katkı sağlar.",
+        "category": "Doğrulama, Belgelendirme ve Uygunluk Değerlendirme Perspektifi",
+        "description": "Meva Global Certification Services B.V., doğrulama, belgelendirme ve uygunluk değerlendirme perspektifiyle teknik hazırlık ve kanıt dosyası çalışmalarında tamamlayıcı uzmanlık sağlar. ANKA projelerinde bu yetkinlik, özellikle doğrulama hazırlığı, belge düzeni ve pazar güveni gerektiren çalışmalarda proje kapsamına göre konumlandırılır.",
         "focus": [
           "Doğrulama ve belgelendirme perspektifi",
           "Kanıt dosyası ve teknik hazırlık yaklaşımı",
@@ -2380,8 +2382,8 @@
         "name": "Beyond Barcode",
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
-        "category": "Dijital Ürün Pasaportu, Ürün Verisi Ve Değer Zinciri Uyumu",
-        "description": "Beyond Barcode, Dijital Ürün Pasaportu odaklı platform yaklaşımıyla karmaşık değer zincirlerinde ürün verisinin yönetilmesini, uyumlu ürün verilerinin ilgili otoritelere sunulmasını ve değişen AB regülasyonlarına ağır IT maliyetleri veya operasyonel kesinti yaratmadan uyum sağlanmasını destekleyen tamamlayıcı bir teknoloji perspektifi sunar. ANKA’nın ürün sürdürülebilirliği, DPP hazırlığı ve tedarik zinciri uyumu çalışmalarında dijital ürün verisi ve izlenebilirlik katmanını güçlendiren bir çözüm ortağı olarak konumlandırılır.",
+        "category": "Dijital Ürün Pasaportu, Ürün Verisi ve Değer Zinciri Uyumu",
+        "description": "Beyond Barcode, Dijital Ürün Pasaportu ve ürün verisi yönetimi alanında tamamlayıcı teknoloji perspektifi sunar. Karmaşık değer zincirlerinde ürün verisinin düzenlenmesi, paylaşılması ve AB gerekliliklerine uygun şekilde yönetilmesi gereken projelerde ANKA’nın danışmanlık yaklaşımını dijital ürün verisi altyapısıyla destekler.",
         "focus": [
           "Dijital Ürün Pasaportu veri yapısı",
           "Karmaşık değer zincirlerinde ürün veri yönetimi",
@@ -2405,7 +2407,7 @@
         "body": "Danışmanlık, doğrulama, dijital ürün verisi veya teknik destek ihtiyacını doğru çözüm ortağıyla eşleştiririz."
       },
       "s3": {
-        "title": "Rol Ve Sorumlulukları Ayırırız",
+        "title": "Rol ve Sorumlulukları Ayırırız",
         "body": "Danışmanlık, teknik hazırlık, doğrulama ve dijital destek rollerini açık şekilde konumlandırırız."
       },
       "s4": {
@@ -2427,7 +2429,7 @@
     },
     "hero": {
       "eyebrow": "İletişim",
-      "title": "Sürdürülebilirlik, Uyum Ve Dijital Çalışma İhtiyaçlarınızı Birlikte Netleştirelim",
+      "title": "Sürdürülebilirlik, Uyum ve Dijital Çalışma İhtiyaçlarınızı Birlikte Netleştirelim",
       "description": "Kurumsal önceliklerinizi, regülasyon gündeminizi ve ihtiyaç duyduğunuz teknik çalışma kapsamını birlikte değerlendirerek sizin için en doğru başlangıç çerçevesini oluşturalım. İster sürdürülebilirlik raporlaması, karbon ve uyum süreçleri, ister ürün verisi, dijital araçlar veya sektöre özel gereklilikler olsun; ihtiyacınızı netleştirip en uygun çalışma yapısını birlikte belirleyebiliriz.",
       "primaryCta": "Mesaj Gönderin",
       "secondaryCta": "Görüşme Planlayın",
@@ -2437,7 +2439,7 @@
       "emailLabel": "E-posta",
       "linkedinLabel": "LinkedIn",
       "officesCardEyebrow": "Ofislerimiz",
-      "officesBlock": "Hollanda Merkezi\nNewtonlaan 115\n3584 BH Utrecht, Hollanda\n\nTürkiye Ofisi\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / İstanbul / Türkiye\n\nTeknopark Şubesi\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / İstanbul / Türkiye",
+      "officesBlock": "Hollanda Merkezi\nNewtonlaan 115\n3584 BH Utrecht, Hollanda\n\nTürkiye Ofisi\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / İstanbul / Türkiye\n\nDijital Çözüm Merkezi\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / İstanbul / Türkiye",
       "meetingMailtoSubject": "Görüşme Talebi - ANKA Sustainability"
     },
     "options": {
@@ -2446,9 +2448,9 @@
       "sectionDescription": "Talebinizin niteliğine göre doğru çalışma çerçevesini daha hızlı netleştirebiliriz.",
       "opt1Title": "Genel İş Birliği Talepleri",
       "opt1Description": "Hizmet alanlarımız, çalışma modelimiz ve olası iş birliği kapsamı hakkında kısa bir değerlendirme yapabiliriz.",
-      "opt2Title": "Danışmanlık Ve Proje Görüşmeleri",
+      "opt2Title": "Danışmanlık ve Proje Görüşmeleri",
       "opt2Description": "Kapsam, öncelik, veri ihtiyacı ve regülasyon gündeminize göre başlangıç çerçevesini birlikte netleştirebiliriz.",
-      "opt3Title": "Yazılım Ve Demo Talepleri",
+      "opt3Title": "Yazılım ve Demo Talepleri",
       "opt3Description": "Dijital çözümlerimizin kullanım senaryolarını, demo ihtiyacınızı ve uygun ürün kurgusunu birlikte değerlendirebiliriz."
     },
     "form": {
@@ -2468,8 +2470,8 @@
       "placeholderInterest": "Bir alan seçin",
       "placeholderMessage": "Kısaca ihtiyacınızı, mevcut durumunuzu veya görüşmek istediğiniz konuyu yazabilirsiniz.",
       "interestOpt1": "Genel İş Birliği",
-      "interestOpt2": "Danışmanlık Ve Proje Görüşmesi",
-      "interestOpt3": "Yazılım Ve Demo Talebi",
+      "interestOpt2": "Danışmanlık ve Proje Görüşmesi",
+      "interestOpt3": "Yazılım ve Demo Talebi",
       "interestOpt4": "Çözüm Ortaklığı",
       "interestOpt5": "Diğer",
       "submitButton": "Mesaj Gönderin",
@@ -2516,7 +2518,7 @@
     },
     "hero": {
       "eyebrow": "Sektörel Uzmanlık",
-      "title": "Her Sektör İçin Doğru Veri, Uyum Ve Pazar Hazırlığı",
+      "title": "Her Sektör İçin Doğru Veri, Uyum ve Pazar Hazırlığı",
       "description": "ANKA, sektörünüzün ürün yapısını, tedarik zincirini, veri erişilebilirliğini ve hedef pazar beklentilerini birlikte değerlendirir. Sürdürülebilirlik, karbon, ürün çevresel performansı ve AB uyum çalışmalarını standart bir şablonla değil; sektörünüzün operasyonel gerçekliğine uygun bir çalışma kurgusuyla ele alır.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Sektör Odaklarını İnceleyin",
@@ -2526,90 +2528,90 @@
         "description": "Regülasyon gerekliliklerini; ürün, süreç, tedarik zinciri ve pazar beklentileriyle aynı çalışma çerçevesinde değerlendiririz.",
         "items": [
           "Regülasyon Gereklilikleri",
-          "Ürün Ve Süreç Verisi",
+          "Ürün ve Süreç Verisi",
           "Tedarik Zinciri Yapısı",
-          "Pazar Ve Alıcı Beklentileri"
+          "Pazar ve Alıcı Beklentileri"
         ]
       }
     },
     "grid": {
       "eyebrow": "Sektör Odaklarımız",
-      "title": "Sektörel Gerçekliği Veri Ve Uyum Kurgusuna Dönüştürüyoruz",
+      "title": "Sektörel Gerçekliği Veri ve Uyum Kurgusuna Dönüştürüyoruz",
       "intro": "Her sektörde öncelikler farklıdır. Bu nedenle çalışmalarımızda yalnızca genel regülasyon başlıklarına değil; ürün yapısına, malzeme içeriğine, veri kalitesine, tedarik zinciri görünürlüğüne ve hedef pazar beklentilerine birlikte odaklanırız.",
       "cardCta": "Sektörü İnceleyin",
       "sectors": {
         "textileFashion": {
-          "title": "Tekstil Ve Moda",
+          "title": "Tekstil ve Moda",
           "description": "Ürün verisi, tedarik zinciri görünürlüğü, DPP hazırlığı ve sürdürülebilirlik beyanları için daha izlenebilir bir çalışma yapısı oluştururuz.",
-          "focus1": "DPP Ve Ürün Veri Yapıları",
+          "focus1": "DPP ve Ürün Veri Yapıları",
           "focus2": "Tedarik Zinciri Görünürlüğü",
           "focus3": "Ürün Sürdürülebilirliği Çalışmaları"
         },
         "agricultureFood": {
-          "title": "Tarım Ve Gıda",
+          "title": "Tarım ve Gıda",
           "description": "Menşe, izlenebilirlik, tedarikçi verisi ve çevresel performans başlıklarında daha güçlü veri ve kanıt disiplini kurulmasına destek oluruz.",
-          "focus1": "EUDR Ve Tedarik Zinciri Yaklaşımı",
-          "focus2": "Rejeneratif Tarım Ve Toprak Verisi",
+          "focus1": "EUDR ve Tedarik Zinciri Yaklaşımı",
+          "focus2": "Rejeneratif Tarım ve Toprak Verisi",
           "focus3": "Sürdürülebilir Tedarik Yapıları"
         },
         "packagingMaterials": {
-          "title": "Ambalaj, Plastik Ve Malzeme",
+          "title": "Ambalaj, Plastik ve Malzeme",
           "description": "PPWR, ürün uyumu, malzeme verisi, geri dönüştürülebilirlik ve pazar bazlı beyan gerekliliklerini yönetilebilir bir veri yapısına dönüştürürüz.",
-          "focus1": "PPWR Ve Ürün Uyumu",
+          "focus1": "PPWR ve Ürün Uyumu",
           "focus2": "LCA / EPD Çalışmaları",
-          "focus3": "Döngüsellik Ve Veri Gereklilikleri"
+          "focus3": "Döngüsellik ve Veri Gereklilikleri"
         },
         "constructionMaterials": {
           "title": "Yapı Malzemeleri",
           "description": "LCA, EPD, ürün karbon ayak izi ve teknik beyan çalışmalarını pazar erişimi ve güvenilir ürün verisi odağıyla yapılandırırız.",
-          "focus1": "LCA Ve EPD",
+          "focus1": "LCA ve EPD",
           "focus2": "Ürün Karbon Ayak İzi",
-          "focus3": "Yapı Ürünleri Veri Ve Uyum Yapıları"
+          "focus3": "Yapı Ürünleri Veri ve Uyum Yapıları"
         },
         "metalsIndustrial": {
-          "title": "Metal, Alüminyum Ve Endüstriyel Üretim",
+          "title": "Metal, Alüminyum ve Endüstriyel Üretim",
           "description": "CBAM, karbon verisi, ürün bazlı hesaplama ve tedarik zinciri kanıt yapısını daha izlenebilir ve raporlanabilir hale getiririz.",
-          "focus1": "CBAM Ve Gömülü Emisyonlar",
+          "focus1": "CBAM ve Gömülü Emisyonlar",
           "focus2": "Karbon Veri Disiplini",
-          "focus3": "Ürün Ve Tesis Bazlı Hesaplama"
+          "focus3": "Ürün ve Tesis Bazlı Hesaplama"
         },
         "automotiveMobility": {
-          "title": "Otomotiv Ve Mobilite",
+          "title": "Otomotiv ve Mobilite",
           "description": "Tedarikçi verisi, malzeme uyumu, ürün karbon ayak izi ve alıcı beklentileri için daha kontrollü bir uyum ve veri yönetimi yapısı kurarız.",
           "focus1": "Tedarikçi Veri Talepleri",
           "focus2": "Ürün Karbon Ayak İzi",
           "focus3": "AB Pazar Uyum Beklentileri"
         },
         "chemicals": {
-          "title": "Kimya Ve Endüstriyel Kimyasallar",
+          "title": "Kimya ve Endüstriyel Kimyasallar",
           "description": "Ürün uygunluğu, teknik dokümantasyon, tedarikçi bilgisi ve beyan yapısını daha savunulabilir bir çalışma düzenine taşırız.",
-          "focus1": "Ürün Uygunluğu Ve Veri Yapısı",
-          "focus2": "REACH Ve Tedarikçi Bilgisi",
+          "focus1": "Ürün Uygunluğu ve Veri Yapısı",
+          "focus2": "REACH ve Tedarikçi Bilgisi",
           "focus3": "Teknik Dokümantasyon"
         },
         "tourismServices": {
-          "title": "Turizm Ve Hizmetler",
+          "title": "Turizm ve Hizmetler",
           "description": "Karbon, enerji, su, atık, tedarik ve pazar görünürlüğü başlıklarında daha düzenli veri toplama ve raporlama hazırlığı oluştururuz.",
-          "focus1": "Karbon Ve Çevresel Performans",
+          "focus1": "Karbon ve Çevresel Performans",
           "focus2": "Sürdürülebilir Turizm Hazırlığı",
-          "focus3": "Veri Toplama Ve Raporlama Yapısı"
+          "focus3": "Veri Toplama ve Raporlama Yapısı"
         }
       }
     },
     "process": {
       "eyebrow": "Çalışma Yaklaşımımız",
-      "title": "Her Sektör İçin Doğru Veri, Kanıt Ve Uyum Kurgusunu Oluşturuyoruz",
+      "title": "Her Sektör İçin Doğru Veri, Kanıt ve Uyum Kurgusunu Oluşturuyoruz",
       "intro": "Sektörel danışmanlık yaklaşımımız, genel regülasyon bilgisini şablona indirgemek yerine; ürün yapısı, veri kaynakları, tedarik zinciri ilişkileri ve hedef pazar gerekliliklerine uygun bir çalışma kapsamı oluşturmayı hedefler.",
       "s1": {
         "title": "Sektörel Öncelikleri Netleştiririz",
         "body": "Regülasyon, pazar ve müşteri beklentilerini sektör özelinde değerlendiririz."
       },
       "s2": {
-        "title": "Veri Yapısını Haritalandırırız",
+        "title": "Veri Kaynaklarını Belgeleriz",
         "body": "Ürün, tesis, tedarikçi, malzeme ve süreç verilerinin nereden geldiğini netleştiririz."
       },
       "s3": {
-        "title": "Uyum Ve Kanıt Kurgusunu Oluştururuz",
+        "title": "Uyum ve Kanıt Kurgusunu Oluştururuz",
         "body": "Gerekli hesaplama, beyan, dokümantasyon ve kanıt akışını yapılandırırız."
       },
       "s4": {
@@ -2622,15 +2624,15 @@
       "title": "Sektörden Bağımsız Olarak Güçlendirdiğimiz Temel Yapılar",
       "intro": "Sektörler farklı olsa da başarılı sürdürülebilirlik ve uyum çalışmalarında ortak bir ihtiyaç bulunur: doğru veri, izlenebilir kanıt, teknik dosya disiplini ve yönetilebilir süreç yapısı.",
       "c1": {
-        "title": "Veri Ve Kanıt Disiplini",
+        "title": "Veri ve Kanıt Disiplini",
         "description": "Raporlama ve beyanları taşıyan, izlenebilir bir veri ve kanıt düzeni kurarız."
       },
       "c2": {
-        "title": "Ürün Ve Süreç Verisi",
+        "title": "Ürün ve Süreç Verisi",
         "description": "Ürün, tesis, malzeme ve tedarikçi verisinin rolünü ve akışını netleştiririz."
       },
       "c3": {
-        "title": "Regülasyon Ve Pazar Okuması",
+        "title": "Regülasyon ve Pazar Okuması",
         "description": "AB gündemi ile alıcı beklentilerini sektör pratiğiyle birlikte okuruz."
       },
       "c4": {
@@ -2639,7 +2641,7 @@
       }
     },
     "finalCta": {
-      "title": "Sektörünüz İçin Doğru Uyum Ve Veri Kapsamını Birlikte Netleştirelim",
+      "title": "Sektörünüz İçin Doğru Uyum ve Veri Kapsamını Birlikte Netleştirelim",
       "description": "Faaliyet alanınızı, ürün yapınızı, hedef pazarınızı ve veri ihtiyaçlarınızı birlikte değerlendirerek uygun çalışma kapsamını belirleyelim.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin"
@@ -2652,17 +2654,17 @@
     },
     "hero": {
       "eyebrow": "Kaynaklar",
-      "title": "Regülasyon, Karbon Ve Ürün Uyumu İçin Teknik Kaynaklar",
+      "title": "Regülasyon, Karbon ve Ürün Uyumu İçin Pratik Rehberler",
       "description": "ANKA kaynak alanı; sürdürülebilirlik raporlaması, karbon yönetimi, ürün verisi, tedarik zinciri uyumu ve dijital çalışma yapıları hakkında daha net, uygulanabilir ve teknik bakış sunan içerikleri bir araya getirir.",
       "primaryCta": "İçerikleri İnceleyin",
       "secondaryCta": "Hizmetleri İnceleyin",
       "panel": {
         "eyebrow": "BİLGİ MERKEZİ",
-        "title": "Bilgi Merkezi Çerçevesi",
+        "title": "Bilgi merkezi yaklaşımı",
         "description": "Kaynaklarımız; regülasyon beklentilerini, veri ve kanıt yapısını, ürün uyumu başlıklarını ve dijital çalışma disiplinini daha anlaşılır hale getirmek için hazırlanır.",
         "items": [
           "Regülasyon Rehberleri",
-          "Karbon Ve İklim Notları",
+          "Karbon ve İklim Notları",
           "Ürün Uyumu İçerikleri",
           "Dijital Çalışma Kaynakları"
         ]
@@ -2675,18 +2677,18 @@
     },
     "categories": {
       "eyebrow": "Kaynak Kategorileri",
-      "title": "Bilgiyi Regülasyon, Veri Ve Uygulama Başlıklarına Göre Düzenliyoruz",
+      "title": "Bilgiyi Regülasyon, Veri ve Uygulama Başlıklarına Göre Düzenliyoruz",
       "text": "Kaynak yapısı; yalnızca içerik paylaşmak için değil, kurumların hangi başlıkta nasıl bir hazırlık yapması gerektiğini daha kolay görmesi için kurgulanır.",
       "c1": {
         "title": "Regülasyon Hazırlığı",
         "description": "AB düzenlemeleri, raporlama beklentileri ve uyum gündemleri için açıklayıcı içerikler."
       },
       "c2": {
-        "title": "Karbon Ve İklim",
+        "title": "Karbon ve İklim",
         "description": "Sera gazı envanteri, CBAM, ürün karbon ayak izi ve azaltım çalışmaları için teknik notlar."
       },
       "c3": {
-        "title": "Ürün Ve Tedarik Zinciri",
+        "title": "Ürün ve Tedarik Zinciri",
         "description": "Ürün verisi, izlenebilirlik, tedarikçi bilgisi ve pazar beyanları için kaynaklar."
       },
       "c4": {
@@ -2716,7 +2718,7 @@
       }
     },
     "finalCta": {
-      "title": "Regülasyon Ve Uyum Başlıklarını Birlikte Netleştirelim",
+      "title": "Regülasyon ve Uyum Başlıklarını Birlikte Netleştirelim",
       "description": "Kaynaklarımızdan yola çıkarak kurumunuzun öncelikli regülasyon gündemini, veri ihtiyaçlarını ve teknik çalışma kapsamını birlikte değerlendirelim.",
       "primaryCta": "Görüşme Planlayın",
       "secondaryCta": "Hizmetleri İnceleyin"
@@ -2739,14 +2741,14 @@
       "items": {
         "csrdMateriality": {
           "category": "Rehber",
-          "title": "CSRD Ve Çift Önemlilik Hazırlığında Nereden Başlanmalı?",
+          "title": "CSRD ve Çift Önemlilik Hazırlığında Nereden Başlanmalı?",
           "description": "Kurumsal raporlama sürecine daha sağlam, izlenebilir ve yönetilebilir bir başlangıç yapmak için temel hazırlık adımları.",
           "cta": "İçeriği İnceleyin",
           "body": "CSRD hazırlığı, yalnızca rapor yazmaktan ibaret değildir. Kurumun hangi konularda etkisi olduğu, hangi risklere maruz kaldığı ve bunların hangi veriyle savunulacağı netleşmeden süreç yönetilemez.\n\nBaşlangıç çerçevesi:\n- Kapsamı ve beklentileri netleştirin (ESRS, paydaş, sınırlar)\n- Çifte önemliliği bir “liste” değil, karar mantığı olarak kurgulayın\n- Veri sahipliğini ve kanıt akışını erken tasarlayın\n\nUygulamada en kritik hata, analizi ayrı; veri ve dokümantasyonu ayrı yürütmektir. ANKA yaklaşımı, önemlilik mantığını veri yapısı ve uygulama modeliyle birlikte kurgular."
         },
         "cbamCost": {
           "category": "Karbon",
-          "title": "CBAM İçin Veri Ve Mali Etki Hazırlığı Nasıl Yapılandırılmalı?",
+          "title": "CBAM İçin Veri ve Mali Etki Hazırlığı Nasıl Yapılandırılmalı?",
           "description": "Sadece raporlama değil; mali etki, veri kalitesi ve tedarikçi bilgisi açısından daha kontrollü bir hazırlık çerçevesi.",
           "cta": "İçeriği İnceleyin",
           "body": "CBAM hazırlığı iki katmanlıdır: (1) gömülü emisyon hesabı için veri ve metodoloji disiplini, (2) mali etkiyi yönetim diline taşıyan görünürlük.\n\nSağlam bir yapı için:\n- Ürün/tesis kırılımını ve metodoloji seçimlerini standardize edin\n- Tedarikçi verisini format, kalite ve izlenebilirlik açısından yönetin\n- Varsayılan değer kullanımını sınırlarıyla şeffaflaştırın\n- Emisyon çıktısını mali etkiyle ilişkilendiren senaryo mantığı kurun\n\nAmaç, raporlama döneminde “veri toplama telaşı” değil; kontrollü ve tekrarlanabilir bir hesaplama ve karar destek akışı oluşturmaktır."
@@ -2760,7 +2762,7 @@
         },
         "ppwrProductData": {
           "category": "Ambalaj",
-          "title": "PPWR İle Ürün Ve Ambalaj Verisi Nasıl Değişiyor?",
+          "title": "PPWR İle Ürün ve Ambalaj Verisi Nasıl Değişiyor?",
           "description": "Ambalaj ve ürün bilgisinin Avrupa pazarında neden daha görünür, ölçülebilir ve kanıta dayalı hale geldiğine dair kısa değerlendirme.",
           "cta": "İçeriği İnceleyin",
           "body": "PPWR ile birlikte ambalaj konusu yalnızca tasarım veya maliyet değil; veri, beyan ve uyum yükümlülüğü haline gelir.\n\nPratik etkiler:\n- Ambalaj bileşimi ve malzeme verisinin ürünle ilişkilendirilmesi\n- Uyum gerekliliklerinin veri alanlarına çevrilmesi\n- Ücret/fee mantığının görünür ve izlenebilir olması\n\nBu nedenle kurumların ambalaj verisini envanter, uyum ve karar destek akışıyla birlikte yönetebileceği bir yapı kurması gerekir."

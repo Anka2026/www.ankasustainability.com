@@ -75,7 +75,7 @@
     "navAria": "Primary pages",
     "legalNavAria": "Legal information",
     "officesTitle": "OFFICES",
-    "officesAddressBlock": "Türkiye Office\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nTechnopark Branch\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
+    "officesAddressBlock": "Türkiye Office\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nDigital Solutions Centre\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
     "officeBlocks": [
       {
         "title": "Türkiye Office",
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "title": "Technopark Branch",
+        "title": "Digital Solutions Centre",
         "lines": [
           "Üniversite Mah. / Sarıgül Sk. No: 35/1",
           "Avcılar / Istanbul / Türkiye"
@@ -171,7 +171,7 @@
       "title": "ANKA’s Software Portfolio And Digital Workspaces",
       "description": "A focused suite of ANKA software brings structure to data, compliance, and traceability so advisory work stays defensible, repeatable, and easy to run alongside your internal teams.",
       "cta": "Explore Our Software Solutions",
-      "portfolioTitle": "Digital Layer That Strengthens The Work",
+      "portfolioTitle": "Digital support aligned with advisory delivery",
       "portfolioSupport": "Five core solutions aligned to today’s European compliance and data realities, delivered in the same cadence as ANKA’s advisory work.",
       "items": [
         "CBAM Calculation Engine",
@@ -199,8 +199,8 @@
         "body": "We connect European buyer expectations with the operational realities of suppliers and manufacturers."
       },
       "c4": {
-        "title": "Consultancy Reinforced By Digital Tools",
-        "body": "We strengthen advisory work with digital support for data, calculations, traceability and compliance."
+        "title": "Advisory with practical digital support",
+        "body": "Where it helps, we align advisory with digital tools for data, calculations, traceability, and compliance workflows."
       }
     },
     "insights": {
@@ -233,13 +233,13 @@
           "Regulatory and market expectations",
           "Data and evidence management",
           "Technical file and process design",
-          "Digital support layer"
+          "Digital workflow support"
         ]
       }
     },
     "overview": {
       "eyebrow": "Our service approach",
-      "title": "We turn regulatory expectations into manageable operating systems",
+      "title": "We translate regulatory expectations into a regulation-led advisory structure",
       "text": "Our six core advisory areas are designed to take sustainability, carbon, product, and supply chain compliance work beyond documents and surface-level statements, and to embed a traceable, defensible, and controllable way of working inside the organisation.",
       "strip": [
         {
@@ -521,14 +521,14 @@
             "tools": {
               "title": "Supporting Digital Workspace",
               "intro": "Digital support is introduced when it improves control of data collection and evidence organisation.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Data Collection Flow",
                 "Responsibility Tracking",
                 "Evidence Discipline",
                 "Reporting Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Where corporate and product data should be governable for ESRS-style disclosure, the DPP platform helps structure records, traceability, and claim support in one workspace—alongside ANKA’s reporting advisory.",
@@ -721,14 +721,14 @@
             "tools": {
               "title": "Supporting Digital Software",
               "intro": "Digital support is introduced when it improves control, traceability, and workflow discipline.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Data Collection Flow",
                 "Calculation Controls",
                 "Traceability",
                 "Declaration Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "CBAM Calculation Engine",
                 "body": "CBAM Calculation Engine is a structured digital workspace that helps reduce manual calculation load, strengthen data traceability, and bring more control into CBAM reporting workflows. It does not replace expert advisory; it makes calculation and data flows more consistent and controllable.",
@@ -947,14 +947,14 @@
             "tools": {
               "title": "Supporting Digital Workspace",
               "intro": "Digital support is introduced when it improves control of product data and calculation workflows.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Product Data Flow",
                 "Modelling Controls",
                 "Traceability",
                 "EPD/DPP Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "Structured product data, technical records, and traceability aligned to Digital Product Passport expectations—so LCA, EPD, and product-level work stays connected to a passport-ready architecture while ANKA advises the technical file.",
@@ -1173,14 +1173,14 @@
             "tools": {
               "title": "Supporting Digital Workspace",
               "intro": "Digital support is introduced when it improves control of supplier data flows and evidence discipline.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Supplier Data Flow",
                 "Control Points",
                 "Traceability",
                 "Declaration Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "Packaging Compliance Tool",
                 "body": "For packaging composition, market-specific data points, and compliance checks, a governed ANKA workspace helps you track requests, evidence, and decisions next to our EU and supplier compliance advisory.",
@@ -1399,14 +1399,14 @@
             "tools": {
               "title": "Supporting Digital Workspace",
               "intro": "Digital support is introduced when it improves control of stakeholder requests and response workflows.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Request Tracking",
                 "Control Points",
                 "Traceability",
                 "Briefing Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "Digital Product Passport Platform",
                 "body": "When buyers, investors, and internal teams ask for the same data in different formats, a structured product-data workspace supports consistent answers, evidence link-up, and briefing preparation alongside ANKA’s market readiness work.",
@@ -1625,14 +1625,14 @@
             "tools": {
               "title": "Supporting Digital Workspace",
               "intro": "Digital support is introduced when it improves control of evidence and traceability workflows.",
-              "rightTitle": "A Digital Layer That Strengthens Advisory Work",
+              "rightTitle": "Digital support for traceable advisory workflows",
               "capabilityRows": [
                 "Evidence Flow",
                 "Control Points",
                 "Traceability",
                 "Claim Readiness"
               ],
-              "noteShort": "Digital tools do not replace advisory; they reinforce data flow and control discipline as a complementary layer.",
+              "noteShort": "Digital tools do not replace advisory; they help keep data and evidence workflows consistent and traceable.",
               "card": {
                 "title": "Agri-Climate Platform",
                 "body": "For field-based and chain-level evidence, Agri-Climate brings land, activity, and verification preparation into one governed workflow that complements ANKA’s certification and traceability advisory.",
@@ -1753,13 +1753,13 @@
     },
     "hero": {
       "eyebrow": "Software Solutions",
-      "title": "Digital Workflows That Strengthen Sustainability And Compliance Workstreams",
-      "description": "ANKA supports sustainability, compliance, and technical workstreams not only through advisory services, but also through digital workspaces designed for structured data collection, calculations, traceability, and reporting readiness.",
+      "title": "Digital workflows for clearer sustainability and compliance work",
+      "description": "Beyond advisory, ANKA uses digital workspaces for structured data collection, calculations, traceability, and reporting preparation.",
       "primaryCta": "Book A Call",
       "secondaryCta": "View portfolio",
       "panel": {
-        "title": "Structured digital execution",
-        "description": "Practical workspaces that complement advisory: clearer data, stronger traceability, and more manageable outputs.",
+        "title": "Structured digital workflows",
+        "description": "Practical workspaces alongside advisory: clearer data, readable traceability, and manageable outputs.",
         "items": [
           "Data collection",
           "Calculation discipline",
@@ -1771,12 +1771,14 @@
     "portfolio": {
       "title": "Our Software Portfolio",
       "description": "Explore digital solutions shaped by real operational use cases and advisory needs. Each product is designed to make data more structured, processes more traceable, and outputs more manageable.",
-      "viewSolutionCta": "View Solution",
-      "requestDemoCta": "Request Demo",
+      "actions": {
+        "viewSolution": "View Solution",
+        "requestDemo": "Request Demo"
+      },
       "demoMailSubject": "Demo Request - {product}",
       "demoMailBody": "Hello, I would like to request a demo for {product}.",
       "modalClose": "Close",
-      "defaultModalTagline": "A digital workspace that makes advisory work more traceable, controlled, and implementable for client teams.",
+      "defaultModalTagline": "A digital workspace that makes advisory work more traceable and practical for client teams.",
       "modal": {
         "labelValueProposition": "Short value proposition",
         "labelWhatFor": "What It Is Used For",
@@ -1892,9 +1894,9 @@
           "pill": "Compliance",
           "status": "selected_use",
           "title": "CBAM Compliance Console",
-          "summary": "Gives importer teams clearer visibility over CBAM exposure, supplier data intake and line-level calculation readiness.",
-          "modalTagline": "Gives importer teams clearer visibility over CBAM exposure, supplier data intake and line-level calculation readiness.",
-          "modalWhatFor": "Used by importer teams to manage product lines, supplier responses, reference values and CBAM data checks in a more structured compliance preparation workflow.",
+          "summary": "A centralized platform to calculate embedded emissions, manage supplier data, and monitor CBAM exposure across your import portfolio.",
+          "modalTagline": "A centralized platform to calculate embedded emissions, manage supplier data, and monitor CBAM exposure across your import portfolio.",
+          "modalWhatFor": "CBAM Compliance Console helps importers organize CN codes, supplier declarations, embedded emissions, certificate exposure, and reporting workflows in one controlled workspace. The platform is designed to support internal CBAM preparation, supplier follow-up, calculation traceability, and management-level visibility before declaration periods.",
           "modalTeamValue": "Moves supplier data beyond scattered file tracking, standardises calculation workflows, highlights missing data points and strengthens exposure visibility for importer teams.",
           "bullets": [
             "Line-level and batch CBAM calculations",
@@ -1902,8 +1904,8 @@
             "Reference-backed validation logic",
             "Exposure visibility for importer teams"
           ],
-          "screenshotAlt": "",
-          "heroText": "CBAM Compliance Console supports importer teams with line-level and batch calculations, disciplined supplier data intake, reference-backed validation, and clearer exposure visibility.",
+          "screenshotAlt": "CBAM Compliance Console dashboard interface showing emissions, supplier exposure, and CBAM workflow monitoring.",
+          "heroText": "CBAM Compliance Console helps importers organize CN codes, supplier declarations, embedded emissions, certificate exposure, and reporting workflows in one controlled workspace. The platform is designed to support internal CBAM preparation, supplier follow-up, calculation traceability, and management-level visibility before declaration periods.",
           "solves": [
             "Importer teams need consistent CBAM calculation logic across lines and batches.",
             "Supplier evidence and reference checks must stay disciplined as volumes grow.",
@@ -2075,8 +2077,8 @@
     },
     "workflows": {
       "eyebrow": "Execution patterns",
-      "title": "Digital Disciplines That Strengthen Data, Calculation And Reporting Workflows",
-      "description": "Structured digital workflows support data collection, controls, calculations and reporting preparation in a more traceable and manageable way.",
+      "title": "Structured digital support across data, calculations, and reporting",
+      "description": "Structured workflows support data collection, controls, calculations, and reporting preparation in a traceable, manageable way.",
       "c1": "Data collection",
       "c2": "Traceability",
       "c3": "Calculation and scenarios",
@@ -2085,8 +2087,8 @@
       "c6": "Team coordination"
     },
     "consultingSoftware": {
-      "title": "Advisory expertise with a disciplined digital layer",
-      "description": "Digital workspaces strengthen data ownership, controls, and evidence so advisory engagements stay practical, traceable, and easier to run end to end."
+      "title": "Digital support for more traceable advisory workflows",
+      "description": "Digital workspaces clarify ownership, controls, and evidence so advisory work stays practical, traceable, and straightforward to run with your teams."
     },
     "detail": {
       "backToSoftware": "All software",
@@ -2097,7 +2099,7 @@
         "whoItsFor": "Who it is for",
         "outputs": "Outputs"
       },
-      "whoSupportingNote": "Digital infrastructure is a complementary layer. It aims to make data and evidence workflows more controlled—not to replace expert advisory.",
+      "whoSupportingNote": "Digital infrastructure complements advisory: it keeps data and evidence workflows manageable—not a substitute for expert judgement.",
       "finalCta": {
         "title": "Let’s align the digital scope",
         "description": "Let’s review your use-case, data reality and the right access model."
@@ -2338,12 +2340,12 @@
       "c2Text": "We turn claims into proof—linking evidence chains, accountability, and control logic so disclosures remain credible.",
       "c3Title": "A model teams can actually run",
       "c3Text": "We create repeatable cadence with ownership, timelines, review points, and measurable progress—built for real operations.",
-      "c4Title": "Consultancy and digital discipline together",
-      "c4Text": "Where appropriate, we strengthen data collection, tracking, and visibility with software-enabled workflows—so implementation becomes sustainable."
+      "c4Title": "Consultancy and digital support together",
+      "c4Text": "Where appropriate, we use software-enabled workflows to make data collection, tracking, and visibility more manageable."
     },
     "consultingDigital": {
-      "title": "Consultancy expertise, reinforced with digital discipline",
-      "description": "For ANKA, digital tools are not a separate showcase—they are an execution layer that makes compliance work traceable, repeatable, and audit-ready. We use them where they materially improve outcomes."
+      "title": "Consultancy with practical digital support where it helps",
+      "description": "Digital tools are not a separate showcase for ANKA—they support traceable, repeatable compliance work when they clearly improve outcomes."
     },
     "finalCta": {
       "title": "Let’s define your sustainability and compliance agenda together",
@@ -2359,8 +2361,8 @@
     },
     "hero": {
       "eyebrow": "Partners",
-      "title": "Collaborations Strengthening Our Sustainability, Verification And Digital Product Data Ecosystem",
-      "description": "ANKA works with selected partners to bring complementary expertise into sustainability and compliance engagements. Our partner ecosystem supports advisory work across verification, certification readiness, digital product data, traceability, product passports and market confidence.",
+      "title": "Partnerships for verification, compliance, and digital product data",
+      "description": "ANKA works with selected partners when projects need complementary expertise in sustainability and compliance. Collaborations cover verification, certification readiness, digital product data, traceability, product passports, and market-facing assurance—always scoped and aligned to ANKA’s advisory ownership.",
       "primaryCta": "Book A Call",
       "secondaryCta": "Explore Services",
       "panel": {
@@ -2386,7 +2388,7 @@
         "logoSrc": "/partners/meva-global-logo.png",
         "initials": "MG",
         "category": "Verification, Certification And Conformity Assessment Perspective",
-        "description": "Meva Global Certification Services B.V. brings complementary expertise in verification, certification and conformity assessment. Within sustainability, carbon, product declaration and market confidence projects, this perspective helps organisations prepare technical documentation, evidence structures and verification-related workflows in a more systematic way.",
+        "description": "Meva Global Certification Services B.V. provides complementary expertise in verification, certification and conformity assessment for technical preparation and evidence files. On ANKA assignments, this capability is scoped to the project—especially where verification readiness, documentation structure and market confidence matter.",
         "focus": [
           "Verification and certification perspective",
           "Evidence file and technical preparation approach",
@@ -2400,7 +2402,7 @@
         "logoSrc": "/partners/beyond-barcode-logo.png",
         "initials": "BB",
         "category": "Digital Product Passport, Product Data And Value Chain Compliance",
-        "description": "Beyond Barcode provides a Digital Product Passport platform designed to simplify compliance across complex value chains. The platform helps organisations manage product data, submit compliant product information to authorities and stay aligned with evolving EU regulations without heavy IT costs or operational disruption. Within ANKA’s product sustainability, DPP readiness and supply chain compliance work, Beyond Barcode strengthens the digital product data and traceability layer.",
+        "description": "Beyond Barcode brings a complementary technology perspective on Digital Product Passports and product data management. For projects that require product data to be structured, shared and governed in line with EU requirements across complex value chains, it supports ANKA’s advisory approach with digital product data infrastructure.",
         "focus": [
           "Digital Product Passport data structure",
           "Product data management across complex value chains",
@@ -2456,7 +2458,7 @@
       "emailLabel": "Email",
       "linkedinLabel": "LinkedIn",
       "officesCardEyebrow": "Offices",
-      "officesBlock": "Netherlands Base\nNewtonlaan 115\n3584 BH Utrecht, The Netherlands\n\nTürkiye Office\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nTechnopark Branch\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
+      "officesBlock": "Netherlands Base\nNewtonlaan 115\n3584 BH Utrecht, The Netherlands\n\nTürkiye Office\nAtakent Mah. / Mithatpaşa Cad.\nÇağla Plaza No: 116 İç Kapı No: 18\nÜmraniye / Istanbul / Türkiye\n\nDigital Solutions Centre\nÜniversite Mah. / Sarıgül Sk. No: 35/1\nAvcılar / Istanbul / Türkiye",
       "meetingMailtoSubject": "Meeting Request - ANKA Sustainability"
     },
     "options": {

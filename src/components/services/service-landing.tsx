@@ -15,6 +15,6 @@ export function ServiceLanding({ t, categoryId, locale }: Props) {
     return <CarbonClimateBenchmarkLanding t={t} locale={locale} />;
   }
 
-  return <BenchmarkServiceLanding t={t} categoryId={categoryId} />;
+  return <BenchmarkServiceLanding t={t} categoryId={categoryId} locale={locale} />;
 }
 
