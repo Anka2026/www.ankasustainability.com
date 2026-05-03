@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { AppButton } from "@/components/ui/app-button";
@@ -11,6 +12,8 @@ import { routing } from "@/i18n/routing";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { isSoftwarePortfolioSlug, type SoftwarePortfolioSlug } from "@/lib/software-portfolio";
+
+const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/cbam-calculation-engine-dashboard.png";
 
 type PageProps = Readonly<{
   params: Promise<{ locale: string; product: string }>;
@@ -201,6 +204,25 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                     alt={tt("portfolio.products.agri-climate-platform.screenshotAlt")}
                     priority
                   />
+                </div>
+              ) : data.slug === "cbam-calculation-engine" ? (
+                <div className="mt-8 w-full max-w-5xl">
+                  <div className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm sm:p-5">
+                    <div className="flex w-full justify-center">
+                      <Image
+                        src={CBAM_CALCULATION_ENGINE_SCREENSHOT}
+                        alt={tt("portfolio.products.cbam-calculation-engine.screenshotAlt")}
+                        width={1920}
+                        height={1080}
+                        className="h-auto max-h-[min(72vh,44rem)] w-full object-contain"
+                        sizes="(max-width: 1024px) 100vw, 896px"
+                        priority
+                      />
+                    </div>
+                  </div>
+                  <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
+                    {tt("portfolio.products.cbam-calculation-engine.modalVisualCaption")}
+                  </p>
                 </div>
               ) : null}
             </>

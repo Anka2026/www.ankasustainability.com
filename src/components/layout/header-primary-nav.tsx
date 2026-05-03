@@ -26,14 +26,16 @@ import { useTranslations } from "next-intl";
 import * as React from "react";
 
 import { Link, usePathname } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
+import type { AppLocale } from "@/i18n/routing";
+import { getHeroSubServiceTitlesForMenu } from "@/lib/service-sub-services";
 import {
   SERVICES_CATEGORY_ICONS,
   SERVICES_CATEGORY_ORDER,
   type ServicesCategoryId,
 } from "@/lib/services-categories";
+import { serviceRouteSegmentFromId } from "@/lib/services-routing";
 import { cn } from "@/lib/utils";
-
-const SUBTOPIC_KEYS = ["i1", "i2", "i3", "i4"] as const;
 
 /** Primary nav routes — Contact is only the header CTA, not duplicated in the nav list. */
 const NAV_ROUTES = [
@@ -46,7 +48,7 @@ const NAV_ROUTES = [
 ] as const;
 
 const linkClassName = cn(
-  "whitespace-nowrap rounded-md px-1.5 py-1.5 text-[0.8125rem] font-semibold tracking-[0.01em] text-foreground/78 transition-[background-color,color,box-shadow] sm:px-2 sm:py-1.5 lg:px-2.5 lg:text-sm xl:px-2.5 2xl:px-3 2xl:text-[0.875rem]",
+  "whitespace-nowrap rounded-md px-2 py-1.5 text-[0.8125rem] font-semibold tracking-[0.01em] text-foreground/78 transition-[background-color,color,box-shadow] sm:px-2.5 sm:py-1.5 lg:px-3 lg:text-sm xl:px-3.5 2xl:px-4 2xl:text-[0.875rem]",
   "hover:bg-muted/70 hover:text-primary",
   "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface",
 );
@@ -73,57 +75,68 @@ function useNavActive() {
 }
 
 function MegaMenuPanel({
-  tPage,
   tMega,
+  locale,
+  onNavigate,
 }: {
-  tPage: (key: string) => string;
   tMega: (key: string) => string;
+  locale: AppLocale;
+  onNavigate: () => void;
 }) {
   return (
     <div className="w-full px-5 py-5 sm:px-6 sm:py-6">
-      <div className="grid gap-4 lg:grid-cols-3 lg:gap-4">
-          {SERVICES_CATEGORY_ORDER.map((id) => {
-            const Icon = SERVICES_CATEGORY_ICONS[id];
-            return (
-              <div
-                key={id}
-                className={cn(
-                  "group min-w-0 rounded-2xl border border-border/80 bg-surface p-4",
-                  "shadow-[0_16px_46px_-38px_rgba(15,23,42,0.22)] ring-1 ring-inset ring-primary/[0.05]",
-                  "transition-[transform,border-color,box-shadow] duration-200 ease-out",
-                  "hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[0_22px_60px_-42px_rgba(15,23,42,0.30)]",
-                )}
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
+        {SERVICES_CATEGORY_ORDER.map((id) => {
+          const Icon = SERVICES_CATEGORY_ICONS[id];
+          const segment = serviceRouteSegmentFromId(id);
+          const detailHref = `/services/${segment}`;
+          const cardTitle = tMega(`cardTitles.${id}`);
+          const subLines = getHeroSubServiceTitlesForMenu(id, locale, 3);
+          return (
+            <div
+              key={id}
+              className={cn(
+                "group min-w-0 rounded-2xl border border-border/80 bg-surface p-4",
+                "shadow-[0_16px_46px_-38px_rgba(15,23,42,0.22)] ring-1 ring-inset ring-primary/[0.05]",
+                "transition-[transform,border-color,box-shadow,background-color] duration-200 ease-out",
+                "hover:-translate-y-0.5 hover:border-accent/40 hover:bg-[var(--accent-soft)]/20 hover:shadow-[0_22px_60px_-42px_rgba(15,23,42,0.28)]",
+              )}
+            >
+              <Link
+                href={detailHref}
+                onClick={onNavigate}
+                className="flex items-start gap-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
               >
-                <Link
-                  href={`/services#service-${id}`}
-                  className="flex items-start gap-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
-                >
-                  <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl border border-accent/22 bg-accent/[0.09] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.78),0_12px_26px_-22px_rgba(8,145,178,0.22)] ring-1 ring-inset ring-primary/[0.05]">
-                    <Icon className="h-4 w-4 text-primary" strokeWidth={1.85} aria-hidden />
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl border border-accent/22 bg-accent/[0.09] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.78),0_12px_26px_-22px_rgba(8,145,178,0.22)] ring-1 ring-inset ring-primary/[0.05]">
+                  <Icon className="h-4 w-4 text-primary" strokeWidth={1.85} aria-hidden />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-[0.8125rem] font-semibold leading-snug tracking-tight text-foreground transition-colors group-hover:text-primary sm:text-[0.875rem]">
+                    {cardTitle}
                   </span>
-                  <span className="min-w-0">
-                    <span className="block text-[0.875rem] font-semibold leading-snug tracking-tight text-foreground transition-colors group-hover:text-primary">
-                      {tPage(`categories.${id}.label`)}
-                    </span>
-                  </span>
-                </Link>
-                <ul className="mt-3 space-y-1.5 border-l-2 border-accent/28 pl-3">
-                  {SUBTOPIC_KEYS.slice(0, 3).map((k) => (
-                    <li
-                      key={k}
-                      className="text-xs leading-snug text-muted-foreground"
+                </span>
+              </Link>
+              <ul className="mt-3 space-y-1.5 border-l-2 border-accent/28 pl-3">
+                {subLines.map((line) => (
+                  <li key={line}>
+                    <Link
+                      href={detailHref}
+                      onClick={onNavigate}
+                      className="text-xs leading-snug text-muted-foreground transition-colors hover:text-primary"
                     >
-                      {tMega(`subtopics.${id}.${k}`)}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
+                      {line}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
       </div>
       <div className="mt-5 flex justify-center border-t border-border/55 pt-5">
         <Link
           href="/services"
+          onClick={onNavigate}
           className={cn(
             "inline-flex h-9 items-center justify-center rounded-md border border-border/85 bg-surface px-4 text-sm font-semibold text-foreground",
             "shadow-[0_1px_2px_-1px_rgba(15,23,42,0.06),inset_0_1px_0_0_rgba(255,255,255,0.88)] transition-[background-color,border-color,box-shadow,color]",
@@ -141,13 +154,28 @@ function MegaMenuPanel({
 function DesktopServicesMegaNav() {
   const tNav = useTranslations("nav");
   const tMega = useTranslations("servicesMegaMenu");
-  const tPage = useTranslations("servicesPage");
+  const locale = useLocale() as AppLocale;
   const isActive = useNavActive();
   const servicesActive = isActive("/services");
 
+  const [servicesMenuOpen, setServicesMenuOpen] = React.useState(false);
+  const suppressMenuOpenUntilRef = React.useRef(0);
+
+  const handleServicesOpenChange = React.useCallback((next: boolean) => {
+    if (next && Date.now() < suppressMenuOpenUntilRef.current) {
+      return;
+    }
+    setServicesMenuOpen(next);
+  }, []);
+
+  const closeServicesMenu = React.useCallback(() => {
+    suppressMenuOpenUntilRef.current = Date.now() + 400;
+    setServicesMenuOpen(false);
+  }, []);
+
   return (
     <nav
-      className="relative z-40 flex max-w-full min-w-0 flex-1 list-none items-center justify-center gap-0.5 sm:gap-0.5 lg:gap-1 xl:gap-1 2xl:gap-1.5"
+      className="relative z-40 flex max-w-full min-w-0 flex-1 list-none items-center justify-center gap-1 sm:gap-1 lg:gap-1.5 xl:gap-2 2xl:gap-2.5"
       aria-label="Primary"
     >
       <Link
@@ -163,12 +191,13 @@ function DesktopServicesMegaNav() {
         {tNav("about")}
       </Link>
 
-      <DropdownMenu modal={false}>
+      <DropdownMenu open={servicesMenuOpen} onOpenChange={handleServicesOpenChange} modal={false}>
         <DropdownMenuTrigger asChild>
           <button
             type="button"
             className={cn(triggerClassName, servicesActive && navActiveClass)}
             aria-haspopup="menu"
+            aria-expanded={servicesMenuOpen}
           >
             {tNav("services")}
           </button>
@@ -177,6 +206,7 @@ function DesktopServicesMegaNav() {
           align="center"
           sideOffset={6}
           collisionPadding={16}
+          onCloseAutoFocus={(e) => e.preventDefault()}
           className={cn(
             "z-[100] max-h-[min(74vh,calc(100dvh-5rem))] w-[min(70rem,calc(100vw-2rem))] overflow-y-auto overflow-x-hidden",
             "rounded-3xl border border-border/70 bg-surface/95 p-0 backdrop-blur-md backdrop-saturate-150",
@@ -184,7 +214,7 @@ function DesktopServicesMegaNav() {
             "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95",
           )}
         >
-          <MegaMenuPanel tPage={tPage} tMega={tMega} />
+          <MegaMenuPanel tMega={tMega} locale={locale} onNavigate={closeServicesMenu} />
         </DropdownMenuContent>
       </DropdownMenu>
 
@@ -204,7 +234,7 @@ function DesktopServicesMegaNav() {
 function MobileNavDialog() {
   const tNav = useTranslations("nav");
   const tMega = useTranslations("servicesMegaMenu");
-  const tPage = useTranslations("servicesPage");
+  const locale = useLocale() as AppLocale;
   const [open, setOpen] = React.useState(false);
   const isActive = useNavActive();
   const servicesActive = isActive("/services");
@@ -284,32 +314,37 @@ function MobileNavDialog() {
                 </AccordionTrigger>
                 <AccordionContent className="pb-2 pt-0">
                   <Accordion type="multiple" className="space-y-0 border-l border-accent/35 pl-3">
-                    {SERVICES_CATEGORY_ORDER.map((id: ServicesCategoryId) => (
-                      <AccordionItem
-                        key={id}
-                        value={id}
-                        className="border-b border-border/50"
-                      >
-                        <AccordionTrigger className="py-2.5 text-left text-[0.8125rem] font-medium leading-snug text-foreground hover:no-underline [&[data-state=open]]:text-primary">
-                          {tPage(`categories.${id}.label`)}
-                        </AccordionTrigger>
-                        <AccordionContent className="pb-3 pt-0">
-                          <ul className="space-y-2 pb-1">
-                            {SUBTOPIC_KEYS.map((k) => (
-                              <li key={k}>
-                                <Link
-                                  href={`/services#service-${id}`}
-                                  onClick={close}
-                                  className="block text-[0.8125rem] leading-snug text-muted-foreground transition-colors hover:text-primary"
-                                >
-                                  {tMega(`subtopics.${id}.${k}`)}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </AccordionContent>
-                      </AccordionItem>
-                    ))}
+                    {SERVICES_CATEGORY_ORDER.map((id: ServicesCategoryId) => {
+                      const segment = serviceRouteSegmentFromId(id);
+                      const detailHref = `/services/${segment}`;
+                      const subLines = getHeroSubServiceTitlesForMenu(id, locale, 3);
+                      return (
+                        <AccordionItem
+                          key={id}
+                          value={id}
+                          className="border-b border-border/50"
+                        >
+                          <AccordionTrigger className="py-2.5 text-left text-[0.8125rem] font-medium leading-snug text-foreground hover:no-underline [&[data-state=open]]:text-primary">
+                            {tMega(`cardTitles.${id}`)}
+                          </AccordionTrigger>
+                          <AccordionContent className="pb-3 pt-0">
+                            <ul className="space-y-2 pb-1">
+                              {subLines.map((line) => (
+                                <li key={line}>
+                                  <Link
+                                    href={detailHref}
+                                    onClick={close}
+                                    className="block text-[0.8125rem] leading-snug text-muted-foreground transition-colors hover:text-primary"
+                                  >
+                                    {line}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </AccordionContent>
+                        </AccordionItem>
+                      );
+                    })}
                   </Accordion>
                   <div className="mt-3 border-t border-border/60 pt-3">
                     <Link

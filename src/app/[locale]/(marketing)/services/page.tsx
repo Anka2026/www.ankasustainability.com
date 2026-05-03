@@ -43,7 +43,7 @@ export default async function ServicesPage({ params }: PageProps) {
       <ServicesHeroSection t={t} />
       <ServicesPageNavStrip t={t} />
       <ServicesOverviewSection t={t} />
-      <ServicesDetailSection t={t} />
+      <ServicesDetailSection t={t} locale={locale as AppLocale} />
       <ServicesProcessSection t={t} />
       <ServicesWhySection t={t} />
       <ServicesFinalCtaSection t={t} />

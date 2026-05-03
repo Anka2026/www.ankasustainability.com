@@ -40,6 +40,10 @@ export type SoftwarePortfolioProductDto = Readonly<{
   modalTagline: string;
   modalWhatFor: string;
   modalTeamValue: string;
+  /** Optional per-product section headings in the solution modal */
+  modalLabelsOverride?: Partial<SoftwareModalLabels>;
+  /** Optional caption below the modal product visual */
+  modalVisualCaption?: string;
 }>;
 
 type Props = Readonly<{
@@ -73,6 +77,29 @@ const OUTLINE_CARD_CTA = cn(
   OUTLINE_CARD_BASE,
 );
 
+/** Fixed-height (~200px) preview used on every software portfolio card for visual rhythm. */
+function PortfolioCardPreviewStrip({ product }: { product: SoftwarePortfolioProductDto }) {
+  return (
+    <div className="relative h-[13rem] w-full shrink-0">
+      <div className="flex h-full w-full flex-col rounded-2xl border border-slate-200/80 bg-white p-2 shadow-sm ring-1 ring-inset ring-slate-900/[0.03]">
+        <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl bg-white">
+          {product.screenshotSrc ? (
+            <Image
+              src={product.screenshotSrc}
+              alt={product.screenshotAlt || product.title}
+              fill
+              className="object-contain object-center p-1"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
+            />
+          ) : (
+            <SoftwarePreviewPlaceholder variant="card" className="h-full min-h-0 w-full" />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function SoftwarePortfolioClient({
   products,
   viewSolutionCta,
@@ -85,6 +112,9 @@ export function SoftwarePortfolioClient({
   const [openSlug, setOpenSlug] = React.useState<string | null>(null);
   const active = openSlug ? products.find((p) => p.slug === openSlug) : null;
   const tagline = active?.modalTagline?.trim() || defaultModalTagline;
+  const sectionLabels = active
+    ? { ...modalLabels, ...active.modalLabelsOverride }
+    : modalLabels;
 
   return (
     <>
@@ -95,45 +125,52 @@ export function SoftwarePortfolioClient({
               key={p.slug}
               className={cn(
                 homeCardClassName(true),
-                "flex h-full min-h-[26rem] flex-col overflow-hidden bg-background transition-shadow duration-300",
+                "flex h-full flex-col overflow-hidden bg-background transition-shadow duration-300",
                 "hover:shadow-[0_28px_64px_-44px_rgba(15,23,42,0.28)]",
               )}
             >
-              <div className="flex min-h-0 flex-1 flex-col p-6 sm:p-7">
-                <div className="flex items-start justify-between gap-3">
-                  <span className="inline-flex max-w-[70%] rounded-full border border-border/80 bg-[var(--section-tint)] px-2.5 py-0.5 text-[0.6875rem] font-semibold tracking-wide text-muted-foreground">
-                    {p.pill}
-                  </span>
+              <div className="flex min-h-0 flex-1 flex-col">
+                <div className="shrink-0 px-6 pt-6 sm:px-7 sm:pt-7">
+                  <PortfolioCardPreviewStrip product={p} />
                 </div>
-                <h3 className="mt-4 text-[1.05rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.1rem]">
-                  {p.title}
-                </h3>
-                <p className="mt-3 text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.6]">
-                  {p.summary}
-                </p>
-                <ul className="mt-4 min-h-0 flex-1 space-y-2 border-t border-border/60 pt-4 text-sm leading-snug text-foreground/90">
-                  {p.bullets.map((line) => (
-                    <li key={line} className="flex gap-2">
-                      <span
-                        className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-primary/55"
-                        aria-hidden
-                      />
-                      <span>{line}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-5 min-w-0 border-t border-border/60 pt-5 sm:mt-6">
-                  <div className="grid min-w-0 grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3">
-                    <AppButton
-                      type="button"
-                      className={PRIMARY_CARD_CTA}
-                      onClick={() => setOpenSlug(p.slug)}
-                    >
-                      {viewSolutionCta}
-                    </AppButton>
-                    <AppButton variant="outline" asChild className={OUTLINE_CARD_CTA}>
-                      <a href={p.demoMailHref}>{requestDemoCta}</a>
-                    </AppButton>
+                <div className="flex min-h-0 flex-1 flex-col px-6 pb-6 pt-5 sm:px-7 sm:pb-7 sm:pt-5">
+                  <div className="shrink-0">
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="inline-flex max-w-[min(100%,18rem)] rounded-full border border-border/80 bg-[var(--section-tint)] px-2.5 py-0.5 text-[0.6875rem] font-semibold tracking-wide text-muted-foreground">
+                        {p.pill}
+                      </span>
+                    </div>
+                    <h3 className="mt-3 text-balance text-[1.05rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.1rem]">
+                      {p.title}
+                    </h3>
+                    <p className="mt-2.5 text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.58]">
+                      {p.summary}
+                    </p>
+                  </div>
+                  <ul className="mt-3 min-h-0 flex-1 space-y-2 border-t border-border/60 pt-3 text-sm leading-snug text-foreground/90">
+                    {p.bullets.map((line) => (
+                      <li key={line} className="flex gap-2">
+                        <span
+                          className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-primary/55"
+                          aria-hidden
+                        />
+                        <span className="min-w-0 break-words">{line}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-auto min-w-0 border-t border-border/60 pt-4 sm:pt-5">
+                    <div className="grid min-w-0 grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3">
+                      <AppButton
+                        type="button"
+                        className={PRIMARY_CARD_CTA}
+                        onClick={() => setOpenSlug(p.slug)}
+                      >
+                        {viewSolutionCta}
+                      </AppButton>
+                      <AppButton variant="outline" asChild className={OUTLINE_CARD_CTA}>
+                        <a href={p.demoMailHref}>{requestDemoCta}</a>
+                      </AppButton>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -170,7 +207,7 @@ export function SoftwarePortfolioClient({
                   <div className="mt-5 space-y-5">
                     <div>
                       <h3 className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                        {modalLabels.valueProposition}
+                        {sectionLabels.valueProposition}
                       </h3>
                       <p className="mt-2 text-pretty text-sm font-medium leading-relaxed text-foreground/95 sm:text-[0.9375rem] sm:leading-[1.6]">
                         {tagline}
@@ -179,7 +216,7 @@ export function SoftwarePortfolioClient({
                     {active.modalWhatFor ? (
                       <div>
                         <h3 className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                          {modalLabels.whatFor}
+                          {sectionLabels.whatFor}
                         </h3>
                         <DialogDescription className="mt-2 text-left text-pretty text-sm leading-relaxed text-muted-foreground sm:text-[0.9375rem] sm:leading-[1.65]">
                           {active.modalWhatFor}
@@ -189,7 +226,7 @@ export function SoftwarePortfolioClient({
                     {active.modalTeamValue ? (
                       <div>
                         <h3 className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                          {modalLabels.teamValue}
+                          {sectionLabels.teamValue}
                         </h3>
                         <p className="mt-2 text-pretty text-sm leading-relaxed text-foreground/90 sm:text-[0.9375rem] sm:leading-[1.62]">
                           {active.modalTeamValue}
@@ -199,7 +236,7 @@ export function SoftwarePortfolioClient({
                     {active.bullets.length > 0 ? (
                       <div>
                         <h3 className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                          {modalLabels.coreCapabilities}
+                          {sectionLabels.coreCapabilities}
                         </h3>
                         <ul className="mt-2.5 space-y-2 text-sm leading-snug text-foreground/90">
                           {active.bullets.map((line) => (
@@ -240,17 +277,53 @@ export function SoftwarePortfolioClient({
                       />
                     </div>
                   ) : active.screenshotSrc ? (
-                    <div className="mx-auto w-full max-w-3xl overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-3 sm:p-4 shadow-[0_22px_56px_-40px_rgba(15,23,42,0.32)] ring-1 ring-inset ring-slate-900/[0.04]">
-                      <div className="relative flex min-h-[13rem] w-full items-center justify-center bg-slate-50/90 sm:min-h-[15rem]">
-                        <Image
-                          src={active.screenshotSrc}
-                          alt={active.screenshotAlt || active.title}
-                          width={960}
-                          height={540}
-                          className="h-auto max-h-[min(52vh,28rem)] w-full object-contain object-center"
-                          sizes="(max-width: 1024px) 100vw, 720px"
-                        />
-                      </div>
+                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
+                      {active.slug === "digital-product-passport-platform" ||
+                      active.slug === "cbam-calculation-engine" ? (
+                        <div className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm sm:p-5">
+                          <div className="flex w-full justify-center">
+                            <Image
+                              src={active.screenshotSrc}
+                              alt={active.screenshotAlt || active.title}
+                              width={1920}
+                              height={1080}
+                              className="h-auto max-h-[min(76vh,48rem)] w-full object-contain"
+                              sizes="(max-width: 1024px) 100vw, 896px"
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <div
+                          className={cn(
+                            "overflow-hidden rounded-[1.35rem] border border-slate-200/90 bg-gradient-to-b from-white to-slate-50/95 p-2.5 sm:p-3.5",
+                            "shadow-[0_26px_70px_-44px_rgba(15,23,42,0.38),0_0_0_1px_rgba(8,145,178,0.06)] ring-1 ring-inset ring-slate-900/[0.04]",
+                            active.slug === "packaging-compliance-tool" &&
+                              "shadow-[0_28px_80px_-48px_rgba(15,23,42,0.42),0_0_48px_-12px_rgba(8,145,178,0.12)]",
+                          )}
+                        >
+                          <div
+                            className={cn(
+                              "relative flex min-h-[14rem] w-full items-center justify-center overflow-hidden rounded-[1.05rem] border border-slate-200/70 bg-slate-50/95 sm:min-h-[16rem]",
+                              active.slug === "packaging-compliance-tool" &&
+                                "bg-[radial-gradient(900px_280px_at_50%_0%,rgba(8,145,178,0.08),transparent_55%),linear-gradient(180deg,rgba(248,250,252,0.98),rgba(241,245,249,0.96))]",
+                            )}
+                          >
+                            <Image
+                              src={active.screenshotSrc}
+                              alt={active.screenshotAlt || active.title}
+                              width={1200}
+                              height={675}
+                              className="h-auto max-h-[min(58vh,32rem)] w-full object-contain object-top"
+                              sizes="(max-width: 1024px) 100vw, 896px"
+                            />
+                          </div>
+                        </div>
+                      )}
+                      {active.modalVisualCaption ? (
+                        <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
+                          {active.modalVisualCaption}
+                        </p>
+                      ) : null}
                     </div>
                   ) : (
                     <SoftwarePreviewPlaceholder className="mx-auto min-h-[12rem] w-full max-w-3xl sm:min-h-[14rem]" />

@@ -2,7 +2,7 @@
   "brand": {
     "name": "ANKA Sustainability Consulting B.V.",
     "headerName": "ANKA Sustainability",
-    "tagline": "Strategische Duurzaamheidsconsultancy",
+    "tagline": "Duurzaamheids- en complianceadvies",
     "siteTitle": "ANKA Sustainability Consulting B.V. | Duurzaamheid, Compliance en Digitale Oplossingen",
     "siteDescription": "Ondernemingsduurzaamheid, EU-naleving en digitale werkomgeving: data, bewijs en uitvoerbare processen."
   },
@@ -27,6 +27,15 @@
   },
   "servicesMegaMenu": {
     "viewAll": "Bekijk Alle Diensten",
+    "cardTitles": {
+      "reportingEsg": "ESG en corporaterapportage",
+      "carbonClimate": "Koolstof, klimaat en decarbonisatie",
+      "productCircularity": "Productduurzaamheid, LCA en EPD",
+      "regulatorySupplyChain": "EU-regelgeving en keten",
+      "sustainableFinance": "Markt en stakeholders",
+      "certificationTraceability": "Certificering en traceerbaarheid",
+      "sustainableTourismGstc": "Duurzaam toerisme en GSTC"
+    },
     "sheetTitle": "Menu",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
@@ -117,9 +126,9 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Strategisch duurzaamheidsadvies",
-      "title": "Samen bouwen aan duurzaamheid, compliance en digitale werkinfrastructuur",
-      "description": "ANKA Sustainability Consulting B.V. ondersteunt organisaties bij het beter beheersbaar maken van duurzaamheidsrapportage, koolstofbeheer, productduurzaamheid, EU-compliance en supplychainprocessen met data, bewijsvoering en praktische werkprocessen.",
+      "eyebrow": "Duurzaamheidsadvies",
+      "title": "Duurzaamheid, compliance en een helderdere digitale werkwijze—samen met uw teams",
+      "description": "ANKA Sustainability Consulting B.V. brengt duurzaamheidsrapportage, koolstofbeheer, productmilieu-prestaties, EU-naleving en ketenwerk in kaart via duidelijk data-eigenaarschap, bewijsvoering en werkprocessen die uw teams kunnen volgen.",
       "primaryCta": "Plan een gesprek",
       "secondaryCta": "Bekijk diensten",
       "panel": {
@@ -153,7 +162,7 @@
       },
       "c2": {
         "title": "Koolstof, klimaat en decarbonisatie",
-        "body": "Gestructureerd advies voor GHG Protocol, ISO 14064-1, ISO 14067, CBAM en dekarbonisatie- en reductiepaden."
+        "body": "We ordenen GHG Protocol-inventarissen, ISO 14064-1 footprint, ISO 14067 productcarbon, CBAM-rapportage en reductieprioriteiten—zodat methoden, aannames en bewijs verdedigbaar blijven."
       },
       "c3": {
         "title": "Productduurzaamheid, LCA en EPD",
@@ -165,11 +174,11 @@
       },
       "c5": {
         "title": "Markt- en stakeholdervoorbereiding",
-        "body": "Wij versterken Europese marktvoorbereiding, kopersverwachtingen, ESG-due diligence en belanghebbendencommunicatie."
+        "body": "We bereiden aanbestedingsantwoorden, kopiersvragen, investeerdersdialoog en stakeholderreviews voor met strakkere data, bewijs en een consistente uitleg."
       },
       "c6": {
         "title": "Certificering, traceerbaarheid en marktvertrouwen",
-        "body": "Ondersteuning bij certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en governance van marktbeweringen."
+        "body": "Voorbereiding op assurance: chain of custody, massabalans, traceerbare records en bewijsgedreven marktclaims—documentatie en advies naast uw teams."
       },
       "c7": {
         "title": "Duurzaam toerisme en GSTC-voorbereiding",
@@ -179,7 +188,7 @@
     "software": {
       "eyebrow": "Software en digitale ondersteuning",
       "title": "Het ANKA-softwareportfolio en digitale werkomgevingen",
-      "description": "Een compacte set ANKA-software brengt structuur in data, naleving en traceerbaarheid, zodat advies trajecten aantoonbaar, herhaalbaar en goed uitvoerbaar blijven met uw teams.",
+      "description": "Een compacte set ANKA-software brengt structuur in data, naleving en traceerbaarheid, zodat adviesopdrachten aantoonbaar, herhaalbaar en goed uitvoerbaar blijven met uw teams.",
       "cta": "Bekijk softwareoplossingen",
       "portfolioTitle": "Digitale ondersteuning die aansluit op het advies",
       "portfolioSupport": "Vijf kernoplossingen, afgestemd op Europese compliance- en datarealiteiten, in hetzelfde ritme als het ANKA-advies.",
@@ -195,7 +204,7 @@
     "why": {
       "eyebrow": "Waarom ANKA",
       "title": "Waarom ANKA",
-      "subtitle": "Wij combineren Europese regelgevingsverwachtingen met ketenrealiteiten en technische uitvoeringsdiscipline.",
+      "subtitle": "We vertalen EU-verwachtingen naar een werkbare aanpak: ketenrealiteit, data-eigenaarschap en bewijs dat standhoudt.",
       "c1": {
         "title": "Nederlands gevestigd, gericht op Europa",
         "body": "Wij combineren een Nederlandse bedrijfsstructuur met praktische kennis van Europese waardeketens."
@@ -210,12 +219,12 @@
       },
       "c4": {
         "title": "Consultancy versterkt door digitale tools",
-        "body": "Wij ondersteunen adviestrajecten met digitale werkruimten voor meer controle, traceerbaarheid en herhaalbaarheid."
+        "body": "Waar het helpt, zetten we digitale werkruimten in naast het advies—voor controle, traceerbaarheid en herhaalbaarheid, zonder expertbeoordeling te vervangen."
       }
     },
     "insights": {
       "eyebrow": "",
-      "title": "Inzichten en Bronnen",
+      "title": "Inzichten en bronnen",
       "subtitle": "Geselecteerde inhoud over regelgeving, rapportage, productduurzaamheid en implementatieprioriteiten."
     },
     "finalCta": {
@@ -226,6 +235,10 @@
     }
   },
   "servicesPage": {
+    "subServicesPanelTitle": "DIENSTGEBIEDEN",
+    "detail": {
+      "backToServices": "← Terug naar diensten"
+    },
     "meta": {
       "title": "Diensten",
       "description": "Technisch advies rond duurzaamheidsrapportage, koolstof, productprestaties, EU-eisen en ketennaleving: ANKA maakt de agenda beheersbaar met data, bewijsvoering en toepasbare processen."
@@ -279,37 +292,37 @@
       "intro": "Kies de titel die het beste past om scope, onze manier van werken en de opgebouwde technische richting in detail te zien.",
       "cards": {
         "reportingEsg": {
-          "title": "ESG en bedrijfsrapportage",
-          "body": "Wij ondersteunen scherpere rapportagegrenzen, data-eigenaarschap en bewijsvoering in CSRD, ESRS, GRI, ISSB en rondom dubbele belangrijkheid."
+          "title": "ESG en corporaterapportage",
+          "body": "We brengen TSRS, CSRD/ESRS, GRI en ISSB samen in één rapportagestructuur: dubbele materialiteit, disclosure-onderwerpen, data-eigenaarschap en bewijsopbouw. We maken duurzaamheidsrapporten en bijlagen reviewklaar voor stakeholders en assurance."
         },
         "carbonClimate": {
-          "title": "Koolstof, klimaat en dekarbonisatie",
-          "body": "Wij begeleiden broeikasgasinventarissen, CBAM, ISO 14064-1, ISO 14067 en reductieprioriteiten strak in technische werkstructuur."
+          "title": "Koolstof, klimaat en decarbonisatie",
+          "body": "We begeleiden bedrijfs- en productcarbonfootprints, CBAM-gereedheid, waterfootprint en klimaatrisico’s met duidelijke grenzen, methodiek en dossiers. We maken decarbonisatieroutekaarten die aansluiten op operatie en investeringskeuzes."
         },
         "productCircularity": {
           "title": "Productduurzaamheid, LCA en EPD",
-          "body": "Wij verduidelijken productdata, rekenlogica en bewijsdossiers voor LCA, EPD, productcarbonfootprint en DPP-gereedheid."
+          "body": "We zetten LCA, EPD, productcarbonfootprint, digitaal productpaspoort en ecolabelwerk technisch neer met transparante data en modellen. Green claims stemmen we af op verifieerbare productcommunicatie."
         },
         "regulatorySupplyChain": {
           "title": "EU-regelgeving en ketennaleving",
-          "body": "Voor EUDR, CSDDD, PPWR, REACH, ESPR en kopersdata maken wij ketengegevens traceerbaarder en beantwoordbaar."
+          "body": "We ordenen PPWR, ESPR, EUDR, CSDDD, REACH en kopersdata tot traceerbare leveranciersrecords, herkomstbewijs en controles. We versterken green claims met verdedigbare documentatie."
         },
         "sustainableFinance": {
-          "title": "Markt- en belanghebbendenvoorbereiding",
-          "body": "Wij bouwen voorbereidingen die vertrouwen wekken: Europese markt, kopersverwachtingen, ESG-baseline en belanghebbendenuitwisseling."
+          "title": "Markt- en stakeholdervoorbereiding",
+          "body": "We bereiden inkoper- en aanbestedingsdossiers, ESG-due diligence, investeerdersmateriaal en stakeholderboodschappen voor met consistent bewijs. We verankeren marktclaims in een geloofwaardige bewijsstructuur."
         },
         "certificationTraceability": {
           "title": "Certificering, traceerbaarheid en marktvertrouwen",
-          "body": "Wij zetten een houdbaarder werkordening neer rond certificeringsvoorbereiding, traceerbaarheid, bewijsdossiers en marktcommunicatie."
+          "body": "We ondersteunen ASI-voorbereiding, certificeringsgereedheid, chain of custody, massabalans en pre-audit bewijsdossiers met heldere rollen en registraties. We koppelen marktclaims aan traceerbaar bewijs."
         },
         "sustainableTourismGstc": {
           "title": "Duurzaam toerisme, GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
-          "body": "We ondersteunen hotels, touroperators en bestemmingsorganisaties bij GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme—gap-analyse en bewijsdossieropbouw."
+          "body": "Voor hotels, touroperators en bestemmingen combineren we GSTC-gapanalyse, programmavoorbereiding en beoordelingsklaar bewijsdossier. We versterken teambewustzijn en een volhoubare opvolgritme."
         }
       }
     },
     "hub": {
-      "cta": "Bekijk dienst"
+      "cta": "Details bekijken"
     },
     "landing": {
       "hero": {
@@ -339,7 +352,7 @@
       },
       "services": {
         "reportingEsg": {
-          "subtitle": "ANKA ondersteunt organisaties bij het structureren van ESG-rapportage, dubbele materialiteit, rapportagegrenzen, dataverantwoordelijkheden en bewijsvoering. Het doel is niet alleen rapporteren, maar een beheersbare rapportagestructuur opbouwen.",
+          "subtitle": "Advies voor CSRD/ESRS, TSRS, GRI, ISSB en dubbele materialiteit—bewijsgedreven disclosures, helder eigenaarschap en auditklare pakketten.",
           "whyMatters": "De Europese verwachting rond disclosure, materialiteit en data-eigenaarschap wordt strenger. Zonder scherpe scope, heldere eigenaarschappen en een verdedigbare bewijsstructuur wordt rapportage een last-minute narratief in plaats van een beheersbaar complianceproces.",
           "deliverables": [
             "Scope en materialiteitskader in lijn met CSRD/ESRS-verwachtingen",
@@ -363,14 +376,14 @@
             "Groepen die eigenaarschap en datadiscipline willen versterken",
             "Sustainability- en finance-teams die disclosure coördineren"
           ],
-          "whoForNote": "Wij structureren de levering zodat duurzaamheidsrapportage een bestuurd systeem wordt—geen eenmalige documentensprint.",
+          "whoForNote": "We ordenen de levering zodat duurzaamheidsrapportage een bestuurd systeem wordt—geen eenmalige documentensprint.",
           "relatedToolsTitle": "Werkstroomversterking wanneer dat extra waarde biedt",
           "relatedToolsBody": "Waar rapportagelevering strakkere datatracking, goedkeuringen en koppeling met bewijs vereist, kunnen we lichte digitale workflowdiscipline toevoegen, afgestemd op uw governance.",
           "benchmark": {
             "hero": {
               "eyebrow": "ESG en corporate reporting",
-              "title": "Gestructureerd advies voor CSRD, ESRS en corporate ESG-rapportage",
-              "text": "ANKA ondersteunt organisaties bij het structureren van ESG-data, dubbele materialiteit, rapportagegrenzen en datadiscipline, in lijn met CSRD-, ESRS-, GRI- en IFRS S1/S2-verwachtingen (ISSB).",
+              "title": "Advies voor CSRD, ESRS en corporate ESG-rapportage",
+              "text": "ANKA behandelt uw ESG-data-architectuur, rapportagekaders en bewijsopbouw samen met CSRD-, ESRS-, GRI-, ISSB- en TSRS-verwachtingen. Dubbele materialiteit, disclosure-onderwerpen en data-eigenaarschap komen samen in één werkbare werkwijze. Rapportage wordt meer dan een periodieke publicatie: een traceerbare, verdedigbare structuur die besluitvorming draagt. Voor elke cyclus controleren we indicatoren, bewijs en interne controles en stemmen we stakeholder- en financieel perspectief op elkaar af.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -389,7 +402,7 @@
                   "Eigenaarschap en vervolgbaarheid"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "CSRD-gereedheid",
@@ -418,7 +431,7 @@
                 "Datadiscipline en bewijsvoering wegen zwaarder",
                 "ESG-besluitvorming op directieniveau versterkt"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Sterke rapportage verbindt data-eigenaarschap, bewijsvoering en directiebesluiten in één samenhangend systeem.",
               "cards": [
                 {
@@ -437,7 +450,7 @@
             },
             "support": {
               "title": "Hoe ANKA ondersteunt",
-              "intro": "Wij structureren ESG-rapportage via duidelijke scope, bestuurd data-eigenaarschap en bewijsvoering, zodat levering traceerbaarder en reviewklaar wordt.",
+              "intro": "We ordenen ESG-rapportage via duidelijke scope, bestuurd data-eigenaarschap en bewijsvoering, zodat levering traceerbaarder en reviewklaar wordt.",
               "cards": [
                 {
                   "title": "CSRD-gereedheidsbeoordeling",
@@ -615,8 +628,8 @@
           "benchmark": {
             "hero": {
               "eyebrow": "Koolstof, klimaat en decarbonisatie",
-              "title": "Gestructureerd advies voor koolstofbeheer, CBAM en klimaattransitie",
-              "text": "ANKA ondersteunt organisaties bij betrouwbare broeikasgasdatastructuren, CBAM-gerelateerde werkstromen en auditklare koolstof- en klimaatfundamenten die compliance en bedrijfsbesluitvorming dragen.",
+              "title": "Advies voor koolstofbeheer, CBAM en klimaattransitie",
+              "text": "ANKA ordent broeikasgasinventarissen volgens GHG Protocol en ISO 14064-1, productcarbon volgens ISO 14067, CBAM-kwartaalrapportage en—waar relevant voor uw markten—ISO 14046 waterfootprints. EU ETS- en CBAM-data vragen dezelfde regie: grenzen, rekenlogica, aannameregisters en output die uw teams kunnen onderhouden. Voor het management vertalen we reductie- en nalevingsstappen naar prioriteiten die aansluiten op operatie en investeringskeuzes.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -627,6 +640,7 @@
                 "CBAM",
                 "ISO 14064-1",
                 "ISO 14067",
+                "ISO 14046",
                 "Decarbonisatieroutes"
               ],
               "proofStrip": {
@@ -637,7 +651,7 @@
                   "Klimaattransitieroutes"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "Broeikasgasinventaris",
@@ -666,7 +680,7 @@
                 "Koper- en ketenverzoeken worden gedetailleerder",
                 "Koolstofdata stuurt bedrijfsbeslissingen"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Betrouwbare koolstofdata is cruciaal voor compliance én voor kosten, productstrategie en marktvertrouwen.",
               "cards": [
                 {
@@ -844,7 +858,7 @@
             "hero": {
               "eyebrow": "Productduurzaamheid, LCA en EPD",
               "title": "Technisch advies voor milieuprestatie op productniveau, LCA en EPD",
-              "text": "ANKA ondersteunt organisaties bij levenscyclusdenken en het opbouwen van bewijsgedreven structuren voor product carbon footprint, LCA, EPD en Digital Product Passport-voorbereiding.",
+              "text": "ANKA behandelt productmilieuprestatie via LCA, EPD, productcarbonfootprint en digitaal productpaspoort als één technische bewijslijn. We ordenen datasets, systeemgrenzen en claimvelden conform de relevante normen en koppelen green claims aan verifieerbare bewijslast. Zo blijft productinformatie verdedigbaar aan de grens en in inkopersvragen—niet alleen in het model.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -863,7 +877,7 @@
                   "Productdata voor komende eisen"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "LCA-structuur",
@@ -892,7 +906,7 @@
                 "LCA en EPD versterken marktvertrouwen",
                 "DPP- en circulariteitsgereedheid wordt strategisch"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Productduurzaamheidsdata is niet alleen een verklaring; het is een technisch actief dat ontwerp, toeleveringsketen en positionering beïnvloedt.",
               "cards": [
                 {
@@ -911,7 +925,7 @@
             },
             "support": {
               "title": "Hoe ANKA ondersteunt",
-              "intro": "Wij structureren productduurzaamheid via duidelijke scope, bestuurde productdata en bewijsvoering, zodat levering traceerbaarder en reviewklaar wordt.",
+              "intro": "We ordenen productduurzaamheid via duidelijke scope, bestuurde productdata en bewijsvoering, zodat levering traceerbaarder en reviewklaar wordt.",
               "cards": [
                 {
                   "title": "LCA-scope verhelderen",
@@ -1070,7 +1084,7 @@
             "hero": {
               "eyebrow": "EU-regelgeving en supplychaincompliance",
               "title": "Compliance-advies voor EU-regelgeving, leveranciersdata en markttoegang",
-              "text": "ANKA ondersteunt organisaties in Europese waardeketens bij EUDR, CSDDD, PPWR, REACH, ESPR en door kopers gedreven leveranciersdata—via een gestructureerde, traceerbare en uitvoerbare compliance-aanpak.",
+              "text": "ANKA brengt leveranciers-, herkomst- en traceerbaarheidsdata voor EUDR, CSDDD, PPWR, ESPR en REACH naar een beheerste werkwijze. We verduidelijken markt- en productclaims en zetten due diligence en dossierverwachtingen af op uw bestaande processen. Het doel is EU-ketengegevens om te zetten naar een beheersbaar, herhaalbaar ritme.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -1089,7 +1103,7 @@
                   "Controles en dossierstructuur"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "Blootstellingsanalyse",
@@ -1118,7 +1132,7 @@
                 "Traceerbaarheid wordt strenger",
                 "Compliance raakt commercieel risico"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Compliance is geen papierwerk alleen; het is een bestuurd systeem van eigenaarschap, bewijs en controlepunten.",
               "cards": [
                 {
@@ -1137,7 +1151,7 @@
             },
             "support": {
               "title": "Hoe ANKA ondersteunt",
-              "intro": "Wij structureren compliance via scopehelderheid, leveranciersdatadiscipline en bewijscontrole, zodat het traceerbaarder en reviewklaar wordt.",
+              "intro": "We ordenen compliance via scopehelderheid, leveranciersdatadiscipline en bewijscontrole, zodat het traceerbaarder en reviewklaar wordt.",
               "cards": [
                 {
                   "title": "Regelgevingsblootstelling in kaart",
@@ -1289,14 +1303,14 @@
             "Exporteurs en toeleveranciers die Europese aanbestedingsscherpte verwachten",
             "Directies die bewijsgerichte stakeholdercommunicatie nodig hebben"
           ],
-          "whoForNote": "Wij positioneren duurzaamheidsprestatie geloofwaardig onder scrutiniëring—gebouwd op bewijs en governance.",
+          "whoForNote": "We maken duurzaamheidsprestatie geloofwaardig onder scrutiniëring—met bewijs en governance als basis.",
           "relatedToolsTitle": "Digitale workflow is optioneel",
           "relatedToolsBody": "Deze dienst kan zonder harde productafhankelijkheid. Waar het waarde toevoegt, kunnen we lichte tracking voor claims, bewijs en updates toevoegen.",
           "benchmark": {
             "hero": {
               "eyebrow": "Markt- en stakeholdervoorbereiding",
               "title": "Voorbereiding op Europese kopers, stakeholders en marktvertrouwen",
-              "text": "ANKA helpt organisaties om op Europese marktverwachtingen, duurzaamheidsverzoeken van kopers, ESG-due diligence en stakeholdercommunicatie voorbereider, consistenter en bewijsgedreven te reageren.",
+              "text": "ANKA helpt Europese teams om consistente, bewijsgedreven antwoorden te geven op kopersdataverzoeken, aanbestedingsvragen en ESG-due diligence. We verankeren claims, rapporten en productinformatie in een geloofwaardige bewijsstructuur voor stakeholders en financiers en stemmen boodschappen af op de data. Het gaat niet alleen om één keer antwoorden, maar om een dossierdatamodel dat volgende controlevragen al voorziet.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -1315,7 +1329,7 @@
                   "Consistent, verdedigbaar narratief"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "Verwachtingsanalyse",
@@ -1344,7 +1358,7 @@
                 "ESG-due diligence raakt commerciële uitkomsten",
                 "Stakeholdercommunicatie vraagt om bewijs"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Gereedheid is het vermogen om de juiste vragen met de juiste bewijsstukken—consistent—te beantwoorden.",
               "cards": [
                 {
@@ -1363,7 +1377,7 @@
             },
             "support": {
               "title": "Hoe ANKA ondersteunt",
-              "intro": "Wij structureren gereedheid via scopehelderheid, datadiscipline en bewijslogica, zodat antwoorden consistenter en reviewklaar worden.",
+              "intro": "We ordenen gereedheid via scopehelderheid, datadiscipline en bewijslogica, zodat antwoorden consistenter en reviewklaar worden.",
               "cards": [
                 {
                   "title": "Marktverwachtingsanalyse",
@@ -1522,7 +1536,7 @@
             "hero": {
               "eyebrow": "Certificering, traceerbaarheid en marktvertrouwen",
               "title": "Advies voor certificeringsgereedheid, traceerbaarheid en reviewklare bewijsvoering",
-              "text": "ANKA ondersteunt organisaties bij voorbereiding op certificeringsprocessen, structurering van leveranciersbewijs, versterking van traceerbaarheidsdiscipline en verdedigbaardere marktclaims.",
+              "text": "ANKA verheldert criteria, kader, bewijs en rollen vóór certificering of beoordeling en organiseert traceerbaarheid, massabalans en bewijsdossiers in één geheel. Bij sectorkaders zoals ASI bouwen we een praktische voorbereidingslijn van gap-analyse tot registratie-inrichting. We koppelen marktclaims aan interne controles zodat audit en klantenscrutiny op een sterkere basis landen.",
               "ctas": {
                 "primary": "Plan een verkennend gesprek",
                 "secondary": "Bekijk diensten"
@@ -1541,7 +1555,7 @@
                   "Verdedigbare claimstructuur"
                 ]
               },
-              "panelTitle": "Focusgebieden",
+              "panelTitle": "Dienstgebieden",
               "panelCards": [
                 {
                   "title": "Certificering",
@@ -1570,7 +1584,7 @@
                 "Traceerbaarheid bouwt marktvertrouwen",
                 "Claims moeten bestand zijn tegen nadere beoordeling"
               ],
-              "insightLabel": "Strategische notitie",
+              "insightLabel": "ANKA-aanpak",
               "insightText": "Marktvertrouwen houd je vast met herhaalbare registratie en controlediscipline.",
               "cards": [
                 {
@@ -1589,7 +1603,7 @@
             },
             "support": {
               "title": "Hoe ANKA ondersteunt",
-              "intro": "Wij structureren certificering en traceerbaarheid via data-, bewijs- en controlelogica, zodat het traceerbaarder en reviewklaar wordt.",
+              "intro": "We ordenen certificering en traceerbaarheid via data-, bewijs- en controlelogica, zodat het traceerbaarder en reviewklaar wordt.",
               "cards": [
                 {
                   "title": "Structuur certificeringsgereedheid",
@@ -1748,7 +1762,7 @@
             "hero": {
               "eyebrow": "Duurzaam toerisme",
               "title": "Advies voor GSTC en het Türkiye Environmental and Cultural Sustainability Programme",
-              "text": "Voor toeristische organisaties gaat duurzaamheid verder dan milieuprestaties. Het raakt ook managementsystemen, medewerkerspraktijken, lokale impact, cultureel erfgoed, inkoop, energie, water, afval en communicatie met gasten. ANKA helpt hotels, touroperators en bestemmingsorganisaties om GSTC-criteria en de verwachtingen van het Türkiye Environmental and Cultural Sustainability Programme beter te begrijpen, hiaten te prioriteren en het bewijsdossier overzichtelijk voor te bereiden.\n\nANKA geeft geen certificaten uit en garandeert geen certificeringsresultaat. Onze ondersteuning richt zich op gap-analyse, actieplanning, documentatie, bewijsopbouw en voorbereiding op beoordeling.",
+              "text": "ANKA helpt hotels, touroperators en bestemmingen GSTC-criteria en het Türkiye Environmental and Cultural Sustainability Programme te zien naast de praktijk op de vloer. We prioriteren hiaten via gap-analyse en actieplanning en brengen beleid, registraties, training en praktijkbewijs naar een beoordelingsklaar dossier. ANKA geeft geen certificaten uit en garandeert geen uitkomst; onze scope is voorbereiding, bewijsopbouw en voorbereidingsadvies vóór beoordeling.",
               "ctas": {
                 "primary": "Plan een gesprek",
                 "secondary": "Bekijk diensten"
@@ -1969,7 +1983,7 @@
     "detailCta": "Neem contact op met ANKA",
     "process": {
       "eyebrow": "Onze werkwijze",
-      "title": "Hoe wij adviestrajecten structureren",
+      "title": "Hoe wij adviesopdrachten inrichten",
       "intro": "In elk dienstveld verduidelijken we eerst de behoefte, daarna zetten we data, bewijsvoering en technisch traject neer in een inrichting die u duurzaam binnen de organisatie kunt laten draaien.",
       "s1": {
         "title": "01 Scope en prioriteiten verduidelijken",
@@ -1977,7 +1991,7 @@
       },
       "s2": {
         "title": "02 Data- en bewijskaart opzetten",
-        "body": "Wij structureren databronnen, verantwoordelijkheden, aannames en ondersteunende documentatie."
+        "body": "We ordenen databronnen, verantwoordelijkheden, aannames en ondersteunende documentatie."
       },
       "s3": {
         "title": "03 Technisch werk uitvoeren",
@@ -2043,7 +2057,7 @@
       "description": "Bekijk digitale oplossingen die zijn gevormd door echte gebruikssituaties en adviesbehoeften. Elke oplossing is ontworpen om data beter te structureren, processen beter traceerbaar te maken en uitkomsten beter beheersbaar te maken.",
       "actions": {
         "viewSolution": "Bekijk oplossing",
-        "requestDemo": "Demo aanvragen"
+        "requestDemo": "Demo Aanvragen"
       },
       "demoMailSubject": "Demoaanvraag - {product}",
       "demoMailBody": "Hallo, ik wil graag een demo aanvragen voor {product}.",
@@ -2060,17 +2074,24 @@
           "pill": "CBAM",
           "status": "selected_use",
           "title": "CBAM Calculation Engine",
-          "summary": "Zet CBAM-berekening en rapportagevoorbereiding om van verspreide spreadsheets naar een beter traceerbare, gecontroleerde en rapportageklare werkstructuur.",
-          "modalTagline": "Zet CBAM-berekening en rapportagevoorbereiding om van verspreide spreadsheets naar een beter traceerbare, gecontroleerde en rapportageklare werkstructuur.",
-          "modalWhatFor": "Voor het structureren van product-, installatie-, input- en leveranciersdata volgens CBAM-berekeningslogica, het consistent verwerken van emissiedata en het voorbereiden van rapportageklare output.",
-          "modalTeamValue": "Vermindert handmatige rekenfouten, vergroot de zichtbaarheid van databronnen, versterkt het beheer van aannames en maakt technische controles binnen adviestrajecten systematischer.",
+          "summary": "Een gecontroleerde softwarewerkruimte voor leveranciersgegevens, emissieberekeningen, bewijsbeheer en rapportageklare CBAM-output.",
+          "modalTagline": "CBAM Calculation Engine helpt bedrijven om leveranciersgegevens, productgebonden emissieberekeningen, bewijsdocumenten en rapportagevoorbereiding te beheren binnen één gecontroleerde CBAM-werkruimte.",
+          "modalWhatFor": "Het platform structureert productgegevens, installaties, CN-codes, rapportagejaren, productiegegevens, elektriciteitsverbruik, precursor-inputs, schrootinformatie en bewijsdocumenten binnen één CBAM-datamodel. Buyer- en supplier-teams kunnen binnen dezelfde gecontroleerde workflow samenwerken aan dataverzameling, review, revisie en outputvoorbereiding.",
+          "modalTeamValue": "Het vermindert versnippering in spreadsheets en mailboxen, vergroot traceerbaarheid en houdt berekeningsuitkomsten en bewijs in een structuur die eenvoudiger te reviewen is voor advies, verificatie en regelgevingsrapportage.",
+          "modalLabelValueProposition": "Waardepropositie",
+          "modalLabelWhatFor": "Waarvoor het wordt gebruikt",
+          "modalLabelTeamValue": "Wat teams winnen",
+          "modalLabelCoreCapabilities": "Kerncapaciteiten",
+          "modalVisualCaption": "CBAM-portfoliodashboard en leveranciersreviewworkflow",
           "bullets": [
-            "CBAM-berekeningslogica op product- en installatieniveau",
-            "Beheer van leveranciersdata en aannames",
-            "Structuur voor embedded emissions-berekeningen",
-            "Outputkader voor rapportagevoorbereiding"
+            "CBAM-dataverzameling per leverancier",
+            "Registratiestructuur per product, installatie, CN-code en rapportagejaar",
+            "Afzonderlijke opvolging van directe en indirecte emissies",
+            "Beheer van precursoren, schrootgegevens en bewijsdocumenten",
+            "Buyer review-, goedkeurings- en revisieworkflow",
+            "Rapportageklare en auditgerichte outputstructuur"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "CBAM-portfoliodashboard en leveranciersreviewworkflow",
           "heroText": "CBAM Calculation Engine is een digitale workflow-infrastructuur die dataverzameling, berekening, traceerbaarheid en rapportagevoorbereiding beheersbaarder en herhaalbaarder maakt—zonder expert CBAM-advies te vervangen.",
           "solves": [
             "Verspreide leveranciersinvoer vraagt om één beheerste rekenlogica.",
@@ -2225,17 +2246,23 @@
           "pill": "DPP",
           "status": "selected_use",
           "title": "Digital Product Passport Platform",
-          "summary": "Brengt productdata, technische registraties, traceerbaarheidsinformatie en duurzaamheidsverklaringen in een structuur die beter aansluit op Digital Product Passport-vereisten.",
-          "modalTagline": "Brengt productdata, technische registraties, traceerbaarheidsinformatie en duurzaamheidsverklaringen in een structuur die beter aansluit op Digital Product Passport-vereisten.",
-          "modalWhatFor": "Voor het organiseren van productdata-architectuur, supplychaininformatie, technische registraties, materiaaldata en marktgerichte verklaringen volgens DPP-logica.",
-          "modalTeamValue": "Vermindert versnippering van productdata tussen teams en leveranciers, versterkt traceerbaarheid en helpt om productpaspoortklare registraties eerder op te bouwen.",
+          "summary": "Brengt productdata, technische registraties, traceerbaarheidsinformatie en duurzaamheidsverklaringen in een duidelijkere en beter beheerbare structuur voor voorbereiding op het Digitaal Productpaspoort.",
+          "modalTagline": "Brengt productdata, technische registraties, traceerbaarheidsinformatie en duurzaamheidsverklaringen in een duidelijkere en beter beheerbare structuur voor voorbereiding op het Digitaal Productpaspoort.",
+          "modalWhatFor": "Wordt gebruikt om productdata, materiaalinformatie, leveranciersregistraties, technische documentatie, conformiteitsverklaringen en marktspecifieke gegevensbehoeften te ordenen volgens de logica van het Digitaal Productpaspoort.",
+          "modalTeamValue": "Vermindert versnipperde productinformatie tussen teams en leveranciers, versterkt traceerbaarheid en helpt om eerder een paspoortklare datastructuur op te bouwen.",
+          "modalLabelValueProposition": "Korte waardepropositie",
+          "modalLabelWhatFor": "Waarvoor wordt het gebruikt?",
+          "modalLabelTeamValue": "Wat levert het teams op?",
+          "modalLabelCoreCapabilities": "Kerncapaciteiten",
           "bullets": [
             "Productdata-architectuur",
-            "Traceerbaarheids- en registratielogica",
+            "Materiaal- en componentregistraties",
+            "Traceerbaarheid in de toeleveringsketen",
             "Technische productdatavelden",
-            "Dataopzet geschikt voor productpaspoorten"
+            "Opvolging van conformiteit en verklaringen",
+            "Paspoortklare datastructuur"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "Dashboard van het Digital Product Passport Platform met productportfolio, paspoortvoltooiing, leverancierscompliance, marktgereedheid en lanceringsvoorbereiding.",
           "heroText": "Digital Product Passport Platform structureert productdata, technische dossiers, traceerbaarheid en duurzaamheidsclaims zodat teams richting paspoortvereisten kunnen werken.",
           "solves": [
             "Product- en complianceteams hebben een samenhangende data-architectuur nodig.",
@@ -2286,17 +2313,20 @@
           "pill": "Verpakking",
           "status": "selected_use",
           "title": "Packaging Compliance Tool",
-          "summary": "Zet verpakkingscomponenten, materiaalinformatie, land- of marktspecifieke databehoeften en compliancecontrolepunten om in een beter beheersbare werkstructuur.",
-          "modalTagline": "Zet verpakkingscomponenten, materiaalinformatie, land- of marktspecifieke databehoeften en compliancecontrolepunten om in een beter beheersbare werkstructuur.",
-          "modalWhatFor": "Voor het structureren van verpakkingsdatasets, materiaalclassificaties, recyclebaarheidsinformatie, marktspecifieke rapportagebehoeften en compliancecontrolepunten.",
-          "modalTeamValue": "Haalt verpakkingsinformatie uit losse bestanden en e-mailstromen, verduidelijkt data-eigenaarschap, maakt marktspecifieke vereisten beter opvolgbaar en versterkt compliancevoorbereiding.",
+          "summary": "Digitale werkomgeving om verpakkingsdata, leveranciersdocumentatie, land- en marktverplichtingen en nalevingsstatus centraal te beheren.",
+          "modalTagline": "Packaging Compliance Tool maakt verpakkingsrecepten, materiaalgegevens, documentvoorbereiding, marktscope en openstaande bevindingen zichtbaar op één scherm. Het brengt tracking uit e-mail, Excel en losse mappen naar een strakkere, traceerbare en bestuurbare werkwijze.",
+          "modalWhatFor": "Voor het opbouwen van verpakkingsdatasets, het verzamelen van leveranciersdocumenten en -verklaringen, het volgen van land- en markteisen, het prioriteren van openstaande bevindingen en het managen van rapportagegereedheid.",
+          "modalTeamValue": "Inkoop, duurzaamheid, kwaliteit, regelgeving en buitenlandse handel werken in dezelfde omgeving. Verantwoordelijkheden worden scherper, ontbrekende documenten zichtbaarder, marktrisico’s beter te volgen en antwoorden op klant- of auditvragen sneller voor te bereiden.",
+          "modalVisualCaption": "Verpakkingsnaleving, documentopvolging en marktscope in één werkomgeving.",
           "bullets": [
-            "Verpakkingsdataset",
-            "Materiaal- en componentregistraties",
-            "Compliancecontrolepunten",
-            "Samenvattende rapportage-output"
+            "Beheer van verpakkings- en materiaaldatasets",
+            "Opvolging van leveranciersdocumenten en -verklaringen",
+            "Nalevingsbeeld per land en markt",
+            "Lijst met openstaande bevindingen en acties",
+            "Opvolging van documentvoorbereiding en outputpakketten",
+            "Managementdashboard, prioritering en statusmonitoring"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "Packaging Compliance Tool managementdashboard en nalevingsoverzicht",
           "heroText": "Packaging Compliance Tool helpt teams verpakkingscomponenten, materialen, marktspecifieke data-eisen en compliancecontroles in één werkbare werkomgeving te sturen.",
           "solves": [
             "Verpakkingsdata is versnipperd over leveranciers, materialen en marktregels.",
@@ -2379,7 +2409,7 @@
       "title": "Laten we de juiste digitale opzet samen bepalen",
       "description": "Laten we samen uw compliancevereisten, datastructuur en operationele prioriteiten beoordelen om de juiste digitale werkwijze voor uw organisatie te bepalen.",
       "primaryCta": "Plan een gesprek",
-      "secondaryCta": "Neem contact op"
+      "secondaryCta": "Contact Opnemen"
     }
   },
   "aboutPage": {
@@ -2530,7 +2560,7 @@
     },
     "companyDetails": {
       "eyebrow": "Bedrijfskader",
-      "title": "Hoe wij ons positioneren",
+      "title": "Onze rol en werkwijze",
       "intro": "Een beknopt kader dat onze positionering en koers expliciet maakt.",
       "name": {
         "label": "Bedrijfsnaam",
@@ -2815,7 +2845,7 @@
       "title": "De juiste data, compliance en marktvoorbereiding voor elke sector",
       "description": "ANKA beoordeelt uw sector op basis van productstructuur, toeleveringsketen, databeschikbaarheid en verwachtingen van de doelmarkt. Wij benaderen duurzaamheid, koolstofbeheer, productprestaties en EU-compliance niet met een standaardtemplate, maar met een werkmodel dat aansluit op de operationele realiteit van uw sector.",
       "primaryCta": "Plan een gesprek",
-      "secondaryCta": "Bekijk sectorfocus",
+      "secondaryCta": "Bekijk sectorexpertise",
       "panel": {
         "eyebrow": "Sectoraal kader",
         "title": "Sectoraal beoordelingskader",
@@ -2829,7 +2859,7 @@
       }
     },
     "grid": {
-      "eyebrow": "Onze sectorfocus",
+      "eyebrow": "Sectoren waarin we werken",
       "title": "Wij vertalen sectorrealiteit naar data- en compliancestructuren",
       "intro": "Prioriteiten verschillen per sector. Daarom richten we ons niet alleen op algemene regelgevings­thema’s, maar tegelijk op productopbouw, materiaalinhoud, datakwaliteit, ketenzichtbaarheid en de verwachtingen in uw doelmarkt.",
       "cardCta": "Sector verkennen",
@@ -2864,9 +2894,9 @@
         },
         "metalsIndustrial": {
           "title": "Metalen, aluminium en industriële productie",
-          "description": "We maken CBAM, koolstofdata, berekening op productniveau en ketenbewijs beter traceerbaar en rapporteerbaar.",
+          "description": "We maken CBAM, koolstofdata, berekening op productniveau, ASI-voorbereiding en ketenbewijs beter traceerbaar en rapporteerbaar.",
           "focus1": "CBAM en ingebedde emissies",
-          "focus2": "Discipline rond koolstofdata",
+          "focus2": "ASI / Aluminium Stewardship Initiative-voorbereiding",
           "focus3": "Berekening per product of vestiging"
         },
         "automotiveMobility": {

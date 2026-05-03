@@ -10,6 +10,13 @@ import {
   type SoftwarePortfolioProductDto,
 } from "@/components/software/software-portfolio-client";
 
+type ModalLabelsOverrideMutable = {
+  valueProposition?: string;
+  whatFor?: string;
+  teamValue?: string;
+  coreCapabilities?: string;
+};
+
 type TranslatorLike = IntlTranslator & ((key: string, values?: Record<string, string>) => string);
 
 type Props = Readonly<{
@@ -35,9 +42,18 @@ function readStringArray(t: TranslatorLike, key: string): string[] {
 }
 
 function optionalString(t: TranslatorLike, key: string): string | undefined {
+  const tAny = t as unknown as { has?: (k: string) => boolean };
+  if (typeof tAny.has === "function" && !tAny.has(key)) {
+    return undefined;
+  }
   try {
     const v = t(key).trim();
-    return v || undefined;
+    if (!v) return undefined;
+    // Guard against next-intl missing-key echoes (paths / ALL_CAPS tokens)
+    if (v === key) return undefined;
+    if (/^softwarePage\./i.test(v) || /^portfolio\./i.test(v)) return undefined;
+    if (/^[A-Z][A-Z0-9._-]*$/.test(v) && v.includes(".")) return undefined;
+    return v;
   } catch {
     return undefined;
   }
@@ -45,19 +61,28 @@ function optionalString(t: TranslatorLike, key: string): string | undefined {
 
 const AGRI_SCREENSHOT = "/software/agri-climate-platform-overview-dashboard.png";
 const CBAM_CONSOLE_SCREENSHOT = "/software/cbam-compliance-console-dashboard.png";
+const PACKAGING_COMPLIANCE_SCREENSHOT = "/software/packaging-compliance-tool-dashboard.png";
+const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/cbam-calculation-engine-dashboard.png";
+const DPP_SCREENSHOT = "/software/digital-product-passport-platform-dashboard.png";
 
 export function SoftwarePortfolio({ t }: Props) {
   const tt = t as TranslatorLike;
 
   const products: SoftwarePortfolioProductDto[] = SOFTWARE_PORTFOLIO_ORDER.map((slug) => {
     const base = `portfolio.products.${slug}`;
-    const bullets = readStringArray(tt, `${base}.bullets`).slice(0, 4);
+    const bullets = readStringArray(tt, `${base}.bullets`).slice(0, 6);
     const screenshotSrc =
       slug === "agri-climate-platform"
         ? AGRI_SCREENSHOT
         : slug === "cbam-compliance-console"
           ? CBAM_CONSOLE_SCREENSHOT
-          : null;
+          : slug === "packaging-compliance-tool"
+            ? PACKAGING_COMPLIANCE_SCREENSHOT
+            : slug === "cbam-calculation-engine"
+              ? CBAM_CALCULATION_ENGINE_SCREENSHOT
+              : slug === "digital-product-passport-platform"
+                ? DPP_SCREENSHOT
+                : null;
     let screenshotAlt = "";
     try {
       screenshotAlt = tt(`${base}.screenshotAlt`).trim();
@@ -81,6 +106,19 @@ export function SoftwarePortfolio({ t }: Props) {
       (solves.length > 1 ? solves.slice(1, 3).filter(Boolean).join(" ") : "");
     const modalTagline = optionalString(tt, `${base}.modalTagline`)?.trim() || "";
 
+    const modalLabelsOverride: ModalLabelsOverrideMutable = {};
+    const labelVp = optionalString(tt, `${base}.modalLabelValueProposition`);
+    if (labelVp) modalLabelsOverride.valueProposition = labelVp;
+    const labelWf = optionalString(tt, `${base}.modalLabelWhatFor`);
+    if (labelWf) modalLabelsOverride.whatFor = labelWf;
+    const labelTv = optionalString(tt, `${base}.modalLabelTeamValue`);
+    if (labelTv) modalLabelsOverride.teamValue = labelTv;
+    const labelCc = optionalString(tt, `${base}.modalLabelCoreCapabilities`);
+    if (labelCc) modalLabelsOverride.coreCapabilities = labelCc;
+    const hasModalLabelOverride = Object.keys(modalLabelsOverride).length > 0;
+
+    const modalVisualCaption = optionalString(tt, `${base}.modalVisualCaption`)?.trim();
+
     return {
       slug,
       pill: tt(`${base}.pill`),
@@ -93,6 +131,10 @@ export function SoftwarePortfolio({ t }: Props) {
       modalTagline,
       modalWhatFor,
       modalTeamValue,
+      modalLabelsOverride: hasModalLabelOverride
+        ? (modalLabelsOverride as Partial<SoftwareModalLabels>)
+        : undefined,
+      modalVisualCaption,
     };
   });
 

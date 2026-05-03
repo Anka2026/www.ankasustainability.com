@@ -1,7 +1,10 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import type { AppLocale } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { homeCardClassName } from "@/lib/home-classes";
+import { getHeroSubServiceTitlesForMenu } from "@/lib/service-sub-services";
 import {
   SERVICES_CATEGORY_ICONS,
   SERVICES_CATEGORY_ORDER,
@@ -10,13 +13,13 @@ import {
 import { serviceRouteSegmentFromId } from "@/lib/services-routing";
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 
 type Props = Readonly<{
   t: IntlTranslator;
+  locale: AppLocale;
 }>;
 
-export function ServicesDetailSection({ t }: Props) {
+export function ServicesDetailSection({ t, locale }: Props) {
   return (
     <section
       id="services-areas"
@@ -36,7 +39,7 @@ export function ServicesDetailSection({ t }: Props) {
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 lg:gap-5">
           {SERVICES_CATEGORY_ORDER.map((id) => (
-            <ServiceNavCard key={id} categoryId={id} t={t} />
+            <ServiceNavCard key={id} categoryId={id} t={t} locale={locale} />
           ))}
         </div>
       </Container>
@@ -47,26 +50,31 @@ export function ServicesDetailSection({ t }: Props) {
 function ServiceNavCard({
   categoryId,
   t,
+  locale,
 }: {
   categoryId: ServicesCategoryId;
   t: IntlTranslator;
+  locale: AppLocale;
 }) {
   const Icon = SERVICES_CATEGORY_ICONS[categoryId];
   const segment = serviceRouteSegmentFromId(categoryId);
   const body = t(`areas.cards.${categoryId}.body`);
+  const bullets = getHeroSubServiceTitlesForMenu(categoryId, locale, 4);
 
   return (
     <Link
+      id={`service-${categoryId}`}
       href={`/services/${segment}`}
       className={cn(
         homeCardClassName(true),
         "group flex h-full flex-col justify-between gap-5 p-5 text-left no-underline sm:p-6",
         "shadow-[0_20px_56px_-48px_rgba(15,23,42,0.5)]",
+        "hover:bg-[var(--accent-soft)]/25",
       )}
     >
       <div className="min-w-0">
         <div className="flex items-start gap-3.5">
-          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-border/80 bg-background/90 text-primary shadow-[inset_0_1px_0_0_rgba(255,255,255,0.7)] transition-colors group-hover:border-accent/35">
+          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-border/80 bg-background/90 text-primary shadow-[inset_0_1px_0_0_rgba(255,255,255,0.7)] transition-colors group-hover:border-accent/40">
             <Icon className="h-6 w-6" aria-hidden />
           </span>
           <div className="min-w-0">
@@ -76,6 +84,16 @@ function ServiceNavCard({
             <p className="mt-2.5 text-sm leading-relaxed text-muted-foreground sm:text-[0.9375rem] sm:leading-[1.6]">
               {body}
             </p>
+            <ul className="mt-3.5 space-y-1.5 border-l-2 border-accent/28 pl-3">
+              {bullets.map((line) => (
+                <li
+                  key={line}
+                  className="text-[0.8125rem] font-medium leading-snug text-foreground/88 sm:text-[0.84375rem]"
+                >
+                  {line}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

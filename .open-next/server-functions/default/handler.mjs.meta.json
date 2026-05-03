@@ -3653,13 +3653,13 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js": {
-      "bytes": 29428,
+    ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/packaging-bom/page_client-reference-manifest.js": {
+      "bytes": 30898,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/packaging-bom/page_client-reference-manifest.js": {
-      "bytes": 30898,
+    ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js": {
+      "bytes": 29428,
       "imports": [],
       "format": "cjs"
     },
@@ -3827,14 +3827,14 @@
           "original": "C:\\Users\\burcu\\Documents\\YAZILIM\\ankasustainability-web\\.open-next\\server-functions\\default\\.next\\server\\app\\[locale]\\(product)\\pcos\\technical-file\\page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "C:\\Users\\burcu\\Documents\\YAZILIM\\ankasustainability-web\\.open-next\\server-functions\\default\\.next\\server\\app\\[locale]\\(product)\\pcos\\evidence-pack\\page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/packaging-bom/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "C:\\Users\\burcu\\Documents\\YAZILIM\\ankasustainability-web\\.open-next\\server-functions\\default\\.next\\server\\app\\[locale]\\(product)\\pcos\\packaging-bom\\page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "C:\\Users\\burcu\\Documents\\YAZILIM\\ankasustainability-web\\.open-next\\server-functions\\default\\.next\\server\\app\\[locale]\\(product)\\pcos\\evidence-pack\\page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/resources/[slug]/page_client-reference-manifest.js",
@@ -4415,7 +4415,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/382.js": {
-      "bytes": 15471,
+      "bytes": 29943,
       "imports": [],
       "format": "cjs"
     },
@@ -4425,7 +4425,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/424.js": {
-      "bytes": 158247,
+      "bytes": 163311,
       "imports": [],
       "format": "cjs"
     },
@@ -4435,7 +4435,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/616.js": {
-      "bytes": 141873,
+      "bytes": 145827,
       "imports": [],
       "format": "cjs"
     },
@@ -4450,7 +4450,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/789.js": {
-      "bytes": 136383,
+      "bytes": 140839,
       "imports": [],
       "format": "cjs"
     },
@@ -4464,13 +4464,18 @@
       "imports": [],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/chunks/936.js": {
+      "bytes": 25002,
+      "imports": [],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/.next/server/chunks/975.js": {
       "bytes": 487452,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-      "bytes": 2357,
+      "bytes": 2412,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/124.js",
@@ -4541,6 +4546,11 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/917.js",
           "kind": "require-call",
           "original": "./chunks/917.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/chunks/936.js",
+          "kind": "require-call",
+          "original": "./chunks/936.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/975.js",
@@ -4723,7 +4733,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/services/[service]/page.js": {
-      "bytes": 90561,
+      "bytes": 79291,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -4809,7 +4819,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/software/[product]/page.js": {
-      "bytes": 42275,
+      "bytes": 43044,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -6099,7 +6109,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/services/page.js": {
-      "bytes": 55738,
+      "bytes": 44481,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -6185,7 +6195,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/software/page.js": {
-      "bytes": 62989,
+      "bytes": 68645,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -10254,11 +10264,11 @@
         ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/technical-file/page_client-reference-manifest.js": {
           "bytesInOutput": 27091
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js": {
-          "bytesInOutput": 27299
-        },
         ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/packaging-bom/page_client-reference-manifest.js": {
           "bytesInOutput": 28769
+        },
+        ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/evidence-pack/page_client-reference-manifest.js": {
+          "bytesInOutput": 27299
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/resources/[slug]/page_client-reference-manifest.js": {
           "bytesInOutput": 27508
@@ -10411,19 +10421,19 @@
           "bytesInOutput": 106165
         },
         ".open-next/server-functions/default/.next/server/chunks/382.js": {
-          "bytesInOutput": 15695
+          "bytesInOutput": 31215
         },
         ".open-next/server-functions/default/.next/server/chunks/403.js": {
           "bytesInOutput": 38908
         },
         ".open-next/server-functions/default/.next/server/chunks/424.js": {
-          "bytesInOutput": 188561
+          "bytesInOutput": 194331
         },
         ".open-next/server-functions/default/.next/server/chunks/445.js": {
           "bytesInOutput": 158209
         },
         ".open-next/server-functions/default/.next/server/chunks/616.js": {
-          "bytesInOutput": 142502
+          "bytesInOutput": 146483
         },
         ".open-next/server-functions/default/.next/server/chunks/63.js": {
           "bytesInOutput": 381692
@@ -10432,7 +10442,7 @@
           "bytesInOutput": 8028
         },
         ".open-next/server-functions/default/.next/server/chunks/789.js": {
-          "bytesInOutput": 137026
+          "bytesInOutput": 141506
         },
         ".open-next/server-functions/default/.next/server/chunks/839.js": {
           "bytesInOutput": 6229
@@ -10440,11 +10450,14 @@
         ".open-next/server-functions/default/.next/server/chunks/917.js": {
           "bytesInOutput": 18689
         },
+        ".open-next/server-functions/default/.next/server/chunks/936.js": {
+          "bytesInOutput": 26193
+        },
         ".open-next/server-functions/default/.next/server/chunks/975.js": {
           "bytesInOutput": 505436
         },
         ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-          "bytesInOutput": 2219
+          "bytesInOutput": 2251
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/responsibility-mapping/page.js": {
           "bytesInOutput": 32193
@@ -10453,10 +10466,10 @@
           "bytesInOutput": 33103
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/services/[service]/page.js": {
-          "bytesInOutput": 91920
+          "bytesInOutput": 80244
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/software/[product]/page.js": {
-          "bytesInOutput": 42647
+          "bytesInOutput": 43419
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(product)/pcos/technical-file/page.js": {
           "bytesInOutput": 33390
@@ -10501,10 +10514,10 @@
           "bytesInOutput": 49418
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/services/page.js": {
-          "bytesInOutput": 56289
+          "bytesInOutput": 44689
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/software/page.js": {
-          "bytesInOutput": 63524
+          "bytesInOutput": 69234
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/(marketing)/contact/page.js": {
           "bytesInOutput": 57846
@@ -10699,7 +10712,7 @@
           "bytesInOutput": 67755
         }
       },
-      "bytes": 6104090
+      "bytes": 6143272
     }
   }
 }

@@ -7,6 +7,7 @@ import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import type { ServicesCategoryId } from "@/lib/services-categories";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { SERVICE_LANDING } from "@/lib/services-landing";
+import { getHeroSubServices } from "@/lib/service-sub-services";
 import { cn } from "@/lib/utils";
 
 import {
@@ -66,7 +67,7 @@ export function BenchmarkServiceLanding({
 }) {
   const base = `landing.services.${categoryId}.benchmark`;
 
-  const heroPanel = readCardArray(t, `${base}.hero.panelCards`);
+  const heroPanel = getHeroSubServices(categoryId, locale).slice(0, 4);
   const proofItems = readStringArray(t, `${base}.hero.proofStrip.items`).slice(0, 4);
   const proofSubtitles = readStringArray(t, `${base}.hero.proofStrip.subtitles`).slice(0, 4);
 
@@ -90,20 +91,20 @@ export function BenchmarkServiceLanding({
   const kickers =
     locale === "tr"
       ? {
-          advisory: "YETKİNLİK ALANLARI",
+          advisory: "ALT HİZMETLER",
           how: "NASIL ÇALIŞIYORUZ",
           audience: "KİMLER İÇİN UYGUN",
           nextStep: "Sonraki Adım",
         }
       : locale === "nl"
         ? {
-            advisory: "Adviesfocus",
+            advisory: "Dienstgebieden",
             how: "Hoe we werken",
             audience: "Voor wie",
             nextStep: "Volgende stap",
           }
         : {
-            advisory: "ADVISORY FOCUS AREAS",
+            advisory: "SERVICE AREAS",
             how: "HOW WE WORK",
             audience: "WHO IT IS FOR",
             nextStep: "Next step",
@@ -144,15 +145,21 @@ export function BenchmarkServiceLanding({
         />
 
         <Container className="relative max-w-7xl pt-12 pb-14 sm:pt-14 sm:pb-16 xl:max-w-[86rem] 2xl:max-w-[92rem]">
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-start lg:gap-12">
-            <div className="min-w-0">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-stretch lg:gap-12">
+            <div className="flex min-w-0 flex-col">
+              <Link
+                href="/services"
+                className="mb-3 inline-flex w-fit text-sm font-medium text-muted-foreground underline decoration-muted-foreground/35 underline-offset-[5px] transition-[opacity,decoration-color] hover:opacity-80 hover:decoration-primary/45"
+              >
+                {t("detail.backToServices")}
+              </Link>
               <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
                 {t(`${base}.hero.eyebrow`)}
               </p>
               <h1 className="mt-3 max-w-5xl text-balance text-pretty text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
                 {t(`${base}.hero.title`)}
               </h1>
-              <p className="mt-4 max-w-5xl text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
+              <p className="mt-4 max-w-5xl flex-1 text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
                 {t(`${base}.hero.text`)}
               </p>
 
@@ -171,8 +178,8 @@ export function BenchmarkServiceLanding({
               </div>
             </div>
 
-            <div className="relative">
-              <div className="overflow-hidden rounded-[2.5rem] border border-border bg-primary text-primary-foreground shadow-[0_34px_86px_-66px_rgba(15,23,42,0.85)] ring-1 ring-inset ring-white/10">
+            <div className="relative flex h-full min-h-0 flex-col">
+              <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-[2.5rem] border border-border bg-primary text-primary-foreground shadow-[0_34px_86px_-66px_rgba(15,23,42,0.85)] ring-1 ring-inset ring-white/10">
                 <div
                   className={cn(
                     "absolute inset-0",
@@ -187,7 +194,7 @@ export function BenchmarkServiceLanding({
                 <div className="relative p-7 sm:p-8">
                   <div className="flex items-center justify-between gap-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground/70">
-                      {t(`${base}.hero.panelTitle`)}
+                      {t("subServicesPanelTitle")}
                     </p>
                     <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06]">
                       <ShieldCheck className="h-5 w-5 text-primary-foreground/80" aria-hidden />
@@ -199,7 +206,11 @@ export function BenchmarkServiceLanding({
                       return (
                         <div
                           key={`hero-panel-${c.title}`}
-                          className="rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-[0_18px_50px_-42px_rgba(0,0,0,0.55)] ring-1 ring-inset ring-white/10"
+                          className={cn(
+                            "rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-[0_18px_50px_-42px_rgba(15,23,42,0.35)] ring-1 ring-inset ring-white/10",
+                            "transition-[border-color,box-shadow,transform,background-color] duration-200 ease-out",
+                            "hover:border-white/20 hover:bg-white/[0.09] hover:shadow-[0_22px_56px_-40px_rgba(15,23,42,0.28)] hover:-translate-y-px",
+                          )}
                         >
                           <div className="flex items-start gap-3">
                             <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06]">

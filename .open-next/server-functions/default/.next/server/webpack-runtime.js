@@ -15,6 +15,7 @@
        case 789: d(require("./chunks/789.js")); break;
        case 839: d(require("./chunks/839.js")); break;
        case 917: d(require("./chunks/917.js")); break;
+       case 936: d(require("./chunks/936.js")); break;
        case 975: d(require("./chunks/975.js")); break;
        case 311: c[a] = 1; break;
        default: throw new Error(`Unknown chunk ${a}`);

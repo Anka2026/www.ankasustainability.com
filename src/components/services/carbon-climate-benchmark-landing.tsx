@@ -5,6 +5,7 @@ import type { AppLocale } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
+import { getHeroSubServices } from "@/lib/service-sub-services";
 import { homeCardClassName } from "@/lib/home-classes";
 import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import { cn } from "@/lib/utils";
@@ -68,7 +69,7 @@ export function CarbonClimateBenchmarkLanding({
 }) {
   const base = "landing.services.carbonClimate.benchmark";
 
-  const heroPanel = readCardArray(t, `${base}.hero.panelCards`);
+  const heroPanel = getHeroSubServices("carbonClimate", locale).slice(0, 4);
   const whyCards = readCardArray(t, `${base}.why.cards`);
   const whyValueItems = readStringArray(t, `${base}.why.valueItems`);
   const supportCards = readCardArray(t, `${base}.support.cards`);
@@ -87,7 +88,7 @@ export function CarbonClimateBenchmarkLanding({
 
   const proofTitles =
     localeVariant === "tr"
-      ? (["Karbon Verisi", "CBAM Hazırlığı", "Kanıt Yapısı", "Geçiş Yol Haritası"] as const)
+      ? (["Karbon verisi", "CBAM hazırlığı", "Kanıt düzeni", "Geçiş yol haritası"] as const)
       : localeVariant === "nl"
         ? (["Koolstofdata", "CBAM-gereedheid", "Bewijsstructuur", "Transitiekader"] as const)
         : (["Carbon Data", "CBAM Readiness", "Evidence Structure", "Transition Roadmap"] as const);
@@ -116,10 +117,10 @@ export function CarbonClimateBenchmarkLanding({
 
   const midSupportEyebrow =
     localeVariant === "tr"
-      ? "YETKİNLİK ALANLARI"
+      ? "ALT HİZMETLER"
       : localeVariant === "nl"
-        ? "Adviesfocus"
-        : "ADVISORY FOCUS AREAS";
+        ? "Dienstgebieden"
+        : "SERVICE AREAS";
   const midHowEyebrow =
     localeVariant === "tr"
       ? "NASIL ÇALIŞIYORUZ"
@@ -128,10 +129,10 @@ export function CarbonClimateBenchmarkLanding({
         : "HOW WE WORK";
   const midTechEyebrow =
     localeVariant === "tr"
-      ? "TEKNİK ÇALIŞMA KURGUSU"
+      ? "VERİ VE KANIT DÜZENİ"
       : localeVariant === "nl"
-        ? "Technische werkstructuur"
-        : "TECHNICAL WORK STRUCTURE";
+        ? "Data- en bewijsstructuur"
+        : "DATA AND EVIDENCE STRUCTURE";
 
   const processIntroTr = "Çalışma akışını; kapsam netliği, veri sahipliği ve kontrol adımları üzerine kurarız.";
   const processKickerTr = "Kapsam → Veri → Kontrol → Karar";
@@ -227,16 +228,19 @@ export function CarbonClimateBenchmarkLanding({
         />
 
         <Container className="relative max-w-7xl pt-12 pb-14 sm:pt-14 sm:pb-16 xl:max-w-[86rem] 2xl:max-w-[92rem]">
-          <div className="grid items-center gap-9 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1fr)] lg:gap-11">
-            {/* Copy */}
-            <div className="min-w-0">
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                {eyebrow}
-              </p>
-              <h1 className="mt-4 max-w-[34rem] text-balance text-pretty text-[2.05rem] font-semibold leading-[1.1] tracking-[-0.03em] text-foreground sm:text-[2.65rem] sm:leading-[1.05]">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-stretch lg:gap-12">
+            <div className="flex min-w-0 flex-col">
+              <Link
+                href="/services"
+                className="mb-3 inline-flex w-fit text-sm font-medium text-muted-foreground underline decoration-muted-foreground/35 underline-offset-[5px] transition-[opacity,decoration-color] hover:opacity-80 hover:decoration-primary/45"
+              >
+                {t("detail.backToServices")}
+              </Link>
+              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">{eyebrow}</p>
+              <h1 className="mt-3 max-w-5xl text-balance text-pretty text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
                 {t(`${base}.hero.title`)}
               </h1>
-              <p className="mt-4 max-w-[40rem] text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
+              <p className="mt-4 max-w-5xl flex-1 text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
                 {t(`${base}.hero.text`)}
               </p>
 
@@ -255,9 +259,8 @@ export function CarbonClimateBenchmarkLanding({
               </div>
             </div>
 
-            {/* Large right visual panel */}
-            <div className="min-w-0">
-              <div className="relative overflow-hidden rounded-[2.25rem] border border-border/80 bg-background shadow-[0_34px_86px_-62px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06]">
+            <div className="relative flex h-full min-h-0 flex-col">
+              <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-[2.5rem] border border-border bg-primary text-primary-foreground shadow-[0_34px_86px_-66px_rgba(15,23,42,0.85)] ring-1 ring-inset ring-white/10">
                 <div
                   className={cn(
                     "absolute inset-0",
@@ -266,57 +269,37 @@ export function CarbonClimateBenchmarkLanding({
                   aria-hidden
                 />
                 <div
-                  className="absolute inset-0 opacity-[0.35] [background-image:linear-gradient(rgba(2,132,199,0.10)_1px,transparent_1px),linear-gradient(90deg,rgba(2,132,199,0.10)_1px,transparent_1px)] [background-size:44px_44px]"
-                  aria-hidden
-                />
-                <div
                   className="absolute -left-10 -bottom-16 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(8,145,178,0.18),transparent_62%)] blur-2xl"
                   aria-hidden
                 />
-                <div
-                  className="absolute -right-16 -top-20 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(8,145,178,0.28),transparent_60%)] blur-2xl"
-                  aria-hidden
-                />
-
-                <div className="relative p-6 sm:p-7">
+                <div className="relative flex flex-1 flex-col p-7 sm:p-8">
                   <div className="flex items-center justify-between gap-4">
-                    <div className="min-w-0">
-                      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-foreground/70">
-                        {t(`${base}.hero.panelTitle`)}
-                      </p>
-                      <p className="mt-2 text-sm font-semibold tracking-tight text-foreground">
-                        {localeVariant === "tr"
-                          ? "İklim ve karbon çalışmalarını sistem mantığına çevirin"
-                          : localeVariant === "nl"
-                            ? "Maak klimaat- en koolstofwerk onderdeel van een beheerst systeem"
-                            : "Turn climate & carbon work into a governed system"}
-                      </p>
-                    </div>
-                    <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-primary/15 bg-primary/[0.04] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                      <Leaf className="h-5 w-5 text-primary" aria-hidden />
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground/70">
+                      {t("subServicesPanelTitle")}
+                    </p>
+                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06]">
+                      <ShieldCheck className="h-5 w-5 text-primary-foreground/80" aria-hidden />
                     </span>
                   </div>
-
-                  {/* floating mini cards */}
-                  <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                  <div className="mt-6 grid flex-1 gap-3.5 content-start">
                     {heroPanel.slice(0, 4).map((c, idx) => {
                       const Icon = HERO_PANEL_ICONS[idx] ?? ShieldCheck;
                       return (
                         <div
                           key={`hero-panel-${c.title}`}
-                          className="group relative rounded-3xl border border-white/40 bg-white/60 p-3.5 shadow-[0_16px_40px_-32px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06] backdrop-blur-[6px] transition-transform duration-200 hover:-translate-y-0.5"
+                          className={cn(
+                            "rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-[0_18px_50px_-42px_rgba(15,23,42,0.35)] ring-1 ring-inset ring-white/10",
+                            "transition-[border-color,box-shadow,transform,background-color] duration-200 ease-out",
+                            "hover:border-white/20 hover:bg-white/[0.09] hover:shadow-[0_22px_56px_-40px_rgba(15,23,42,0.28)] hover:-translate-y-px",
+                          )}
                         >
                           <div className="flex items-start gap-3">
-                            <span className="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-primary/15 bg-primary/[0.05] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                              <Icon className="h-5 w-5 text-primary" aria-hidden />
+                            <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.06]">
+                              <Icon className="h-5 w-5 text-primary-foreground/80" aria-hidden />
                             </span>
                             <div className="min-w-0">
-                              <p className="text-sm font-semibold leading-snug text-foreground">
-                                {c.title}
-                              </p>
-                              <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                                {c.body}
-                              </p>
+                              <p className="text-sm font-semibold tracking-tight text-primary-foreground">{c.title}</p>
+                              <p className="mt-1.5 text-sm leading-relaxed text-primary-foreground/80">{c.body}</p>
                             </div>
                           </div>
                         </div>

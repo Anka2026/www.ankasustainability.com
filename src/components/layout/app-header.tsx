@@ -14,7 +14,7 @@ export async function AppHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-surface/[0.98] shadow-[inset_0_-1px_0_0_rgba(47,61,74,0.22),inset_0_-2px_0_0_rgba(8,145,178,0.16),0_16px_44px_-28px_rgba(15,23,42,0.12)] backdrop-blur-md backdrop-saturate-150">
-      <Container className="flex min-h-[4.5rem] max-w-7xl items-center justify-between gap-2.5 py-2.5 sm:min-h-[4.625rem] sm:gap-3 sm:px-5 md:px-6 lg:gap-3 xl:max-w-[min(100%,82.5rem)] 2xl:px-7">
+      <Container className="flex min-h-[4.5rem] w-full max-w-7xl items-center justify-between gap-3 py-2.5 sm:min-h-[4.625rem] sm:gap-3.5 lg:gap-4 xl:max-w-[86rem] 2xl:max-w-[92rem] px-6 sm:px-8 lg:px-10">
         <Link
           href="/"
           className="group flex min-w-0 max-w-[min(100%,12.5rem)] shrink items-center gap-2.5 sm:max-w-[14rem] sm:gap-3"
@@ -48,7 +48,7 @@ export async function AppHeader() {
       </Container>
 
       <div className="border-t border-border/80 bg-surface/95 sm:hidden">
-        <Container className="py-3">
+        <Container className="max-w-7xl px-6 py-3 sm:px-8 xl:max-w-[86rem] 2xl:max-w-[92rem]">
           <LanguageSwitcher />
         </Container>
       </div>

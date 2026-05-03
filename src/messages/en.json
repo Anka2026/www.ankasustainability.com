@@ -2,7 +2,7 @@
   "brand": {
     "name": "ANKA Sustainability Consulting B.V.",
     "headerName": "ANKA Sustainability",
-    "tagline": "Strategic Sustainability Consultancy",
+    "tagline": "Sustainability and compliance advisory",
     "siteTitle": "ANKA Sustainability Consulting B.V. | Sustainability, Compliance and Digital Solutions",
     "siteDescription": "Enterprise sustainability, EU compliance, and digital workspaces: data, evidence, and actionable workflows."
   },
@@ -27,6 +27,15 @@
   },
   "servicesMegaMenu": {
     "viewAll": "View All Services",
+    "cardTitles": {
+      "reportingEsg": "ESG and corporate reporting",
+      "carbonClimate": "Carbon, climate and decarbonisation",
+      "productCircularity": "Product sustainability, LCA and EPD",
+      "regulatorySupplyChain": "EU regulations and supply chain",
+      "sustainableFinance": "Market and stakeholder readiness",
+      "certificationTraceability": "Certification and traceability",
+      "sustainableTourismGstc": "Sustainable tourism and GSTC"
+    },
     "sheetTitle": "Menu",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -117,9 +126,9 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Strategic Sustainability Advisory",
-      "title": "Building Sustainability, Compliance And Digital Working Infrastructure Together",
-      "description": "ANKA Sustainability Consulting B.V. helps organisations make sustainability reporting, carbon management, product sustainability, EU compliance and supply chain processes more manageable through data, evidence and practical workflows.",
+      "eyebrow": "Sustainability advisory",
+      "title": "Sustainability, compliance and a clearer digital operating rhythm—built with your teams",
+      "description": "ANKA Sustainability Consulting B.V. organises sustainability reporting, carbon management, product environmental performance, EU compliance and supply chain work through clearer data ownership, evidence discipline and practical workflows your teams can run.",
       "primaryCta": "Book A Call",
       "secondaryCta": "Explore Services",
       "panel": {
@@ -153,7 +162,7 @@
       },
       "c2": {
         "title": "Carbon, Climate And Decarbonisation",
-        "body": "Structured advisory for GHG Protocol, ISO 14064-1, ISO 14067, CBAM, and decarbonisation roadmaps."
+        "body": "We organise GHG Protocol inventories, ISO 14064-1 corporate footprints, ISO 14067 product carbon work, CBAM reporting and decarbonisation priorities—so methods, assumptions and evidence stay defensible."
       },
       "c3": {
         "title": "Product Sustainability, LCA And EPD",
@@ -165,11 +174,11 @@
       },
       "c5": {
         "title": "Market And Stakeholder Readiness",
-        "body": "We strengthen European market readiness, buyer expectations, ESG due diligence, and stakeholder communication."
+        "body": "We prepare tender responses, buyer questionnaires, investor dialogue and stakeholder reviews with clearer evidence, data discipline and consistent narratives."
       },
       "c6": {
         "title": "Certification, Traceability And Market Confidence",
-        "body": "Support for certification readiness, traceability, evidence files, and market claim governance."
+        "body": "Preparation for assurance schemes: chain of custody, mass balance, traceability records and evidence-led market claims—documentation and advisory support alongside your teams."
       },
       "c7": {
         "title": "Sustainable Tourism and GSTC Readiness",
@@ -195,7 +204,7 @@
     "why": {
       "eyebrow": "",
       "title": "Why ANKA",
-      "subtitle": "We combine European regulatory expectations with supply-chain realities and technical execution discipline.",
+      "subtitle": "We translate EU regulatory expectations into practical workplans grounded in supply-chain realities, data ownership and evidence you can defend.",
       "c1": {
         "title": "Netherlands-Based, Europe-Facing",
         "body": "A Netherlands-based company model with a clear European value-chain perspective."
@@ -210,7 +219,7 @@
       },
       "c4": {
         "title": "Advisory with practical digital support",
-        "body": "Where it helps, we align advisory with digital tools for data, calculations, traceability, and compliance workflows."
+        "body": "Where it helps, we pair advisory with digital tools for data, calculations, traceability and compliance workflows—without replacing expert judgement."
       }
     },
     "insights": {
@@ -226,6 +235,10 @@
     }
   },
   "servicesPage": {
+    "subServicesPanelTitle": "SERVICE AREAS",
+    "detail": {
+      "backToServices": "← Back to services"
+    },
     "meta": {
       "title": "Services",
       "description": "Technical advisory for sustainability reporting, carbon, product environmental performance, EU requirements, and supply chain compliance: ANKA makes the agenda manageable through data, evidence, and practical process design."
@@ -279,37 +292,37 @@
       "intro": "Select the area closest to your need to review the scope, our working method, and the technical frame we build.",
       "cards": {
         "reportingEsg": {
-          "title": "ESG and corporate reporting",
-          "body": "We support stronger reporting boundaries, data ownership, and evidence structures across CSRD, ESRS, GRI, ISSB, and double materiality."
+          "title": "ESG and Corporate Reporting",
+          "body": "We align TSRS, CSRD/ESRS, GRI and ISSB work into one reporting-ready structure: double materiality, disclosure topics, ESG data and evidence ownership. We prepare sustainability reporting packs that stand up to review and stakeholder questions."
         },
         "carbonClimate": {
-          "title": "Carbon, climate, and decarbonization",
-          "body": "We run greenhouse gas inventories, CBAM, ISO 14064-1, ISO 14067, and abatement priorities with rigorous technical work discipline."
+          "title": "Carbon, Climate and Decarbonisation",
+          "body": "We run corporate and product carbon footprints, CBAM readiness, water footprint work and climate risk framing with clear boundaries, methods and files. We build decarbonisation roadmaps that connect to operations and investment choices."
         },
         "productCircularity": {
-          "title": "Product sustainability, LCA, and EPD",
-          "body": "We clarify product data, calculation logic, and evidence discipline for LCA, EPD, product carbon footprint, and digital product passport preparation."
+          "title": "Product Sustainability, LCA and EPD",
+          "body": "We structure LCA, EPD, product carbon footprint, digital product passport and ecolabel preparation with transparent data, modelling choices and evidence. We align green claims with verifiable product communication."
         },
         "regulatorySupplyChain": {
-          "title": "EU regulations and supply chain compliance",
-          "body": "For EUDR, CSDDD, PPWR, REACH, ESPR, and buyer data requests, we make supply chain data more traceable and more answerable."
+          "title": "EU Regulations and Supply Chain Compliance",
+          "body": "We organise PPWR, ESPR, EUDR, CSDDD, REACH and buyer-data programmes into traceable supplier records, origin evidence and controls. We strengthen green claims and market statements with defensible documentation."
         },
         "sustainableFinance": {
-          "title": "Market and stakeholder readiness",
-          "body": "We build confidence-building readiness for the European market, buyer expectations, ESG baselines, and stakeholder communication."
+          "title": "Market and Stakeholder Readiness",
+          "body": "We prepare buyer and tender responses, ESG maturity views, investor-facing materials and stakeholder messaging with consistent evidence. We help market-facing claims rest on a credible file structure."
         },
         "certificationTraceability": {
-          "title": "Certification, traceability, and market confidence",
-          "body": "We set up a more defensible way of working around certification, traceability, evidence files, and market-facing statements."
+          "title": "Certification, Traceability and Market Confidence",
+          "body": "We support ASI preparation, certification readiness, chain of custody, mass balance and pre-audit evidence files with clear roles and records. We connect market claims to traceable proof."
         },
         "sustainableTourismGstc": {
           "title": "Sustainable Tourism, GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
-          "body": "We support hotels, tour operators and destination structures with GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme—gap analysis and evidence file organisation."
+          "body": "For hotels, tour operators and destinations we run GSTC-aligned gap analysis, programme preparation and assessment-ready evidence files. We strengthen team awareness and a workable follow-up rhythm."
         }
       }
     },
     "hub": {
-      "cta": "View service details"
+      "cta": "View details"
     },
     "landing": {
       "hero": {
@@ -339,7 +352,7 @@
       },
       "services": {
         "reportingEsg": {
-          "subtitle": "Structured support for CSRD/ESRS and corporate disclosure—designed to be evidence-led, traceable, and audit-ready.",
+          "subtitle": "Advisory for CSRD/ESRS, TSRS, GRI, ISSB and double materiality—evidence-led disclosures, clear ownership and audit-ready packs.",
           "whyMatters": "Disclosure expectations are tightening across Europe. Without clear scope, data ownership, and evidence logic, reporting becomes a last-minute narrative exercise rather than a controlled compliance system.",
           "deliverables": [
             "Scope and materiality framing aligned to CSRD/ESRS expectations",
@@ -369,8 +382,8 @@
           "benchmark": {
             "hero": {
               "eyebrow": "ESG And Corporate Reporting",
-              "title": "Structured Advisory For CSRD, ESRS And Corporate ESG Reporting",
-              "text": "ANKA supports organisations in structuring ESG data, double materiality, reporting boundaries and evidence discipline in line with CSRD, ESRS, GRI and ISSB expectations.",
+              "title": "Advisory for CSRD, ESRS and corporate ESG reporting",
+              "text": "ANKA works with your ESG data architecture, reporting boundaries and evidence design alongside CSRD, ESRS, GRI, ISSB and TSRS expectations. We tighten the full line—from double materiality through disclosure topics to data ownership—into one workable operating rhythm. The aim is to move reporting beyond a periodic document and embed a trackable, defensible structure that connects to decision-making. Before each reporting cycle we review indicators, evidence and internal controls, and align stakeholder and finance perspectives in the same file logic.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -389,7 +402,7 @@
                   "Ownership and tracking discipline"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "CSRD Readiness",
@@ -418,7 +431,7 @@
                 "Data And Evidence Discipline Matters More",
                 "Management-Level ESG Decisions Are Strengthening"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Strong reporting connects data ownership, evidence discipline and executive decisions within one coherent system.",
               "cards": [
                 {
@@ -437,7 +450,7 @@
             },
             "support": {
               "title": "How ANKA Contributes",
-              "intro": "We structure ESG reporting through clear scope, governed data ownership and evidence discipline so it becomes more traceable and review-ready.",
+              "intro": "We organise ESG reporting through clear scope, governed data ownership and evidence discipline so it becomes more traceable and review-ready.",
               "cards": [
                 {
                   "title": "CSRD readiness assessment",
@@ -568,8 +581,8 @@
           "benchmark": {
             "hero": {
               "eyebrow": "Carbon, Climate And Decarbonisation",
-              "title": "Structured Advisory For Carbon Management, CBAM And Climate Transition",
-              "text": "ANKA helps organisations build reliable greenhouse gas data structures, manage CBAM-related workflows, and develop audit-ready carbon and climate foundations that support both compliance and business decision-making.",
+              "title": "Advisory for carbon management, CBAM and climate transition",
+              "text": "ANKA organises greenhouse gas inventories to GHG Protocol and ISO 14064-1 expectations, product-level carbon work to ISO 14067, CBAM quarterly reporting, and ISO 14046 water footprint studies where they matter for your markets. EU ETS and CBAM data requests sit in the same governed structure: clear boundaries, calculation logic, assumption registers and reporting outputs your teams can maintain. We then connect reduction priorities, compliance steps and capital choices in language management can act on.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -580,6 +593,7 @@
                 "CBAM",
                 "ISO 14064-1",
                 "ISO 14067",
+                "ISO 14046",
                 "Decarbonisation Roadmaps"
               ],
               "proofStrip": {
@@ -590,7 +604,7 @@
                   "Climate Transition Roadmaps"
                 ]
               },
-              "panelTitle": "Structured capability focus",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "GHG Inventory",
@@ -619,7 +633,7 @@
                 "Buyer And Supply Chain Requests Are Becoming More Detailed",
                 "Carbon Data Is Entering Business Decision-Making"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Reliable carbon data is now critical not only for compliance, but also for cost, product strategy and market confidence.",
               "cards": [
                 {
@@ -796,7 +810,7 @@
             "hero": {
               "eyebrow": "Product Sustainability, LCA And EPD",
               "title": "Technical Advisory For Product Environmental Performance, LCA And EPD",
-              "text": "ANKA supports organisations that want to evaluate product impacts through lifecycle thinking and build evidence-led structures for product carbon footprint, LCA, EPD and Digital Product Passport readiness.",
+              "text": "ANKA treats product environmental performance through LCA, EPD, product carbon footprint and digital product passport work as one technical evidence stack. We organise datasets, system boundaries and declaration fields to match the relevant standards, and we connect green claims and market communication to verifiable proof. The outcome is product information that stays defensible at the border and in buyer questionnaires—not only in the model.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -815,7 +829,7 @@
                   "Future-facing product data readiness"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "LCA Structuring",
@@ -844,7 +858,7 @@
                 "LCA And EPD Strengthen Market Confidence",
                 "DPP And Circularity Readiness Is Becoming Strategic"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Product sustainability data is not only a declaration; it is a technical asset that affects design, supply chain choices and market positioning.",
               "cards": [
                 {
@@ -863,7 +877,7 @@
             },
             "support": {
               "title": "How ANKA Contributes",
-              "intro": "We structure product sustainability work through clear scope, governed data and evidence discipline so it becomes more traceable and review-ready.",
+              "intro": "We organise product sustainability work through clear scope, governed data and evidence discipline so it becomes more traceable and review-ready.",
               "cards": [
                 {
                   "title": "Clarifying LCA scope",
@@ -992,7 +1006,7 @@
         },
         "regulatorySupplyChain": {
           "subtitle": "EU regulation and supply-chain compliance delivery—scope clarity, supplier data discipline, and audit-ready documentation systems.",
-          "whyMatters": "Supply-chain regulations raise the bar on evidence, traceability, and documentation. Compliance becomes a system problem—teams need structured data flows and defensible technical files.",
+          "whyMatters": "Supply-chain regulations raise the bar on evidence, traceability, and documentation. Compliance becomes a system problem—teams need governed data flows and defensible technical files.",
           "deliverables": [
             "Regulatory scope analysis and priority mapping across products and markets",
             "Supplier data governance, formats, and quality controls",
@@ -1022,7 +1036,7 @@
             "hero": {
               "eyebrow": "EU Regulations And Supply Chain Compliance",
               "title": "Compliance Advisory For EU Regulations, Supplier Data And Market Access",
-              "text": "ANKA supports organisations operating across European value chains in managing EUDR, CSDDD, PPWR, REACH, ESPR and buyer-driven supplier data requests through a structured, traceable and workable compliance approach.",
+              "text": "ANKA moves supplier records, origin data and traceability for EUDR, CSDDD, PPWR, ESPR and REACH into a controlled operating rhythm. We clarify declaration needs by product and market, and align due diligence and technical file expectations with how your teams already work. The goal is to turn EU value-chain data into a manageable, repeatable and updatable compliance cadence.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -1041,7 +1055,7 @@
                   "Controls and file structure"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "Exposure Mapping",
@@ -1070,7 +1084,7 @@
                 "Traceability Expectations Are Strengthening",
                 "Compliance Affects Commercial Risk"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Compliance is not paperwork—it is a governed system of ownership, evidence and control points.",
               "cards": [
                 {
@@ -1089,7 +1103,7 @@
             },
             "support": {
               "title": "How ANKA Contributes",
-              "intro": "We structure compliance through scope clarity, supplier data discipline and evidence control so it becomes more traceable and review-ready.",
+              "intro": "We organise compliance through scope clarity, supplier data discipline and evidence control so it becomes more traceable and review-ready.",
               "cards": [
                 {
                   "title": "Regulatory exposure mapping",
@@ -1161,7 +1175,7 @@
                 "Makes chemical compliance data more explainable.",
                 "Strengthens response consistency to requests.",
                 "Sets priorities and action steps.",
-                "Summarises commercial risks and focus areas."
+                "Summarises commercial risks and priority themes."
               ]
             },
             "audience": {
@@ -1248,7 +1262,7 @@
             "hero": {
               "eyebrow": "Market And Stakeholder Readiness",
               "title": "Readiness Advisory For European Buyers, Stakeholders And Market Trust",
-              "text": "ANKA helps organisations respond to European market expectations, buyer sustainability requests, ESG due diligence and stakeholder communication with a more prepared, consistent and evidence-led approach.",
+              "text": "ANKA helps Europe-facing teams produce consistent, evidence-led answers to buyer data requests, tender questions and ESG due diligence reviews. We anchor claims, reports and product information in a credible evidence structure for stakeholders and finance, and we align messaging with the underlying data. The point is not only to respond once, but to build a file pattern that anticipates the next control question.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -1267,7 +1281,7 @@
                   "Consistent, defensible narrative"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "Expectation Analysis",
@@ -1296,7 +1310,7 @@
                 "ESG Due Diligence Affects Commercial Outcomes",
                 "Stakeholder Communication Requires Evidence"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Readiness is the ability to answer the right questions with the right evidence—consistently.",
               "cards": [
                 {
@@ -1315,7 +1329,7 @@
             },
             "support": {
               "title": "How ANKA Contributes",
-              "intro": "We structure readiness through scope clarity, data discipline and evidence logic so responses become more consistent and review-ready.",
+              "intro": "We organise readiness through scope clarity, data discipline and evidence logic so responses become more consistent and review-ready.",
               "cards": [
                 {
                   "title": "Market expectation analysis",
@@ -1474,7 +1488,7 @@
             "hero": {
               "eyebrow": "Certification, Traceability And Market Confidence",
               "title": "Advisory For Certification Readiness, Traceability And Review-Ready Evidence",
-              "text": "ANKA supports organisations in preparing for certification processes, structuring supplier evidence, strengthening traceability discipline and making market claims more defensible.",
+              "text": "ANKA clarifies criteria, scope, evidence and responsibilities before certification or assessment, and organises traceability, mass balance and evidence files under one roof. For sector frameworks such as ASI we build a practical readiness rhythm from gap analysis through record design. We connect market claims to internal controls so audit and customer scrutiny meet a stronger baseline.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -1493,7 +1507,7 @@
                   "Defensible claim structure"
                 ]
               },
-              "panelTitle": "Focus Areas",
+              "panelTitle": "Service Areas",
               "panelCards": [
                 {
                   "title": "Certification",
@@ -1522,7 +1536,7 @@
                 "Traceability Builds Market Trust",
                 "Claims Must Be Defensible Under Scrutiny"
               ],
-              "insightLabel": "Strategic Note",
+              "insightLabel": "ANKA approach",
               "insightText": "Market confidence is sustained through a repeatable record and control discipline.",
               "cards": [
                 {
@@ -1541,7 +1555,7 @@
             },
             "support": {
               "title": "How ANKA Contributes",
-              "intro": "We structure certification and traceability work through data, evidence and control logic so it becomes more traceable and review-ready.",
+              "intro": "We organise certification and traceability work through data, evidence and control logic so it becomes more traceable and review-ready.",
               "cards": [
                 {
                   "title": "Certification readiness structuring",
@@ -1700,7 +1714,7 @@
             "hero": {
               "eyebrow": "Sustainable Tourism",
               "title": "Advisory Support for GSTC and the Türkiye Environmental and Cultural Sustainability Programme",
-              "text": "For tourism businesses, sustainability requires more than environmental performance. It brings together management systems, employee practices, local impact, cultural heritage, procurement, energy, water, waste and guest communication. ANKA helps hotels, tour operators and destination structures understand GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme expectations, prioritise gaps and prepare their evidence files in a more organised way.\n\nANKA does not issue certificates and does not guarantee certification outcomes. Our work covers gap analysis, action planning, documentation, evidence organisation and readiness support before assessment.",
+              "text": "ANKA helps hotels, tour operators and destinations see GSTC criteria and the Türkiye Environmental and Cultural Sustainability Programme expectations alongside what happens on the ground. We prioritise gaps through gap analysis and action planning, and we move policies, records, training and field evidence into an assessment-ready file set. ANKA does not issue certificates or guarantee outcomes; our scope is preparation, evidence discipline and pre-assessment advisory support.",
               "ctas": {
                 "primary": "Book A Call",
                 "secondary": "Explore Related Services"
@@ -1882,13 +1896,13 @@
         "topics": "CSRD\nESRS\nTSRS\nGRI\nDouble materiality\nISSB / IFRS S1–S2\nTCFD\nTNFD\nCDP\nEcoVadis\nESG strategy"
       },
       "carbonClimate": {
-        "label": "Carbon, Climate, and Decarbonization",
+        "label": "Carbon, Climate and Decarbonisation",
         "summary": "We develop carbon management, climate assessment, and practical reduction plans across corporate and value-chain levels.",
         "description": "Carbon work is addressed together with data quality, methodology, and workable workflows. Where relevant, obligations such as CBAM are integrated into the same operating logic.",
         "topics": "Corporate carbon footprint\nProduct carbon footprint\nGHG Protocol\nScope 1 / 2 / 3\nCBAM\nSBTi readiness\nDecarbonization roadmaps\nClimate risk and opportunity analysis\nWater and energy management"
       },
       "productCircularity": {
-        "label": "Product Sustainability, LCA, and EPD",
+        "label": "Product Sustainability, LCA and EPD",
         "summary": "Consultancy for product-level environmental performance, technical disclosure logic, and market-facing compliance readiness.",
         "description": "We treat LCA/EPD and product data work as both technical and commercial: narrative is built on evidence, data lineage, and verifiability.",
         "topics": "LCA\nEPD\nProduct carbon footprint\nDigital Product Passport\nProduct / lifecycle data management\nESPR\nPPWR\nEco-label (ECOLABEL) focused product work\nGreen claims evidence basis"
@@ -1995,7 +2009,7 @@
       "description": "Explore digital solutions shaped by real operational use cases and advisory needs. Each product is designed to make data more structured, processes more traceable, and outputs more manageable.",
       "actions": {
         "viewSolution": "View Solution",
-        "requestDemo": "Request Demo"
+        "requestDemo": "Request a Demo"
       },
       "demoMailSubject": "Demo Request - {product}",
       "demoMailBody": "Hello, I would like to request a demo for {product}.",
@@ -2012,17 +2026,24 @@
           "pill": "CBAM",
           "status": "selected_use",
           "title": "CBAM Calculation Engine",
-          "summary": "Transforms CBAM calculation and reporting preparation from scattered spreadsheets into a more traceable, controlled and reporting-ready working structure.",
-          "modalTagline": "Transforms CBAM calculation and reporting preparation from scattered spreadsheets into a more traceable, controlled and reporting-ready working structure.",
-          "modalWhatFor": "Used to structure product, installation, input and supplier data according to CBAM calculation logic, process emissions data consistently and prepare reporting-ready outputs.",
-          "modalTeamValue": "Reduces manual calculation errors, improves visibility over data sources, strengthens assumption tracking and makes technical checks more systematic during advisory work.",
+          "summary": "A controlled software workspace for supplier data, embedded emissions calculation, evidence management, and reporting-ready CBAM outputs.",
+          "modalTagline": "CBAM Calculation Engine enables companies to manage supplier data, product-level embedded emissions calculations, evidence documents, and reporting preparation in one controlled CBAM workspace.",
+          "modalWhatFor": "The platform organises product, installation, CN code, reporting year, production data, electricity consumption, precursor inputs, scrap information, and evidence documents under a structured CBAM data model. It enables buyer and supplier teams to work within the same controlled workflow for data collection, review, revision, and output preparation.",
+          "modalTeamValue": "It reduces fragmented spreadsheets and inbox-driven data requests, improves traceability, and keeps calculation outputs and evidence in a structure that is easier to review for consulting, verification and regulatory reporting.",
+          "modalLabelValueProposition": "Value proposition",
+          "modalLabelWhatFor": "What it is used for",
+          "modalLabelTeamValue": "What teams gain",
+          "modalLabelCoreCapabilities": "Core capabilities",
+          "modalVisualCaption": "CBAM portfolio dashboard and supplier review workflow",
           "bullets": [
-            "Product- and installation-level CBAM calculation logic",
-            "Supplier data and assumption management",
-            "Embedded emissions calculation structure",
-            "Reporting-ready output framework"
+            "Supplier-based CBAM data collection workflow",
+            "Product, installation, CN code, and reporting-year record structure",
+            "Separate tracking of direct and indirect emissions",
+            "Precursor, scrap, and evidence document management",
+            "Buyer review, approval, and revision workflow",
+            "Reporting-ready and audit-ready output structure"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "CBAM portfolio dashboard and supplier review workflow",
           "heroText": "CBAM Calculation Engine is a digital workflow infrastructure that makes data collection, calculation, traceability and reporting preparation more controlled and repeatable—without replacing expert CBAM advisory.",
           "solves": [
             "Disparate supplier inputs need one governed working logic.",
@@ -2177,17 +2198,23 @@
           "pill": "DPP",
           "status": "selected_use",
           "title": "Digital Product Passport Platform",
-          "summary": "Moves product data, technical records, traceability information and sustainability claims into a structure better aligned with Digital Product Passport requirements.",
-          "modalTagline": "Moves product data, technical records, traceability information and sustainability claims into a structure better aligned with Digital Product Passport requirements.",
-          "modalWhatFor": "Used to organise product data architecture, supply chain information, technical records, material data and market-facing claims according to DPP logic.",
-          "modalTeamValue": "Reduces fragmentation of product data across teams and suppliers, strengthens traceability and helps build passport-ready records earlier.",
+          "summary": "Brings product data, technical records, traceability information and sustainability declarations into a clearer, more manageable structure for Digital Product Passport readiness.",
+          "modalTagline": "Brings product data, technical records, traceability information and sustainability declarations into a clearer, more manageable structure for Digital Product Passport readiness.",
+          "modalWhatFor": "Used to organise product data architecture, material information, supplier records, technical documentation, compliance declarations and market-specific data needs around the logic of the Digital Product Passport.",
+          "modalTeamValue": "Reduces scattered product information across teams and suppliers, strengthens traceability and helps build a passport-ready data structure earlier in the process.",
+          "modalLabelValueProposition": "Short value proposition",
+          "modalLabelWhatFor": "What is it used for?",
+          "modalLabelTeamValue": "What do teams gain?",
+          "modalLabelCoreCapabilities": "Core capabilities",
           "bullets": [
             "Product data architecture",
-            "Traceability and record logic",
+            "Material and component records",
+            "Supply chain traceability",
             "Technical product data fields",
+            "Compliance and declaration tracking",
             "Passport-ready data structure"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "Digital Product Passport Platform dashboard showing product portfolio, passport completion, supplier compliance, market readiness and launch preparation.",
           "heroText": "Digital Product Passport Platform structures product data, technical records, traceability and sustainability claims so teams can work toward passport-aligned evidence and disclosure.",
           "solves": [
             "Product and compliance teams need a coherent data architecture for passport-bound requirements.",
@@ -2238,17 +2265,20 @@
           "pill": "Packaging",
           "status": "selected_use",
           "title": "Packaging Compliance Tool",
-          "summary": "Turns packaging components, material information, country- or market-specific data needs and compliance checkpoints into a more manageable working structure.",
-          "modalTagline": "Turns packaging components, material information, country- or market-specific data needs and compliance checkpoints into a more manageable working structure.",
-          "modalWhatFor": "Used to structure packaging datasets, material classifications, recyclability information, market-specific reporting needs and compliance check notes.",
-          "modalTeamValue": "Moves packaging information beyond scattered files and email flows, clarifies data ownership, makes market-specific requirements easier to track and improves compliance readiness.",
+          "summary": "A digital workspace built to manage packaging data, supplier documentation, country- and market-level obligations, and compliance status from one place.",
+          "modalTagline": "Packaging Compliance Tool brings packaging recipes, material data, document preparation, market scope and open compliance findings together in one view. It replaces spreadsheet- and inbox-driven tracking with a more controlled, traceable and governable operating rhythm.",
+          "modalWhatFor": "Used to build packaging-oriented datasets, collect supplier documents and declarations, monitor country and market requirements, prioritise open findings, and manage reporting readiness.",
+          "modalTeamValue": "Procurement, sustainability, quality, regulatory and trade teams work from the same workspace. Ownership becomes clearer, missing documents are visible, market risks are monitored and responses to customer or audit requests move faster.",
+          "modalVisualCaption": "Packaging compliance, document follow-up and market scope in one workspace.",
           "bullets": [
-            "Packaging dataset",
-            "Material and component records",
-            "Compliance check notes",
-            "Summary reporting outputs"
+            "Packaging and material dataset management",
+            "Supplier document and declaration tracking",
+            "Country- and market-level compliance view",
+            "Open findings and action list",
+            "Document preparation and output pack tracking",
+            "Management dashboard, prioritisation and status monitoring"
           ],
-          "screenshotAlt": "",
+          "screenshotAlt": "Packaging Compliance Tool management dashboard and compliance overview",
           "heroText": "Packaging Compliance Tool helps teams govern packaging components, materials, market-specific data needs, and compliance checkpoints in one practical workspace.",
           "solves": [
             "Packaging data is fragmented across suppliers, materials, and market rules.",
@@ -2681,7 +2711,7 @@
       "secondaryCta": "Book A Call",
       "companyCardEyebrow": "Company Information",
       "companyName": "ANKA Sustainability Consulting B.V.",
-      "companyText": "Structured advisory support for sustainability, compliance, product data and digital workflow infrastructure.",
+      "companyText": "Sustainability, compliance, product data and digital workflow advisory—Utrecht-based, with strong Türkiye delivery capacity.",
       "emailLabel": "Email",
       "linkedinLabel": "LinkedIn",
       "officesCardEyebrow": "Offices",
@@ -2767,7 +2797,7 @@
       "title": "The Right Data, Compliance And Market Readiness For Each Sector",
       "description": "ANKA assesses your sector through product structure, supply chain, data availability and target market expectations. We approach sustainability, carbon, product environmental performance and EU compliance work not through a generic template, but through a working model aligned with sector realities.",
       "primaryCta": "Book A Call",
-      "secondaryCta": "Explore Sector Focus Areas",
+      "secondaryCta": "Explore sector expertise",
       "panel": {
         "eyebrow": "SECTOR ASSESSMENT",
         "title": "We Help Clarify Your Sector Compliance Map",
@@ -2816,9 +2846,9 @@
         },
         "metalsIndustrial": {
           "title": "Metals, Aluminium, and Industrial Manufacturing",
-          "description": "We make CBAM, carbon data, product-level calculation and supply chain evidence flows more traceable and reportable.",
+          "description": "We make CBAM, carbon data, product-level calculation, ASI preparation and supply chain evidence flows more traceable and reportable.",
           "focus1": "CBAM and embedded emissions",
-          "focus2": "Carbon data discipline",
+          "focus2": "ASI / Aluminium Stewardship Initiative preparation",
           "focus3": "Product and site-level calculation"
         },
         "automotiveMobility": {
@@ -2837,10 +2867,10 @@
         },
         "tourismServices": {
           "title": "Tourism and Hospitality",
-          "description": "We support hotels, tour operators and destination structures with GSTC criteria, Türkiye Environmental and Cultural Sustainability Programme readiness and operational evidence organisation.",
-          "focus1": "GSTC and sustainable tourism readiness",
-          "focus2": "Türkiye environmental and cultural programme",
-          "focus3": "Hotel and destination evidence files"
+          "description": "We support hotels, tour operators and destination structures with GSTC criteria, the Türkiye Environmental and Cultural Sustainability Programme, gap analysis and operational evidence files.",
+          "focus1": "GSTC criteria readiness",
+          "focus2": "Türkiye Environmental and Cultural Sustainability Programme",
+          "focus3": "Evidence files and assessment preparation"
         }
       }
     },
