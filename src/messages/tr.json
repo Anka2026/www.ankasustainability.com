@@ -1987,6 +1987,15 @@
         ]
       }
     },
+    "arvenzaAnnouncement": {
+      "badge": "Yeni Marka Duyurusu",
+      "title": "Yazılım Çözümlerimiz Artık ARVENZA Markası Altında",
+      "description": "ANKA Sustainability tarafından geliştirilen dijital uyum, sürdürülebilirlik ve hesaplama platformlarımız artık ARVENZA markası altında konumlanıyor. ARVENZA; regülasyon odaklı veri yönetimi, doğrulanabilir hesaplama süreçleri ve profesyonel raporlama çıktıları için tasarlanmış teknoloji markamızdır.",
+      "secondDescription": "Bu yeni marka yapısı, geliştirdiğimiz yazılımları tek bir kurumsal kimlik altında toplarken; müşterilerimize daha izlenebilir, daha ölçeklenebilir ve daha güvenilir dijital çalışma alanları sunma hedefimizi temsil eder.",
+      "footnote": "Regülasyon bilgisini, hesaplama disiplinini ve yazılım gücünü tek bir dijital ekosistemde birleştiriyoruz.",
+      "attribution": "ANKA Sustainability tarafından geliştirildi.",
+      "logoAlt": "ARVENZA by ANKA Sustainability logo"
+    },
     "portfolio": {
       "title": "Yazılım Portföyümüz",
       "description": "Gerçek kullanım senaryoları ve saha ihtiyaçları doğrultusunda şekillenen dijital çözümlerimizi inceleyin. Her ürün, veri yapısını daha düzenli, süreci daha izlenebilir ve çıktıları daha yönetilebilir hale getirmeyi amaçlar.",

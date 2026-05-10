@@ -1,3 +1,4 @@
+export { ArvenzaAnnouncement } from "./arvenza-announcement";
 export { SoftwareCapabilityStrip } from "./software-capability-strip";
 export { SoftwareConsultingSection } from "./software-consulting-section";
 export { SoftwareFinalCtaSection } from "./software-final-cta-section";

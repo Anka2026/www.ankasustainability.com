@@ -2052,6 +2052,15 @@
         ]
       }
     },
+    "arvenzaAnnouncement": {
+      "badge": "Nieuwe Merkaankondiging",
+      "title": "Onze Softwareoplossingen Vallen Nu Onder ARVENZA",
+      "description": "De digitale compliance-, duurzaamheids- en berekeningsplatformen die door ANKA Sustainability zijn ontwikkeld, worden voortaan gepositioneerd onder het merk ARVENZA. ARVENZA is ons technologiemerk voor regelgeving-gedreven databeheer, traceerbare berekeningsprocessen en professionele rapportage-output.",
+      "secondDescription": "Deze nieuwe merkstructuur brengt onze softwareoplossingen samen onder één corporate identiteit en weerspiegelt onze ambitie om klanten meer traceerbare, schaalbare en betrouwbare digitale werkruimtes te bieden.",
+      "footnote": "We combineren regelgevingskennis, berekeningsdiscipline en softwarecapaciteit in één digitaal ecosysteem.",
+      "attribution": "Ontwikkeld door ANKA Sustainability.",
+      "logoAlt": "ARVENZA by ANKA Sustainability logo"
+    },
     "portfolio": {
       "title": "Ons Softwareportfolio",
       "description": "Bekijk digitale oplossingen die zijn gevormd door echte gebruikssituaties en adviesbehoeften. Elke oplossing is ontworpen om data beter te structureren, processen beter traceerbaar te maken en uitkomsten beter beheersbaar te maken.",

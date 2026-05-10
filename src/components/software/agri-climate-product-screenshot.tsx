@@ -2,17 +2,17 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
-const SCREENSHOT_SRC = "/software/agri-climate-platform-overview-dashboard.png";
+const SCREENSHOT_SRC = "/software/screenshots/agri-climate-platform.png";
 
 type Props = Readonly<{
   alt: string;
   className?: string;
   priority?: boolean;
-  /** Modal: taller canvas + padding so the dashboard stays readable without cropping. */
+  /** Modal: caps height with max-h-[70vh] while keeping full image visible (contain). */
   variant?: "default" | "modal";
 }>;
 
-/** Premium framed Agri-Climate screenshot — full image via object-contain (no crop). */
+/** Premium framed Agri-Climate screenshot — full frame, no crop (object-contain). */
 export function AgriClimateProductScreenshot({
   alt,
   className,
@@ -24,31 +24,26 @@ export function AgriClimateProductScreenshot({
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-[0_22px_56px_-40px_rgba(15,23,42,0.32)] ring-1 ring-inset ring-slate-900/[0.04]",
-        isModal ? "p-2 sm:p-3" : "p-2 sm:p-3 md:p-4",
+        "overflow-hidden rounded-3xl border border-slate-200/75 bg-gradient-to-b from-slate-50/40 to-white p-1 shadow-[0_26px_70px_-44px_rgba(15,23,42,0.36)] ring-1 ring-inset ring-slate-900/[0.035] sm:p-1.5",
+        isModal ? "sm:p-2" : "md:p-2",
         className,
       )}
     >
-      <div
-        className={cn(
-          "relative w-full max-w-full overflow-hidden rounded-xl bg-neutral-50",
-          isModal
-            ? "h-[min(52vh,460px)] min-h-[14rem] sm:h-[min(54vh,480px)] sm:min-h-[16rem]"
-            : "aspect-[16/10] min-h-[12rem] sm:min-h-[14rem]",
-        )}
-      >
+      <div className="flex w-full items-center justify-center rounded-2xl bg-white px-1 py-2 sm:px-2 sm:py-2.5">
         <Image
           src={SCREENSHOT_SRC}
           alt={alt}
-          fill
+          width={1920}
+          height={1080}
+          quality={100}
           sizes={
             isModal
               ? "(max-width: 640px) calc(100vw - 2rem), min(896px, 90vw)"
               : "(max-width: 640px) 100vw, (max-width: 1024px) 90vw, min(960px, 85vw)"
           }
           className={cn(
-            "object-contain object-center",
-            isModal ? "p-1.5 sm:p-2.5" : "p-1 sm:p-2",
+            "h-auto w-full object-contain object-center",
+            isModal ? "max-h-[70vh]" : "max-h-[min(88vw,36rem)] sm:max-h-[40rem]",
           )}
           priority={priority}
         />

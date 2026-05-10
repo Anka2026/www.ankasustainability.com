@@ -14,8 +14,6 @@ import * as React from "react";
 import { X } from "lucide-react";
 
 import { AppButton } from "@/components/ui/app-button";
-import { AgriClimateProductScreenshot } from "@/components/software/agri-climate-product-screenshot";
-import { CbamComplianceConsoleProductVisual } from "@/components/software/cbam-compliance-console-product-visual";
 import { SoftwarePreviewPlaceholder } from "@/components/software/software-preview-placeholder";
 import { homeCardClassName } from "@/lib/home-classes";
 import { Link } from "@/i18n/navigation";
@@ -77,22 +75,27 @@ const OUTLINE_CARD_CTA = cn(
   OUTLINE_CARD_BASE,
 );
 
-/** Fixed-height (~200px) preview used on every software portfolio card for visual rhythm. */
+/** Card preview — full screenshot visible (no crop) via object-contain. */
 function PortfolioCardPreviewStrip({ product }: { product: SoftwarePortfolioProductDto }) {
   return (
-    <div className="relative h-[13rem] w-full shrink-0">
-      <div className="flex h-full w-full flex-col rounded-2xl border border-slate-200/80 bg-white p-2 shadow-sm ring-1 ring-inset ring-slate-900/[0.03]">
-        <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl bg-white">
+    <div className="relative w-full shrink-0">
+      <div className="rounded-3xl border border-slate-200/70 bg-gradient-to-b from-slate-50/50 to-white p-1 shadow-[0_22px_56px_-40px_rgba(15,23,42,0.34)] ring-1 ring-inset ring-slate-900/[0.035] sm:p-1.5">
+        <div className="flex min-h-[14rem] w-full items-center justify-center rounded-2xl bg-white px-1 py-2 sm:min-h-[15.5rem] sm:px-1.5 sm:py-2.5 lg:min-h-[17rem]">
           {product.screenshotSrc ? (
             <Image
               src={product.screenshotSrc}
               alt={product.screenshotAlt || product.title}
-              fill
-              className="object-contain object-center p-1"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
+              width={1920}
+              height={1080}
+              quality={100}
+              className="h-auto w-full max-h-[min(58vw,22rem)] object-contain object-center sm:max-h-[min(48vw,24rem)] lg:max-h-[28rem]"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 440px"
             />
           ) : (
-            <SoftwarePreviewPlaceholder variant="card" className="h-full min-h-0 w-full" />
+            <SoftwarePreviewPlaceholder
+              variant="card"
+              className="h-[14rem] w-full rounded-2xl border-0 shadow-none ring-0 sm:h-[15.5rem] lg:h-[17rem]"
+            />
           )}
         </div>
       </div>
@@ -254,71 +257,22 @@ export function SoftwarePortfolioClient({
                   </div>
                 </div>
 
-                <div
-                  className={cn(
-                    "border-t border-border/70 px-4 py-6 sm:px-6 sm:py-7",
-                    active.slug === "cbam-compliance-console"
-                      ? "bg-neutral-50/95 pb-8 sm:pb-9"
-                      : "bg-gradient-to-b from-slate-50/95 to-slate-50/80",
-                  )}
-                >
-                  {active.slug === "agri-climate-platform" && active.screenshotSrc ? (
+                <div className="border-t border-border/70 bg-gradient-to-b from-slate-50/95 to-slate-50/80 px-4 py-6 pb-8 sm:px-6 sm:py-7 sm:pb-9">
+                  {active.screenshotSrc ? (
                     <div className="mx-auto w-full max-w-[min(100%,56rem)]">
-                      <AgriClimateProductScreenshot
-                        alt={active.screenshotAlt}
-                        variant="modal"
-                      />
-                    </div>
-                  ) : active.slug === "cbam-compliance-console" ? (
-                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
-                      <CbamComplianceConsoleProductVisual
-                        alt={active.screenshotAlt || active.title}
-                        variant="modal"
-                      />
-                    </div>
-                  ) : active.screenshotSrc ? (
-                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
-                      {active.slug === "digital-product-passport-platform" ||
-                      active.slug === "cbam-calculation-engine" ? (
-                        <div className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm sm:p-5">
-                          <div className="flex w-full justify-center">
-                            <Image
-                              src={active.screenshotSrc}
-                              alt={active.screenshotAlt || active.title}
-                              width={1920}
-                              height={1080}
-                              className="h-auto max-h-[min(76vh,48rem)] w-full object-contain"
-                              sizes="(max-width: 1024px) 100vw, 896px"
-                            />
-                          </div>
+                      <div className="overflow-hidden rounded-3xl border border-slate-200/75 bg-gradient-to-b from-white to-slate-50/40 p-2 shadow-[0_26px_70px_-44px_rgba(15,23,42,0.38)] ring-1 ring-inset ring-slate-900/[0.04] sm:p-3">
+                        <div className="flex w-full justify-center rounded-2xl bg-white/90 px-1 py-1 sm:px-2 sm:py-2">
+                          <Image
+                            src={active.screenshotSrc}
+                            alt={active.screenshotAlt || active.title}
+                            width={1920}
+                            height={1080}
+                            quality={100}
+                            className="h-auto w-full max-h-[70vh] object-contain object-center"
+                            sizes="(max-width: 640px) calc(100vw - 2rem), min(896px, 90vw)"
+                          />
                         </div>
-                      ) : (
-                        <div
-                          className={cn(
-                            "overflow-hidden rounded-[1.35rem] border border-slate-200/90 bg-gradient-to-b from-white to-slate-50/95 p-2.5 sm:p-3.5",
-                            "shadow-[0_26px_70px_-44px_rgba(15,23,42,0.38),0_0_0_1px_rgba(8,145,178,0.06)] ring-1 ring-inset ring-slate-900/[0.04]",
-                            active.slug === "packaging-compliance-tool" &&
-                              "shadow-[0_28px_80px_-48px_rgba(15,23,42,0.42),0_0_48px_-12px_rgba(8,145,178,0.12)]",
-                          )}
-                        >
-                          <div
-                            className={cn(
-                              "relative flex min-h-[14rem] w-full items-center justify-center overflow-hidden rounded-[1.05rem] border border-slate-200/70 bg-slate-50/95 sm:min-h-[16rem]",
-                              active.slug === "packaging-compliance-tool" &&
-                                "bg-[radial-gradient(900px_280px_at_50%_0%,rgba(8,145,178,0.08),transparent_55%),linear-gradient(180deg,rgba(248,250,252,0.98),rgba(241,245,249,0.96))]",
-                            )}
-                          >
-                            <Image
-                              src={active.screenshotSrc}
-                              alt={active.screenshotAlt || active.title}
-                              width={1200}
-                              height={675}
-                              className="h-auto max-h-[min(58vh,32rem)] w-full object-contain object-top"
-                              sizes="(max-width: 1024px) 100vw, 896px"
-                            />
-                          </div>
-                        </div>
-                      )}
+                      </div>
                       {active.modalVisualCaption ? (
                         <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
                           {active.modalVisualCaption}

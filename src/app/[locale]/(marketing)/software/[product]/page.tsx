@@ -13,7 +13,7 @@ import type { IntlTranslator } from "@/lib/i18n-types";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { isSoftwarePortfolioSlug, type SoftwarePortfolioSlug } from "@/lib/software-portfolio";
 
-const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/cbam-calculation-engine-dashboard.png";
+const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/screenshots/cbam-calculation-engine.png";
 
 type PageProps = Readonly<{
   params: Promise<{ locale: string; product: string }>;
@@ -207,15 +207,16 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                 </div>
               ) : data.slug === "cbam-calculation-engine" ? (
                 <div className="mt-8 w-full max-w-5xl">
-                  <div className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-sm sm:p-5">
-                    <div className="flex w-full justify-center">
+                  <div className="overflow-hidden rounded-3xl border border-slate-200/75 bg-gradient-to-b from-slate-50/40 to-white p-1 shadow-[0_26px_70px_-44px_rgba(15,23,42,0.36)] ring-1 ring-inset ring-slate-900/[0.035] sm:p-1.5">
+                    <div className="flex w-full justify-center rounded-2xl bg-white px-1 py-2 sm:px-2 sm:py-2.5">
                       <Image
                         src={CBAM_CALCULATION_ENGINE_SCREENSHOT}
                         alt={tt("portfolio.products.cbam-calculation-engine.screenshotAlt")}
                         width={1920}
                         height={1080}
-                        className="h-auto max-h-[min(72vh,44rem)] w-full object-contain"
-                        sizes="(max-width: 1024px) 100vw, 896px"
+                        quality={100}
+                        className="h-auto w-full max-h-[min(72vh,44rem)] object-contain object-center sm:max-h-[min(72vh,48rem)]"
+                        sizes="(max-width: 1024px) 100vw, min(896px, 90vw)"
                         priority
                       />
                     </div>

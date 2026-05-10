@@ -4,6 +4,7 @@ import type { IntlTranslator } from "@/lib/i18n-types";
 import { SOFTWARE_PORTFOLIO_ORDER } from "@/lib/software-portfolio";
 import { cn } from "@/lib/utils";
 
+import { ArvenzaAnnouncement } from "@/components/software/arvenza-announcement";
 import {
   SoftwarePortfolioClient,
   type SoftwareModalLabels,
@@ -59,11 +60,12 @@ function optionalString(t: TranslatorLike, key: string): string | undefined {
   }
 }
 
-const AGRI_SCREENSHOT = "/software/agri-climate-platform-overview-dashboard.png";
-const CBAM_CONSOLE_SCREENSHOT = "/software/cbam-compliance-console-dashboard.png";
-const PACKAGING_COMPLIANCE_SCREENSHOT = "/software/packaging-compliance-tool-dashboard.png";
-const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/cbam-calculation-engine-dashboard.png";
-const DPP_SCREENSHOT = "/software/digital-product-passport-platform-dashboard.png";
+const SHOTS = "/software/screenshots";
+const AGRI_SCREENSHOT = `${SHOTS}/agri-climate-platform.png`;
+const CBAM_CONSOLE_SCREENSHOT = `${SHOTS}/cbam-compliance-console.png`;
+const PACKAGING_COMPLIANCE_SCREENSHOT = `${SHOTS}/packaging-compliance-tool.png`;
+const CBAM_CALCULATION_ENGINE_SCREENSHOT = `${SHOTS}/cbam-calculation-engine.png`;
+const DPP_SCREENSHOT = `${SHOTS}/digital-product-passport-platform.png`;
 
 export function SoftwarePortfolio({ t }: Props) {
   const tt = t as TranslatorLike;
@@ -158,6 +160,8 @@ export function SoftwarePortfolio({ t }: Props) {
           description={tt("portfolio.description")}
           descriptionClassName="max-w-4xl text-pretty sm:text-base sm:leading-[1.62]"
         />
+
+        <ArvenzaAnnouncement t={t} />
 
         <SoftwarePortfolioClient
           products={products}

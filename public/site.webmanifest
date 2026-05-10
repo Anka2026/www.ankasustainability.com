@@ -1,0 +1,23 @@
+{
+  "name": "ANKA Sustainability Consulting B.V.",
+  "short_name": "ANKA",
+  "description": "Sustainability, compliance, and data-driven digital workspaces for modern enterprises.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#0891b2",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

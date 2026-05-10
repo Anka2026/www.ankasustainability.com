@@ -2004,6 +2004,15 @@
         ]
       }
     },
+    "arvenzaAnnouncement": {
+      "badge": "New Brand Announcement",
+      "title": "Our Software Solutions Are Now Positioned Under ARVENZA",
+      "description": "The digital compliance, sustainability and calculation platforms developed by ANKA Sustainability are now positioned under the ARVENZA brand. ARVENZA is our technology brand designed for regulation-driven data management, traceable calculation workflows and professional reporting outputs.",
+      "secondDescription": "This new brand structure brings our software solutions together under one corporate identity and reflects our ambition to provide clients with more traceable, scalable and reliable digital workspaces.",
+      "footnote": "We combine regulatory expertise, calculation discipline and software capability in one digital ecosystem.",
+      "attribution": "Developed by ANKA Sustainability.",
+      "logoAlt": "ARVENZA by ANKA Sustainability logo"
+    },
     "portfolio": {
       "title": "Our Software Portfolio",
       "description": "Explore digital solutions shaped by real operational use cases and advisory needs. Each product is designed to make data more structured, processes more traceable, and outputs more manageable.",

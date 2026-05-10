@@ -25,6 +25,14 @@ export const metadata: Metadata = {
   },
   description:
     "Sustainability, compliance, and data-driven digital workspaces for modern enterprises.",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export default async function RootLayout({
