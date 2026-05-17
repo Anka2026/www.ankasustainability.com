@@ -7,6 +7,7 @@ import {
   TrustStripSection,
   ServicesPreviewSection,
   SoftwarePreviewSection,
+  ProjectApproachesSection,
   WhySection,
 } from "@/components/home";
 import type { AppLocale } from "@/i18n/routing";
@@ -34,13 +35,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function HomePage() {
   const t = await getTranslations("home");
   const tServicesPage = await getTranslations("servicesPage");
+  const tSoftwarePage = await getTranslations("softwarePage");
 
   return (
     <>
       <HeroSection t={t} />
       <TrustStripSection t={t} />
       <ServicesPreviewSection t={t} tServicesPage={tServicesPage} />
-      <SoftwarePreviewSection t={t} />
+      <SoftwarePreviewSection t={t} tSoftware={tSoftwarePage} />
+      <ProjectApproachesSection t={t} />
       <WhySection t={t} />
       <FinalCtaSection t={t} />
     </>

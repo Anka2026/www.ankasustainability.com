@@ -1,8 +1,15 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import { FounderPortrait } from "@/components/about/founder-portrait";
-import { AboutFounderStatsBand } from "@/components/about/about-founder-stats-band";
-import type { FounderStatItem } from "@/components/about/about-founder-stats-band";
+import {
+  aboutFounderColumnClassName,
+  aboutFounderGridClassName,
+  aboutFounderNarrativeInnerClassName,
+  aboutFounderPanelClassName,
+  aboutFounderPortraitFrameClassName,
+  aboutFounderQuotePanelClassName,
+  aboutPageContainerClassName,
+} from "@/lib/about-layout-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { cn } from "@/lib/utils";
@@ -27,16 +34,6 @@ type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
-const quotePanelClass = cn(
-  "relative flex w-full max-w-full flex-1 flex-col",
-  "min-h-[24rem] sm:min-h-[27rem] lg:min-h-0 lg:h-full",
-  "overflow-hidden rounded-2xl border border-border/80",
-  "bg-primary text-primary-foreground",
-  "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.1)]",
-  "ring-1 ring-inset ring-white/10",
-);
-
-/** Remove copied-in curly quotes so the editorial mark renders once. */
 function stripOuterTypographicQuotes(raw: string) {
   return raw
     .trim()
@@ -45,132 +42,98 @@ function stripOuterTypographicQuotes(raw: string) {
     .trim();
 }
 
-function readFounderStats(t: IntlTranslator): readonly FounderStatItem[] {
-  const raw = (t as unknown as { raw: (k: string) => unknown }).raw(
-    "founderPerspective.stats",
-  );
-  if (!Array.isArray(raw)) return [];
-  return raw
-    .map((v) => {
-      if (typeof v !== "object" || v === null) return null;
-      const o = v as Record<string, unknown>;
-      const target = o.target;
-      const suffix = o.suffix;
-      const label = o.label;
-      if (typeof target !== "number" || typeof suffix !== "string" || typeof label !== "string") {
-        return null;
-      }
-      return { target, suffix, label } satisfies FounderStatItem;
-    })
-    .filter((v): v is FounderStatItem => Boolean(v));
-}
-
 export function AboutFounderSection({ t }: Props) {
-  const founderStats = readFounderStats(t);
-
   return (
     <section
       className={cn("border-b border-border bg-background", SECTION_PAD_HOME)}
       aria-labelledby="about-founder-heading"
     >
-      <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
-        <div
-          className={cn(
-            "overflow-hidden rounded-3xl border border-border bg-surface p-0",
-            "shadow-[0_40px_100px_-72px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06]",
-          )}
-        >
-          <div className="grid grid-cols-1 items-stretch lg:grid-cols-12">
-            <div
-              className="order-1 min-w-0 border-b border-border/80 p-6 sm:p-8 lg:order-none lg:col-span-4 lg:border-b-0 lg:border-r lg:px-9 lg:py-10"
-            >
-              <p className="text-sm font-semibold tracking-[0.12em] text-primary">
-                {t("founderPerspective.eyebrow")}
-              </p>
-              <h2
-                id="about-founder-heading"
-                className="mt-3 text-xl font-semibold leading-snug tracking-tight text-foreground sm:text-2xl sm:leading-snug lg:text-[1.65rem] lg:leading-tight"
-              >
-                {t("founderPerspective.title")}
-              </h2>
-              <p className="mt-2.5 text-sm font-medium text-muted-foreground sm:text-[0.9375rem]">
-                {t("founderPerspective.byline")}
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
-                {t("founderPerspective.body")}
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
-                {t("founderPerspective.body2")}
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
-                {t("founderPerspective.body3")}
-              </p>
-              <div className="mt-7">
-                <AppButton
-                  asChild
-                  variant="outline"
-                  size="sm"
-                  className="!min-h-9 h-9 w-full max-w-sm border-border/80 bg-background/50 px-3.5 text-sm font-medium text-foreground/90 shadow-none hover:bg-background/80 sm:w-auto"
-                >
-                  <a
-                    href={FOUNDER_LINKEDIN_HREF}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5"
-                  >
-                    <LinkedInGlyph className="size-3.5 shrink-0 text-primary" />
-                    {t("founderPerspective.linkedinCta")}
-                  </a>
-                </AppButton>
+      <Container className={aboutPageContainerClassName()}>
+        <div className={aboutFounderPanelClassName()}>
+          <div className={aboutFounderGridClassName()}>
+            <div className={aboutFounderColumnClassName("portrait")}>
+              <div className={aboutFounderPortraitFrameClassName()}>
+                <FounderPortrait
+                  src="/images/founder-burcu-simsek.jpg"
+                  alt={t("founderPerspective.name")}
+                  initials="BS"
+                  className="!h-full !w-full max-w-none"
+                />
               </div>
             </div>
 
-            <div
-              className="order-2 flex min-h-0 items-center justify-center border-b border-border/80 bg-gradient-to-b from-primary/[0.04] to-transparent p-6 sm:p-8 lg:order-none lg:col-span-4 lg:min-h-0 lg:border-b-0 lg:border-r lg:px-8 lg:py-10"
-            >
-              <div className="w-full max-w-xs sm:max-w-sm">
-                <div className="relative mx-auto aspect-[4/5] w-full max-w-[15.5rem] sm:max-w-md">
-                  <FounderPortrait
-                    src="/images/founder-burcu-simsek.jpg"
-                    alt={t("founderPerspective.name")}
-                    initials="BS"
-                    className="!h-full !w-full max-w-none"
-                  />
+            <div className={aboutFounderColumnClassName("narrative")}>
+              <div className={aboutFounderNarrativeInnerClassName()}>
+                <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.12em] text-primary">
+                  {t("founderPerspective.eyebrow")}
+                </p>
+                <h2
+                  id="about-founder-heading"
+                  className="mt-2.5 text-pretty text-balance text-xl font-semibold leading-snug tracking-tight text-foreground sm:text-[1.35rem] lg:text-[1.5rem] lg:leading-tight"
+                >
+                  {t("founderPerspective.title")}
+                </h2>
+                <p className="mt-2 text-sm font-medium text-muted-foreground">
+                  {t("founderPerspective.byline")}
+                </p>
+                <p className="mt-3.5 text-pretty text-[0.9375rem] leading-[1.65] text-muted-foreground sm:text-base sm:leading-[1.68]">
+                  {t("founderPerspective.body")}
+                </p>
+                <p className="mt-3.5 text-pretty text-[0.9375rem] leading-[1.65] text-muted-foreground sm:text-base sm:leading-[1.68]">
+                  {t("founderPerspective.body2")}
+                </p>
+                <p className="mt-3.5 text-pretty text-[0.9375rem] leading-[1.65] text-muted-foreground sm:text-base sm:leading-[1.68]">
+                  {t("founderPerspective.body3")}
+                </p>
+                <div className="mt-6">
+                  <AppButton
+                    asChild
+                    variant="outline"
+                    size="sm"
+                    className="!min-h-9 h-9 w-full max-w-xs border-border/80 bg-background/60 px-3.5 text-sm font-medium text-foreground/90 shadow-none hover:bg-background sm:w-auto"
+                  >
+                    <a
+                      href={FOUNDER_LINKEDIN_HREF}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5"
+                    >
+                      <LinkedInGlyph className="size-3.5 shrink-0 text-primary" />
+                      {t("founderPerspective.linkedinCta")}
+                    </a>
+                  </AppButton>
                 </div>
               </div>
             </div>
 
-            <aside
-              className={cn(
-                "order-3 flex min-h-0 w-full min-w-0 flex-col self-stretch bg-surface/60 p-6 sm:p-8 lg:order-none lg:col-span-4 lg:h-full lg:px-8 lg:py-10",
-              )}
-            >
-              <div className={quotePanelClass}>
+            <aside className={aboutFounderColumnClassName("quote")}>
+              <div className={aboutFounderQuotePanelClassName()}>
                 <div
-                  className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_80%_at_0%_0%,rgba(8,145,178,0.22),transparent_55%)]"
+                  className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_85%_70%_at_0%_0%,rgba(8,145,178,0.2),transparent_58%)]"
                   aria-hidden
                 />
-                <div className="pointer-events-none absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-accent/5 via-accent/70 to-accent/5" aria-hidden />
-                <div className="relative flex w-full min-h-0 flex-1 flex-col justify-center px-7 py-8 sm:px-8 sm:py-9 lg:px-9 lg:py-10">
+                <div
+                  className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/65 to-transparent"
+                  aria-hidden
+                />
+                <div
+                  className="pointer-events-none absolute inset-0 opacity-[0.12] [background-image:linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:24px_24px]"
+                  aria-hidden
+                />
+                <div className="relative px-6 py-6 sm:px-7 sm:py-7">
                   <p
-                    className="mb-4 font-serif text-[2.75rem] leading-none text-primary-foreground/35 sm:text-[3.25rem]"
+                    className="mb-2 font-serif text-[1.75rem] leading-none text-primary-foreground/30 sm:text-[2rem]"
                     aria-hidden
                   >
                     “
                   </p>
-                  <p className="-mt-1 min-w-0 text-pretty text-base font-medium leading-[1.62] text-primary-foreground/95 sm:text-[1.0625rem] sm:leading-[1.64] lg:leading-[1.66] whitespace-pre-line">
+                  <p className="-mt-0.5 min-w-0 text-pretty text-[0.9rem] font-medium leading-[1.65] text-primary-foreground/95 sm:text-[0.9375rem] sm:leading-[1.68] whitespace-pre-line">
                     {stripOuterTypographicQuotes(t("founderPerspective.quote"))}
                   </p>
                 </div>
               </div>
             </aside>
           </div>
-
-          {founderStats.length > 0 ? (
-            <div className="border-t border-border/65 bg-background/40 px-5 py-6 sm:px-7 sm:py-7 lg:px-9 lg:py-8">
-              <AboutFounderStatsBand stats={founderStats} />
-            </div>
-          ) : null}
         </div>
       </Container>
     </section>

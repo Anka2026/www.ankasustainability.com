@@ -27,7 +27,7 @@ export function ResourcesHeroSection({ t }: Props) {
 
   return (
     <section
-      className="relative overflow-hidden border-b border-border bg-slate-50/80"
+      className="relative overflow-hidden border-b border-border bg-[linear-gradient(165deg,var(--section-executive)_0%,#f8fafc_55%,color-mix(in_srgb,var(--accent-soft)_14%,#f8fafc)_100%)]"
       aria-labelledby="resources-hero-heading"
     >
       <div

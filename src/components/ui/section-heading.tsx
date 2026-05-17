@@ -32,15 +32,15 @@ export function SectionHeading({
   return (
     <div
       className={cn(
-        "flex flex-col gap-3.5 sm:gap-4",
+        "flex flex-col gap-4 sm:gap-[1.125rem]",
         align === "center" ? "items-center text-center" : "items-start text-left",
       )}
     >
       <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-5">
-        <div className="min-w-0 space-y-2 sm:space-y-2.5">
+        <div className="min-w-0 space-y-2.5 sm:space-y-3">
           {accentRule ? (
             <div
-              className="h-[3px] w-11 shrink-0 rounded-full bg-gradient-to-r from-accent via-accent/85 to-accent/55 sm:w-12"
+              className="h-[2px] w-12 shrink-0 rounded-full bg-gradient-to-r from-accent via-accent/80 to-accent/45 sm:w-[3.25rem]"
               aria-hidden
             />
           ) : null}
@@ -52,14 +52,14 @@ export function SectionHeading({
           {titleAs === "h2" ? (
             <h2
               id={titleId}
-              className="max-w-[min(100%,44rem)] text-balance text-pretty text-[1.375rem] font-semibold leading-[1.2] tracking-[-0.03em] text-foreground sm:text-[1.625rem] sm:leading-[1.18] md:text-[1.875rem] md:leading-[1.14] lg:text-[2.0625rem] lg:leading-[1.12]"
+              className="max-w-[min(100%,56rem)] text-balance text-pretty text-[1.375rem] font-semibold leading-[1.2] tracking-[-0.03em] text-foreground sm:text-[1.625rem] sm:leading-[1.18] md:text-[1.875rem] md:leading-[1.14] lg:text-[2.0625rem] lg:leading-[1.12]"
             >
               {title}
             </h2>
           ) : (
             <h1
               id={titleId}
-              className="max-w-[min(100%,44rem)] text-balance text-pretty text-[1.375rem] font-semibold leading-[1.2] tracking-[-0.03em] text-foreground sm:text-[1.625rem] sm:leading-[1.18] md:text-[1.875rem] md:leading-[1.14] lg:text-[2.0625rem] lg:leading-[1.12]"
+              className="max-w-[min(100%,56rem)] text-balance text-pretty text-[1.375rem] font-semibold leading-[1.2] tracking-[-0.03em] text-foreground sm:text-[1.625rem] sm:leading-[1.18] md:text-[1.875rem] md:leading-[1.14] lg:text-[2.0625rem] lg:leading-[1.12]"
             >
               {title}
             </h1>
@@ -71,7 +71,7 @@ export function SectionHeading({
       {description ? (
         <p
           className={cn(
-            "max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]",
+            "max-w-[min(100%,48rem)] text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]",
             align === "center" && "mx-auto",
             descriptionClassName,
           )}

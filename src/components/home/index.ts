@@ -1,4 +1,5 @@
 export { FinalCtaSection } from "./final-cta-section";
+export { ProjectApproachesSection } from "./project-approaches-section";
 export { HeroSection } from "./hero-section";
 export { InsightsPreviewSection } from "./insights-preview-section";
 export { SectorsPreviewSection } from "./sectors-preview-section";

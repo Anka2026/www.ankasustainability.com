@@ -40,6 +40,9 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-gold-accent: var(--gold-accent);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-tint: var(--gold-tint);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -99,13 +102,14 @@
 
   /** Shared elevation — cards and hero decorative panels. */
   --shadow-card:
-    0 10px 38px -14px rgba(15, 23, 42, 0.16),
-    0 0 0 1px rgba(47, 61, 74, 0.06),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.92);
+    0 12px 40px -16px rgba(15, 23, 42, 0.14),
+    0 0 0 1px rgba(47, 61, 74, 0.07),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.94);
   --shadow-card-hover:
-    0 38px 72px -30px rgba(15, 23, 42, 0.20),
-    0 0 0 1px rgba(8, 145, 178, 0.16),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.88);
+    0 28px 56px -24px rgba(15, 23, 42, 0.18),
+    0 0 0 1px rgba(8, 145, 178, 0.18),
+    0 8px 24px -12px rgba(8, 145, 178, 0.12),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
   --shadow-hero-panel:
     0 34px 76px -34px rgba(15, 23, 42, 0.18),
     0 0 0 1px rgba(8, 145, 178, 0.09);
@@ -118,6 +122,15 @@
   --sidebar-accent-foreground: #2f3d4a;
   --sidebar-border: #d8e2ea;
   --sidebar-ring: #0891b2;
+
+  /** Premium editorial accent — sparing use on resources / insights. */
+  --gold-accent: #b68a35;
+  --gold-soft: #d8bc7a;
+  --gold-tint: #f4e9cf;
+
+  --section-warm: color-mix(in srgb, var(--background) 97%, var(--primary) 3%);
+  --section-executive: color-mix(in srgb, var(--background) 78%, var(--primary) 22%);
+  --section-teal-wash: color-mix(in srgb, var(--background) 82%, var(--accent-soft) 18%);
 }
 
 @layer base {
@@ -149,5 +162,33 @@
       #f7fafc 0%,
       color-mix(in srgb, #f7fafc 64%, var(--primary) 36%) 100%
     );
+  }
+
+  .resource-gold-badge {
+    @apply inline-flex items-center rounded-full border px-3 py-1 text-[0.6875rem] font-semibold uppercase tracking-[0.14em];
+    border-color: color-mix(in srgb, var(--gold-accent) 16%, var(--border));
+    background-color: color-mix(in srgb, var(--gold-tint) 22%, white);
+    color: color-mix(in srgb, var(--gold-accent) 58%, var(--primary));
+  }
+
+  .brand-gold-hairline {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--gold-accent) 42%, transparent) 50%,
+      transparent
+    );
+  }
+
+  .brand-gold-label {
+    color: color-mix(in srgb, var(--gold-accent) 62%, var(--primary));
+  }
+
+  .resource-accent-divider {
+    height: 2px;
+    width: 2.75rem;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 45%, transparent));
   }
 }

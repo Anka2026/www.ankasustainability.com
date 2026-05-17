@@ -3,13 +3,14 @@ import { SectionHeading } from "@/components/section-heading";
 import type { AppLocale } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
+import { homeCardClassName, marketingIconContainerClassName } from "@/lib/home-classes";
 import { getHeroSubServiceTitlesForMenu } from "@/lib/service-sub-services";
 import {
   SERVICES_CATEGORY_ICONS,
   SERVICES_CATEGORY_ORDER,
   type ServicesCategoryId,
 } from "@/lib/services-categories";
+import { serviceCardAnchorId } from "@/lib/home-project-approach-links";
 import { serviceRouteSegmentFromId } from "@/lib/services-routing";
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
@@ -61,21 +62,23 @@ function ServiceNavCard({
   const body = t(`areas.cards.${categoryId}.body`);
   const bullets = getHeroSubServiceTitlesForMenu(categoryId, locale, 4);
 
+  const anchorId = serviceCardAnchorId(categoryId);
+
   return (
-    <Link
-      id={`service-${categoryId}`}
-      href={`/services/${segment}`}
-      className={cn(
-        homeCardClassName(true),
-        "group flex h-full flex-col justify-between gap-5 p-5 text-left no-underline sm:p-6",
-        "shadow-[0_20px_56px_-48px_rgba(15,23,42,0.5)]",
-        "hover:bg-[var(--accent-soft)]/25",
-      )}
-    >
+    <div id={anchorId} className="scroll-mt-32 sm:scroll-mt-36">
+      <Link
+        href={`/services/${segment}`}
+        className={cn(
+          homeCardClassName(true),
+          "group flex h-full flex-col justify-between gap-5 p-5 text-left no-underline sm:p-6",
+          "shadow-[0_20px_56px_-48px_rgba(15,23,42,0.5)]",
+          "hover:bg-[var(--accent-soft)]/25",
+        )}
+      >
       <div className="min-w-0">
         <div className="flex items-start gap-3.5">
-          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-border/80 bg-background/90 text-primary shadow-[inset_0_1px_0_0_rgba(255,255,255,0.7)] transition-colors group-hover:border-accent/40">
-            <Icon className="h-6 w-6" aria-hidden />
+          <span className={cn(marketingIconContainerClassName(true), "h-11 w-11 rounded-2xl [&_svg]:size-5")}>
+            <Icon aria-hidden />
           </span>
           <div className="min-w-0">
             <h3 className="text-base font-semibold tracking-tight text-foreground sm:text-[1.0625rem]">
@@ -105,5 +108,6 @@ function ServiceNavCard({
         />
       </span>
     </Link>
+    </div>
   );
 }

@@ -1,4 +1,4 @@
-import { AppButton } from "@/components/ui/app-button";
+﻿import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { Link } from "@/i18n/navigation";
@@ -8,14 +8,9 @@ import {
   BarChart3,
   Cpu,
   Database,
-  FileCheck,
   LayoutGrid,
   ListChecks,
-  Route,
-  ShieldCheck,
 } from "lucide-react";
-
-type Card = Readonly<{ title: string; body: string }>;
 
 type Props = Readonly<{
   t: IntlTranslator;
@@ -30,26 +25,10 @@ function readStringArray(t: IntlTranslator, key: string): string[] {
     .filter(Boolean);
 }
 
-function readCardArray(t: IntlTranslator, key: string): Card[] {
-  const raw = (t as unknown as { raw: (k: string) => unknown }).raw(key);
-  if (!Array.isArray(raw)) return [];
-  return raw
-    .map((v) => {
-      if (typeof v !== "object" || v === null) return null;
-      const title = (v as Record<string, unknown>).title;
-      const body = (v as Record<string, unknown>).body;
-      if (typeof title !== "string" || typeof body !== "string") return null;
-      return { title, body };
-    })
-    .filter((v): v is Card => Boolean(v));
-}
-
 const PANEL_ROW_ICONS = [BarChart3, Database, ListChecks, Cpu] as const;
-const PROOF_ICONS = [Database, ShieldCheck, FileCheck, Route] as const;
 
 export function AboutHeroSection({ t }: Props) {
   const panelItems = readStringArray(t, "hero.panel.items");
-  const proofBlocks = readCardArray(t, "hero.proof");
 
   return (
     <section
@@ -68,7 +47,7 @@ export function AboutHeroSection({ t }: Props) {
         aria-hidden
       />
 
-      <Container className="relative z-[1] max-w-7xl pt-12 pb-10 sm:pt-14 sm:pb-12 xl:max-w-[86rem] 2xl:max-w-[92rem]">
+      <Container className="relative z-[1] max-w-7xl pt-10 pb-8 sm:pt-11 sm:pb-9 xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <div className="grid items-center gap-9 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1fr)] lg:gap-11">
           <div className="min-w-0">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
@@ -168,35 +147,6 @@ export function AboutHeroSection({ t }: Props) {
           </div>
         </div>
 
-        {proofBlocks.length >= 4 && (
-          <div className="relative mt-7">
-            <div className="rounded-[2.25rem] border border-border bg-background shadow-[0_26px_70px_-56px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.05]">
-              <div className="grid divide-y divide-border/70 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4">
-                {proofBlocks.slice(0, 4).map((block, idx) => {
-                  const Icon = PROOF_ICONS[idx] ?? Database;
-                  return (
-                    <div
-                      key={`${block.title}-${idx}`}
-                      className="flex items-start gap-3.5 p-4.5 sm:p-5.5"
-                    >
-                      <span className="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-primary/15 bg-primary/[0.04] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                        <Icon className="h-5 w-5 text-primary" aria-hidden />
-                      </span>
-                      <div className="min-w-0">
-                        <p className="text-sm font-semibold leading-snug text-foreground">
-                          {block.title}
-                        </p>
-                        <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                          {block.body}
-                        </p>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        )}
       </Container>
     </section>
   );

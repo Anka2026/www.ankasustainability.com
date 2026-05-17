@@ -1,6 +1,7 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
+import { marketingDarkCtaBandClassName } from "@/lib/home-classes";
 import { FINAL_CTA_PAD } from "@/lib/section-layout";
 import { FINAL_CTA_DESCRIPTION, FINAL_CTA_TITLE } from "@/lib/typography-classes";
 import { cn } from "@/lib/utils";
@@ -14,7 +15,7 @@ type Props = Readonly<{
 export function ResourcesFinalCtaSection({ t }: Props) {
   return (
     <section
-      className={cn("relative bg-primary text-primary-foreground", FINAL_CTA_PAD)}
+      className={cn(marketingDarkCtaBandClassName(), FINAL_CTA_PAD)}
       aria-labelledby="resources-final-cta-heading"
     >
       <div

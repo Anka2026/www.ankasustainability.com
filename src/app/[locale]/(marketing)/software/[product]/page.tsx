@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { AppButton } from "@/components/ui/app-button";
 import { AgriClimateProductScreenshot } from "@/components/software/agri-climate-product-screenshot";
+import { EudrProductScreenshot } from "@/components/software/eudr-product-screenshot";
 import { CbamComplianceConsoleProductVisual } from "@/components/software/cbam-compliance-console-product-visual";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
@@ -12,8 +13,7 @@ import { routing } from "@/i18n/routing";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { isSoftwarePortfolioSlug, type SoftwarePortfolioSlug } from "@/lib/software-portfolio";
-
-const CBAM_CALCULATION_ENGINE_SCREENSHOT = "/software/screenshots/cbam-calculation-engine.png";
+import { CBAM_CALCULATION_ENGINE_DASHBOARD_SRC } from "@/lib/software-visual-assets";
 
 type PageProps = Readonly<{
   params: Promise<{ locale: string; product: string }>;
@@ -36,17 +36,26 @@ type ProductDetailModel = Readonly<{
   outputs: string[];
 }>;
 
-function CtaRow({ t }: { t: TranslatorLike }) {
+function CtaRow({ t, slug }: { t: TranslatorLike; slug: SoftwarePortfolioSlug }) {
+  const base = `portfolio.products.${slug}`;
+  const detailPrimary = optionalString(t, `${base}.detailPrimaryCta`);
+  const detailSecondary = optionalString(t, `${base}.detailSecondaryCta`);
+  const primaryLabel = detailPrimary ?? t("hero.primaryCta");
+  const secondaryLabel = detailSecondary ?? t("finalCta.secondaryCta");
   return (
     <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
       <AppButton
         asChild
         className="border border-accent/45 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)] hover:border-accent hover:bg-accent hover:brightness-[1.03]"
       >
-        <Link href="/contact">{t("hero.primaryCta")}</Link>
+        <Link href="/contact">{primaryLabel}</Link>
       </AppButton>
       <AppButton variant="outline" asChild>
-        <Link href="/contact">{t("finalCta.secondaryCta")}</Link>
+        {detailSecondary ? (
+          <a href="#product-capabilities">{secondaryLabel}</a>
+        ) : (
+          <Link href="/contact">{secondaryLabel}</Link>
+        )}
       </AppButton>
     </div>
   );
@@ -177,7 +186,7 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                 <p className="mt-4 max-w-5xl text-pretty text-[1.0625rem] leading-relaxed text-muted-foreground sm:text-lg sm:leading-[1.65]">
                   {data.heroText}
                 </p>
-                <CtaRow t={tt} />
+                <CtaRow t={tt} slug={data.slug} />
               </div>
               <div className="min-w-0 lg:justify-self-end lg:max-w-none">
                 <CbamComplianceConsoleProductVisual
@@ -196,7 +205,7 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                 {data.heroText}
               </p>
 
-              <CtaRow t={tt} />
+              <CtaRow t={tt} slug={data.slug} />
 
               {data.slug === "agri-climate-platform" ? (
                 <div className="mt-8 w-full max-w-5xl">
@@ -205,12 +214,22 @@ export default async function SoftwareProductPage({ params }: PageProps) {
                     priority
                   />
                 </div>
+              ) : data.slug === "eudr-due-diligence-traceability" ? (
+                <div className="mt-8 w-full max-w-5xl">
+                  <EudrProductScreenshot
+                    alt={tt("portfolio.products.eudr-due-diligence-traceability.screenshotAlt")}
+                    priority
+                  />
+                  <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
+                    {tt("portfolio.products.eudr-due-diligence-traceability.modalVisualCaption")}
+                  </p>
+                </div>
               ) : data.slug === "cbam-calculation-engine" ? (
                 <div className="mt-8 w-full max-w-5xl">
                   <div className="overflow-hidden rounded-3xl border border-slate-200/75 bg-gradient-to-b from-slate-50/40 to-white p-1 shadow-[0_26px_70px_-44px_rgba(15,23,42,0.36)] ring-1 ring-inset ring-slate-900/[0.035] sm:p-1.5">
                     <div className="flex w-full justify-center rounded-2xl bg-white px-1 py-2 sm:px-2 sm:py-2.5">
                       <Image
-                        src={CBAM_CALCULATION_ENGINE_SCREENSHOT}
+                        src={CBAM_CALCULATION_ENGINE_DASHBOARD_SRC}
                         alt={tt("portfolio.products.cbam-calculation-engine.screenshotAlt")}
                         width={1920}
                         height={1080}
@@ -255,7 +274,10 @@ export default async function SoftwareProductPage({ params }: PageProps) {
         </Container>
       </section>
 
-      <section className="border-b border-border bg-surface py-10 sm:py-12">
+      <section
+        id="product-capabilities"
+        className="scroll-mt-24 border-b border-border bg-surface py-10 sm:py-12"
+      >
         <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
           <SectionHeading
             titleAs="h2"

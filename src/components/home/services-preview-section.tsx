@@ -1,7 +1,7 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
+import { homeCardClassName, marketingIconContainerClassName } from "@/lib/home-classes";
 import { SECTION_BG_TINT, SECTION_PAD_HOME } from "@/lib/section-layout";
 import { CARD_DESCRIPTION, CARD_TITLE } from "@/lib/typography-classes";
 import { serviceRouteSegmentFromId } from "@/lib/services-routing";
@@ -61,8 +61,8 @@ export function ServicesPreviewSection({ t, tServicesPage }: Props) {
                 )}
               >
                 <article className={cn("flex h-full flex-col p-5 sm:p-6", homeCardClassName(true))}>
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl border border-primary/15 bg-primary/[0.04] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)] ring-1 ring-inset ring-primary/[0.05] transition-colors group-hover:border-accent/35 group-hover:bg-accent/[0.06]">
-                    <Icon className="size-[1.125rem] text-primary" strokeWidth={1.85} aria-hidden />
+                  <div className={cn("mb-4", marketingIconContainerClassName(true))}>
+                    <Icon strokeWidth={1.85} aria-hidden />
                   </div>
                   <h3 className={CARD_TITLE}>{t(`servicesOverview.${key}.title`)}</h3>
                   <p className={CARD_DESCRIPTION}>{t(`servicesOverview.${key}.body`)}</p>

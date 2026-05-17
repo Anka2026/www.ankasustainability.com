@@ -1,6 +1,7 @@
 import { AppButton } from "@/components/ui/app-button";
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
+import { marketingDarkCtaBandClassName, marketingDarkCtaPanelClassName } from "@/lib/home-classes";
 import { FINAL_CTA_PAD } from "@/lib/section-layout";
 import { FINAL_CTA_DESCRIPTION, FINAL_CTA_TITLE } from "@/lib/typography-classes";
 import { cn } from "@/lib/utils";
@@ -14,11 +15,7 @@ type Props = Readonly<{
 export function AboutFinalCtaSection({ t }: Props) {
   return (
     <section
-      className={cn(
-        "relative bg-gradient-to-b from-primary via-primary to-primary",
-        "text-primary-foreground",
-        FINAL_CTA_PAD,
-      )}
+      className={cn(marketingDarkCtaBandClassName(), FINAL_CTA_PAD)}
       aria-labelledby="about-final-cta-heading"
     >
       <div
@@ -26,8 +23,8 @@ export function AboutFinalCtaSection({ t }: Props) {
         aria-hidden
       />
       <Container className="relative max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
-        <div className="rounded-[2.25rem] border border-primary-foreground/10 bg-white/[0.06] px-6 py-10 shadow-[0_40px_90px_-70px_rgba(0,0,0,0.85)] ring-1 ring-inset ring-white/10 sm:px-10 sm:py-12">
-          <div className="mx-auto max-w-3xl text-center">
+        <div className={marketingDarkCtaPanelClassName()}>
+          <div className="relative mx-auto max-w-3xl text-center">
             <h2 id="about-final-cta-heading" className={FINAL_CTA_TITLE}>
               {t("finalCta.title")}
             </h2>

@@ -4,7 +4,17 @@ import type { IntlTranslator } from "@/lib/i18n-types";
 import { Link } from "@/i18n/navigation";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
 import { cn } from "@/lib/utils";
-import { BarChart3, Cpu, Database, LayoutGrid, ListChecks } from "lucide-react";
+import {
+  BarChart3,
+  Cpu,
+  Database,
+  Globe2,
+  LayoutGrid,
+  Leaf,
+  ListChecks,
+  Package,
+  Shield,
+} from "lucide-react";
 
 type Props = Readonly<{
   t: IntlTranslator;
@@ -109,19 +119,19 @@ export function SoftwareHeroSection({ t }: Props) {
                   </span>
                 </div>
 
-                <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                  {panelItems.slice(0, 4).map((label, idx) => {
-                    const Icon = PANEL_ROW_ICONS[idx] ?? ListChecks;
+                <div className="mt-5 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4">
+                  {panelItems.slice(0, 8).map((label, idx) => {
+                    const Icon = PANEL_ROW_ICONS[idx % PANEL_ROW_ICONS.length] ?? ListChecks;
                     return (
                       <div
-                        key={label}
-                        className="group relative rounded-3xl border border-white/40 bg-white/60 p-3.5 shadow-[0_16px_40px_-32px_rgba(15,23,42,0.55)] ring-1 ring-inset ring-primary/[0.06] backdrop-blur-[6px] transition-transform duration-200 hover:-translate-y-0.5"
+                        key={`${label}-${idx}`}
+                        className="group relative rounded-2xl border border-white/45 bg-white/65 p-3 shadow-[0_14px_36px_-30px_rgba(15,23,42,0.5)] ring-1 ring-inset ring-primary/[0.05] backdrop-blur-[6px] transition-transform duration-200 hover:-translate-y-0.5"
                       >
-                        <div className="flex items-start gap-3">
-                          <span className="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-primary/15 bg-primary/[0.05] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                            <Icon className="h-5 w-5 text-primary" aria-hidden />
+                        <div className="flex items-start gap-2.5">
+                          <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-primary/15 bg-primary/[0.05] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
+                            <Icon className="h-4 w-4 text-primary" aria-hidden />
                           </span>
-                          <p className="min-w-0 pt-1.5 text-sm font-semibold leading-snug text-foreground">
+                          <p className="min-w-0 pt-1 text-xs font-semibold leading-snug text-foreground sm:text-[0.8125rem]">
                             {label}
                           </p>
                         </div>

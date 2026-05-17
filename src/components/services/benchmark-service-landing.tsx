@@ -3,15 +3,13 @@ import { Container } from "@/components/container";
 import { Link } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { isSoftwarePortfolioSlug } from "@/lib/software-portfolio";
 import type { ServicesCategoryId } from "@/lib/services-categories";
 import { COMPANY_BOOKING_URL } from "@/lib/company";
-import { SERVICE_LANDING } from "@/lib/services-landing";
+import { ServiceRelatedDigitalSolution } from "@/components/services/service-related-digital-solution";
 import { getHeroSubServices } from "@/lib/service-sub-services";
 import { cn } from "@/lib/utils";
 
 import {
-  ArrowRight,
   BadgeCheck,
   BarChart3,
   CheckCircle2,
@@ -82,12 +80,6 @@ export function BenchmarkServiceLanding({
   const audienceMiniBullets = readStringArray(t, `${base}.audience.bullets`).slice(0, 3);
 
   const processSteps = steps.slice(0, Math.min(steps.length, 5));
-
-  const model = SERVICE_LANDING[categoryId];
-  const softwareSlug = model.relatedTools?.[0]?.softwareSlug;
-  const canLinkSoftware = softwareSlug ? isSoftwarePortfolioSlug(softwareSlug) : false;
-  const softwareHref = softwareSlug && canLinkSoftware ? `/software/${softwareSlug}` : "/software";
-
   const kickers =
     locale === "tr"
       ? {
@@ -268,7 +260,7 @@ export function BenchmarkServiceLanding({
               <h2 className="mt-4 text-balance text-pretty text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
                 {t(`${base}.why.heading`)}
               </h2>
-              <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
+              <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
                 {t(`${base}.why.intro`)}
               </p>
               <ul className="mt-6 space-y-3">
@@ -356,7 +348,7 @@ export function BenchmarkServiceLanding({
               >
                 {t(`${base}.support.title`)}
               </h2>
-              <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
+              <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
                 {t(`${base}.support.intro`)}
               </p>
 
@@ -398,23 +390,25 @@ export function BenchmarkServiceLanding({
           {/* 2) Working approach */}
           <section aria-labelledby="mid-process">
             <div className="grid items-stretch gap-6 lg:grid-cols-[minmax(0,0.4fr)_minmax(0,0.6fr)] lg:gap-8">
-              <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_56px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04] sm:p-7">
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
+              <div className="rounded-3xl border border-accent/18 bg-gradient-to-br from-white via-accent/[0.05] to-sky-50/40 p-6 shadow-[0_20px_56px_-40px_rgba(8,145,178,0.3)] ring-1 ring-inset ring-accent/10 sm:p-7">
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent sm:whitespace-nowrap">
                   {kickers.how}
                 </p>
                 <h2
                   id="mid-process"
-                  className="mt-4 text-pretty text-2xl font-semibold tracking-tight text-foreground sm:text-[1.65rem]"
+                  className="mt-4 max-w-[min(100%,52rem)] text-pretty text-2xl font-semibold leading-snug tracking-tight text-primary sm:text-[1.65rem] sm:leading-snug"
                 >
                   {t(`${base}.how.headline`)}
                 </h2>
-                <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
+                <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
                   {t(`${base}.how.intro`)}
                 </p>
-                <p className="mt-5 text-sm font-semibold leading-snug tracking-tight text-foreground/90">{t(`${base}.how.kicker`)}</p>
+                <p className="mt-5 max-w-[min(100%,52rem)] text-sm font-semibold leading-snug tracking-tight text-primary/90">
+                  {t(`${base}.how.kicker`)}
+                </p>
               </div>
 
-              <div className="rounded-3xl border border-slate-200/80 bg-slate-50/70 p-5 shadow-[0_24px_80px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04] sm:p-6">
+              <div className="rounded-3xl border border-accent/15 bg-gradient-to-b from-accent/[0.05] via-slate-50/80 to-white p-5 shadow-[0_24px_80px_-44px_rgba(8,145,178,0.28)] ring-1 ring-inset ring-accent/10 sm:p-6">
                 <ol className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-5">
                   {processSteps.map((s, idx) => (
                     <li
@@ -425,17 +419,17 @@ export function BenchmarkServiceLanding({
                     >
                       <article
                         className={cn(
-                          "flex h-full min-w-0 flex-col rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6",
-                          "shadow-[0_12px_30px_rgba(15,23,42,0.06)] ring-1 ring-inset ring-primary/[0.03]",
+                          "flex h-full min-w-0 flex-col rounded-2xl border border-accent/18 bg-white p-5 sm:p-6",
+                          "shadow-[0_12px_30px_rgba(8,145,178,0.12)] ring-1 ring-inset ring-accent/8",
                           "transition-[border-color,box-shadow] duration-200 ease-out",
-                          "hover:border-primary/22 hover:shadow-[0_20px_44px_rgba(15,23,42,0.09)]",
+                          "hover:border-accent/35 hover:shadow-[0_20px_44px_-28px_rgba(8,145,178,0.28)]",
                         )}
                       >
                         <div className="flex min-w-0 flex-col gap-3.5 sm:flex-row sm:items-start sm:gap-4">
                           <span
                             className={cn(
                               "inline-flex h-9 min-h-9 min-w-9 shrink-0 items-center justify-center self-start rounded-full",
-                              "border border-primary/18 bg-primary/[0.07] text-xs font-semibold tabular-nums tracking-tight text-primary",
+                              "border border-accent/28 bg-accent/[0.1] text-xs font-semibold tabular-nums tracking-tight text-accent",
                               "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.72)]",
                             )}
                             aria-hidden
@@ -470,7 +464,7 @@ export function BenchmarkServiceLanding({
             >
               {t(`${base}.outputs.title`)}
             </h2>
-            <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
+            <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
               {t(`${base}.outputs.intro`)}
             </p>
 
@@ -559,63 +553,10 @@ export function BenchmarkServiceLanding({
               </div>
             </div>
           </section>
-
-          {/* 5) Related tool / capability */}
-          <section aria-labelledby="mid-tool">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
-              {t(`${base}.tools.title`)}
-            </p>
-            <h2 className="mt-4 text-balance text-pretty text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              {t(`${base}.tools.title`)}
-            </h2>
-            <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
-              {t(`${base}.tools.intro`)}
-            </p>
-
-            <div className="mt-6 overflow-hidden rounded-3xl border border-slate-200/80 bg-white/90 shadow-[0_24px_80px_rgba(15,23,42,0.08)] ring-1 ring-inset ring-primary/[0.04] lg:grid lg:grid-cols-2">
-              <div className="relative bg-primary p-6 text-primary-foreground lg:p-7">
-                <div
-                  className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_18%_18%,rgba(8,145,178,0.24),transparent_60%),radial-gradient(820px_420px_at_86%_18%,rgba(15,23,42,0.10),transparent_60%)]"
-                  aria-hidden
-                />
-                <div className="relative">
-                  <h3 className="text-lg font-semibold tracking-tight text-primary-foreground">{t(`${base}.tools.card.title`)}</h3>
-                  <p className="mt-3 text-[0.9375rem] leading-relaxed text-primary-foreground/86 sm:text-base sm:leading-[1.62]">
-                    {t(`${base}.tools.card.body`)}
-                  </p>
-                  <p className="mt-5">
-                    <Link
-                      href={softwareHref}
-                      className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:border-white/25 hover:bg-white/[0.09]"
-                    >
-                      {t(`${base}.tools.card.cta`)}
-                      <ArrowRight className="h-4 w-4" aria-hidden />
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-6 lg:p-7">
-                <p className="text-sm font-semibold tracking-tight text-foreground">{t(`${base}.tools.rightTitle`)}</p>
-                <div className="mt-4 grid gap-2.5">
-                  {readStringArray(t, `${base}.tools.capabilityRows`).slice(0, 4).map((row) => (
-                    <div
-                      key={row}
-                      className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200/80 bg-white px-4 py-3 shadow-[0_12px_30px_rgba(15,23,42,0.05)]"
-                    >
-                      <p className="min-w-0 text-sm font-semibold leading-snug text-foreground">{row}</p>
-                      <CheckCircle2 className="h-4 w-4 shrink-0 text-accent" aria-hidden />
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-4.5 rounded-2xl border border-slate-200/80 bg-slate-50/70 p-4">
-                  <p className="text-sm leading-relaxed text-muted-foreground">{t(`${base}.tools.noteShort`)}</p>
-                </div>
-              </div>
-            </div>
-          </section>
         </div>
       </section>
+
+      <ServiceRelatedDigitalSolution t={t} categoryId={categoryId} />
 
       {/* FINAL CTA */}
       <section className="bg-primary text-primary-foreground pt-12 pb-10 sm:pt-14 sm:pb-12">
@@ -638,7 +579,7 @@ export function BenchmarkServiceLanding({
                 <h2 className="mt-5 max-w-4xl text-balance text-pretty text-[1.45rem] font-semibold leading-snug tracking-[-0.02em] text-primary-foreground sm:text-2xl sm:leading-snug md:text-[1.75rem]">
                   {t(`${base}.cta.title`)}
                 </h2>
-                <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-primary-foreground/86 sm:text-lg sm:leading-[1.65]">
+                <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-base leading-relaxed text-primary-foreground/86 sm:text-lg sm:leading-[1.65]">
                   {t(`${base}.cta.text`)}
                 </p>
               </div>

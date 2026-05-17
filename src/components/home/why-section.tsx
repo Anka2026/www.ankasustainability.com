@@ -1,7 +1,7 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import type { IntlTranslator } from "@/lib/i18n-types";
-import { homeCardClassName } from "@/lib/home-classes";
+import { homeCardClassName, marketingIconContainerClassName } from "@/lib/home-classes";
 import { SECTION_PAD_HOME } from "@/lib/section-layout";
 import { cn } from "@/lib/utils";
 
@@ -42,12 +42,8 @@ export function WhySection({ t }: Props) {
                 "flex h-full flex-col gap-4 p-5 sm:p-6",
               )}
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-primary/15 bg-primary/[0.04] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.75)]">
-                <Icon
-                  className="size-[1.125rem] text-primary"
-                  strokeWidth={1.85}
-                  aria-hidden
-                />
+              <div className={marketingIconContainerClassName()}>
+                <Icon strokeWidth={1.85} aria-hidden />
               </div>
               <div className="min-w-0 space-y-2">
                 <h3 className="text-[0.9375rem] font-semibold leading-snug text-foreground">

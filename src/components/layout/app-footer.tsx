@@ -8,6 +8,7 @@ import {
   COMPANY_LINKEDIN_LABEL,
   COMPANY_LINKEDIN_URL,
 } from "@/lib/company";
+import { goldMicroHairlineClassName } from "@/lib/brand-gold-accent";
 import { cn } from "@/lib/utils";
 
 import { BrandMark } from "./brand-mark";
@@ -27,10 +28,13 @@ const FOOTER_NAV_HREFS = [
 const FOOTER_LEGAL_HREFS = ["/privacy", "/terms", "/legal-notice"] as const;
 
 const linkClassName = cn(
-  "text-sm font-medium text-white/75 transition-colors",
+  "text-sm font-medium text-white/78 transition-colors duration-200",
   "hover:text-white",
   "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/55 focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
 );
+
+const footerColumnTitleClassName =
+  "text-[0.6875rem] font-semibold uppercase tracking-[0.16em] text-white/55";
 
 const columnDivider =
   "min-w-0 lg:border-l lg:border-white/10 lg:pl-4 xl:pl-5";
@@ -90,9 +94,8 @@ export async function AppFooter() {
     : null;
 
   return (
-    <footer className="border-t border-primary/35 bg-primary text-white shadow-[inset_0_1px_0_0_rgba(8,145,178,0.22)]">
+    <footer className="border-t border-primary/30 bg-primary text-white shadow-[inset_0_1px_0_0_rgba(8,145,178,0.28)]">
       <Container className="max-w-7xl px-4 py-8 sm:px-5 sm:py-9 md:py-10 lg:px-7 xl:max-w-[86rem] 2xl:max-w-[92rem]">
-        <div className="lg:translate-x-12">
         <div
           className={cn(
             "grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-x-5 sm:gap-y-7",
@@ -102,9 +105,9 @@ export async function AppFooter() {
         >
           {/* 1 — Brand + company (Netherlands B.V.): logo + firm info, gap-8 (~32px) */}
           <div className="min-w-0">
-            <div className="flex flex-col items-start gap-8 sm:flex-row">
+            <div className="flex flex-col items-start gap-6 rounded-2xl border border-white/10 bg-white/[0.04] p-5 sm:flex-row sm:gap-8 sm:p-6">
               <span
-                className="inline-flex shrink-0 self-start overflow-hidden rounded-lg w-24 h-24 lg:h-[120px] lg:w-[120px]"
+                className="inline-flex h-24 w-24 shrink-0 self-start overflow-hidden rounded-xl border border-white/10 bg-white/[0.06] lg:h-[7.5rem] lg:w-[7.5rem]"
                 aria-hidden
               >
                 <BrandMark
@@ -113,16 +116,20 @@ export async function AppFooter() {
                 />
               </span>
               <div className="min-w-0 flex-1 space-y-0">
-                <p className="text-sm font-semibold leading-snug text-white">
+                <p className="text-[0.9375rem] font-semibold leading-snug tracking-[-0.01em] text-white sm:text-base">
                   {COMPANY_LEGAL_NAME}
                 </p>
-                <address className="mt-3.5 not-italic text-sm leading-[1.55] text-white/72">
+                <address className="mt-3.5 not-italic text-sm leading-[1.55] text-white/75">
                   <p>{tCompany("addressLine1")}</p>
                   <p>{tCompany("addressLine2")}</p>
                 </address>
-                <p className="mt-3 text-sm leading-relaxed text-white/72">
-                  {COMPANY_KVK_LINE}
-                </p>
+                <div className="relative mt-3 overflow-hidden rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2.5">
+                  <div
+                    className={cn("absolute inset-x-3 top-0", goldMicroHairlineClassName())}
+                    aria-hidden
+                  />
+                  <p className="text-sm leading-relaxed text-white/76">{COMPANY_KVK_LINE}</p>
+                </div>
                 <p className="mt-3 min-w-0">
                   <a
                     href={`mailto:${COMPANY_EMAIL}`}
@@ -158,7 +165,8 @@ export async function AppFooter() {
 
           {/* 2 — Navigation */}
           <nav aria-label={t("navAria")} className={columnDivider}>
-            <ul className="flex flex-col gap-2">
+            <p className={footerColumnTitleClassName}>{t("navAria")}</p>
+            <ul className="mt-3 flex flex-col gap-2.5">
               {FOOTER_NAV_HREFS.map((href, i) => (
                 <li key={href}>
                   <Link href={href} className={linkClassName}>
@@ -171,7 +179,8 @@ export async function AppFooter() {
 
           {/* 3 — Legal */}
           <nav aria-label={t("legalNavAria")} className={columnDivider}>
-            <ul className="flex flex-col gap-2">
+            <p className={footerColumnTitleClassName}>{t("legalNavAria")}</p>
+            <ul className="mt-3 flex flex-col gap-2.5">
               {FOOTER_LEGAL_HREFS.map((href, i) => (
                 <li key={href}>
                   <Link href={href} className={linkClassName}>
@@ -184,7 +193,7 @@ export async function AppFooter() {
 
           {/* 4 — Offices (Türkiye) */}
           <div className={cn(columnDivider)}>
-            <p className="text-xs font-semibold tracking-[0.18em] text-white/72 uppercase">
+            <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.16em] text-white/88">
               {t("officesTitle")}
             </p>
             {officeBlocks ? (
@@ -211,13 +220,12 @@ export async function AppFooter() {
         </div>
 
         <div className="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
-          <p className="max-w-3xl text-sm leading-relaxed text-white/68">
+          <p className="max-w-3xl text-sm leading-relaxed text-white/72">
             {t("note")}
           </p>
-          <p className="shrink-0 text-xs leading-relaxed text-white/60 sm:max-w-[min(100%,22rem)] sm:text-right">
+          <p className="shrink-0 text-xs leading-relaxed text-white/62 sm:max-w-[min(100%,22rem)] sm:text-right">
             {t("rights", { year })}
           </p>
-        </div>
         </div>
       </Container>
     </footer>

@@ -1,9 +1,7 @@
 {
   "/_not-found/page": "/_not-found",
   "/_global-error/page": "/_global-error",
-  "/apple-icon.png/route": "/apple-icon.png",
   "/favicon.ico/route": "/favicon.ico",
-  "/icon.png/route": "/icon.png",
   "/page": "/",
   "/[locale]/(marketing)/about/page": "/[locale]/about",
   "/[locale]/(marketing)/contact/page": "/[locale]/contact",

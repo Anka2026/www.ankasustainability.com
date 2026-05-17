@@ -2,6 +2,7 @@
 export const SOFTWARE_PORTFOLIO_SLUGS = [
   "cbam-calculation-engine",
   "agri-climate-platform",
+  "eudr-due-diligence-traceability",
   "cbam-compliance-console",
   "digital-product-passport-platform",
   "packaging-compliance-tool",
@@ -13,6 +14,7 @@ export type SoftwarePortfolioSlug = (typeof SOFTWARE_PORTFOLIO_SLUGS)[number];
 export const SOFTWARE_PORTFOLIO_ORDER: readonly SoftwarePortfolioSlug[] = [
   "cbam-calculation-engine",
   "agri-climate-platform",
+  "eudr-due-diligence-traceability",
   "cbam-compliance-console",
   "digital-product-passport-platform",
   "packaging-compliance-tool",

@@ -1,5 +1,9 @@
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
+import {
+  marketingIconContainerClassName,
+  marketingTrustStripShellClassName,
+} from "@/lib/home-classes";
 import { BadgeCheck } from "lucide-react";
 
 type Props = Readonly<{
@@ -24,7 +28,7 @@ export function TrustStripSection({ t }: Props) {
       {...(aria ? { "aria-label": aria } : {})}
     >
       <Container className="max-w-7xl py-6 sm:py-7 xl:max-w-[86rem] 2xl:max-w-[92rem]">
-        <div className="relative overflow-hidden rounded-[2.25rem] border border-border/90 bg-primary/[0.02] shadow-[0_24px_64px_-54px_rgba(15,23,42,0.6)] ring-1 ring-inset ring-primary/[0.06]">
+        <div className={marketingTrustStripShellClassName()}>
           <div
             className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(8,145,178,0.07),transparent_55%)]"
             aria-hidden
@@ -35,11 +39,11 @@ export function TrustStripSection({ t }: Props) {
                 key={label}
                 className="flex min-h-[4.75rem] items-center gap-3.5 px-5 py-4.5 sm:px-6 sm:py-5"
               >
-                <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-primary/15 bg-background/70 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.7)] ring-1 ring-inset ring-primary/[0.04]">
-                  <BadgeCheck className="h-[1.125rem] w-[1.125rem] text-primary" aria-hidden />
+                <span className={marketingIconContainerClassName()}>
+                  <BadgeCheck aria-hidden />
                 </span>
                 <div className="min-w-0">
-                  <p className="text-sm font-semibold leading-snug tracking-tight text-foreground">
+                  <p className="text-xs font-semibold leading-snug tracking-tight text-foreground text-pretty sm:text-sm">
                     {label}
                   </p>
                 </div>

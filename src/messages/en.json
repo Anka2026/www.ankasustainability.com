@@ -2,7 +2,7 @@
   "brand": {
     "name": "ANKA Sustainability Consulting B.V.",
     "headerName": "ANKA Sustainability",
-    "tagline": "Sustainability and compliance advisory",
+    "tagline": "Sustainability And Compliance Advisory",
     "siteTitle": "ANKA Sustainability Consulting B.V. | Sustainability, Compliance and Digital Solutions",
     "siteDescription": "Enterprise sustainability, EU compliance, and digital workspaces: data, evidence, and actionable workflows."
   },
@@ -144,13 +144,32 @@
       }
     },
     "proof": {
-      "ariaLabel": "",
+      "ariaLabel": "Credibility highlights",
       "items": [
-        "EU Regulatory Focus",
-        "Technical Evidence And Data Discipline",
-        "Digitally Supported Workflows",
-        "Actionable Compliance Approach"
+        "20+ Years of Specialist Experience",
+        "Integrated Approach to EU and Türkiye Regulations",
+        "Project Capability Focused on CBAM, CSRD, LCA, EPD, PPWR and DPP",
+        "Consulting + Digital Solution Development Capacity"
       ]
+    },
+    "projectApproaches": {
+      "title": "Expertise Built Through Implementation",
+      "subtitle": "Anonymous examples shaped by real implementation needs across regulation, data and product compliance.",
+      "c1": {
+        "title": "CBAM Readiness and Supplier Data Management",
+        "body": "Technical support for structuring product-level emissions data collection, methodological review, and reporting workflows in a more traceable way across metal and automotive supply chains.",
+        "linkAria": "Explore CBAM Readiness and Supplier Data Management"
+      },
+      "c2": {
+        "title": "LCA & EPD Technical Project Structuring",
+        "body": "Development of a methodological framework for planning LCA and EPD preparation based on product scope, system boundaries, data needs, and verification expectations.",
+        "linkAria": "Explore LCA and EPD Technical Project Structuring"
+      },
+      "c3": {
+        "title": "EU Regulatory Compliance Roadmap",
+        "body": "Roadmap work focused on assessing a company’s current position and defining priority compliance steps across CBAM, PPWR, CSRD/ESRS, and Digital Product Passport requirements.",
+        "linkAria": "Explore EU Regulatory Compliance Roadmap"
+      }
     },
     "servicesOverview": {
       "title": "Core Consultancy Areas",
@@ -2823,7 +2842,7 @@
       "eyebrow": "Our sector focus",
       "title": "Turning sector reality into data and compliance architecture",
       "intro": "Priorities differ by sector. That is why we focus not only on generic regulatory headlines, but together on product structure, material content, data quality, supply chain visibility and target-market expectations.",
-      "cardCta": "Explore this sector",
+      "cardCta": "Explore The Sector",
       "sectors": {
         "textileFashion": {
           "title": "Textile and Fashion",

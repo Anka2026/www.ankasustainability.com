@@ -2,7 +2,7 @@
   "brand": {
     "name": "ANKA Sustainability Consulting B.V.",
     "headerName": "ANKA Sustainability",
-    "tagline": "Sürdürülebilirlik ve uyum danışmanlığı",
+    "tagline": "Sürdürülebilirlik Ve Uyum Danışmanlığı",
     "siteTitle": "ANKA Sustainability Consulting B.V. | Sürdürülebilirlik, Uyum ve Dijital Çözümler",
     "siteDescription": "Kurumsal sürdürülebilirlik, AB uyumu ve dijital çalışma alanları: veri, kanıt ve uygulanabilir iş akışları."
   },
@@ -144,13 +144,32 @@
       }
     },
     "proof": {
-      "ariaLabel": "",
+      "ariaLabel": "Güven ve yetkinlik göstergeleri",
       "items": [
-        "AB regülasyon beklentilerine teknik yaklaşım",
-        "Veri ve kanıt düzeni",
-        "Dijital çözüm desteği",
-        "Uygulanabilir uyum kurgusu"
+        "20+ Yıl Uzmanlık Deneyimi",
+        "AB ve Türkiye Regülasyonlarına Entegre Yaklaşım",
+        "CBAM, CSRD, LCA, EPD, PPWR ve DPP Odaklı Proje Altyapısı",
+        "Danışmanlık + Dijital Çözüm Geliştirme Kapasitesi"
       ]
+    },
+    "projectApproaches": {
+      "title": "Uygulamadan Gelen Uzmanlık",
+      "subtitle": "Regülasyon, veri ve ürün uyumu alanlarında sahadaki ihtiyaçlardan beslenen anonim çalışma örnekleri.",
+      "c1": {
+        "title": "CBAM Hazırlık ve Tedarikçi Veri Yönetimi",
+        "body": "Metal ve otomotiv tedarik zincirlerinde ürün bazlı emisyon verilerinin toplanması, metodolojik kontrolü ve raporlama akışının daha izlenebilir bir yapıda kurgulanmasına yönelik teknik çalışma.",
+        "linkAria": "CBAM Hazırlık ve Tedarikçi Veri Yönetimi hizmetini inceleyin"
+      },
+      "c2": {
+        "title": "LCA & EPD Teknik Proje Kurgusu",
+        "body": "Ürün grubu, sistem sınırı, veri ihtiyacı ve doğrulama beklentilerine göre LCA ve EPD hazırlık sürecinin planlanmasına yönelik metodolojik çerçeve oluşturulması.",
+        "linkAria": "LCA ve EPD Teknik Proje Kurgusu hizmetini inceleyin"
+      },
+      "c3": {
+        "title": "AB Regülasyon Uyum Yol Haritası",
+        "body": "CBAM, PPWR, CSRD/ESRS ve Dijital Ürün Pasaportu başlıklarında şirketin mevcut durumunun değerlendirilmesi ve öncelikli uyum adımlarının belirlenmesine yönelik yol haritası çalışması.",
+        "linkAria": "AB Regülasyon Uyum Yol Haritası hizmetini inceleyin"
+      }
     },
     "servicesOverview": {
       "title": "Temel Danışmanlık Alanlarımız",

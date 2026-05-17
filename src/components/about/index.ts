@@ -2,6 +2,8 @@ export { AboutFinalCtaSection } from "./about-final-cta-section";
 export { AboutFounderSection } from "./about-founder-section";
 export { AboutHelpSection } from "./about-help-section";
 export { AboutHeroSection } from "./about-hero-section";
+export { AboutHeroProofSection } from "./about-hero-proof-section";
+export { AboutFounderStatsSection } from "./about-founder-stats-section";
 export { AboutOurPositionSection } from "./about-our-position-section";
 export { AboutProcessSection } from "./about-process-section";
 export { AboutTrustSection } from "./about-trust-section";

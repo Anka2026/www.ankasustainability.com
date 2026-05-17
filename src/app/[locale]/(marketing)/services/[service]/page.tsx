@@ -1,10 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
+import { redirect } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
 import type { ServicesCategoryId } from "@/lib/services-categories";
 import { SERVICES_CATEGORY_ORDER } from "@/lib/services-categories";
+import { isProjectApproachAnchorSlug } from "@/lib/home-project-approach-links";
 import {
   isLegacyServiceSegment,
   serviceIdFromRouteSegment,
@@ -59,12 +61,15 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
   const categoryId = serviceIdFromRouteSegment(service);
   if (!categoryId) {
+    if (isProjectApproachAnchorSlug(service)) {
+      redirect({ href: `/services#${service}`, locale: locale as AppLocale });
+    }
     notFound();
   }
 
   const canonicalSegment = serviceRouteSegmentFromId(categoryId);
   if (isLegacyServiceSegment(service) || service !== canonicalSegment) {
-    redirect(`/services/${canonicalSegment}`);
+    redirect({ href: `/services/${canonicalSegment}`, locale: locale as AppLocale });
   }
 
   const t = await getTranslations("servicesPage");

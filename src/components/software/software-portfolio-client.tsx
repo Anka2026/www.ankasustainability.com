@@ -9,14 +9,14 @@ import {
   DialogPortal,
   DialogTitle,
 } from "@radix-ui/react-dialog";
-import Image from "next/image";
 import * as React from "react";
 import { X } from "lucide-react";
 
 import { AppButton } from "@/components/ui/app-button";
-import { SoftwarePreviewPlaceholder } from "@/components/software/software-preview-placeholder";
+import { SoftwareModulePreviewPanel } from "@/components/software/software-module-preview-panel";
 import { homeCardClassName } from "@/lib/home-classes";
 import { Link } from "@/i18n/navigation";
+import { isCbamDisplaySlug } from "@/lib/software-module-anchors";
 import { cn } from "@/lib/utils";
 
 export type SoftwareModalLabels = Readonly<{
@@ -28,10 +28,13 @@ export type SoftwareModalLabels = Readonly<{
 
 export type SoftwarePortfolioProductDto = Readonly<{
   slug: string;
+  anchorId?: string;
   pill: string;
   title: string;
   summary: string;
   bullets: readonly string[];
+  previewChips: readonly string[];
+  previewBadge: string;
   screenshotSrc: string | null;
   screenshotAlt: string;
   demoMailHref: string;
@@ -42,6 +45,8 @@ export type SoftwarePortfolioProductDto = Readonly<{
   modalLabelsOverride?: Partial<SoftwareModalLabels>;
   /** Optional caption below the modal product visual */
   modalVisualCaption?: string;
+  modalPrimaryCta?: string;
+  modalSecondaryCta?: string;
 }>;
 
 type Props = Readonly<{
@@ -75,31 +80,17 @@ const OUTLINE_CARD_CTA = cn(
   OUTLINE_CARD_BASE,
 );
 
-/** Card preview — full screenshot visible (no crop) via object-contain. */
+/** Card preview — dashboard screenshot or premium Arvenza fallback visual. */
 function PortfolioCardPreviewStrip({ product }: { product: SoftwarePortfolioProductDto }) {
   return (
-    <div className="relative w-full shrink-0">
-      <div className="rounded-3xl border border-slate-200/70 bg-gradient-to-b from-slate-50/50 to-white p-1 shadow-[0_22px_56px_-40px_rgba(15,23,42,0.34)] ring-1 ring-inset ring-slate-900/[0.035] sm:p-1.5">
-        <div className="flex min-h-[14rem] w-full items-center justify-center rounded-2xl bg-white px-1 py-2 sm:min-h-[15.5rem] sm:px-1.5 sm:py-2.5 lg:min-h-[17rem]">
-          {product.screenshotSrc ? (
-            <Image
-              src={product.screenshotSrc}
-              alt={product.screenshotAlt || product.title}
-              width={1920}
-              height={1080}
-              quality={100}
-              className="h-auto w-full max-h-[min(58vw,22rem)] object-contain object-center sm:max-h-[min(48vw,24rem)] lg:max-h-[28rem]"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 440px"
-            />
-          ) : (
-            <SoftwarePreviewPlaceholder
-              variant="card"
-              className="h-[14rem] w-full rounded-2xl border-0 shadow-none ring-0 sm:h-[15.5rem] lg:h-[17rem]"
-            />
-          )}
-        </div>
-      </div>
-    </div>
+    <SoftwareModulePreviewPanel
+      imageSrc={product.screenshotSrc}
+      imageAlt={product.screenshotAlt || product.title}
+      fallbackTitle={product.title}
+      previewBadge={product.previewBadge}
+      fallbackChips={product.previewChips}
+      density="card"
+    />
   );
 }
 
@@ -119,17 +110,19 @@ export function SoftwarePortfolioClient({
     ? { ...modalLabels, ...active.modalLabelsOverride }
     : modalLabels;
 
-  return (
-    <>
-      <div className="mt-10 sm:mt-12">
-        <div className="grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((p) => (
+  const cbamProducts = products.filter((p) => isCbamDisplaySlug(p.slug));
+  const otherProducts = products.filter((p) => !isCbamDisplaySlug(p.slug));
+
+  function renderProductCard(p: SoftwarePortfolioProductDto) {
+    return (
             <article
               key={p.slug}
+              id={p.anchorId}
               className={cn(
                 homeCardClassName(true),
                 "flex h-full flex-col overflow-hidden bg-background transition-shadow duration-300",
                 "hover:shadow-[0_28px_64px_-44px_rgba(15,23,42,0.28)]",
+                p.anchorId && "scroll-mt-32",
               )}
             >
               <div className="flex min-h-0 flex-1 flex-col">
@@ -143,7 +136,7 @@ export function SoftwarePortfolioClient({
                         {p.pill}
                       </span>
                     </div>
-                    <h3 className="mt-3 text-balance text-[1.05rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.1rem]">
+                    <h3 className="mt-3 max-w-prose text-balance text-[1.05rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.1rem]">
                       {p.title}
                     </h3>
                     <p className="mt-2.5 text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.58]">
@@ -178,7 +171,21 @@ export function SoftwarePortfolioClient({
                 </div>
               </div>
             </article>
-          ))}
+    );
+  }
+
+  return (
+    <>
+      <div className="mt-10 space-y-6 sm:mt-12">
+        {cbamProducts.length > 0 ? (
+          <div id="cbam" className="scroll-mt-32">
+            <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
+              {cbamProducts.map(renderProductCard)}
+            </div>
+          </div>
+        ) : null}
+        <div className="grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {otherProducts.map(renderProductCard)}
         </div>
       </div>
 
@@ -258,30 +265,21 @@ export function SoftwarePortfolioClient({
                 </div>
 
                 <div className="border-t border-border/70 bg-gradient-to-b from-slate-50/95 to-slate-50/80 px-4 py-6 pb-8 sm:px-6 sm:py-7 sm:pb-9">
-                  {active.screenshotSrc ? (
-                    <div className="mx-auto w-full max-w-[min(100%,56rem)]">
-                      <div className="overflow-hidden rounded-3xl border border-slate-200/75 bg-gradient-to-b from-white to-slate-50/40 p-2 shadow-[0_26px_70px_-44px_rgba(15,23,42,0.38)] ring-1 ring-inset ring-slate-900/[0.04] sm:p-3">
-                        <div className="flex w-full justify-center rounded-2xl bg-white/90 px-1 py-1 sm:px-2 sm:py-2">
-                          <Image
-                            src={active.screenshotSrc}
-                            alt={active.screenshotAlt || active.title}
-                            width={1920}
-                            height={1080}
-                            quality={100}
-                            className="h-auto w-full max-h-[70vh] object-contain object-center"
-                            sizes="(max-width: 640px) calc(100vw - 2rem), min(896px, 90vw)"
-                          />
-                        </div>
-                      </div>
-                      {active.modalVisualCaption ? (
-                        <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
-                          {active.modalVisualCaption}
-                        </p>
-                      ) : null}
-                    </div>
-                  ) : (
-                    <SoftwarePreviewPlaceholder className="mx-auto min-h-[12rem] w-full max-w-3xl sm:min-h-[14rem]" />
-                  )}
+                  <div className="mx-auto w-full max-w-[min(100%,56rem)]">
+                    <SoftwareModulePreviewPanel
+                      imageSrc={active.screenshotSrc}
+                      imageAlt={active.screenshotAlt || active.title}
+                      fallbackTitle={active.title}
+                      previewBadge={active.previewBadge}
+                      fallbackChips={active.previewChips}
+                      density="modal"
+                    />
+                    {active.modalVisualCaption ? (
+                      <p className="mx-auto mt-3 max-w-3xl text-pretty text-center text-xs leading-relaxed text-muted-foreground sm:text-sm">
+                        {active.modalVisualCaption}
+                      </p>
+                    ) : null}
+                  </div>
                 </div>
 
                 <div className="border-t border-border/80 bg-background p-5 sm:px-7 sm:py-5">
@@ -290,14 +288,20 @@ export function SoftwarePortfolioClient({
                       asChild
                       className={cn("w-full sm:flex-1", ACCENT_CTA_BASE)}
                     >
-                      <a href={active.demoMailHref}>{requestDemoCta}</a>
+                      <a href={active.demoMailHref}>
+                        {active.modalPrimaryCta?.trim() || requestDemoCta}
+                      </a>
                     </AppButton>
                     <AppButton
                       variant="outline"
                       asChild
                       className={cn("w-full sm:flex-1", OUTLINE_CARD_BASE)}
                     >
-                      <Link href="/contact">{contactCta}</Link>
+                      {active.modalSecondaryCta?.trim() ? (
+                        <Link href={`/software/${active.slug}`}>{active.modalSecondaryCta}</Link>
+                      ) : (
+                        <Link href="/contact">{contactCta}</Link>
+                      )}
                     </AppButton>
                   </div>
                 </div>

@@ -1,8 +1,7 @@
 import Image from "next/image";
 
+import { CBAM_COMPLIANCE_CONSOLE_DASHBOARD_SRC } from "@/lib/software-visual-assets";
 import { cn } from "@/lib/utils";
-
-const SCREENSHOT_SRC = "/software/screenshots/cbam-compliance-console.png";
 
 type Props = Readonly<{
   alt: string;
@@ -33,7 +32,7 @@ export function CbamComplianceConsoleProductVisual({
     >
       <div className="flex w-full items-center justify-center rounded-2xl bg-white px-1 py-2 sm:px-2 sm:py-2.5">
         <Image
-          src={SCREENSHOT_SRC}
+          src={CBAM_COMPLIANCE_CONSOLE_DASHBOARD_SRC}
           alt={alt}
           width={1920}
           height={1080}

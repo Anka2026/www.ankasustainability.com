@@ -1,5 +1,12 @@
 import { Container } from "@/components/container";
 import type { IntlTranslator } from "@/lib/i18n-types";
+import {
+  sectorsLandingCapabilitiesSectionClassName,
+  sectorsLandingCapabilityCardClassName,
+  sectorsLandingSectionEyebrowClassName,
+  sectorsLandingSectionIntroClassName,
+  sectorsLandingSectionTitleClassName,
+} from "@/lib/sectors-premium-classes";
 import { cn } from "@/lib/utils";
 import { FileCheck, Globe2, Laptop2, Workflow } from "lucide-react";
 
@@ -13,40 +20,28 @@ const CAP_ICONS = [Workflow, FileCheck, Globe2, Laptop2] as const;
 export function SectorsCommonCapabilitiesSection({ t }: Props) {
   return (
     <section
-      className="border-b border-border bg-[var(--section-tint)] py-12 sm:py-14"
+      className={sectorsLandingCapabilitiesSectionClassName()}
       aria-labelledby="sectors-capabilities-heading"
     >
       <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary/80">
-          {t("capabilities.eyebrow")}
-        </p>
-        <h2
-          id="sectors-capabilities-heading"
-          className="mt-3 max-w-4xl text-balance text-pretty text-2xl font-semibold tracking-tight text-foreground sm:text-3xl"
-        >
+        <p className={sectorsLandingSectionEyebrowClassName()}>{t("capabilities.eyebrow")}</p>
+        <h2 id="sectors-capabilities-heading" className={cn(sectorsLandingSectionTitleClassName(), "mt-3")}>
           {t("capabilities.title")}
         </h2>
-        <p className="mt-4 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-[1.0625rem] sm:leading-[1.65]">
-          {t("capabilities.intro")}
-        </p>
+        <p className={cn(sectorsLandingSectionIntroClassName(), "mt-4")}>{t("capabilities.intro")}</p>
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-9 grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-5">
           {CAP_KEYS.map((key, idx) => {
             const Icon = CAP_ICONS[idx] ?? Workflow;
             return (
-              <article
-                key={key}
-                className={cn(
-                  "flex h-full flex-col rounded-2xl border border-border/80 bg-background p-5 shadow-[0_18px_44px_-36px_rgba(15,23,42,0.35)] ring-1 ring-inset ring-primary/[0.04] sm:p-6",
-                )}
-              >
-                <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-primary/12 bg-primary/[0.04] text-primary">
+              <article key={key} className={sectorsLandingCapabilityCardClassName()}>
+                <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-accent/22 bg-accent/[0.09] text-accent shadow-[inset_0_1px_0_0_rgba(255,255,255,0.85)]">
                   <Icon className="h-5 w-5" aria-hidden />
                 </span>
-                <h3 className="mt-4 text-base font-semibold leading-snug tracking-tight text-foreground">
+                <h3 className="mt-4 text-balance text-pretty text-base font-semibold leading-snug tracking-tight text-foreground">
                   {t(`capabilities.${key}.title`)}
                 </h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground sm:leading-[1.55]">
+                <p className="mt-2.5 flex-1 text-pretty text-sm leading-relaxed text-muted-foreground sm:leading-[1.58]">
                   {t(`capabilities.${key}.description`)}
                 </p>
               </article>

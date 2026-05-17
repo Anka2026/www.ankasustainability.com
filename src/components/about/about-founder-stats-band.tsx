@@ -1,7 +1,10 @@
 "use client";
 
 import * as React from "react";
+import { Briefcase, Calendar, Globe, Users } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
+import { goldMicroHairlineClassName } from "@/lib/brand-gold-accent";
 import { cn } from "@/lib/utils";
 
 export type FounderStatItem = Readonly<{
@@ -9,6 +12,8 @@ export type FounderStatItem = Readonly<{
   suffix: string;
   label: string;
 }>;
+
+const STAT_ICONS: readonly LucideIcon[] = [Briefcase, Users, Calendar, Globe];
 
 function easeOutCubic(t: number) {
   return 1 - (1 - t) ** 3;
@@ -19,7 +24,8 @@ function StatCell({
   suffix,
   label,
   enabled,
-}: FounderStatItem & { enabled: boolean }) {
+  icon: Icon,
+}: FounderStatItem & { enabled: boolean; icon: LucideIcon }) {
   const [display, setDisplay] = React.useState(0);
   const durationMs = 1300;
 
@@ -44,22 +50,30 @@ function StatCell({
   return (
     <div
       className={cn(
-        "relative flex min-h-[6.5rem] flex-col justify-center rounded-2xl border border-border/70 bg-background/85 px-4 py-4 sm:min-h-[7rem] sm:px-5 sm:py-5",
-        "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9)] ring-1 ring-inset ring-primary/[0.04]",
+        "flex min-h-[7.25rem] flex-col justify-between rounded-xl border border-border/70 bg-background px-4 py-4 sm:min-h-[7.5rem] sm:px-5 sm:py-5",
+        "shadow-[0_14px_36px_-26px_rgba(15,23,42,0.16)] ring-1 ring-inset ring-primary/[0.04]",
       )}
     >
-      <p
-        className="font-semibold tabular-nums tracking-tight text-foreground"
-        style={{ fontSize: "clamp(1.35rem, 3.5vw, 2rem)", lineHeight: 1.15 }}
+      <span
+        className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-accent/20 bg-accent/[0.1] text-accent"
+        aria-hidden
       >
-        <span className="whitespace-nowrap">
-          {display}
-          {suffix}
-        </span>
-      </p>
-      <p className="mt-2 max-w-[14rem] text-pretty text-xs font-medium leading-snug text-muted-foreground sm:text-[0.8125rem] sm:leading-snug">
-        {label}
-      </p>
+        <Icon className="h-[1.05rem] w-[1.05rem]" strokeWidth={1.85} />
+      </span>
+      <div className="mt-3">
+        <p
+          className="font-semibold tabular-nums tracking-tight text-primary"
+          style={{ fontSize: "clamp(1.35rem, 3.2vw, 1.875rem)", lineHeight: 1.12 }}
+        >
+          <span className="whitespace-nowrap">
+            {display}
+            {suffix}
+          </span>
+        </p>
+        <p className="mt-1.5 text-pretty text-xs font-medium leading-snug text-muted-foreground sm:text-[0.8125rem]">
+          {label}
+        </p>
+      </div>
     </div>
   );
 }
@@ -94,21 +108,19 @@ export function AboutFounderStatsBand({ stats, className }: Props) {
   if (stats.length === 0) return null;
 
   return (
-    <div
-      ref={ref}
-      className={cn(
-        "relative overflow-hidden rounded-[1.35rem] border border-border/75 bg-[var(--section-tint)]/55 sm:rounded-[1.5rem]",
-        "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.85)] ring-1 ring-inset ring-primary/[0.05]",
-        className,
-      )}
-    >
+    <div ref={ref} className={cn("relative", className)}>
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.35] [background-image:linear-gradient(rgba(8,145,178,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(8,145,178,0.06)_1px,transparent_1px)] [background-size:48px_48px]"
+        className={cn("absolute inset-x-0 top-0 z-[1] max-w-[12rem]", goldMicroHairlineClassName())}
         aria-hidden
       />
-      <div className="relative grid grid-cols-2 gap-3 p-4 sm:gap-4 sm:p-5 lg:grid-cols-4 lg:gap-5 lg:p-6">
-        {stats.slice(0, 4).map((item) => (
-          <StatCell key={`${item.label}-${item.target}`} {...item} enabled={visible} />
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 lg:gap-5">
+        {stats.slice(0, 4).map((item, index) => (
+          <StatCell
+            key={`${item.label}-${item.target}`}
+            {...item}
+            icon={STAT_ICONS[index] ?? Briefcase}
+            enabled={visible}
+          />
         ))}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
 import { homeCardClassName } from "@/lib/home-classes";
-import { INSIGHTS_FEATURED_KEYS } from "@/lib/insights-content-keys";
+import { RESOURCE_FEATURED_SLUGS } from "@/lib/insights-content-keys";
 import type { IntlTranslator } from "@/lib/i18n-types";
 import { cn } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
@@ -25,7 +25,7 @@ export function InsightsFeaturedSection({ t }: Props) {
           title={t("featured.title")}
         />
         <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {INSIGHTS_FEATURED_KEYS.map((key) => (
+          {RESOURCE_FEATURED_SLUGS.map((key) => (
             <Link
               key={key}
               href={`/resources/${key}`}

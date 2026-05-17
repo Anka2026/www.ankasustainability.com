@@ -2,7 +2,7 @@
   "brand": {
     "name": "ANKA Sustainability Consulting B.V.",
     "headerName": "ANKA Sustainability",
-    "tagline": "Duurzaamheids- en complianceadvies",
+    "tagline": "Duurzaamheid En Compliance Advies",
     "siteTitle": "ANKA Sustainability Consulting B.V. | Duurzaamheid, Compliance en Digitale Oplossingen",
     "siteDescription": "Ondernemingsduurzaamheid, EU-naleving en digitale werkomgeving: data, bewijs en uitvoerbare processen."
   },
@@ -144,13 +144,32 @@
       }
     },
     "proof": {
-      "ariaLabel": "",
+      "ariaLabel": "Vertrouwensindicatoren",
       "items": [
-        "EU-regelgeving als focus",
-        "Technische bewijsvoering en datadiscipline",
-        "Digitaal ondersteunde werkprocessen",
-        "Praktische compliance-aanpak"
+        "20+ Jaar Specialistische Ervaring",
+        "Geïntegreerde Aanpak voor EU- en Turkije-regelgeving",
+        "Projectcapaciteit gericht op CBAM, CSRD, LCA, EPD, PPWR en DPP",
+        "Advies + Capaciteit voor Digitale Oplossingsontwikkeling"
       ]
+    },
+    "projectApproaches": {
+      "title": "Expertise vanuit de Praktijk",
+      "subtitle": "Anonieme voorbeelden gevormd door praktische implementatiebehoeften rond regelgeving, data en productcompliance.",
+      "c1": {
+        "title": "CBAM-voorbereiding en Leveranciersdatabeheer",
+        "body": "Technische ondersteuning bij het structureren van productgebonden emissiedataverzameling, methodologische beoordeling en rapportageprocessen op een beter traceerbare manier binnen metaal- en automotive-toeleveringsketens.",
+        "linkAria": "Bekijk CBAM-voorbereiding en leveranciersdatabeheer"
+      },
+      "c2": {
+        "title": "Technische Projectstructurering voor LCA & EPD",
+        "body": "Ontwikkeling van een methodologisch kader voor de planning van LCA- en EPD-voorbereiding op basis van productscope, systeemgrenzen, databehoeften en verificatieverwachtingen.",
+        "linkAria": "Bekijk technische projectstructurering voor LCA en EPD"
+      },
+      "c3": {
+        "title": "Roadmap voor Naleving van EU-regelgeving",
+        "body": "Roadmaptraject gericht op het beoordelen van de huidige positie van een onderneming en het bepalen van prioritaire compliance-stappen voor CBAM, PPWR, CSRD/ESRS en het Digitaal Productpaspoort.",
+        "linkAria": "Bekijk roadmap voor naleving van EU-regelgeving"
+      }
     },
     "servicesOverview": {
       "title": "Onze kernadviesgebieden",
@@ -2871,7 +2890,7 @@
       "eyebrow": "Sectoren waarin we werken",
       "title": "Wij vertalen sectorrealiteit naar data- en compliancestructuren",
       "intro": "Prioriteiten verschillen per sector. Daarom richten we ons niet alleen op algemene regelgevings­thema’s, maar tegelijk op productopbouw, materiaalinhoud, datakwaliteit, ketenzichtbaarheid en de verwachtingen in uw doelmarkt.",
-      "cardCta": "Sector verkennen",
+      "cardCta": "Bekijk De Sector",
       "sectors": {
         "textileFashion": {
           "title": "Textiel en mode",

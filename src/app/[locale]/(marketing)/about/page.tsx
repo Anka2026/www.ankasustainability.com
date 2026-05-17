@@ -3,8 +3,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   AboutFinalCtaSection,
   AboutFounderSection,
+  AboutFounderStatsSection,
   AboutHelpSection,
   AboutHeroSection,
+  AboutHeroProofSection,
   AboutOurPositionSection,
   AboutProcessSection,
   AboutWhySection,
@@ -41,8 +43,10 @@ export default async function AboutPage({ params }: PageProps) {
   return (
     <>
       <AboutHeroSection t={t} />
+      <AboutHeroProofSection t={t} />
       <AboutOurPositionSection t={t} />
       <AboutFounderSection t={t} />
+      <AboutFounderStatsSection t={t} />
       <AboutHelpSection t={t} />
       <AboutProcessSection t={t} />
       <AboutWhySection t={t} />
