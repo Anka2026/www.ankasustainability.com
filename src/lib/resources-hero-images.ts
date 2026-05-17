@@ -3,16 +3,16 @@ import {
   type ResourceFeaturedSlug,
 } from "@/lib/insights-content-keys";
 
-/** Hero assets under public/images/resources/ — keyed by detail page slug. */
+/** Hero assets under public/images/Resources/ (repo path; case-sensitive on Linux deploy). */
 export const RESOURCE_HERO_IMAGE_BY_SLUG = {
-  "csrd-double-materiality": "/images/resources/resource-csrd-double-materiality-hero.png",
-  "cbam-data-financial-impact": "/images/resources/resource-cbam-data-financial-impact-hero.png",
+  "csrd-double-materiality": "/images/Resources/resource-csrd-double-materiality-hero.png",
+  "cbam-data-financial-impact": "/images/Resources/resource-cbam-data-financial-impact-hero.png",
   "digital-product-passport-data":
-    "/images/resources/resource-digital-product-passport-data-hero.png",
-  "ppwr-product-packaging-data": "/images/resources/resource-ppwr-product-packaging-data-hero.png",
-  "scope-3-supplier-data": "/images/resources/resource-scope-3-supplier-data-hero.png",
+    "/images/Resources/resource-digital-product-passport-data-hero.png",
+  "ppwr-product-packaging-data": "/images/Resources/resource-ppwr-product-packaging-data-hero.png",
+  "scope-3-supplier-data": "/images/Resources/resource-scope-3-supplier-data-hero.png",
   "digital-workspace-reporting":
-    "/images/resources/resource-digital-workspace-reporting-hero.png",
+    "/images/Resources/resource-digital-workspace-reporting-hero.png",
 } as const satisfies Record<ResourceFeaturedSlug, string>;
 
 /** Intrinsic dimensions for next/image — matches exported hero assets (16:10). */
