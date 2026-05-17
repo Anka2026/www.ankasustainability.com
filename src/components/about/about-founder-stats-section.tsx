@@ -1,6 +1,6 @@
 import { Container } from "@/components/container";
 import { AboutFounderStatsBand } from "@/components/about/about-founder-stats-band";
-import type { FounderStatItem } from "@/components/about/about-founder-stats-band";
+import type { FounderTrustItem } from "@/components/about/about-founder-stats-band";
 import {
   aboutFounderStatsSectionClassName,
   aboutPageContainerClassName,
@@ -11,7 +11,7 @@ type Props = Readonly<{
   t: IntlTranslator;
 }>;
 
-function readFounderStats(t: IntlTranslator): readonly FounderStatItem[] {
+function readFounderTrustItems(t: IntlTranslator): readonly FounderTrustItem[] {
   const raw = (t as unknown as { raw: (k: string) => unknown }).raw(
     "founderPerspective.stats",
   );
@@ -20,20 +20,22 @@ function readFounderStats(t: IntlTranslator): readonly FounderStatItem[] {
     .map((v) => {
       if (typeof v !== "object" || v === null) return null;
       const o = v as Record<string, unknown>;
-      const target = o.target;
-      const suffix = o.suffix;
-      const label = o.label;
-      if (typeof target !== "number" || typeof suffix !== "string" || typeof label !== "string") {
-        return null;
+      const headline = o.headline;
+      if (typeof headline === "string" && headline.trim()) {
+        return { headline: headline.trim() } satisfies FounderTrustItem;
       }
-      return { target, suffix, label } satisfies FounderStatItem;
+      const label = o.label;
+      if (typeof label === "string" && label.trim()) {
+        return { headline: label.trim() } satisfies FounderTrustItem;
+      }
+      return null;
     })
-    .filter((v): v is FounderStatItem => Boolean(v));
+    .filter((v): v is FounderTrustItem => Boolean(v));
 }
 
 export function AboutFounderStatsSection({ t }: Props) {
-  const founderStats = readFounderStats(t);
-  if (founderStats.length === 0) return null;
+  const trustItems = readFounderTrustItems(t);
+  if (trustItems.length === 0) return null;
 
   return (
     <section
@@ -41,7 +43,7 @@ export function AboutFounderStatsSection({ t }: Props) {
       aria-label={t("founderPerspective.title")}
     >
       <Container className={aboutPageContainerClassName()}>
-        <AboutFounderStatsBand stats={founderStats} />
+        <AboutFounderStatsBand items={trustItems} />
       </Container>
     </section>
   );

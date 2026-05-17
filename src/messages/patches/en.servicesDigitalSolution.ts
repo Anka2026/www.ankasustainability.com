@@ -14,11 +14,13 @@ export const enServicesDigitalSolutionPatch: JsonObject = {
       ],
     },
     relatedDigitalSolution: {
-      eyebrow: "Digital support",
-      mainTitle: "The digital structure supporting this work",
+      eyebrow: "DIGITAL WORKFLOW SUPPORT",
+      mainTitle: "Digital Structure Supporting This Work",
       intro:
-        "The tools referenced here do not replace the advisory programme. They help organise data collection, evidence, missing-field follow-up and readiness visibility—so technical work stays more traceable and governable inside your organisation.",
-      cta: "Explore software solutions",
+        "The digital solutions referenced here do not replace the advisory programme. They help organise data collection, evidence discipline, missing-field follow-up and readiness visibility—so technical evaluation becomes a more traceable, defensible and manageable workflow inside your organisation.",
+      moduleCta: "Explore The Software Solution",
+      allSoftwareCta: "View All Software Solutions",
+      cta: "Explore The Software Solution",
       previewBadge: "Digital support",
       modules: {
         cbam: {
@@ -44,10 +46,6 @@ export const enServicesDigitalSolutionPatch: JsonObject = {
         productCircularity: {
           extraNote:
             "This digital structure is not positioned as LCA or EPD calculation software; it supports product data, packaging information, declaration fields and traceability organisation.",
-        },
-        sustainableTourismGstc: {
-          extraNote:
-            "This structure is not positioned as GSTC-specific software; it should be seen as a supporting workspace for evidence, task, responsibility and readiness tracking.",
         },
       },
       digitalModules: {

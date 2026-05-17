@@ -600,8 +600,8 @@
           "heroEyebrow": "Koolstof, klimaat en decarbonisatie",
           "heroTitle": "Broeikasgasinventaris, CBAM-voorbereiding en klimaattransitie",
           "subtitle": "ANKA ondersteunt organisaties bij broeikasgasinventarisaties, Scope 1, 2 en 3, CBAM-voorbereiding, ISO 14064-1, ISO 14067 en reductieroutes. De nadruk ligt op betrouwbare data, aannames, emissiefactoren en controleerbare berekeningen.",
-          "seoTitle": "Koolstof, klimaat en decarbonisatie | ANKA Sustainability",
-          "seoDescription": "Broeikasgasinventaris, CBAM-gereedheid, GHG Protocol, ISO 14064-1, ISO 14067 en reductieroutes voor organisaties in Europese waardeketens.",
+          "seoTitle": "CBAM, Koolstofbeheer En Klimaatcompliance | ANKA Sustainability",
+          "seoDescription": "Technische begeleiding en digitale werkstructuur voor CBAM, productgebonden ingebedde emissies, leveranciersdata, koolstofberekening en klimaatcompliance.",
           "whyMatters": "Koolstofbeheer is geen vrijwillige rapportage-oefening meer. Europese kopers, toezichthouders, investeerders en certificeringsschema’s verwachten steeds vaker betrouwbare emissiedata, transparante rekenlogica en verbeterplannen die met bewijs zijn onderbouwd. Voor producenten, exporteurs en toeleveranciers wordt het kunnen berekenen, uitleggen en verbeteren van koolstofprestaties kern voor markttoegang en vertrouwen.",
           "deliverables": [
             "Broeikasgasinventaris — structurering van Scope 1, 2 en relevante Scope 3-emissiebronnen volgens gangbare GHG Protocol-principes.",
@@ -2508,10 +2508,10 @@
       "name": "Burcu Şimşek",
       "quote": "Bij ANKA stoppen we niet bij een rapport of compliancedossier. We willen dat organisaties duurzaamheid en compliance scherper zien, beslissingen stevig op data baseren en het ritme intern vasthouden.\n\nDaarom wegen we technische juistheid en praktische bruikbaarheid even zwaar. We knopen regelgeving, data en bewijsstructuren aan de dagelijkse operatie, zodat het eindresultaat betrouwbaarder, verdedigbaarder en écht bruikbaar wordt.",
       "stats": [
-        { "target": 400, "suffix": "+", "label": "Projecten" },
-        { "target": 200, "suffix": "+", "label": "Referenties" },
-        { "target": 19, "suffix": "+", "label": "Jaar Ervaring" },
-        { "target": 10, "suffix": "+", "label": "Landen Actief" }
+        { "headline": "20+ Jaar Expertise" },
+        { "headline": "EU- En Türkiye-Regelgevingsperspectief" },
+        { "headline": "CBAM · CSRD · LCA · EPD · PPWR · DPP" },
+        { "headline": "Advies + Digitale Oplossingscapaciteit" }
       ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },

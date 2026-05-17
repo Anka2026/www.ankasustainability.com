@@ -14,11 +14,13 @@ export const trServicesDigitalSolutionPatch: JsonObject = {
       ],
     },
     relatedDigitalSolution: {
-      eyebrow: "Dijital destek",
+      eyebrow: "DİJİTAL ÇALIŞMA DESTEĞİ",
       mainTitle: "Bu Çalışmayı Destekleyen Dijital Yapı",
       intro:
-        "Burada özetlenen çözümler danışmanlığın yerine geçmez; veri toplama, kanıt düzeni, eksik alan takibi ve hazırlık görünürlüğünü daha kontrollü hale getirir. Böylece teknik değerlendirme kurum içinde daha izlenebilir ve savunulabilir bir ritimde yürür.",
-      cta: "Yazılım çözümlerini inceleyin",
+        "Burada yer alan dijital çözümler, danışmanlık çalışmasının yerine geçmez; veri toplama, kanıt düzeni, eksik alan takibi ve hazırlık görünürlüğünü daha kontrollü hale getirir. Böylece teknik değerlendirme süreci kurum içinde daha izlenebilir, savunulabilir ve yönetilebilir bir çalışma düzenine taşınır.",
+      moduleCta: "Yazılım Çözümünü İnceleyin",
+      allSoftwareCta: "Tüm Yazılım Çözümlerini Gör",
+      cta: "Yazılım Çözümünü İnceleyin",
       previewBadge: "Dijital destek",
       modules: {
         cbam: {
@@ -44,10 +46,6 @@ export const trServicesDigitalSolutionPatch: JsonObject = {
         productCircularity: {
           extraNote:
             "Bu dijital yapı LCA veya EPD hesaplama yazılımı olarak konumlandırılmaz; ürün verisi, ambalaj bilgisi, beyan alanları ve izlenebilirlik düzenini güçlendirmek için kullanılır.",
-        },
-        sustainableTourismGstc: {
-          extraNote:
-            "Bu yapı GSTC’ye özel bir yazılım olarak değil; kanıt, görev, sorumluluk ve hazırlık takibini düzenleyen destekleyici bir çalışma alanı olarak değerlendirilmelidir.",
         },
       },
       digitalModules: {

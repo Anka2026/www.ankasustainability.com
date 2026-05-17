@@ -11,7 +11,6 @@ export const SERVICE_DIGITAL_MODULE_SLUGS: Partial<
   regulatorySupplyChain: ["eudr-due-diligence-traceability", "packaging-compliance-tool"],
   sustainableFinance: ["supplier-data-evidence-workflow", "esg-evidence-reporting-workspace"],
   certificationTraceability: ["supplier-data-evidence-workflow", "digital-product-passport-platform"],
-  sustainableTourismGstc: ["esg-evidence-reporting-workspace"],
 };
 
 export function getServiceDigitalModuleSlugs(

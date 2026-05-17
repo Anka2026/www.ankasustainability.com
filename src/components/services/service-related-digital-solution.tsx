@@ -17,6 +17,8 @@ type Props = Readonly<{
   categoryId: ServicesCategoryId;
 }>;
 
+type ModuleCardLayout = "split" | "stacked";
+
 function readStringArray(t: IntlTranslator, key: string): string[] {
   const raw = (t as unknown as { raw: (k: string) => unknown }).raw(key);
   if (!Array.isArray(raw)) return [];
@@ -38,6 +40,18 @@ function optionalTranslated(t: IntlTranslator, key: string): string | undefined 
   } catch {
     return undefined;
   }
+}
+
+function moduleCtaLabel(t: IntlTranslator): string {
+  return optionalTranslated(t, "relatedDigitalSolution.moduleCta") ?? t("relatedDigitalSolution.cta");
+}
+
+function allSoftwareCtaLabel(t: IntlTranslator): string {
+  return (
+    optionalTranslated(t, "relatedDigitalSolution.allSoftwareCta") ??
+    optionalTranslated(t, "relatedDigitalSolution.footerCta") ??
+    t("relatedDigitalSolution.cta")
+  );
 }
 
 function CapabilityChips({ chips }: { chips: readonly string[] }) {
@@ -66,55 +80,73 @@ function DigitalModuleCard({
   title,
   description,
   chips,
+  layout,
 }: Readonly<{
   t: IntlTranslator;
   slug: SoftwarePortfolioDisplaySlug;
   title: string;
   description: string;
   chips: readonly string[];
+  layout: ModuleCardLayout;
 }>) {
   const previewBadge = t("relatedDigitalSolution.previewBadge");
   const imageSrc = getSoftwareDashboardImageSrc(slug);
   const href = softwareHrefForDisplaySlug(slug);
+  const isSplit = layout === "split";
+
+  const preview = (
+    <SoftwareModulePreviewPanel
+      imageSrc={imageSrc}
+      imageAlt={title}
+      fallbackTitle={title}
+      previewBadge={previewBadge}
+      fallbackChips={chips}
+      density="service"
+    />
+  );
 
   return (
     <div
       className={cn(
-        "flex min-w-0 flex-col overflow-hidden rounded-2xl border border-accent/14 bg-white/98 shadow-[0_22px_60px_-42px_rgba(8,145,178,0.48)] ring-1 ring-inset ring-accent/[0.07]",
-        "transition-[border-color,box-shadow] duration-200 hover:border-accent/28 hover:shadow-[0_28px_72px_-40px_rgba(8,145,178,0.52)]",
+        "flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-border/80 bg-surface shadow-[0_22px_60px_-42px_rgba(15,23,42,0.22)] ring-1 ring-inset ring-primary/[0.04]",
+        "transition-[border-color,box-shadow] duration-200 hover:border-accent/35 hover:shadow-[0_28px_72px_-40px_rgba(8,145,178,0.38)]",
       )}
     >
-      <div className="grid min-h-0 w-full flex-1 gap-6 p-6 sm:p-7 lg:grid-cols-[minmax(0,1fr)_minmax(17.5rem,0.42fr)] lg:items-start lg:gap-8">
-        <div className="min-w-0 max-w-prose lg:max-w-none">
+      <div
+        className={cn(
+          "grid min-h-0 w-full flex-1 gap-5 p-5 sm:gap-6 sm:p-6",
+          isSplit
+            ? "lg:grid-cols-[minmax(0,1fr)_minmax(17.5rem,22.5rem)] xl:grid-cols-[minmax(0,1fr)_minmax(280px,380px)] lg:items-stretch lg:gap-8"
+            : "grid-cols-1",
+        )}
+      >
+        {!isSplit ? <div className="min-w-0">{preview}</div> : null}
+
+        <div className="flex min-h-0 min-w-0 flex-col">
           <h3 className="text-balance text-pretty text-lg font-semibold leading-snug tracking-tight text-primary sm:text-xl">
             {title}
           </h3>
-          <p className="mt-3 text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-relaxed">
+          <p className="mt-3 text-pretty text-[0.9375rem] leading-[1.68] text-muted-foreground sm:text-base sm:leading-[1.7]">
             {description}
           </p>
           <CapabilityChips chips={chips} />
-          <div className="mt-6">
+          <div className="mt-auto pt-6">
             <AppButton
               asChild
-              variant="outline"
-              className="border-accent/35 bg-white text-foreground hover:border-accent/55 hover:bg-accent/[0.06]"
+              size="sm"
+              className={cn(
+                "h-10 border border-accent/50 bg-accent px-4 text-accent-foreground shadow-[0_12px_32px_-18px_rgba(8,145,178,0.5)]",
+                "hover:border-accent hover:bg-accent hover:brightness-[1.03]",
+              )}
             >
-              <Link href={href} className="whitespace-normal text-center sm:whitespace-nowrap">
-                {t("relatedDigitalSolution.cta")}
+              <Link href={href} className="whitespace-nowrap">
+                {moduleCtaLabel(t)}
               </Link>
             </AppButton>
           </div>
         </div>
-        <div className="min-w-0 lg:pt-0.5">
-          <SoftwareModulePreviewPanel
-            imageSrc={imageSrc}
-            imageAlt={title}
-            fallbackTitle={title}
-            previewBadge={previewBadge}
-            fallbackChips={chips}
-            density="band"
-          />
-        </div>
+
+        {isSplit ? <div className="min-w-0 lg:flex lg:items-stretch">{preview}</div> : null}
       </div>
     </div>
   );
@@ -126,12 +158,22 @@ function CbamBandModuleCards({ t }: { t: IntlTranslator }) {
   const slugs: SoftwarePortfolioDisplaySlug[] = ["cbam-calculation-engine", "cbam-compliance-console"];
 
   return (
-    <div className="mt-9 grid w-full gap-6 sm:grid-cols-2 sm:gap-7">
+    <div className="mt-9 grid w-full gap-6 sm:grid-cols-2 sm:items-stretch sm:gap-7">
       {slugs.map((slug, idx) => {
         const title = submodules[idx] ?? t(`${digitalModuleBase(slug)}.title`);
         const description = focuses[idx] ?? t(`${digitalModuleBase(slug)}.description`);
         const chips = readStringArray(t, `${digitalModuleBase(slug)}.chips`).slice(0, 3);
-        return <DigitalModuleCard key={slug} t={t} slug={slug} title={title} description={description} chips={chips} />;
+        return (
+          <DigitalModuleCard
+            key={slug}
+            t={t}
+            slug={slug}
+            title={title}
+            description={description}
+            chips={chips}
+            layout="stacked"
+          />
+        );
       })}
     </div>
   );
@@ -144,16 +186,31 @@ function StandardModuleCards({
   t: IntlTranslator;
   slugs: readonly SoftwarePortfolioDisplaySlug[];
 }) {
-  const gridClass = slugs.length >= 2 ? "sm:grid-cols-2" : "grid-cols-1";
+  const isSingle = slugs.length === 1;
 
   return (
-    <div className={cn("mt-9 grid w-full gap-6 sm:gap-7", gridClass)}>
+    <div
+      className={cn(
+        "mt-9 grid w-full gap-6 sm:gap-7",
+        isSingle ? "grid-cols-1" : "sm:grid-cols-2 sm:items-stretch",
+      )}
+    >
       {slugs.map((slug) => {
         const base = digitalModuleBase(slug);
         const title = t(`${base}.title`);
         const description = t(`${base}.description`);
         const chips = readStringArray(t, `${base}.chips`).slice(0, 3);
-        return <DigitalModuleCard key={slug} t={t} slug={slug} title={title} description={description} chips={chips} />;
+        return (
+          <DigitalModuleCard
+            key={slug}
+            t={t}
+            slug={slug}
+            title={title}
+            description={description}
+            chips={chips}
+            layout={isSingle ? "split" : "stacked"}
+          />
+        );
       })}
     </div>
   );
@@ -173,63 +230,73 @@ export function ServiceRelatedDigitalSolution({ t, categoryId }: Props) {
   const extraNote = optionalTranslated(t, `relatedDigitalSolution.categoryBand.${categoryId}.extraNote`);
 
   return (
-    <section className="border-b border-border bg-gradient-to-b from-accent/[0.05] via-sky-50/35 to-white py-12 sm:py-16">
+    <section
+      className={cn(
+        "border-b border-border/80 py-14 sm:py-16 md:py-[4.25rem]",
+        "bg-[linear-gradient(168deg,color-mix(in_srgb,var(--accent-soft)_28%,var(--background))_0%,var(--background)_38%,color-mix(in_srgb,var(--section-teal-wash)_55%,var(--background))_100%)]",
+      )}
+    >
       <Container className="max-w-7xl xl:max-w-[86rem] 2xl:max-w-[92rem]">
         <article
           className={cn(
-            "relative w-full overflow-hidden rounded-2xl border border-accent/18 bg-gradient-to-br from-white via-accent/[0.035] to-sky-50/40 p-6 shadow-[0_32px_80px_-48px_rgba(8,145,178,0.38)] ring-1 ring-inset ring-accent/10 sm:p-8 lg:p-11",
+            "relative w-full overflow-hidden rounded-[1.5rem] border border-accent/20",
+            "bg-gradient-to-br from-surface via-[color-mix(in_srgb,var(--accent-soft)_14%,var(--surface))] to-slate-50/55",
+            "p-6 shadow-[0_36px_88px_-48px_rgba(8,145,178,0.42)] ring-1 ring-inset ring-accent/12 sm:p-8 lg:p-10",
+            "before:pointer-events-none before:absolute before:inset-0 before:opacity-[0.4] before:[background-image:linear-gradient(rgba(8,145,178,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(8,145,178,0.04)_1px,transparent_1px)] before:[background-size:36px_36px]",
+            "after:pointer-events-none after:absolute after:-right-16 after:-top-20 after:h-56 after:w-56 after:rounded-full after:bg-[radial-gradient(circle,rgba(8,145,178,0.14),transparent_68%)]",
           )}
         >
           <div
-            className="pointer-events-none absolute inset-y-6 left-0 w-[3px] rounded-full bg-gradient-to-b from-accent via-accent/70 to-primary/35"
+            className="pointer-events-none absolute inset-y-5 left-0 z-[1] w-[3px] rounded-full bg-gradient-to-b from-accent via-accent/75 to-primary/40 sm:inset-y-6"
             aria-hidden
           />
 
-          <div className="relative min-w-0 pl-4 sm:pl-5">
-            <p className="text-xs font-semibold tracking-[0.12em] text-accent">{t("relatedDigitalSolution.eyebrow")}</p>
+          <div className="relative z-[2] min-w-0 pl-4 sm:pl-5">
+            <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.16em] text-accent">
+              {t("relatedDigitalSolution.eyebrow")}
+            </p>
             <div className="mt-4 flex min-w-0 flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
               <span className="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-accent/25 bg-accent/[0.08] text-accent shadow-[inset_0_1px_0_0_rgba(255,255,255,0.85)]">
                 <Layers className="h-5 w-5" aria-hidden />
               </span>
-              <h2 className="min-w-0 max-w-[min(100%,48rem)] flex-1 text-balance text-pretty text-xl font-semibold leading-snug tracking-tight text-primary sm:text-2xl sm:leading-snug">
+              <h2 className="min-w-0 max-w-[min(100%,52rem)] flex-1 text-balance text-pretty text-xl font-semibold tracking-tight text-primary sm:text-2xl lg:text-3xl lg:leading-[1.15]">
                 {bandTitle}
               </h2>
             </div>
 
             {isCarbon ? (
-              <>
-                <p className="mt-5 max-w-[min(100%,52rem)] text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.68]">
+              <div className="mt-5 max-w-[min(100%,56rem)] space-y-4">
+                <p className="text-pretty text-[0.9375rem] leading-[1.72] text-muted-foreground sm:text-base sm:leading-[1.74]">
                   {cbamLead}
                 </p>
-                <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.68]">
+                <p className="text-pretty text-[0.9375rem] leading-[1.72] text-muted-foreground sm:text-base sm:leading-[1.74]">
                   {sharedIntro}
                 </p>
-              </>
+              </div>
             ) : (
-              <>
-                <p className="mt-5 max-w-[min(100%,52rem)] text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.68]">
+              <div className="mt-5 max-w-[min(100%,56rem)] space-y-4">
+                <p className="text-pretty text-[0.9375rem] leading-[1.72] text-muted-foreground sm:text-base sm:leading-[1.74]">
                   {sharedIntro}
                 </p>
                 {extraNote ? (
-                  <p className="mt-4 max-w-[min(100%,52rem)] text-pretty text-[0.9375rem] leading-relaxed text-muted-foreground sm:text-base sm:leading-[1.65]">
+                  <p className="text-pretty text-[0.9375rem] leading-[1.72] text-muted-foreground/95 sm:text-base sm:leading-[1.74]">
                     {extraNote}
                   </p>
                 ) : null}
-              </>
+              </div>
             )}
 
             {isCarbon ? <CbamBandModuleCards t={t} /> : <StandardModuleCards t={t} slugs={slugs} />}
 
-            <div className="mt-10 border-t border-accent/12 pt-7">
+            <div className="mt-9 flex justify-start border-t border-accent/14 pt-7 sm:mt-10">
               <AppButton
                 asChild
-                className={cn(
-                  "border border-accent/50 bg-accent text-accent-foreground shadow-[0_14px_36px_-20px_rgba(8,145,178,0.55)]",
-                  "hover:border-accent hover:bg-accent hover:brightness-[1.03]",
-                )}
+                variant="outline"
+                size="sm"
+                className="h-10 border-border/80 bg-background/90 text-foreground hover:border-accent/40 hover:bg-accent/[0.05]"
               >
                 <Link href="/software" className="whitespace-nowrap px-1">
-                  {t("relatedDigitalSolution.cta")}
+                  {allSoftwareCtaLabel(t)}
                 </Link>
               </AppButton>
             </div>
@@ -239,3 +306,4 @@ export function ServiceRelatedDigitalSolution({ t, categoryId }: Props) {
     </section>
   );
 }
+

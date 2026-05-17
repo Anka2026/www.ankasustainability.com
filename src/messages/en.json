@@ -597,6 +597,8 @@
           }
         },
         "carbonClimate": {
+          "seoTitle": "CBAM, Carbon Management And Climate Compliance | ANKA Sustainability",
+          "seoDescription": "Technical advisory and digital workflow support for CBAM, product-level embedded emissions, supplier data flows, carbon calculation and climate compliance.",
           "benchmark": {
             "hero": {
               "eyebrow": "Carbon, Climate And Decarbonisation",
@@ -2460,10 +2462,10 @@
       "name": "Burcu Şimşek",
       "quote": "At ANKA we do not want to stop at delivering a report or a compliance file. We want organisations to see sustainability and compliance topics more clearly, anchor decisions in data and keep the momentum inside the organisation.\n\nThat is why technical accuracy and practical usability carry equal weight for us. We tie regulation, data and evidence structures to day-to-day operations—so outcomes are more reliable, defensible and genuinely useful.",
       "stats": [
-        { "target": 400, "suffix": "+", "label": "Projects" },
-        { "target": 200, "suffix": "+", "label": "References" },
-        { "target": 19, "suffix": "+", "label": "Years of Experience" },
-        { "target": 10, "suffix": "+", "label": "Countries Served" }
+        { "headline": "20+ Years Of Expert Experience" },
+        { "headline": "EU And Türkiye Regulatory Perspective" },
+        { "headline": "CBAM · CSRD · LCA · EPD · PPWR · DPP" },
+        { "headline": "Advisory + Digital Solution Capability" }
       ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },

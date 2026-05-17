@@ -1,52 +1,16 @@
-"use client";
-
-import * as React from "react";
-import { Briefcase, Calendar, Globe, Users } from "lucide-react";
+import { Briefcase, Calendar, Globe, Layers } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 import { goldMicroHairlineClassName } from "@/lib/brand-gold-accent";
 import { cn } from "@/lib/utils";
 
-export type FounderStatItem = Readonly<{
-  target: number;
-  suffix: string;
-  label: string;
+export type FounderTrustItem = Readonly<{
+  headline: string;
 }>;
 
-const STAT_ICONS: readonly LucideIcon[] = [Briefcase, Users, Calendar, Globe];
+const TRUST_ICONS: readonly LucideIcon[] = [Calendar, Globe, Layers, Briefcase];
 
-function easeOutCubic(t: number) {
-  return 1 - (1 - t) ** 3;
-}
-
-function StatCell({
-  target,
-  suffix,
-  label,
-  enabled,
-  icon: Icon,
-}: FounderStatItem & { enabled: boolean; icon: LucideIcon }) {
-  const [display, setDisplay] = React.useState(0);
-  const durationMs = 1300;
-
-  React.useEffect(() => {
-    if (!enabled) return;
-
-    let frame = 0;
-    const start = performance.now();
-
-    const tick = (now: number) => {
-      const p = Math.min(1, (now - start) / durationMs);
-      setDisplay(Math.round(target * easeOutCubic(p)));
-      if (p < 1) {
-        frame = requestAnimationFrame(tick);
-      }
-    };
-
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, [enabled, target]);
-
+function TrustCell({ headline, icon: Icon }: FounderTrustItem & { icon: LucideIcon }) {
   return (
     <div
       className={cn(
@@ -60,66 +24,33 @@ function StatCell({
       >
         <Icon className="h-[1.05rem] w-[1.05rem]" strokeWidth={1.85} />
       </span>
-      <div className="mt-3">
-        <p
-          className="font-semibold tabular-nums tracking-tight text-primary"
-          style={{ fontSize: "clamp(1.35rem, 3.2vw, 1.875rem)", lineHeight: 1.12 }}
-        >
-          <span className="whitespace-nowrap">
-            {display}
-            {suffix}
-          </span>
-        </p>
-        <p className="mt-1.5 text-pretty text-xs font-medium leading-snug text-muted-foreground sm:text-[0.8125rem]">
-          {label}
-        </p>
-      </div>
+      <p className="mt-3 text-pretty text-sm font-semibold leading-snug tracking-tight text-primary sm:text-[0.9375rem] sm:leading-[1.45]">
+        {headline}
+      </p>
     </div>
   );
 }
 
 type Props = Readonly<{
-  stats: readonly FounderStatItem[];
+  items: readonly FounderTrustItem[];
   className?: string;
 }>;
 
-export function AboutFounderStatsBand({ stats, className }: Props) {
-  const ref = React.useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = React.useState(false);
-
-  React.useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry?.isIntersecting) {
-          setVisible(true);
-          obs.disconnect();
-        }
-      },
-      { rootMargin: "0px 0px -12% 0px", threshold: 0.15 },
-    );
-
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
-
-  if (stats.length === 0) return null;
+export function AboutFounderStatsBand({ items, className }: Props) {
+  if (items.length === 0) return null;
 
   return (
-    <div ref={ref} className={cn("relative", className)}>
+    <div className={cn("relative", className)}>
       <div
         className={cn("absolute inset-x-0 top-0 z-[1] max-w-[12rem]", goldMicroHairlineClassName())}
         aria-hidden
       />
       <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 lg:gap-5">
-        {stats.slice(0, 4).map((item, index) => (
-          <StatCell
-            key={`${item.label}-${item.target}`}
+        {items.slice(0, 4).map((item, index) => (
+          <TrustCell
+            key={item.headline}
             {...item}
-            icon={STAT_ICONS[index] ?? Briefcase}
-            enabled={visible}
+            icon={TRUST_ICONS[index] ?? Briefcase}
           />
         ))}
       </div>

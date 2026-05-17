@@ -81,7 +81,13 @@ const OUTLINE_CARD_CTA = cn(
 );
 
 /** Card preview — dashboard screenshot or premium Arvenza fallback visual. */
-function PortfolioCardPreviewStrip({ product }: { product: SoftwarePortfolioProductDto }) {
+function PortfolioCardPreviewStrip({
+  product,
+  priority = false,
+}: {
+  product: SoftwarePortfolioProductDto;
+  priority?: boolean;
+}) {
   return (
     <SoftwareModulePreviewPanel
       imageSrc={product.screenshotSrc}
@@ -90,6 +96,7 @@ function PortfolioCardPreviewStrip({ product }: { product: SoftwarePortfolioProd
       previewBadge={product.previewBadge}
       fallbackChips={product.previewChips}
       density="card"
+      priority={priority}
     />
   );
 }
@@ -113,7 +120,7 @@ export function SoftwarePortfolioClient({
   const cbamProducts = products.filter((p) => isCbamDisplaySlug(p.slug));
   const otherProducts = products.filter((p) => !isCbamDisplaySlug(p.slug));
 
-  function renderProductCard(p: SoftwarePortfolioProductDto) {
+  function renderProductCard(p: SoftwarePortfolioProductDto, loadPriority = false) {
     return (
             <article
               key={p.slug}
@@ -127,7 +134,7 @@ export function SoftwarePortfolioClient({
             >
               <div className="flex min-h-0 flex-1 flex-col">
                 <div className="shrink-0 px-6 pt-6 sm:px-7 sm:pt-7">
-                  <PortfolioCardPreviewStrip product={p} />
+                  <PortfolioCardPreviewStrip product={p} priority={loadPriority} />
                 </div>
                 <div className="flex min-h-0 flex-1 flex-col px-6 pb-6 pt-5 sm:px-7 sm:pb-7 sm:pt-5">
                   <div className="shrink-0">
@@ -180,12 +187,12 @@ export function SoftwarePortfolioClient({
         {cbamProducts.length > 0 ? (
           <div id="cbam" className="scroll-mt-32">
             <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
-              {cbamProducts.map(renderProductCard)}
+              {cbamProducts.map((p, index) => renderProductCard(p, index === 0))}
             </div>
           </div>
         ) : null}
         <div className="grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {otherProducts.map(renderProductCard)}
+          {otherProducts.map((p, index) => renderProductCard(p, cbamProducts.length === 0 && index === 0))}
         </div>
       </div>
 

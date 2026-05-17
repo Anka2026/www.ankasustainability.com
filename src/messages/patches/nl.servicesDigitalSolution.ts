@@ -14,11 +14,13 @@ export const nlServicesDigitalSolutionPatch: JsonObject = {
       ],
     },
     relatedDigitalSolution: {
-      eyebrow: "Digitale ondersteuning",
-      mainTitle: "De digitale structuur die dit traject ondersteunt",
+      eyebrow: "DIGITALE WERKONDERSTEUNING",
+      mainTitle: "Digitale Structuur Ter Ondersteuning Van Deze Werkzaamheden",
       intro:
-        "De hier genoemde oplossingen vervangen het advies niet. Ze helpen data-inwinning, bewijs, opvolging van ontbrekende velden en voorbereidingszichtbaarheid te structureren—zodat technisch werk binnen uw organisatie beter traceerbaar en beheersbaar blijft.",
-      cta: "Softwareoplossingen bekijken",
+        "De hier genoemde digitale oplossingen vervangen het adviestraject niet. Ze helpen data-inwinning, bewijsdiscipline, opvolging van ontbrekende velden en voorbereidingszichtbaarheid te structureren—zodat technische evaluatie binnen uw organisatie een beter traceerbaar, verdedigbaar en beheersbaar werkritme wordt.",
+      moduleCta: "Bekijk De Softwareoplossing",
+      allSoftwareCta: "Bekijk Alle Softwareoplossingen",
+      cta: "Bekijk De Softwareoplossing",
       previewBadge: "Digitale ondersteuning",
       modules: {
         cbam: {
@@ -44,10 +46,6 @@ export const nlServicesDigitalSolutionPatch: JsonObject = {
         productCircularity: {
           extraNote:
             "Deze digitale structuur wordt niet gepositioneerd als LCA- of EPD-berekeningssoftware; zij ondersteunt productdata, verpakkingsinformatie, verklaringsvelden en traceerbaarheid.",
-        },
-        sustainableTourismGstc: {
-          extraNote:
-            "Deze structuur wordt niet gepositioneerd als GSTC-specifieke software; zij moet worden gezien als een ondersteunende werkruimte voor bewijs-, taak-, verantwoordelijkheids- en voorbereidingsopvolging.",
         },
       },
       digitalModules: {

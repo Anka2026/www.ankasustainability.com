@@ -597,6 +597,8 @@
           }
         },
         "carbonClimate": {
+          "seoTitle": "CBAM, Karbon Yönetimi ve İklim Uyum Çalışmaları | ANKA Sustainability",
+          "seoDescription": "CBAM, ürün bazlı gömülü emisyon, tedarikçi veri akışı, karbon hesaplama ve iklim uyum süreçleri için teknik danışmanlık ve dijital çalışma altyapısı.",
           "benchmark": {
             "hero": {
               "eyebrow": "Karbon, İklim ve Dekarbonizasyon",
@@ -2447,10 +2449,10 @@
       "name": "Burcu Şimşek",
       "quote": "ANKA’da yalnızca bir rapor veya uyum dosyası teslim etmekle yetinmiyoruz. Kurumların sürdürülebilirlik ve uyum başlıklarını daha net görmesini, kararlarını veriye dayandırmasını ve süreci kendi içinde sürdürmesini istiyoruz.\n\nBu yüzden teknik doğruluk kadar uygulanabilirliğe de yer veriyoruz. Regülasyonu, veriyi ve kanıt düzenini günlük işleyişinize bağlayarak daha güvenilir ve savunulabilir bir çıktı üretiyoruz.",
       "stats": [
-        { "target": 400, "suffix": "+", "label": "Proje" },
-        { "target": 200, "suffix": "+", "label": "Referans" },
-        { "target": 19, "suffix": "+", "label": "Yıl Deneyim" },
-        { "target": 10, "suffix": "+", "label": "Ülkede Hizmet" }
+        { "headline": "20+ Yıl Uzmanlık Deneyimi" },
+        { "headline": "AB ve Türkiye Regülasyon Yaklaşımı" },
+        { "headline": "CBAM · CSRD · LCA · EPD · PPWR · DPP" },
+        { "headline": "Danışmanlık + Dijital Çözüm Altyapısı" }
       ],
       "linkedinCta": "Burcu Şimşek LinkedIn"
     },
