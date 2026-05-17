@@ -29,5 +29,6 @@
   "/[locale]/(product)/pcos/scenarios/page": "/[locale]/pcos/scenarios",
   "/[locale]/(product)/pcos/settings/page": "/[locale]/pcos/settings",
   "/[locale]/(product)/pcos/suppliers/page": "/[locale]/pcos/suppliers",
-  "/[locale]/(product)/pcos/technical-file/page": "/[locale]/pcos/technical-file"
+  "/[locale]/(product)/pcos/technical-file/page": "/[locale]/pcos/technical-file",
+  "/[locale]/(marketing)/sectors/[sector]/page": "/[locale]/sectors/[sector]"
 }

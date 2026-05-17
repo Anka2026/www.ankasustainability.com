@@ -29,5 +29,6 @@
   "/[locale]/(product)/pcos/scenarios/page": "app/[locale]/(product)/pcos/scenarios/page.js",
   "/[locale]/(product)/pcos/settings/page": "app/[locale]/(product)/pcos/settings/page.js",
   "/[locale]/(product)/pcos/suppliers/page": "app/[locale]/(product)/pcos/suppliers/page.js",
-  "/[locale]/(product)/pcos/technical-file/page": "app/[locale]/(product)/pcos/technical-file/page.js"
+  "/[locale]/(product)/pcos/technical-file/page": "app/[locale]/(product)/pcos/technical-file/page.js",
+  "/[locale]/(marketing)/sectors/[sector]/page": "app/[locale]/(marketing)/sectors/[sector]/page.js"
 }

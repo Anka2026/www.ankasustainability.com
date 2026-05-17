@@ -267,6 +267,15 @@
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/sectors(?:/)?$"
     },
     {
+      "page": "/[locale]/sectors/[sector]",
+      "regex": "^/([^/]+?)/sectors/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale",
+        "nxtPsector": "nxtPsector"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/sectors/(?<nxtPsector>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/[locale]/services",
       "regex": "^/([^/]+?)/services(?:/)?$",
       "routeKeys": {
